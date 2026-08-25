@@ -1,0 +1,19 @@
+# Rebuilds the site weekly so the Google rating and review count stay current.
+# The build itself re-fetches them via scripts/fetch-google-rating.mjs.
+#
+# Needs a repo secret VERCEL_DEPLOY_HOOK — create the hook in Vercel under
+# Settings -> Git -> Deploy Hooks (point it at the production branch).
+
+name: Refresh Google reviews
+
+on:
+  schedule:
+    - cron: "0 4 * * 1" # Mondays, 04:00 UTC
+  workflow_dispatch: # allows a manual run from the Actions tab
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel rebuild
+        run: curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"

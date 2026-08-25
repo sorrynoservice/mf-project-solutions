@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ArrowLeft, ArrowRight, ExternalLink, Star } from "lucide-react";
 import { testimonials } from "@/data/testimonials";
+import googleRating from "@/data/google-rating.json";
 
 const GoogleLogo = () => (
   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
@@ -23,6 +24,17 @@ const GoogleLogo = () => (
     />
   </svg>
 );
+
+const MS_PER_MONTH = 1000 * 60 * 60 * 24 * 30.44;
+
+const relativeDate = (iso: string) => {
+  const months = Math.round((Date.now() - new Date(iso).getTime()) / MS_PER_MONTH);
+  if (months < 1) return "this month";
+  if (months === 1) return "a month ago";
+  if (months < 12) return `${months} months ago`;
+  const years = Math.floor(months / 12);
+  return years === 1 ? "a year ago" : `${years} years ago`;
+};
 
 const Testimonials = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
@@ -65,14 +77,14 @@ const Testimonials = () => {
             >
               <GoogleLogo />
               <div className="flex items-center gap-1">
-                <span className="text-white font-semibold text-lg">4.9</span>
+                <span className="text-white font-semibold text-lg">{googleRating.rating.toFixed(1)}</span>
                 <div className="flex">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-[#d4af37] text-[#d4af37]" />
                   ))}
                 </div>
               </div>
-              <span className="text-white/70 text-sm">(46 reviews)</span>
+              <span className="text-white/70 text-sm">({googleRating.count} reviews)</span>
               <ExternalLink className="w-4 h-4 text-white/60 group-hover:text-white/80 transition-colors" />
             </a>
           </div>
@@ -105,7 +117,7 @@ const Testimonials = () => {
                           </div>
                         </div>
                         <span className="text-xs text-white/60 whitespace-nowrap">
-                          {testimonial.date}
+                          {relativeDate(testimonial.date)}
                         </span>
                       </div>
                       <p className="text-white/80 text-base leading-relaxed line-clamp-5">
