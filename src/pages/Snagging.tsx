@@ -14,7 +14,9 @@ import {
 } from "lucide-react";
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
+import Testimonials from "@/components/Testimonials";
 import { snagging, snaggingIcons } from "@/data/snagging";
+import { useSeo } from "@/lib/seo";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
 const goldBtn =
@@ -27,7 +29,13 @@ const softCard = "rounded-2xl border border-border shadow-soft p-6 bg-card";
 const BOOKING_URL = "https://forms.gle/pV5qTNMyJ5j4Xyt3A";
 
 const Snagging = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
+  useSeo({
+    title: "Snagging Inspections for New Homes in Dublin | MF Project Solutions",
+    description:
+      "Detailed snag inspections for new build houses and apartments, with a photo report within 24 to 48 hours. Rated 4.9 on Google.",
+    path: "/snagging",
+  });
+    const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(true);
 
@@ -256,6 +264,8 @@ const Snagging = () => {
           </div>
         </div>
       </section>
+
+      <Testimonials category="snagging" heading="What our snagging clients say" />
 
       <section id="faq" className="py-20 border-t border-border bg-muted/30">
         <div className={wrap}>

@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ArrowLeft, ArrowRight, ExternalLink, Star } from "lucide-react";
 import { testimonials } from "@/data/testimonials";
 import googleRating from "@/data/google-rating.json";
+import { company } from "@/data/site";
 
 const GoogleLogo = () => (
   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
@@ -36,7 +37,21 @@ const relativeDate = (iso: string) => {
   return years === 1 ? "a year ago" : `${years} years ago`;
 };
 
-const Testimonials = () => {
+const initials = (name: string) =>
+  name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((w) => w[0]?.toUpperCase() ?? "")
+    .join("");
+
+type Props = {
+  /** Which reviews to show. Defaults to all, building reviews first. */
+  category?: "build" | "snagging";
+  heading?: string;
+};
+
+const Testimonials = ({ category, heading = "What our customers are saying" }: Props) => {
+  const items = category ? testimonials.filter((t) => t.category === category) : testimonials;
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
@@ -65,12 +80,12 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div>
           <h2 className="text-3xl md:text-4xl font-serif mb-6 text-center text-white">
-            What our customers are saying
+            {heading}
           </h2>
 
           <div className="flex items-center justify-center gap-3 mb-8">
             <a
-              href="https://g.page/r/CQe6nq8vC3oqEAE/review"
+              href={company.reviewUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white/10 backdrop-blur rounded-lg px-4 py-2 border border-white/20 hover:bg-white/15 hover:border-white/30 transition-all duration-300 group"
@@ -92,7 +107,7 @@ const Testimonials = () => {
           <div className="relative w-full" role="region" aria-roledescription="carousel">
             <div className="overflow-hidden" ref={emblaRef}>
               <div className="flex -ml-4">
-                {testimonials.map((testimonial) => (
+                {items.map((testimonial) => (
                   <div
                     key={testimonial.name}
                     role="group"
@@ -101,11 +116,20 @@ const Testimonials = () => {
                   >
                     <div className="bg-white/5 backdrop-blur rounded-xl p-4 border border-white/10 flex flex-col h-[220px]">
                       <div className="flex items-start gap-3 mb-3">
-                        <img
-                          src={testimonial.avatar}
-                          alt={testimonial.name}
-                          className="w-10 h-10 rounded-full object-cover flex-shrink-0"
-                        />
+                        {testimonial.avatar ? (
+                          <img
+                            src={testimonial.avatar}
+                            alt={testimonial.name}
+                            className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                          />
+                        ) : (
+                          <div
+                            aria-hidden="true"
+                            className="w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center bg-[#d4af37] text-[#0a2e2a] text-sm font-semibold"
+                          >
+                            {initials(testimonial.name)}
+                          </div>
+                        )}
                         <div className="flex-1 min-w-0">
                           <h3 className="font-semibold text-white text-sm truncate">
                             {testimonial.name}
@@ -132,7 +156,7 @@ const Testimonials = () => {
             <button
               onClick={scrollPrev}
               disabled={!canScrollPrev}
-              className="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border absolute h-8 w-8 rounded-full top-1/2 -translate-y-1/2 hidden md:flex -left-12 bg-white/10 border-white/20 hover:bg-white/20 text-white"
+              className="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border absolute h-8 w-8 rounded-full top-1/2 -translate-y-1/2 hidden md:flex -left-3 2xl:-left-12 bg-white/10 border-white/20 hover:bg-white/20 text-white"
             >
               <ArrowLeft className="h-4 w-4" />
               <span className="sr-only">Previous slide</span>
@@ -140,7 +164,7 @@ const Testimonials = () => {
             <button
               onClick={scrollNext}
               disabled={!canScrollNext}
-              className="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border absolute h-8 w-8 rounded-full top-1/2 -translate-y-1/2 hidden md:flex -right-12 bg-white/10 border-white/20 hover:bg-white/20 text-white"
+              className="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border absolute h-8 w-8 rounded-full top-1/2 -translate-y-1/2 hidden md:flex -right-3 2xl:-right-12 bg-white/10 border-white/20 hover:bg-white/20 text-white"
             >
               <ArrowRight className="h-4 w-4" />
               <span className="sr-only">Next slide</span>

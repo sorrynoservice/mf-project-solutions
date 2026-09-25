@@ -2,7 +2,12 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Calculator, CircleCheck, Mail, MessageSquare, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
+import AreasWeCover from "@/components/AreasWeCover";
+import ServiceReviews from "@/components/ServiceReviews";
+import EnquiryForm from "@/components/EnquiryForm";
 import { serviceIcons, services, type ServiceSlug } from "@/data/services";
+import { contacts } from "@/data/site";
+import { useSeo } from "@/lib/seo";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
 const goldBtn =
@@ -15,6 +20,7 @@ type Block = (typeof services)[ServiceSlug]["blocks"][number];
 
 const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
   const data = services[slug];
+  useSeo({ title: data.seoTitle, description: data.seoDescription, path: `/${slug}` });
   let tinted = true; // section backgrounds alternate, starting tinted
 
   const renderBlock = (block: Block, index: number) => {
@@ -265,6 +271,10 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
 
       {data.blocks.map((block, i) => renderBlock(block as Block, i))}
 
+      <ServiceReviews slug={slug} />
+
+      <AreasWeCover />
+
       <section id="contact" className="py-20 border-t border-border">
         <div className={wrap}>
           <div className="text-center mb-12">
@@ -273,43 +283,44 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
             </h2>
             <p className="text-lg text-muted-foreground">{data.contactSub}</p>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className={softCard}>
-              <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
-                <MessageSquare className="w-5 h-5 text-accent" /> Fastest response
-              </div>
-              <a href="https://wa.me/353838014857" target="_blank" rel="noreferrer">
-                <button className={`${goldBtn} w-full mb-3`}>
-                  WhatsApp us <ArrowRight className="w-4 h-4" />
-                </button>
-              </a>
-              <div className="text-xs text-muted-foreground">{data.contactNote}</div>
+          <div className="grid lg:grid-cols-3 gap-6 max-w-6xl mx-auto [&>*]:min-w-0">
+            <div className={`${softCard} lg:col-span-2`}>
+              <EnquiryForm defaultType={data.formType} />
             </div>
 
-            <div className={softCard}>
-              <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
-                <Phone className="w-5 h-5 text-accent" /> Call us
-              </div>
-              <div className="space-y-2">
-                <a href="tel:+353838014857">
-                  <button className={outlineBtn}>+353 83 801 4857</button>
+            <div className="space-y-6">
+              <div className={softCard}>
+                <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
+                  <MessageSquare className="w-5 h-5 text-accent" /> Fastest response
+                </div>
+                <a href={contacts.construction.whatsapp} target="_blank" rel="noreferrer">
+                  <button className={`${goldBtn} w-full mb-3 px-4`}>
+                    WhatsApp us <ArrowRight className="w-4 h-4" />
+                  </button>
                 </a>
-                <a href="tel:+353876039378">
-                  <button className={outlineBtn}>+353 87 603 9378</button>
-                </a>
+                <div className="text-xs text-muted-foreground">{data.contactNote}. Send photos of the space.</div>
               </div>
-            </div>
 
-            <div className={`${softCard} md:col-span-2`}>
-              <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
-                <Mail className="w-5 h-5 text-accent" /> Email
+              <div className={softCard}>
+                <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
+                  <Phone className="w-5 h-5 text-accent" /> Call us
+                </div>
+                <div className="space-y-2">
+                  <a href={contacts.construction.tel}>
+                    <button className={outlineBtn}>{contacts.construction.display} (construction)</button>
+                  </a>
+                  <a href={contacts.alex.tel}>
+                    <button className={outlineBtn}>{contacts.alex.display} (Alex)</button>
+                  </a>
+                </div>
               </div>
-              <div className="grid md:grid-cols-2 gap-2">
-                <a href="mailto:wcorrea@mfeng.ie">
-                  <button className={outlineBtn}>wcorrea@mfeng.ie</button>
-                </a>
-                <a href="mailto:aferreira@mfeng.ie">
-                  <button className={outlineBtn}>aferreira@mfeng.ie</button>
+
+              <div className={softCard}>
+                <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
+                  <Mail className="w-5 h-5 text-accent" /> Email
+                </div>
+                <a href={`mailto:${contacts.construction.email}`}>
+                  <button className={outlineBtn}>{contacts.construction.email}</button>
                 </a>
               </div>
             </div>

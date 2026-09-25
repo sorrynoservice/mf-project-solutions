@@ -21,14 +21,14 @@ const Hero = () => (
 
     <div className="container mx-auto px-4 relative z-10 text-white flex-grow flex items-center justify-center">
       <div className="max-w-4xl text-center">
-        <p className="text-[#d4af37] text-xs md:text-sm uppercase tracking-[0.3em] mb-8 font-semibold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-          Welcome To MF Project Solutions
-        </p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif mb-4 leading-tight font-light drop-shadow-lg">
+        <h1 className="text-[#d4af37] text-xs md:text-sm uppercase tracking-[0.3em] mb-8 font-semibold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+          Garden Rooms, Extensions &amp; Renovations in Dublin &amp; Meath
+        </h1>
+        <p className="text-5xl md:text-7xl lg:text-8xl font-serif mb-4 leading-tight font-light drop-shadow-lg">
           Live Exceptionally,
           <br />
           <span className="text-[#d4af37] italic">From the Ground Up</span>
-        </h1>
+        </p>
       </div>
     </div>
 

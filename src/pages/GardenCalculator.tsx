@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { ArrowRight, CircleCheck, Clock, Mail, MessageSquare, Package, Phone, Ruler, Settings } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
 import { CALC } from "@/data/calculator";
@@ -94,6 +95,12 @@ const ItemRow = ({
 };
 
 const GardenCalculator = () => {
+  useSeo({
+    title: "Garden Renovation Cost Calculator | MF Project Solutions",
+    description:
+      "Build your garden project and see an instant estimate for paving, artificial grass, decking and pergolas, then request a confirmed quote.",
+    path: "/garden-calculator",
+  });
   const [mode, setMode] = useState<"fixed" | "custom">("fixed");
   const [pkg, setPkg] = useState<string | null>(null);
   const [patio, setPatio] = useState(0);

@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 
-const WHATSAPP_NUMBER = "353838097035"; // +353 83 809 7035
+import { contacts } from "@/data/site";
 
 /** The calculator's sticky estimate bar occupies the same corner on mobile. */
 const HIDDEN_ON = ["/garden-calculator"];
@@ -13,7 +13,7 @@ const FloatingWhatsApp = () => {
 
   return (
     <a
-      href={`https://wa.me/${WHATSAPP_NUMBER}`}
+      href={path === "/snagging" ? contacts.snagging.whatsapp : contacts.construction.whatsapp}
       target="_blank"
       rel="noreferrer"
       aria-label="Chat with us on WhatsApp"

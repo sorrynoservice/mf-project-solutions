@@ -8,7 +8,7 @@ const WhoWeAre = () => (
         <div>
           <img
             src="/assets/who-we-are-5Ja_qt3Q.jpg"
-            alt="Interior design"
+            alt="Interior renovation by MF Project Solutions"
             loading="lazy"
             className="rounded shadow-luxury w-full h-[600px] object-cover"
           />
@@ -16,15 +16,16 @@ const WhoWeAre = () => (
         <div>
           <p className="text-[#d4af37] text-sm uppercase tracking-wider mb-4">WHO ARE WE</p>
           <h2 className="text-4xl md:text-5xl font-serif mb-6 text-white">
-            25+ Years of Craftsmanship, Innovation, and Impeccable Detail
+            Engineering Led Design and Build, From Site Visit to Handover
           </h2>
           <p className="text-white/80 mb-4">
-            At MF Project Solutions, we don't just renovate homes — we craft experiences.
+            MF Project Solutions designs and builds garden rooms, granny flats, extensions and full
+            home renovations across Dublin, Meath, Louth, Kildare and Wicklow.
           </p>
           <p className="text-white/80 mb-8">
-            With a dedicated team of designers, builders, and craftsmen, we specialize in high-end
-            renovations that reflect your vision, elevate your lifestyle, and add lasting value to
-            your home.
+            Our own team of around 15 and our joinery workshop in Drumree, Co. Meath deliver every
+            job, led by an engineer with more than 15 years in construction. We work in English and
+            Portuguese, with one point of contact from quote to handover.
           </p>
           <button
             onClick={scrollToContact}

@@ -9,7 +9,16 @@ import InstagramFeed from "@/components/InstagramFeed";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
-const Index = () => (
+import { useSeo } from "@/lib/seo";
+
+const Index = () => {
+  useSeo({
+    title: "Garden Rooms, Extensions & Renovations in Dublin & Meath | MF Project Solutions",
+    description:
+      "Builders for garden rooms, granny flats, extensions, kitchens and bathrooms across Dublin, Meath, Louth, Kildare and Wicklow. Rated 4.9 from 130+ Google reviews.",
+    path: "/",
+  });
+  return (
   <div className="min-h-screen">
     <Header variant="home" />
     <Hero />
@@ -22,6 +31,7 @@ const Index = () => (
     <Contact />
     <Footer />
   </div>
-);
+  );
+};
 
 export default Index;
