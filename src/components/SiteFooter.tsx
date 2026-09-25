@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { company } from "@/data/site";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
 
@@ -68,10 +69,21 @@ const SiteFooter = ({ tagline, variant = "default" }: Props) => (
             © {new Date().getFullYear()} MF Project Solutions. All rights reserved.
           </div>
         ) : (
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-right space-y-1">
             <div className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} MF Project Solutions. All rights reserved.
             </div>
+            <div className="text-xs text-muted-foreground">
+              {company.legalName}, trading as MF Project Solutions. Company Reg. {company.companyReg}.
+            </div>
+            <a
+              href={company.reviewUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Leave us a review on Google
+            </a>
           </div>
         )}
       </div>

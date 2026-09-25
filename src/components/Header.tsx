@@ -6,13 +6,14 @@ export type HeaderVariant = "home" | "light" | "dark";
 
 const serviceLinks = [
   { name: "Garden Rooms", path: "/garden-rooms" },
+  { name: "Granny Flats", path: "/granny-flats" },
   { name: "Home Extensions", path: "/home-extensions" },
   { name: "Bathroom Renovations", path: "/bathroom-renovations" },
   { name: "Landscaping & Pergolas", path: "/landscaping-pergolas" },
   { name: "Kitchen Renovations", path: "/kitchen-renovations" },
   { name: "Interior Design", path: "/interior-design" },
   { name: "Snagging", path: "/snagging" },
-  { name: "🧮 Garden Calculator", path: "/garden-calculator" },
+  { name: "Garden Calculator", path: "/garden-calculator" },
 ];
 
 const Header = ({ variant = "dark" }: { variant?: HeaderVariant }) => {
@@ -95,6 +96,9 @@ const Header = ({ variant = "dark" }: { variant?: HeaderVariant }) => {
               )}
             </div>
 
+            <Link to="/faqs" className={`${textClass} ${hoverClass} transition-colors font-medium`}>
+              FAQs
+            </Link>
             <a href="#contact" className={`${textClass} ${hoverClass} transition-colors font-medium`}>
               Contact
             </a>
@@ -134,6 +138,13 @@ const Header = ({ variant = "dark" }: { variant?: HeaderVariant }) => {
                 </Link>
               ))}
             </div>
+            <Link
+              to="/faqs"
+              onClick={() => setMobileOpen(false)}
+              className={`block ${textClass} ${hoverClass} transition-colors font-medium`}
+            >
+              FAQs
+            </Link>
             <a
               href="#contact"
               onClick={() => setMobileOpen(false)}

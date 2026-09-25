@@ -21,7 +21,7 @@ export const snagging = {
       "price": "€280",
       "items": [
         "Full snag list with photos",
-        "Delivery within 24–48 hours",
+        "Delivery within 24 to 48 hours",
         "Phone review of key items"
       ]
     },
@@ -31,7 +31,7 @@ export const snagging = {
       "price": "€300",
       "items": [
         "Full snag list with photos",
-        "Delivery within 24–48 hours",
+        "Delivery within 24 to 48 hours",
         "Phone review of key items"
       ]
     },
@@ -41,7 +41,7 @@ export const snagging = {
       "price": "€350",
       "items": [
         "Full snag list with photos",
-        "Delivery within 24–48 hours",
+        "Delivery within 24 to 48 hours",
         "Phone review of key items"
       ]
     },
@@ -51,7 +51,7 @@ export const snagging = {
       "price": "€400",
       "items": [
         "Full snag list with photos",
-        "Delivery within 24–48 hours",
+        "Delivery within 24 to 48 hours",
         "Phone review of key items"
       ]
     }
@@ -70,7 +70,7 @@ export const snagging = {
     {
       "icon": "sparkles",
       "title": "3. Deliver",
-      "text": "PDF snag list within 24–48 hours with actionable items the builder understands"
+      "text": "PDF snag list within 24 to 48 hours with actionable items the builder understands"
     }
   ],
   "doc": {
