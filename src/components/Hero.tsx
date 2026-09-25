@@ -26,7 +26,7 @@ const Hero = () => (
         poster={POSTER}
         className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 opacity-100"
       >
-        <source src="/assets/hero-video-new-BswOoI6M.mp4" type="video/mp4" />
+        <source src="/assets/hero-video-1280.mp4" type="video/mp4" />
       </video>
     )}
 
