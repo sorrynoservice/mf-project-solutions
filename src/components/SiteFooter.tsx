@@ -14,7 +14,7 @@ const SiteFooter = ({ tagline, variant = "default" }: Props) => (
     <div className={wrap}>
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-3">
-          <img
+          <img loading="lazy" decoding="async"
             src="/assets/mf-logo-DQmhj-jT.jpg"
             alt="MF Project Solutions"
             className="w-10 h-10 object-cover rounded-lg"
@@ -45,9 +45,9 @@ const SiteFooter = ({ tagline, variant = "default" }: Props) => (
         {variant === "snagging" ? (
           <>
             <div className="text-center md:text-left">
-              <div className="text-sm text-muted-foreground mb-2">© {new Date().getFullYear()} Alex Ferreira, Dublin</div>
+              <div className="text-sm text-muted-foreground mb-2">© {new Date().getFullYear()} MF Project Solutions</div>
               <div className="flex items-center justify-center md:justify-start gap-4 text-sm text-muted-foreground">
-                <span>VAT: 3774742UH</span>
+                <span>VAT {company.vat}</span>
                 <a
                   href="https://www.instagram.com/mfprojectsolutions"
                   target="_blank"

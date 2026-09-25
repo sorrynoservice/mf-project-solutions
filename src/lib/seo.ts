@@ -1,14 +1,16 @@
 import { useEffect } from "react";
 import { SITE_URL } from "@/data/site";
+import seoPages from "@/data/seo.json";
 
-type Seo = {
-  title: string;
-  description: string;
-  /** Path on the live domain, e.g. "/garden-rooms". Used for the canonical URL. */
-  path: string;
+type Options = {
+  /** Overrides for pages not listed in seo.json, such as a single project. */
+  title?: string;
+  description?: string;
   /** Optional JSON-LD object added to the page while it is mounted. */
   jsonLd?: object;
 };
+
+const fallback = seoPages[0];
 
 const setMeta = (attr: "name" | "property", key: string, content: string) => {
   let el = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`);
@@ -21,20 +23,25 @@ const setMeta = (attr: "name" | "property", key: string, content: string) => {
 };
 
 /**
- * Sets the page title, description, social tags and canonical link.
- * Every page calls this so each one is indexed for its own service,
- * and the canonical always points at mfprojectsolutions.ie (never the vercel.app copy).
+ * Sets the page title, description, social tags and canonical link from src/data/seo.json.
+ * The same file feeds scripts/generate-route-html.mjs, which writes these tags into static
+ * HTML at build time so link previews work without JavaScript.
+ * The canonical always points at mfprojectsolutions.ie (never the vercel.app copy).
  */
-export const useSeo = ({ title, description, path, jsonLd }: Seo) => {
+export const useSeo = (path: string, { title, description, jsonLd }: Options = {}) => {
+  const page = seoPages.find((p) => p.route === path);
+  const t = title ?? page?.title ?? fallback.title;
+  const d = description ?? page?.description ?? fallback.description;
+
   useEffect(() => {
     const url = SITE_URL + (path === "/" ? "/" : path);
-    document.title = title;
-    setMeta("name", "description", description);
-    setMeta("property", "og:title", title);
-    setMeta("property", "og:description", description);
+    document.title = t;
+    setMeta("name", "description", d);
+    setMeta("property", "og:title", t);
+    setMeta("property", "og:description", d);
     setMeta("property", "og:url", url);
-    setMeta("name", "twitter:title", title);
-    setMeta("name", "twitter:description", description);
+    setMeta("name", "twitter:title", t);
+    setMeta("name", "twitter:description", d);
 
     let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!canonical) {
@@ -55,5 +62,5 @@ export const useSeo = ({ title, description, path, jsonLd }: Seo) => {
     return () => {
       script?.remove();
     };
-  }, [title, description, path, jsonLd]);
+  }, [t, d, path, jsonLd]);
 };

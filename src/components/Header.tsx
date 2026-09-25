@@ -11,7 +11,7 @@ const serviceLinks = [
   { name: "Bathroom Renovations", path: "/bathroom-renovations" },
   { name: "Landscaping & Pergolas", path: "/landscaping-pergolas" },
   { name: "Kitchen Renovations", path: "/kitchen-renovations" },
-  { name: "Interior Design", path: "/interior-design" },
+  { name: "Refurbishments & Fit Outs", path: "/interior-design" },
   { name: "Snagging", path: "/snagging" },
   { name: "Garden Calculator", path: "/garden-calculator" },
 ];
@@ -96,6 +96,9 @@ const Header = ({ variant = "dark" }: { variant?: HeaderVariant }) => {
               )}
             </div>
 
+            <Link to="/projects" className={`${textClass} ${hoverClass} transition-colors font-medium`}>
+              Projects
+            </Link>
             <Link to="/faqs" className={`${textClass} ${hoverClass} transition-colors font-medium`}>
               FAQs
             </Link>
@@ -138,6 +141,13 @@ const Header = ({ variant = "dark" }: { variant?: HeaderVariant }) => {
                 </Link>
               ))}
             </div>
+            <Link
+              to="/projects"
+              onClick={() => setMobileOpen(false)}
+              className={`block ${textClass} ${hoverClass} transition-colors font-medium`}
+            >
+              Projects
+            </Link>
             <Link
               to="/faqs"
               onClick={() => setMobileOpen(false)}

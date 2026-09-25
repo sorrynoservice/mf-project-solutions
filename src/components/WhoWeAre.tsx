@@ -6,7 +6,7 @@ const WhoWeAre = () => (
     <div className="container mx-auto px-4">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <img
+          <img decoding="async"
             src="/assets/projects/garden-room-and-sauna-timber-clad.jpg"
             alt="Timber clad garden room and sauna built by MF Project Solutions"
             loading="lazy"

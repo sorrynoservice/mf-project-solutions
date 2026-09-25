@@ -59,7 +59,7 @@ const ItemRow = ({
     ? Math.round(item.priceExVat * (1 + CALC.CONTINGENCY_PCT))
     : item.priceExVat;
   const note = item.contingency
-    ? "Preliminary estimate — site survey required"
+    ? "Preliminary estimate: site survey required"
     : item.escalation
       ? "Site survey required"
       : "";
@@ -95,12 +95,7 @@ const ItemRow = ({
 };
 
 const GardenCalculator = () => {
-  useSeo({
-    title: "Garden Renovation Cost Calculator | MF Project Solutions",
-    description:
-      "Build your garden project and see an instant estimate for paving, artificial grass, decking and pergolas, then request a confirmed quote.",
-    path: "/garden-calculator",
-  });
+  useSeo("/garden-calculator");
   const [mode, setMode] = useState<"fixed" | "custom">("fixed");
   const [pkg, setPkg] = useState<string | null>(null);
   const [patio, setPatio] = useState(0);
@@ -198,7 +193,7 @@ const GardenCalculator = () => {
       body.push("Note: Some items require site confirmation. Final price confirmed after site inspection.");
     }
     body.push("", "This is an indicative estimate generated via the online configurator.");
-    const subject = encodeURIComponent(`Quote Request — ${name} — ${fmt(quote.totInc)}`);
+    const subject = encodeURIComponent(`Quote Request: ${name}, ${fmt(quote.totInc)}`);
     window.location.href = `mailto:${CALC.EMAIL}?subject=${subject}&body=${encodeURIComponent(body.join("\n"))}`;
   };
 
@@ -222,7 +217,7 @@ const GardenCalculator = () => {
             </h1>
             <p className="text-lg text-background/70 max-w-2xl mx-auto mb-6">
               Welcome to our online calculator for garden renovations. Get an instant estimate for
-              your project — from artificial grass and porcelain paving to pergolas and garden
+              your project, from artificial grass and porcelain paving to pergolas and garden
               rooms.
             </p>
             <p className="text-sm text-background/50 max-w-xl mx-auto">
@@ -243,7 +238,7 @@ const GardenCalculator = () => {
 
       <section className="py-12">
         <div className={wrap}>
-          <div className="grid lg:grid-cols-[1fr_340px] gap-10 items-start">
+          <div className="grid lg:grid-cols-[1fr_340px] gap-10 items-start [&>*]:min-w-0">
             <div>
               <div className="mb-8">
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
@@ -365,7 +360,7 @@ const GardenCalculator = () => {
                         >
                           {overLimit
                             ? `Combined area: ${patio + grass}m² exceeds ${CALC.CUSTOM_MAX_AREA}m² limit. Please contact us directly.`
-                            : `Patio ${patio}m² + Grass ${grass}m² = ${patio + grass}m² — ${fmt(
+                            : `Patio ${patio}m² + Grass ${grass}m² = ${patio + grass}m²: ${fmt(
                                 withVat(
                                   patio * CALC.CUSTOM_PATIO_RATE + grass * CALC.CUSTOM_GRASS_RATE
                                 )
@@ -530,7 +525,7 @@ const GardenCalculator = () => {
                     </div>
                   ) : overLimit ? (
                     <div className="text-center text-sm text-background/20 py-2">
-                      Area exceeds limit — please contact us directly
+                      Area exceeds limit. Please contact us directly
                     </div>
                   ) : (
                     <>
@@ -625,7 +620,7 @@ const GardenCalculator = () => {
                 </p>
                 <p className="text-sm text-muted-foreground">
                   Our artificial grass comes in 4m-wide rolls. Gardens wider than 4m require two
-                  rolls, which may generate a small waste charge — the calculator handles this
+                  rolls, which may generate a small waste charge, which the calculator handles
                   automatically.
                 </p>
               </div>

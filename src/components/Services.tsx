@@ -15,30 +15,30 @@ const services = [
   },
   {
     title: "Home Extensions",
-    description: "Seamless design integration and added space.",
+    description: "Rear and side extensions, up to 45m² without planning.",
     image: "/assets/projects/extension-standing-seam-roof.jpg",
     path: "/home-extensions",
   },
   {
     title: "Bathroom Renovations",
-    description: "Spa-inspired retreats designed around you.",
+    description: "Full bathroom and ensuite renovations by one team.",
     image: "/assets/bathroom-renovations-hero-new-C7-melRI.jpg",
     path: "/bathroom-renovations",
   },
   {
     title: "Landscaping & Pergolas",
-    description: "Outdoor spaces, thoughtfully crafted.",
+    description: "Porcelain patios, artificial grass, decking and pergolas.",
     image: "/assets/projects/patio-porcelain-garden-shed.jpg",
     path: "/landscaping-pergolas",
   },
   {
     title: "Kitchen Renovations",
-    description: "Functional elegance meets premium appliances.",
+    description: "Kitchen supply and fit, with joinery from our own workshop.",
     image: "/assets/kitchen-renovations-work-2-Dq89EN1Q.jpg",
     path: "/kitchen-renovations",
   },
   {
-    title: "Interior Design",
+    title: "Refurbishments & Fit Outs",
     description: "Whole house refurbishments and fit outs.",
     image: "/assets/home-extensions-work-3-Pz2e_WY6.jpg",
     path: "/interior-design",
@@ -63,7 +63,7 @@ const Services = () => (
             className="group cursor-pointer transition-all duration-300 hover:-translate-y-2"
           >
             <div className="h-64 overflow-hidden rounded mb-4 shadow-lg group-hover:shadow-2xl transition-shadow duration-300">
-              <img
+              <img decoding="async"
                 src={service.image}
                 alt={service.title}
                 loading="lazy"

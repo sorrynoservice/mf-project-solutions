@@ -136,7 +136,7 @@ export const services = {
           },
           {
             "q": "Do you offer design services?",
-            "a": "Yes, we provide 3D visualizations and work with you to select tiles, fixtures, and finishes that match your vision."
+            "a": "Yes. We plan the layout with you and help you choose tiles, fixtures and finishes before any work starts."
           },
           {
             "q": "What guarantee do you give?",
@@ -152,8 +152,6 @@ export const services = {
     "heroImage": "/assets/bathroom-renovations-hero-new-C7-melRI.jpg",
     "heroAlt": "Renovated bathroom with walk-in shower",
     "title": "Bathroom Renovations in Dublin & Meath",
-    "seoTitle": "Bathroom Renovations in Dublin & Meath | MF Project Solutions",
-    "seoDescription": "Full bathroom and ensuite renovations: design, plumbing, tiling and finishing by one team. Serving Dublin, Meath, Louth, Kildare and Wicklow.",
     "formType": "Bathroom",
     "intro": "Full bathroom and ensuite renovations across Dublin, Meath, Louth, Kildare and Wicklow. Design, plumbing, tiling and finishing handled by one team, with one point of contact from start to finish.",
     "ctaLabel": "Request a free site visit",
@@ -267,8 +265,6 @@ export const services = {
     "heroImage": "/assets/projects/garden-room-dark-clad-sunset.jpg",
     "heroAlt": "Insulated garden room built by MF Project Solutions",
     "title": "Garden Rooms in Dublin & Meath",
-    "seoTitle": "Garden Rooms in Dublin & Meath | MF Project Solutions",
-    "seoDescription": "Insulated garden rooms, studios and home offices up to 30m² without planning permission, built turnkey by our own team. Request a free site visit.",
     "formType": "Garden room",
     "intro": "Bespoke garden rooms for home offices, studios, gyms and hobby spaces across Dublin, Meath, Louth, Kildare and Wicklow. Fully insulated, wired and finished by our own team, and up to 30m² without planning permission.",
     "ctaLabel": "Request a free site visit",
@@ -364,8 +360,6 @@ export const services = {
     "heroImage": "/assets/projects/granny-flat-clad-front.jpg",
     "heroAlt": "Garden dwelling built by MF Project Solutions",
     "title": "Granny Flats & Garden Dwellings in Dublin & Meath",
-    "seoTitle": "Granny Flats & Garden Dwellings in Dublin & Meath | MF Project Solutions",
-    "seoDescription": "Detached garden dwellings from 32m² to 45m², now exempt from planning under the July 2026 rules. Design, council notification and build by one team.",
     "formType": "Granny flat",
     "intro": "Detached garden dwellings from 32m² to 45m² with a bedroom, bathroom, kitchen and living area. Since July 2026 many can be built without planning permission, and we handle design, council notification and the build.",
     "ctaLabel": "Request a free site visit",
@@ -394,7 +388,7 @@ export const services = {
           {
             "icon": "award",
             "title": "Increase Property Value",
-            "text": "Well-designed extensions can add 15-20% to your property's value"
+            "text": "Add the space you need without the cost and upheaval of moving house"
           }
         ]
       },
@@ -403,7 +397,7 @@ export const services = {
         "heading": "Expand Your Living Space",
         "paras": [
           "A home extension adds valuable square footage without the stress and expense of moving. Whether you need extra bedrooms, a larger kitchen, or an open-plan living area, we create extensions that integrate seamlessly with your existing home.",
-          "We handle everything from architectural design and planning permission to structural work and final finishes, ensuring a smooth process from start to finish."
+          "We can work from your architect's drawings or arrange the design and planning for you, then deliver the structural work and finishes with our own team."
         ],
         "media": {
           "type": "image",
@@ -442,12 +436,12 @@ export const services = {
           "alt": "Extension interior",
           "heading": "What We Deliver",
           "items": [
-            "Full architectural design service",
+            "Design and planning drawings, in house or with your architect",
             "Planning permission assistance",
             "Structural engineering calculations",
             "High-quality materials and finishes",
             "Project management from start to finish",
-            "Building control certification",
+            "Building Regulations compliance, with certification by your assigned certifier where required",
             "12 month workmanship guarantee",
             "Seamless integration with existing property"
           ]
@@ -506,8 +500,6 @@ export const services = {
     "heroImage": "/assets/projects/extension-standing-seam-roof.jpg",
     "heroAlt": "Open plan home extension",
     "title": "Home Extensions in Dublin & Meath",
-    "seoTitle": "Home Extensions in Dublin & Meath | MF Project Solutions",
-    "seoDescription": "Rear extensions up to 45m² without planning permission, and larger extensions with planning, managed from design to handover. Free site visit.",
     "formType": "Extension",
     "intro": "Rear and side extensions across Dublin, Meath, Louth, Kildare and Wicklow, designed to sit naturally with your existing home. Up to 45m² can now be built without planning permission, and we manage larger schemes from planning to handover.",
     "ctaLabel": "Request a free site visit",
@@ -516,102 +508,102 @@ export const services = {
     "contactNote": "Quick response for consultations and quotes"
   },
   "interior-design": {
-    "footerTagline": "Interior Design Services",
+    "footerTagline": "Refurbishments & Fit Outs",
     "blocks": [
       {
         "type": "benefits",
-        "heading": "Why Choose Professional Interior Design?",
-        "sub": "Expert guidance that saves time, money, and creates stunning results",
+        "heading": "Why Choose Us for Your Refurbishment?",
+        "sub": "One team, a clear plan and joinery from our own workshop",
         "cards": [
           {
-            "icon": "palette",
-            "title": "Cohesive Aesthetics",
-            "text": "Create a harmonious flow throughout your home with expertly curated color palettes and materials"
+            "icon": "users",
+            "title": "One Team, One Contact",
+            "text": "Our own crew and managed specialist trades, coordinated by one project lead"
           },
           {
-            "icon": "eye",
-            "title": "Expert Vision",
-            "text": "Our designers bring years of experience and fresh perspectives to maximize your space's potential"
+            "icon": "clock",
+            "title": "Planned in Stages",
+            "text": "A clear programme so you know what happens each week and when rooms are back in use"
           },
           {
-            "icon": "sofa",
-            "title": "Stress-Free Process",
-            "text": "We handle sourcing, coordination, and installation, saving you time and avoiding costly mistakes"
+            "icon": "ruler",
+            "title": "Workshop Joinery",
+            "text": "Wardrobes, storage and panelling made in our own workshop in Drumree"
           }
         ]
       },
       {
         "type": "transform",
-        "heading": "Transform Your Living Spaces",
+        "heading": "Refurbish Without the Guesswork",
         "paras": [
-          "Professional interior design brings cohesion, style, and functionality to your home. From concept to completion, we create interiors that reflect your personality and enhance how you live.",
-          "We handle everything from color consultation to furniture sourcing, ensuring every element works together to create beautiful, livable spaces."
+          "A full refurbishment touches every trade in the house. We survey the property, set out the scope room by room and give you an itemised quote, so you know exactly what is included.",
+          "Our team strips out, rebuilds and finishes, with registered electricians and plumbers managed by us, and a snag check before handover."
         ],
         "media": {
           "type": "image",
-          "src": "/assets/interior-design-transform-DO2yr0rp.jpg",
-          "alt": "Interior design example"
+          "src": "/assets/home-extensions-work-3-Pz2e_WY6.jpg",
+          "alt": "Refurbished interior by MF Project Solutions"
         },
         "ctaLabel": "Get a quote"
       },
       {
         "type": "benefits",
         "heading": "Our Process",
-        "sub": "From initial consultation to final styling, we manage every detail",
+        "sub": "From survey to handover, we manage every detail",
         "cards": [
           {
-            "icon": "message-square",
-            "title": "1. Discovery",
-            "text": "We explore your lifestyle, preferences, and functional requirements for each space"
+            "icon": "ruler",
+            "title": "1. Survey and Scope",
+            "text": "We measure every room and agree what needs to change"
           },
           {
-            "icon": "map-pin",
-            "title": "2. Concept Development",
-            "text": "Mood boards, color schemes, and design concepts tailored to your vision"
+            "icon": "euro",
+            "title": "2. Itemised Quote",
+            "text": "Every item and exclusion listed, with a programme"
           },
           {
             "icon": "house",
-            "title": "3. Sourcing & Planning",
-            "text": "Furniture selection, material sourcing, and detailed implementation plans"
+            "title": "3. Build in Stages",
+            "text": "Strip out, first fix, plastering, second fix and finishes"
           },
           {
-            "icon": "sofa",
-            "title": "4. Installation",
-            "text": "Professional styling and setup to bring your beautifully designed space to life"
+            "icon": "circle-check",
+            "title": "4. Handover",
+            "text": "A walkthrough and snag check before we hand back the keys"
           }
         ],
         "nested": {
-          "image": "/assets/interior-design-premium-Bs_775CX.jpg",
-          "alt": "Design interior",
-          "heading": "Design Services",
+          "image": "/assets/home-extensions-living-space-ty_IPVMB.jpg",
+          "alt": "Refurbished living space",
+          "heading": "What We Deliver",
           "items": [
-            "Complete room design concepts",
-            "Color consultation and paint selection",
-            "Furniture and décor sourcing",
-            "Lighting design and specification",
-            "Window treatments and soft furnishings",
-            "Art curation and styling",
-            "Space planning and layout optimization",
-            "Project management and installation"
+            "Strip out and making good",
+            "Electrical and plumbing upgrades by registered trades",
+            "Plastering and new ceilings",
+            "Flooring, doors and skirting",
+            "Bespoke joinery and fitted wardrobes",
+            "Kitchens and bathrooms",
+            "Insulation and energy upgrades",
+            "Snag check before handover"
           ]
         }
       },
       {
         "type": "work",
         "heading": "Our Work",
-        "sub": "Stunning interiors crafted with care",
+        "sub": "Quality craftsmanship in every project",
         "images": [
           {
-            "src": "/assets/interior-design-work-1-CjQUtbat.jpg",
-            "alt": "Design project 1"
+            "src": "/assets/home-extensions-work-1-CkYlBiXD.jpg",
+            "alt": "Kitchen and dining space"
           },
           {
-            "src": "/assets/interior-design-work-2-tMCtlQBV.jpg",
-            "alt": "Design project 2"
+            "src": "/assets/kitchen-renovations-work-2-Dq89EN1Q.jpg",
+            "alt": "Fitted kitchen"
           },
           {
-            "src": "/assets/interior-design-work-3-C6WtksZq.jpg",
-            "alt": "Design project 3"
+            "src": "/assets/bathroom-renovations-hero-new-C7-melRI.jpg",
+            "alt": "Renovated bathroom"
           }
         ]
       },
@@ -620,43 +612,37 @@ export const services = {
         "heading": "Common Questions",
         "items": [
           {
-            "q": "How much does interior design cost?",
-            "a": "Costs vary based on scope and services. We offer flexible packages from consultation-only to full-service design."
+            "q": "How long does a full refurbishment take?",
+            "a": "It depends on the size of the house and the scope. We give you a programme with your quote."
           },
           {
-            "q": "Do I need to buy everything you suggest?",
-            "a": "No, we work within your budget and can incorporate existing pieces you love into the new design."
+            "q": "Can we live in the house during the works?",
+            "a": "For partial refurbishments, usually yes. For a full strip out it is often faster and safer to move out for part of the programme. We will advise at the survey."
           },
           {
-            "q": "How long does the process take?",
-            "a": "Typically 6-10 weeks from initial consultation to completion, depending on the scope of the project."
+            "q": "Do you do painting?",
+            "a": "Painting is limited to white walls, ceilings and woodwork where it is included in the quote. For colours we can recommend a decorator."
           },
           {
-            "q": "Can you work with my existing furniture?",
-            "a": "Absolutely! We can incorporate your existing pieces and complement them with new items for a cohesive look."
+            "q": "Do you handle electrics and plumbing?",
+            "a": "Yes, through registered electricians and plumbers managed by us, with certificates at handover."
           },
           {
-            "q": "Do you handle purchasing and delivery?",
-            "a": "Yes, we manage all sourcing, purchasing, delivery coordination, and installation for a stress-free experience."
-          },
-          {
-            "q": "What if I don't like the design?",
-            "a": "We work collaboratively and present concepts for your approval before proceeding, ensuring you love the result."
+            "q": "What guarantee do you give?",
+            "a": "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law."
           }
         ]
       }
     ],
-    "heroImage": "/assets/interior-design-hero-new-mZbsIznb.jpg",
-    "heroAlt": "Refurbished living room interior",
-    "title": "Interior Design & Refurbishment in Dublin",
-    "seoTitle": "Interior Design & Refurbishment in Dublin | MF Project Solutions",
-    "seoDescription": "Whole house refurbishments and interior fit outs, from layout and finishes to joinery and handover. Dublin and surrounding counties.",
+    "heroImage": "/assets/projects/extension-interior-rooflight.jpg",
+    "heroAlt": "Refurbished interior with rooflight",
+    "title": "Refurbishments & Fit Outs in Dublin",
     "formType": "Full renovation",
-    "intro": "Whole house refurbishments and interior fit outs in Dublin and the surrounding counties, from layout and finishes to bespoke joinery and handover.",
+    "intro": "Whole house refurbishments and interior fit outs in Dublin and the surrounding counties, planned and delivered by our own team with one point of contact from survey to handover.",
     "ctaLabel": "Request a free site visit",
-    "contactHeading": "Transform Your Living Spaces",
-    "contactSub": "Get in touch for a free consultation",
-    "contactNote": "Quick response for consultations"
+    "contactHeading": "Planning a Refurbishment?",
+    "contactSub": "Tell us about your project and we'll arrange a free site visit",
+    "contactNote": "Quick response for consultations and quotes"
   },
   "kitchen-renovations": {
     "footerTagline": "Kitchen Renovations & Construction",
@@ -668,8 +654,8 @@ export const services = {
         "cards": [
           {
             "icon": "chef-hat",
-            "title": "Culinary Excellence",
-            "text": "Premium appliances and optimized layout for the perfect cooking experience"
+            "title": "Built Around How You Cook",
+            "text": "Layout, storage and worktops planned around how you actually use your kitchen"
           },
           {
             "icon": "lightbulb",
@@ -688,12 +674,12 @@ export const services = {
         "heading": "Create Your Dream Kitchen",
         "paras": [
           "The kitchen is the heart of your home. Whether you're a passionate cook or love to entertain, we create kitchens that blend beautiful design with optimal functionality, tailored to your cooking style and lifestyle needs.",
-          "From custom cabinetry to premium appliances, we handle every aspect of your kitchen renovation with attention to detail and expert craftsmanship."
+          "From bespoke cabinetry made in our own workshop to worktops and appliances, we handle every part of your kitchen renovation."
         ],
         "media": {
           "type": "image",
-          "src": "/assets/kitchen-renovations-transform-BopHTFrD.jpg",
-          "alt": "Kitchen renovation example"
+          "src": "/assets/kitchen-renovations-work-3-AnHYCzKu.jpg",
+          "alt": "Fitted kitchen by MF Project Solutions"
         }
       },
       {
@@ -709,7 +695,7 @@ export const services = {
           {
             "icon": "map-pin",
             "title": "2. Layout Planning",
-            "text": "3D design, material selection, and appliance recommendations for optimal workflow"
+            "text": "Layout drawings, material selection and appliance advice for a practical workflow"
           },
           {
             "icon": "house",
@@ -791,8 +777,6 @@ export const services = {
     "heroImage": "/assets/kitchen-renovations-work-2-Dq89EN1Q.jpg",
     "heroAlt": "Modern fitted kitchen",
     "title": "Kitchen Renovations in Dublin & Meath",
-    "seoTitle": "Kitchen Renovations in Dublin & Meath | MF Project Solutions",
-    "seoDescription": "Kitchen supply and fit with bespoke joinery from our own workshop in Co. Meath. Serving Dublin, Meath, Louth, Kildare and Wicklow.",
     "formType": "Kitchen",
     "intro": "Kitchen supply and fit across Dublin, Meath, Louth, Kildare and Wicklow, with bespoke joinery made in our own workshop in Drumree, Co. Meath.",
     "ctaLabel": "Request a free site visit",
@@ -922,8 +906,8 @@ export const services = {
             "a": "We build pergolas in quality timber or composite, depending on the look you want and your budget."
           },
           {
-            "q": "Do you provide design visualizations?",
-            "a": "Yes, we create detailed plans and can provide 3D visualizations to help you envision the final result."
+            "q": "Do you provide a design?",
+            "a": "Yes. We draw up a layout for your garden with materials and levels agreed before work starts."
           },
           {
             "q": "What guarantee do you give?",
@@ -935,8 +919,6 @@ export const services = {
     "heroImage": "/assets/projects/garden-room-astro-stepping-stones.jpg",
     "heroAlt": "Landscaped garden with pergola",
     "title": "Landscaping, Patios & Pergolas in Dublin & Meath",
-    "seoTitle": "Landscaping, Patios & Pergolas in Dublin & Meath | MF Project Solutions",
-    "seoDescription": "Paving, artificial grass, decking and pergolas designed and built by our own crew. Serving Dublin, Meath, Louth, Kildare and Wicklow.",
     "formType": "Landscaping",
     "intro": "Paving, artificial grass, decking and pergolas across Dublin, Meath, Louth, Kildare and Wicklow, designed and built by our own crew.",
     "ctaLabel": "Request a free site visit",

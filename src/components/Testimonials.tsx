@@ -117,7 +117,7 @@ const Testimonials = ({ category, heading = "What our customers are saying" }: P
                     <div className="bg-white/5 backdrop-blur rounded-xl p-4 border border-white/10 flex flex-col h-[220px]">
                       <div className="flex items-start gap-3 mb-3">
                         {testimonial.avatar ? (
-                          <img
+                          <img loading="lazy" decoding="async"
                             src={testimonial.avatar}
                             alt={testimonial.name}
                             className="w-10 h-10 rounded-full object-cover flex-shrink-0"

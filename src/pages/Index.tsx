@@ -12,12 +12,7 @@ import Footer from "@/components/Footer";
 import { useSeo } from "@/lib/seo";
 
 const Index = () => {
-  useSeo({
-    title: "Garden Rooms, Extensions & Renovations in Dublin & Meath | MF Project Solutions",
-    description:
-      "Builders for garden rooms, granny flats, extensions, kitchens and bathrooms across Dublin, Meath, Louth, Kildare and Wicklow. Rated 4.9 from 130+ Google reviews.",
-    path: "/",
-  });
+  useSeo("/");
   return (
   <div className="min-h-screen">
     <Header variant="home" />
