@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
-import { company, contacts } from "@/data/site";
+import { company, contacts, coverage } from "@/data/site";
 import { useSeo } from "@/lib/seo";
 import googleRating from "@/data/google-rating.json";
 import {
@@ -145,8 +145,7 @@ const About = () => {
               <div className="h-1 w-24 bg-accent" />
               <p className="text-xl text-muted-foreground leading-relaxed font-light">
                 A design and build contractor with our own team and joinery workshop, delivering
-                garden rooms, extensions and renovations across Dublin, Meath, Louth, Kildare and
-                Wicklow.
+                garden rooms, extensions and renovations {coverage.summary}.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">

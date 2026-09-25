@@ -1,3 +1,5 @@
+import { coverage } from "@/data/site";
+
 const scrollToContact = () =>
   document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
 
@@ -20,7 +22,7 @@ const WhoWeAre = () => (
           </h2>
           <p className="text-white/80 mb-4">
             MF Project Solutions designs and builds garden rooms, granny flats, extensions and full
-            home renovations across Dublin, Meath, Louth, Kildare and Wicklow.
+            home renovations {coverage.summary}.
           </p>
           <p className="text-white/80 mb-8">
             Our own team of around 15 and our joinery workshop in Drumree, Co. Meath deliver every

@@ -153,7 +153,7 @@ export const services = {
     "heroAlt": "Renovated bathroom with walk-in shower",
     "title": "Bathroom Renovations in Dublin & Meath",
     "formType": "Bathroom",
-    "intro": "Full bathroom and ensuite renovations across Dublin, Meath, Louth, Kildare and Wicklow. Design, plumbing, tiling and finishing handled by one team, with one point of contact from start to finish.",
+    "intro": "Full bathroom and ensuite renovations across Dublin and within 50km of Dunshaughlin, Co. Meath. Design, plumbing, tiling and finishing handled by one team, with one point of contact from start to finish.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Ready for Your Dream Bathroom?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
@@ -166,7 +166,7 @@ export const services = {
         "type": "transform",
         "heading": "Transform Your Garden",
         "paras": [
-          "A garden room adds valuable space without the complexity of a full extension. Whether you need a home office, gym, studio or hobby room, we build bespoke garden rooms across Dublin, Meath, Louth, Kildare and Wicklow that sit comfortably with your home.",
+          "A garden room adds valuable space without the complexity of a full extension. Whether you need a home office, gym, studio or hobby room, we build bespoke garden rooms that sit comfortably with your home, anywhere within 50km of Dunshaughlin, Co. Meath, including all of Dublin.",
           "Every garden room is fully insulated, double glazed and wired, and we handle the groundwork and finishing so you get a turnkey result. Want a room to live or sleep in? See our granny flats page."
         ],
         "media": {
@@ -266,7 +266,7 @@ export const services = {
     "heroAlt": "Insulated garden room built by MF Project Solutions",
     "title": "Garden Rooms in Dublin & Meath",
     "formType": "Garden room",
-    "intro": "Bespoke garden rooms for home offices, studios, gyms and hobby spaces across Dublin, Meath, Louth, Kildare and Wicklow. Fully insulated, wired and finished by our own team, and up to 30m² without planning permission.",
+    "intro": "Bespoke garden rooms for home offices, studios, gyms and hobby spaces across Dublin and within 50km of Dunshaughlin, Co. Meath. Fully insulated, wired and finished by our own team, and up to 30m² without planning permission.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Ready to Transform Your Garden?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
@@ -280,7 +280,7 @@ export const services = {
         "heading": "Space for family, close to home",
         "paras": [
           "A detached garden dwelling gives family members their own space with a bedroom, bathroom, kitchen and living area, while staying close to home. Under the new rules in force since 27 July 2026, many can now be built without planning permission.",
-          "We design, notify the council, build and hand over, all with our own team, across Dublin, Meath, Louth, Kildare and Wicklow."
+          "We design, notify the council, build and hand over, all with our own team, anywhere within 50km of Dunshaughlin, Co. Meath, including all of Dublin."
         ],
         "media": {
           "type": "image",
@@ -501,7 +501,7 @@ export const services = {
     "heroAlt": "Open plan home extension",
     "title": "Home Extensions in Dublin & Meath",
     "formType": "Extension",
-    "intro": "Rear and side extensions across Dublin, Meath, Louth, Kildare and Wicklow, designed to sit naturally with your existing home. Up to 45m² can now be built without planning permission, and we manage larger schemes from planning to handover.",
+    "intro": "Rear and side extensions across Dublin and within 50km of Dunshaughlin, Co. Meath, designed to sit naturally with your existing home. Up to 45m² can now be built without planning permission, and we manage larger schemes from planning to handover.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Ready to Expand Your Home?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
@@ -638,7 +638,7 @@ export const services = {
     "heroAlt": "Refurbished interior with rooflight",
     "title": "Refurbishments & Fit Outs in Dublin",
     "formType": "Full renovation",
-    "intro": "Whole house refurbishments and interior fit outs in Dublin and the surrounding counties, planned and delivered by our own team with one point of contact from survey to handover.",
+    "intro": "Whole house refurbishments and interior fit outs in Dublin and within 50km of Dunshaughlin, Co. Meath, planned and delivered by our own team with one point of contact from survey to handover.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Planning a Refurbishment?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
@@ -778,7 +778,7 @@ export const services = {
     "heroAlt": "Modern fitted kitchen",
     "title": "Kitchen Renovations in Dublin & Meath",
     "formType": "Kitchen",
-    "intro": "Kitchen supply and fit across Dublin, Meath, Louth, Kildare and Wicklow, with bespoke joinery made in our own workshop in Drumree, Co. Meath.",
+    "intro": "Kitchen supply and fit across Dublin and within 50km of Dunshaughlin, Co. Meath, with bespoke joinery made in our own workshop in Drumree, Co. Meath.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Ready for Your Dream Kitchen?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
@@ -920,7 +920,7 @@ export const services = {
     "heroAlt": "Landscaped garden with pergola",
     "title": "Landscaping, Patios & Pergolas in Dublin & Meath",
     "formType": "Landscaping",
-    "intro": "Paving, artificial grass, decking and pergolas across Dublin, Meath, Louth, Kildare and Wicklow, designed and built by our own crew.",
+    "intro": "Paving, artificial grass, decking and pergolas across Dublin and within 50km of Dunshaughlin, Co. Meath, designed and built by our own crew.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Create Your Outdoor Paradise",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",

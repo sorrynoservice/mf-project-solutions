@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Star } from "lucide-react";
-import { company, contacts } from "@/data/site";
+import { company, contacts, coverage } from "@/data/site";
 
 const linkClass = "hover:text-[#d4af37] transition-colors";
 
@@ -11,8 +11,7 @@ const Footer = () => (
         <div>
           <img loading="lazy" decoding="async" src="/assets/mf-logo-DQmhj-jT.jpg" alt="MF Project Solutions" className="h-16 mb-4" />
           <p className="text-sm opacity-80 mb-4">
-            Design and build for garden rooms, extensions and renovations across Dublin, Meath,
-            Louth, Kildare and Wicklow.
+            Design and build for garden rooms, extensions and renovations {coverage.summary}.
           </p>
           <p className="text-sm opacity-80">{company.address}</p>
         </div>

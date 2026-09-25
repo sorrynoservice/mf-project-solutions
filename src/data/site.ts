@@ -46,10 +46,18 @@ export const contacts = {
   },
 };
 
+/** We cover a 50km radius around Dunshaughlin. Towns below are checked against it (straight-line distance). */
+export const coverage = {
+  centre: "Dunshaughlin, Co. Meath",
+  radiusKm: 50,
+  summary: "within 50km of Dunshaughlin, Co. Meath, including all of Dublin",
+};
+
 export const areas = [
-  { county: "Dublin", towns: "all districts" },
-  { county: "Meath", towns: "Navan, Ashbourne, Ratoath, Dunboyne, Dunshaughlin, Trim" },
-  { county: "Louth", towns: "Drogheda" },
-  { county: "Kildare", towns: "Kilcock, Maynooth, Celbridge" },
-  { county: "Wicklow", towns: "Bray, Greystones, Blessington, Wicklow town" },
+  { county: "Dublin", towns: "All of Dublin, from Balbriggan to Shankill" },
+  { county: "Meath", towns: "Dunshaughlin, Ratoath, Ashbourne, Dunboyne, Navan, Trim, Slane, Laytown, Kells" },
+  { county: "Kildare", towns: "Maynooth, Kilcock, Leixlip, Celbridge, Clane, Naas, Newbridge, Kildare town" },
+  { county: "Louth", towns: "Drogheda, Termonfeckin, Ardee" },
+  { county: "Wicklow", towns: "Bray, Enniskerry, Blessington" },
+  { county: "Westmeath and Offaly", towns: "Kinnegad, Edenderry" },
 ];
