@@ -110,7 +110,7 @@ const projects: Project[] = [
   {
     category: "Commercial Design and Build",
     title: "BAH33, Royal Hibernian Way, Dublin 2",
-    // TODO: add project photos when available.
+    image: "/assets/bah33-restaurant.webp",
     text: "Design and build of a restaurant fit out, completed in 2024, increasing capacity from about 26 to 80 seats.",
   },
 ];
