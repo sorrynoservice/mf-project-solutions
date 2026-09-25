@@ -7,9 +7,9 @@ export const SITE_URL = "https://mfprojectsolutions.ie";
 
 /**
  * Web3Forms access key for the enquiry form (created at web3forms.com with info@mfeng.ie).
- * It is designed to be public. While it is the placeholder, the form falls back to email.
+ * It is designed to be public. Set it back to "REPLACE_WITH_KEY" to make the form fall back to email.
  */
-export const WEB3FORMS_KEY = "REPLACE_WITH_KEY";
+export const WEB3FORMS_KEY: string = "175196db-96cf-41a0-aa5c-27e2cf24caa9";
 
 export const company = {
   name: "MF Project Solutions",
