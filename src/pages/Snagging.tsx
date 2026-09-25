@@ -16,6 +16,7 @@ import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
 import Testimonials from "@/components/Testimonials";
 import { snagging, snaggingIcons } from "@/data/snagging";
+import { contacts } from "@/data/site";
 import { useSeo } from "@/lib/seo";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
@@ -71,11 +72,18 @@ const Snagging = () => {
               {snagging.hero.title}
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-3xl">{snagging.hero.intro}</p>
-            <a href={BOOKING_URL} target="_blank" rel="noreferrer">
-              <button className={goldBtn}>
-                Request consultation <ArrowRight className="w-4 h-4" />
-              </button>
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a href={BOOKING_URL} target="_blank" rel="noreferrer">
+                <button className={`${goldBtn} w-full sm:w-auto`}>
+                  Request consultation <ArrowRight className="w-4 h-4" />
+                </button>
+              </a>
+              <a href={contacts.snagging.whatsapp} target="_blank" rel="noreferrer">
+                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold h-14 rounded-lg px-10 text-base w-full sm:w-auto border-2 border-primary/30 text-foreground hover:bg-primary/5 transition-colors">
+                  <MessageSquare className="w-4 h-4" /> WhatsApp Wanessa
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -288,7 +296,15 @@ const Snagging = () => {
             </h2>
             <p className="text-lg text-muted-foreground">{snagging.contactSub}</p>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid lg:grid-cols-[1fr_2fr] gap-6 max-w-6xl mx-auto [&>*]:min-w-0">
+          <img
+            src="/assets/team/snagging-team-site.jpg"
+            alt="MF Project Solutions snagging team in hard hats at a new-build estate"
+            loading="lazy"
+            decoding="async"
+            className="rounded-2xl shadow-luxury w-full h-80 lg:h-full object-cover object-[center_30%]"
+          />
+          <div className="grid md:grid-cols-2 gap-6">
             <div className={softCard}>
               <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
                 <MessageSquare className="w-5 h-5 text-accent" /> Fastest response
@@ -350,6 +366,7 @@ const Snagging = () => {
                 </a>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
