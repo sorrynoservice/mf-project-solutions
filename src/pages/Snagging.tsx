@@ -16,6 +16,7 @@ import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
 import Testimonials from "@/components/Testimonials";
 import { snagging, snaggingIcons } from "@/data/snagging";
+import { contacts } from "@/data/site";
 import { useSeo } from "@/lib/seo";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
@@ -71,11 +72,18 @@ const Snagging = () => {
               {snagging.hero.title}
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-3xl">{snagging.hero.intro}</p>
-            <a href={BOOKING_URL} target="_blank" rel="noreferrer">
-              <button className={goldBtn}>
-                Request consultation <ArrowRight className="w-4 h-4" />
-              </button>
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a href={BOOKING_URL} target="_blank" rel="noreferrer">
+                <button className={`${goldBtn} w-full sm:w-auto`}>
+                  Request consultation <ArrowRight className="w-4 h-4" />
+                </button>
+              </a>
+              <a href={contacts.snagging.whatsapp} target="_blank" rel="noreferrer">
+                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold h-14 rounded-lg px-10 text-base w-full sm:w-auto border-2 border-primary/30 text-foreground hover:bg-primary/5 transition-colors">
+                  <MessageSquare className="w-4 h-4" /> WhatsApp Wanessa
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
