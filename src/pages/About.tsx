@@ -67,7 +67,7 @@ const leaders: Leader[] = [
     name: "Alexandre Ferreira",
     role: "Founder and Managing Director",
     image: "/assets/alexandre-ferreira.jpg",
-    bio: "Alexandre founded MF Project Solutions in 2021 after more than 15 years in engineering and construction, including quality management roles on large projects in Ireland and across Europe. He leads design, estimating and delivery on every job.",
+    bio: "Alexandre has worked in engineering and construction since 1999. He started as a draftsperson with engineering and survey firms in Massachusetts, went on to run his own construction and engineering businesses there, and later worked in quality management on large projects in Ireland and across Europe. He founded MF Project Solutions in 2021 and leads design, estimating and delivery on every job.",
     email: contacts.alex.email,
     phone: contacts.alex.display,
     tel: contacts.alex.tel,
@@ -98,13 +98,13 @@ const projects: Project[] = [
   {
     category: "Bathroom Renovation",
     title: "Bathroom Renovation",
-    image: "/assets/luxury-bathroom-BWMvLKQ1.jpg",
+    image: "/assets/bathroom-renovations-hero-new-C7-melRI.jpg",
     text: "Full bathroom renovation with a walk-in shower, new tiling and modern fittings.",
   },
   {
     category: "Home Extension",
     title: "Open Plan Extension",
-    image: "/assets/modern-living-C4itTDh5.jpg",
+    image: "/assets/home-extensions-work-1-CkYlBiXD.jpg",
     text: "Extension creating an open plan kitchen and living area with contemporary finishes and natural light.",
   },
   {
@@ -169,8 +169,8 @@ const About = () => {
             <div className="absolute inset-0 bg-accent/10 rounded-2xl transform translate-x-4 translate-y-4" />
             <div className="relative h-full rounded-2xl overflow-hidden border-2 border-border shadow-luxury">
               <img
-                src="/assets/construction-site-DcX15qfU.jpg"
-                alt="MF Project Solutions construction team on site"
+                src="/assets/projects/garden-office-dusk-lighting.jpg"
+                alt="Garden office at dusk built by MF Project Solutions"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -196,9 +196,9 @@ const About = () => {
               an engineering led design and build contractor.
             </p>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Our founder brings more than 15 years of engineering and construction experience,
-              including quality management on large projects in Ireland and across Europe, and we
-              apply the same standards to every home we build.
+              Our founder has worked in engineering and construction since 1999, first in the United
+              States and then in Ireland and across Europe, and we apply the same standards to every
+              home we build.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               We deliver garden rooms and granny flats, house extensions, full renovations,
