@@ -172,9 +172,9 @@ const About = () => {
             <div className="absolute inset-0 bg-accent/10 rounded-2xl transform translate-x-4 translate-y-4" />
             <div className="relative h-full rounded-2xl overflow-hidden border-2 border-border shadow-luxury">
               <img
-                src="/assets/projects/garden-office-dusk-lighting.jpg"
-                alt="Garden office at dusk built by MF Project Solutions"
-                className="w-full h-full object-cover"
+                src="/assets/team/crew-van-sunset.jpg"
+                alt="MF Project Solutions build crew in hi-vis beside the company van"
+                className="w-full h-full object-cover object-[center_65%]"
               />
             </div>
           </div>
@@ -288,6 +288,38 @@ const About = () => {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+
+    <section className="py-20 border-t border-border">
+      <div className={wrap}>
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <img
+            src="/assets/team/crew-van-candid.jpg"
+            alt="MF Project Solutions build crew laughing beside the company van"
+            loading="lazy"
+            decoding="async"
+            className="rounded-2xl shadow-luxury w-full aspect-[4/5] md:aspect-auto md:h-[520px] object-cover object-[center_60%]"
+          />
+          <div>
+            <div className={`${pill} mb-4`}>
+              <Building2 className="w-4 h-4" />
+              The crew
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              The people on your site
+            </h2>
+            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+              Our own build team of around 15 does the work, not subcontracted crews we have never
+              met. Specialist trades such as electricians and plumbers are managed by us, and joinery
+              comes from our workshop in Drumree, Co. Meath.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              We work in English and Portuguese, and you have one point of contact from quote to
+              handover.
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -9,10 +9,10 @@ const WhoWeAre = () => (
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img decoding="async"
-            src="/assets/projects/garden-room-and-sauna-timber-clad.jpg"
-            alt="Timber clad garden room and sauna built by MF Project Solutions"
+            src="/assets/team/crew-on-site-tools.jpg"
+            alt="MF Project Solutions build crew on site with their tools"
             loading="lazy"
-            className="rounded shadow-luxury w-full h-[600px] object-cover"
+            className="rounded shadow-luxury w-full aspect-[4/5] md:aspect-auto md:h-[600px] object-cover object-[center_60%]"
           />
         </div>
         <div>
