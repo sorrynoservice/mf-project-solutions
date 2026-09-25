@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "prebuild": "node scripts/fetch-google-rating.mjs"
+    "prebuild": "node scripts/fetch-google-rating.mjs",
+    "postbuild": "node scripts/generate-route-html.mjs"
   },
   "dependencies": {
     "embla-carousel-react": "^8.3.0",

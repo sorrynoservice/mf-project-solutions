@@ -29,12 +29,7 @@ const softCard = "rounded-2xl border border-border shadow-soft p-6 bg-card";
 const BOOKING_URL = "https://forms.gle/pV5qTNMyJ5j4Xyt3A";
 
 const Snagging = () => {
-  useSeo({
-    title: "Snagging Inspections for New Homes in Dublin | MF Project Solutions",
-    description:
-      "Detailed snag inspections for new build houses and apartments, with a photo report within 24 to 48 hours. Rated 4.9 on Google.",
-    path: "/snagging",
-  });
+  useSeo("/snagging");
     const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(true);
@@ -222,7 +217,7 @@ const Snagging = () => {
 
           <div className="mt-12 grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img
+              <img loading="lazy" decoding="async"
                 src={snagging.doc.image}
                 alt={snagging.doc.alt}
                 className="rounded-2xl shadow-luxury w-full"
@@ -254,7 +249,7 @@ const Snagging = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {snagging.inspections.images.map((img) => (
-              <img
+              <img loading="lazy" decoding="async"
                 key={img.src}
                 src={img.src}
                 alt={img.alt}

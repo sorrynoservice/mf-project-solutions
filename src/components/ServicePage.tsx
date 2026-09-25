@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Calculator, CircleCheck, Mail, MessageSquare, Phone } from "lucide-react";
 import Header from "@/components/Header";
@@ -7,6 +8,7 @@ import ServiceReviews from "@/components/ServiceReviews";
 import EnquiryForm from "@/components/EnquiryForm";
 import { serviceIcons, services, type ServiceSlug } from "@/data/services";
 import { contacts } from "@/data/site";
+import { projectCategory } from "@/data/projects";
 import { useSeo } from "@/lib/seo";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
@@ -18,9 +20,49 @@ const softCard = "rounded-2xl border border-border shadow-soft p-6 bg-card";
 
 type Block = (typeof services)[ServiceSlug]["blocks"][number];
 
+/** Loads and plays only once scrolled near the viewport, so the page doesn't download it up front. */
+const LazyVideo = ({ src, className }: { src: string; className: string }) => {
+  const ref = useRef<HTMLVideoElement>(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "200px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (inView) ref.current?.play().catch(() => {});
+  }, [inView]);
+
+  return (
+    <video
+      ref={ref}
+      src={inView ? src : undefined}
+      preload="none"
+      loop
+      muted
+      playsInline
+      className={className}
+    />
+  );
+};
+
+const lazyImg = { loading: "lazy", decoding: "async" } as const;
+
 const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
   const data = services[slug];
-  useSeo({ title: data.seoTitle, description: data.seoDescription, path: `/${slug}` });
+  useSeo(`/${slug}`);
   let tinted = true; // section backgrounds alternate, starting tinted
 
   const renderBlock = (block: Block, index: number) => {
@@ -61,16 +103,13 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
                   <div style={{ position: "relative", width: "100%", paddingBottom: "100%" }}>
                     <div style={{ position: "absolute", inset: 0 }}>
                       {block.media.type === "video" ? (
-                        <video
+                        <LazyVideo
                           src={block.media.src}
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          className="rounded-2xl shadow-luxury w-full h-full object-cover"
+                          className="rounded-2xl shadow-luxury w-full h-full object-cover bg-muted"
                         />
                       ) : (
                         <img
+                          {...lazyImg}
                           src={block.media.src}
                           alt={"alt" in block.media ? block.media.alt : ""}
                           className="rounded-2xl shadow-luxury w-full h-full object-cover"
@@ -122,6 +161,7 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
                 <div className="mt-12 grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <img
+                      {...lazyImg}
                       src={block.nested.image}
                       alt={block.nested.alt}
                       className="rounded-2xl shadow-luxury w-full"
@@ -153,6 +193,7 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <img
+                    {...lazyImg}
                     src={block.image}
                     alt={block.alt}
                     className="rounded-2xl shadow-luxury w-full"
@@ -205,6 +246,7 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
               <div className="grid md:grid-cols-3 gap-6">
                 {block.images.map((img) => (
                   <img
+                    {...lazyImg}
                     key={img.src + img.alt}
                     src={img.src}
                     alt={img.alt}
@@ -212,6 +254,16 @@ const ServicePage = ({ slug }: { slug: ServiceSlug }) => {
                   />
                 ))}
               </div>
+              {projectCategory[slug] && (
+                <div className="text-center mt-8">
+                  <Link
+                    to={`/projects?category=${encodeURIComponent(projectCategory[slug]!)}`}
+                    className="inline-flex items-center gap-2 font-semibold text-foreground hover:text-accent transition-colors"
+                  >
+                    See more projects <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              )}
             </div>
           </section>
         );

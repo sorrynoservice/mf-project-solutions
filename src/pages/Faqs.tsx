@@ -164,13 +164,7 @@ const Faqs = () => {
     [],
   );
 
-  useSeo({
-    title: "Frequently Asked Questions | MF Project Solutions",
-    description:
-      "Answers on planning permission, costs, timelines and snagging for garden rooms, granny flats, extensions and renovations in Dublin and Meath.",
-    path: "/faqs",
-    jsonLd,
-  });
+  useSeo("/faqs", { jsonLd });
 
   return (
     <div className="min-h-screen bg-background">

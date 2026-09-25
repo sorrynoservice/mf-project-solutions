@@ -15,7 +15,7 @@ const ModernLiving = () => (
         <div className="relative">
           <div className="absolute -inset-4 bg-gradient-to-br from-[#8b9d8a]/30 to-transparent rounded" />
           <div className="absolute -inset-2 border-4 border-[#8b9d8a]/40 rounded" />
-          <img
+          <img decoding="async"
             src="/assets/home-extensions-work-1-CkYlBiXD.jpg"
             alt="Kitchen and dining extension by MF Project Solutions"
             loading="lazy"

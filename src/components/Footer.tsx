@@ -9,7 +9,7 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
         <div>
-          <img src="/assets/mf-logo-DQmhj-jT.jpg" alt="MF Project Solutions" className="h-16 mb-4" />
+          <img loading="lazy" decoding="async" src="/assets/mf-logo-DQmhj-jT.jpg" alt="MF Project Solutions" className="h-16 mb-4" />
           <p className="text-sm opacity-80 mb-4">
             Design and build for garden rooms, extensions and renovations across Dublin, Meath,
             Louth, Kildare and Wicklow.
@@ -46,6 +46,8 @@ const Footer = () => (
             <li><Link to="/garden-rooms" className={linkClass}>Garden rooms</Link></li>
             <li><Link to="/granny-flats" className={linkClass}>Granny flats</Link></li>
             <li><Link to="/home-extensions" className={linkClass}>Home extensions</Link></li>
+            <li><Link to="/interior-design" className={linkClass}>Refurbishments &amp; fit outs</Link></li>
+            <li><Link to="/projects" className={linkClass}>Projects</Link></li>
             <li><Link to="/snagging" className={linkClass}>Snagging inspections</Link></li>
             <li><Link to="/faqs" className={linkClass}>FAQs</Link></li>
             <li><a href="#contact" className={linkClass}>Contact us</a></li>

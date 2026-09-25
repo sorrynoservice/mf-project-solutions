@@ -7,6 +7,7 @@ import About from "@/pages/About";
 import Snagging from "@/pages/Snagging";
 import GardenCalculator from "@/pages/GardenCalculator";
 import Faqs from "@/pages/Faqs";
+import { ProjectDetail, Projects } from "@/pages/Projects";
 import NotFound from "@/pages/NotFound";
 
 const App = () => (
@@ -23,6 +24,8 @@ const App = () => (
       <Route path="/kitchen-renovations" element={<ServicePage slug="kitchen-renovations" />} />
       <Route path="/interior-design" element={<ServicePage slug="interior-design" />} />
       <Route path="/snagging" element={<Snagging />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/projects/:slug" element={<ProjectDetail />} />
       <Route path="/faqs" element={<Faqs />} />
       <Route path="/garden-calculator" element={<GardenCalculator />} />
       <Route path="*" element={<NotFound />} />

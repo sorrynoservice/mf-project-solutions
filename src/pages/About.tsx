@@ -124,12 +124,7 @@ const initials = (name: string) =>
     .join("");
 
 const About = () => {
-  useSeo({
-    title: "About Us | MF Project Solutions",
-    description:
-      "Residential construction and renovation company based in Drumree, Co. Meath, with our own build team and joinery workshop.",
-    path: "/about",
-  });
+  useSeo("/about");
 
   return (
   <div className="min-h-screen bg-background">
@@ -249,7 +244,7 @@ const About = () => {
               <div className="p-0">
                 <div className="aspect-square w-full overflow-hidden bg-muted/50">
                   {leader.image ? (
-                    <img
+                    <img decoding="async"
                       src={leader.image}
                       alt={`${leader.name}, ${leader.role}`}
                       loading="lazy"
@@ -310,7 +305,7 @@ const About = () => {
               <div className="p-0">
                 {p.image && (
                   <div className="aspect-[4/3] w-full overflow-hidden">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={p.image}
                       alt={p.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
