@@ -96,7 +96,7 @@ export const services = {
           "LED mood lighting and mirrors",
           "Smart storage solutions",
           "Water-efficient fittings",
-          "Comprehensive warranty coverage"
+          "12 month workmanship guarantee"
         ]
       },
       {
@@ -139,8 +139,8 @@ export const services = {
             "a": "Yes, we provide 3D visualizations and work with you to select tiles, fixtures, and finishes that match your vision."
           },
           {
-            "q": "What warranty do you provide?",
-            "a": "We offer comprehensive 5-year warranties on workmanship and materials for complete peace of mind."
+            "q": "What guarantee do you give?",
+            "a": "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law."
           },
           {
             "q": "Can you work with my existing layout?",
@@ -258,8 +258,8 @@ export const services = {
             "a": "Plumbing can be added for an additional cost if you need a kitchenette or bathroom facilities."
           },
           {
-            "q": "Do you provide warranties?",
-            "a": "Yes, all our garden rooms come with comprehensive warranties on structure, materials, and workmanship."
+            "q": "What guarantee do you give?",
+            "a": "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law."
           }
         ]
       }
@@ -448,7 +448,7 @@ export const services = {
             "High-quality materials and finishes",
             "Project management from start to finish",
             "Building control certification",
-            "Comprehensive warranty coverage",
+            "12 month workmanship guarantee",
             "Seamless integration with existing property"
           ]
         }
@@ -489,16 +489,16 @@ export const services = {
             "a": "Yes, we take steps to minimize disruption. We'll discuss the best approach during consultation to keep your home functional."
           },
           {
-            "q": "What's the cost per square meter?",
-            "a": "Costs vary based on specification, but typically range from €2,000-€3,500 per square meter for a quality extension."
+            "q": "How much does an extension cost?",
+            "a": "It depends on size, structure (steels and openings), ground conditions, and the kitchen and finishes you choose, so a price per m² can be misleading. Our quantity surveyors give you a fixed, itemised quote after the free site visit, so you can see what every part costs."
           },
           {
             "q": "Do you handle structural engineering?",
             "a": "Yes, we work with certified structural engineers to ensure all calculations and certifications are completed properly."
           },
           {
-            "q": "What warranty do you provide?",
-            "a": "We offer comprehensive 10-year warranties on structure, materials, and workmanship for complete peace of mind."
+            "q": "What guarantee do you give?",
+            "a": "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law."
           }
         ]
       }
@@ -734,7 +734,7 @@ export const services = {
             "Innovative organization systems",
             "High-quality taps and fixtures",
             "Durable, beautiful flooring options",
-            "Comprehensive warranty coverage"
+            "12 month workmanship guarantee"
           ]
         }
       },
@@ -778,12 +778,12 @@ export const services = {
             "a": "All labor, materials, cabinetry, worktops, and installation. We provide detailed quotes with no hidden costs."
           },
           {
-            "q": "Do you offer financing options?",
-            "a": "Yes, we can discuss flexible payment plans to suit your budget during the consultation."
+            "q": "How do payments work?",
+            "a": "Payments are staged: a deposit to book your start date, then instalments as the work progresses. The full schedule is set out in your quote before you commit."
           },
           {
-            "q": "What warranty do you provide?",
-            "a": "We offer comprehensive 5-year warranties on workmanship and materials for complete peace of mind."
+            "q": "What guarantee do you give?",
+            "a": "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law."
           }
         ]
       }
@@ -859,8 +859,8 @@ export const services = {
           },
           {
             "icon": "leaf",
-            "title": "4. Maintenance Guidance",
-            "text": "Comprehensive care instructions and optional ongoing maintenance services"
+            "title": "4. Handover",
+            "text": "A walkthrough of the finished work and care instructions for your new outdoor space"
           }
         ],
         "nested": {
@@ -875,7 +875,7 @@ export const services = {
             "Water features and lighting",
             "Fencing and privacy screens",
             "Outdoor seating and fire pits",
-            "Comprehensive warranty coverage"
+            "12 month workmanship guarantee"
           ]
         }
       },
@@ -914,10 +914,6 @@ export const services = {
             "a": "Typically 4-8 weeks depending on the scope, weather conditions, and size of your outdoor space."
           },
           {
-            "q": "Do you offer maintenance services?",
-            "a": "Yes, we provide optional ongoing maintenance packages to keep your outdoor space looking pristine year-round."
-          },
-          {
             "q": "Can you work with existing features?",
             "a": "Absolutely. We can incorporate existing trees, structures, or features into the new design or suggest improvements."
           },
@@ -930,8 +926,8 @@ export const services = {
             "a": "Yes, we create detailed plans and can provide 3D visualizations to help you envision the final result."
           },
           {
-            "q": "What warranty do you offer?",
-            "a": "We provide comprehensive 5-year warranties on workmanship and materials for all landscaping and pergola installations."
+            "q": "What guarantee do you give?",
+            "a": "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law."
           }
         ]
       }

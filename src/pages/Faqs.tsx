@@ -12,8 +12,8 @@ type Faq = { q: string; a: string; link?: { to: string; label: string } };
 type Group = { id: string; heading: string; items: Faq[] };
 
 /**
- * Questions only go here once the answer is confirmed. Payment terms, VAT,
- * insurance and warranty answers are waiting on Alex and are deliberately left out.
+ * Questions only go here once the answer is confirmed. VAT and insurance
+ * answers are waiting on Alex and are deliberately left out.
  */
 const groups: Group[] = [
   {
@@ -84,6 +84,10 @@ const groups: Group[] = [
         a: "Connections for electricity, water and drainage, and any trenching and groundworks, are quoted as separate items so you can see exactly what each part costs.",
       },
       {
+        q: "How do payments work?",
+        a: "Payments are staged: a deposit to book your start date, then instalments as the work progresses. The full schedule is set out in your quote before you commit.",
+      },
+      {
         q: "What happens if I want to change something during the build?",
         a: "We price any change in writing before doing the work, so there are no surprises on the final bill.",
       },
@@ -100,6 +104,10 @@ const groups: Group[] = [
       {
         q: "Do I need to be at home during the works?",
         a: "No. We only need access to the site and to the power and water supply at the main house.",
+      },
+      {
+        q: "What guarantee do you give?",
+        a: "12 months on our workmanship from handover: if a defect in our work shows up in that time, we come back and fix it at no cost. Products and materials carry their manufacturers' guarantees, which we pass to you in writing at handover. This is on top of your rights under consumer law.",
       },
       {
         q: "Is there anything you don't do?",
