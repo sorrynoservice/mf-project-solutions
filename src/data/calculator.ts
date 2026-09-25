@@ -1,7 +1,7 @@
 export const CALC = {
   "VAT_RATE": 0.135,
   "EMAIL": "info@mfeng.ie",
-  "WHATSAPP": "353876039378",
+  "WHATSAPP": "353838097035",
   "CONTINGENCY_PCT": 0.05,
   "ROLL_WIDTH": 4,
   "WASTE_RATE": 40,
