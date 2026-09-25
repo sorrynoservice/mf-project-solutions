@@ -7,8 +7,8 @@ const WhoWeAre = () => (
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src="/assets/home-extensions-living-space-ty_IPVMB.jpg"
-            alt="Interior renovation by MF Project Solutions"
+            src="/assets/projects/garden-room-and-sauna-timber-clad.jpg"
+            alt="Timber clad garden room and sauna built by MF Project Solutions"
             loading="lazy"
             className="rounded shadow-luxury w-full h-[600px] object-cover"
           />

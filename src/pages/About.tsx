@@ -169,8 +169,8 @@ const About = () => {
             <div className="absolute inset-0 bg-accent/10 rounded-2xl transform translate-x-4 translate-y-4" />
             <div className="relative h-full rounded-2xl overflow-hidden border-2 border-border shadow-luxury">
               <img
-                src="/assets/garden-rooms-work-2-BVO04QDu.jpg"
-                alt="Garden room with patio built by MF Project Solutions"
+                src="/assets/projects/garden-office-dusk-lighting.jpg"
+                alt="Garden office at dusk built by MF Project Solutions"
                 className="w-full h-full object-cover"
               />
             </div>

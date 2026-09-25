@@ -4,19 +4,19 @@ const services = [
   {
     title: "Garden Rooms",
     description: "Offices, studios and gyms up to 30m² without planning.",
-    image: "/assets/garden-rooms-work-2-BVO04QDu.jpg",
+    image: "/assets/projects/garden-room-dark-clad-sunset.jpg",
     path: "/garden-rooms",
   },
   {
     title: "Granny Flats",
     description: "32m² to 45m² garden dwellings, now without planning.",
-    image: "/assets/garden-rooms-work-3-D-QQPHqs.jpg",
+    image: "/assets/projects/granny-flat-clad-front.jpg",
     path: "/granny-flats",
   },
   {
     title: "Home Extensions",
     description: "Seamless design integration and added space.",
-    image: "/assets/home-extensions-work-2-Dp4o_904.jpg",
+    image: "/assets/projects/extension-standing-seam-roof.jpg",
     path: "/home-extensions",
   },
   {
@@ -28,7 +28,7 @@ const services = [
   {
     title: "Landscaping & Pergolas",
     description: "Outdoor spaces, thoughtfully crafted.",
-    image: "/assets/landscaping-pergolas-work-1-Bgtc6H-i.jpg",
+    image: "/assets/projects/patio-porcelain-garden-shed.jpg",
     path: "/landscaping-pergolas",
   },
   {

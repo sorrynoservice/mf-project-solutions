@@ -200,8 +200,8 @@ export const services = {
       },
       {
         "type": "features",
-        "image": "/assets/garden-rooms-premium-DU6PxPWY.jpg",
-        "alt": "Garden room interior",
+        "image": "/assets/projects/garden-room-during-build.jpg",
+        "alt": "Garden room during the build, insulated timber frame and OSB lining",
         "heading": "Premium Features Included",
         "items": [
           "Full insulation for year-round comfort",
@@ -220,16 +220,16 @@ export const services = {
         "sub": "Quality craftsmanship in every project",
         "images": [
           {
-            "src": "/assets/garden-rooms-work-2-BVO04QDu.jpg",
-            "alt": "Garden room project 2"
+            "src": "/assets/projects/garden-room-astro-stepping-stones.jpg",
+            "alt": "Clad garden room with artificial grass and stepping stones"
           },
           {
-            "src": "/assets/home-extensions-DgHDcJpu.png",
-            "alt": "Garden room project 1"
+            "src": "/assets/projects/garden-office-dusk-lighting.jpg",
+            "alt": "Garden office at dusk with path lighting"
           },
           {
-            "src": "/assets/garden-rooms-work-3-D-QQPHqs.jpg",
-            "alt": "Garden room project 3"
+            "src": "/assets/projects/garden-room-and-sauna-timber-clad.jpg",
+            "alt": "Timber clad garden room and sauna"
           }
         ]
       },
@@ -264,7 +264,7 @@ export const services = {
         ]
       }
     ],
-    "heroImage": "/assets/garden-rooms-work-3-D-QQPHqs.jpg",
+    "heroImage": "/assets/projects/garden-room-dark-clad-sunset.jpg",
     "heroAlt": "Insulated garden room built by MF Project Solutions",
     "title": "Garden Rooms in Dublin & Meath",
     "seoTitle": "Garden Rooms in Dublin & Meath | MF Project Solutions",
@@ -288,14 +288,14 @@ export const services = {
         ],
         "media": {
           "type": "image",
-          "src": "/assets/garden-rooms-work-2-BVO04QDu.jpg",
-          "alt": "Garden building with patio by MF Project Solutions"
+          "src": "/assets/projects/granny-flat-clad-aerial.jpg",
+          "alt": "Clad garden dwelling with patio and artificial grass"
         }
       },
       {
         "type": "features",
-        "image": "/assets/inspection-construction-wyPzuRnm.jpg",
-        "alt": "Timber frame garden building during construction",
+        "image": "/assets/projects/granny-flat-rendered-flat-roof.jpg",
+        "alt": "Rendered garden dwelling with rooflights and patio",
         "heading": "The new planning exemption (Class 3A)",
         "items": [
           "Floor area between 32m² and 45m², including any other sheds or garden structures",
@@ -361,7 +361,7 @@ export const services = {
         ]
       }
     ],
-    "heroImage": "/assets/garden-rooms-work-3-D-QQPHqs.jpg",
+    "heroImage": "/assets/projects/granny-flat-clad-front.jpg",
     "heroAlt": "Garden dwelling built by MF Project Solutions",
     "title": "Granny Flats & Garden Dwellings in Dublin & Meath",
     "seoTitle": "Granny Flats & Garden Dwellings in Dublin & Meath | MF Project Solutions",
@@ -407,8 +407,8 @@ export const services = {
         ],
         "media": {
           "type": "image",
-          "src": "/assets/home-extension-03-BAXG6gxM.jpg",
-          "alt": "Home extension example"
+          "src": "/assets/projects/extension-interior-rooflight.jpg",
+          "alt": "Extension interior with rooflight and bifold doors"
         }
       },
       {
@@ -459,16 +459,16 @@ export const services = {
         "sub": "Quality craftsmanship in every project",
         "images": [
           {
-            "src": "/assets/home-extensions-work-1-CkYlBiXD.jpg",
-            "alt": "Extension project 1"
+            "src": "/assets/projects/extension-rear-zinc-fascia.jpg",
+            "alt": "Rendered rear extension with zinc fascia"
+          },
+          {
+            "src": "/assets/projects/extension-frameless-glass.jpg",
+            "alt": "Rear extension with frameless glass sliding wall"
           },
           {
             "src": "/assets/home-extensions-work-2-Dp4o_904.jpg",
-            "alt": "Extension project 2"
-          },
-          {
-            "src": "/assets/home-extensions-work-3-Pz2e_WY6.jpg",
-            "alt": "Extension project 3"
+            "alt": "Rear extension with bifold doors open"
           }
         ]
       },
@@ -503,7 +503,7 @@ export const services = {
         ]
       }
     ],
-    "heroImage": "/assets/home-extensions-living-space-ty_IPVMB.jpg",
+    "heroImage": "/assets/projects/extension-standing-seam-roof.jpg",
     "heroAlt": "Open plan home extension",
     "title": "Home Extensions in Dublin & Meath",
     "seoTitle": "Home Extensions in Dublin & Meath | MF Project Solutions",
@@ -893,15 +893,15 @@ export const services = {
         "images": [
           {
             "src": "/assets/landscaping-pergolas-work-1-Bgtc6H-i.jpg",
-            "alt": "Landscaping project 1"
+            "alt": "Timber pergola over a patio"
           },
           {
-            "src": "/assets/landscaping-pergolas-work-2-BTcOGJgG.jpg",
-            "alt": "Landscaping project 2"
+            "src": "/assets/projects/patio-porcelain-garden-shed.jpg",
+            "alt": "Porcelain patio with gravel path and planting"
           },
           {
-            "src": "/assets/landscaping-pergolas-work-3-BrNbI35R.jpg",
-            "alt": "Landscaping project 3"
+            "src": "/assets/projects/garden-store-glass-front-dusk.jpg",
+            "alt": "Glass fronted garden store with porcelain patio at dusk"
           }
         ]
       },
@@ -932,7 +932,7 @@ export const services = {
         ]
       }
     ],
-    "heroImage": "/assets/landscaping-pergolas-hero-new-CnIZGgZq.jpg",
+    "heroImage": "/assets/projects/garden-room-astro-stepping-stones.jpg",
     "heroAlt": "Landscaped garden with pergola",
     "title": "Landscaping, Patios & Pergolas in Dublin & Meath",
     "seoTitle": "Landscaping, Patios & Pergolas in Dublin & Meath | MF Project Solutions",
