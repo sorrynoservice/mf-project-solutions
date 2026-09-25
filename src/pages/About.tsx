@@ -82,6 +82,15 @@ const leaders: Leader[] = [
     tel: contacts.snagging.tel,
   },
   {
+    name: "Rosanne Martins",
+    role: "HR and Commercial Director",
+    image: "/assets/rosanne-martins.jpg",
+    bio: "Rosanne brings more than 25 years in executive search, leadership assessment and business development across Brazil, Europe and the United States. She founded the consultancy Pro Human and leads the national Prêmio Ser Humano awards for ABRH Brasil. At MF Project Solutions she leads recruitment, people and team development, and the commercial side of the business: client and architect relationships, partnerships and growth.",
+    email: contacts.construction.email,
+    phone: contacts.construction.display,
+    tel: contacts.construction.tel,
+  },
+  {
     name: "Rosana Roos Corrêa",
     role: "Business and Financial Project Manager",
     image: "/assets/rosana-roos-correa.jpg",
@@ -237,7 +246,7 @@ const About = () => {
             The people you will deal with, from your first call to handover
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {leaders.map((leader) => (
             <div key={leader.name} className={`${card} overflow-hidden`}>
               <div className="p-0">
