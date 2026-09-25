@@ -7,7 +7,7 @@ const WhoWeAre = () => (
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src="/assets/who-we-are-5Ja_qt3Q.jpg"
+            src="/assets/home-extensions-living-space-ty_IPVMB.jpg"
             alt="Interior renovation by MF Project Solutions"
             loading="lazy"
             className="rounded shadow-luxury w-full h-[600px] object-cover"
@@ -24,7 +24,7 @@ const WhoWeAre = () => (
           </p>
           <p className="text-white/80 mb-8">
             Our own team of around 15 and our joinery workshop in Drumree, Co. Meath deliver every
-            job, led by an engineer with more than 15 years in construction. We work in English and
+            job, led by an engineer who has worked in construction since 1999. We work in English and
             Portuguese, with one point of contact from quote to handover.
           </p>
           <button

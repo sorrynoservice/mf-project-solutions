@@ -288,14 +288,14 @@ export const services = {
         ],
         "media": {
           "type": "image",
-          "src": "/assets/garden-rooms-premium-DU6PxPWY.jpg",
-          "alt": "Garden building by MF Project Solutions"
+          "src": "/assets/garden-rooms-work-2-BVO04QDu.jpg",
+          "alt": "Garden building with patio by MF Project Solutions"
         }
       },
       {
         "type": "features",
-        "image": "/assets/garden-rooms-work-2-BVO04QDu.jpg",
-        "alt": "Detached garden building in a rear garden",
+        "image": "/assets/inspection-construction-wyPzuRnm.jpg",
+        "alt": "Timber frame garden building during construction",
         "heading": "The new planning exemption (Class 3A)",
         "items": [
           "Floor area between 32m² and 45m², including any other sheds or garden structures",
@@ -788,7 +788,7 @@ export const services = {
         ]
       }
     ],
-    "heroImage": "/assets/modern-living-C4itTDh5.jpg",
+    "heroImage": "/assets/kitchen-renovations-work-2-Dq89EN1Q.jpg",
     "heroAlt": "Modern fitted kitchen",
     "title": "Kitchen Renovations in Dublin & Meath",
     "seoTitle": "Kitchen Renovations in Dublin & Meath | MF Project Solutions",

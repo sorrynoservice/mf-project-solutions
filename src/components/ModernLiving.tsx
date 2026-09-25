@@ -3,7 +3,7 @@ import googleRating from "@/data/google-rating.json";
 
 const stats = [
   { value: String(company.established), label: "Established" },
-  { value: "15+", label: "Years of engineering and construction experience" },
+  { value: "25+", label: "Years of engineering and construction experience" },
   { value: "500+", label: "Projects and inspections" },
   { value: googleRating.rating.toFixed(1), label: `Stars from ${googleRating.count}+ Google reviews` },
 ];
@@ -16,8 +16,8 @@ const ModernLiving = () => (
           <div className="absolute -inset-4 bg-gradient-to-br from-[#8b9d8a]/30 to-transparent rounded" />
           <div className="absolute -inset-2 border-4 border-[#8b9d8a]/40 rounded" />
           <img
-            src="/assets/modern-living-C4itTDh5.jpg"
-            alt="Modern kitchen interior"
+            src="/assets/home-extensions-work-1-CkYlBiXD.jpg"
+            alt="Kitchen and dining extension by MF Project Solutions"
             loading="lazy"
             className="relative rounded w-full h-[500px] object-cover"
           />
