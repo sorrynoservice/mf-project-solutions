@@ -237,7 +237,7 @@ export const services = {
         "items": [
           {
             "q": "Do I need planning permission?",
-            "a": "Since July 2026, garden rooms up to 30mÂ² (previously 25mÂ²) are exempt from planning permission if they are used as a home office, gym, studio or similar, not as living accommodation. The room must be behind the front wall of the house, no higher than 4m with a pitched roof or 3m with a flat roof, and you must keep at least 25mÂ² of rear garden. Existing sheds count towards the 30mÂ². Every site is different, so we check your property against all the conditions at the first site visit."
+            "a": "Since July 2026, garden rooms up to 30m² (previously 25m²) are exempt from planning permission if they are used as a home office, gym, studio or similar, not as living accommodation. The room must be behind the front wall of the house, no higher than 4m with a pitched roof or 3m with a flat roof, and you must keep at least 25m² of rear garden. Existing sheds count towards the 30m². Every site is different, so we check your property against all the conditions at the first site visit."
           },
           {
             "q": "How long does it take?",
@@ -245,7 +245,7 @@ export const services = {
           },
           {
             "q": "What sizes do you build?",
-            "a": "From compact 12mÂ² offices up to 30mÂ² without planning permission. For a self-contained garden dwelling with a bedroom, kitchen and shower room, the new rules allow 32mÂ² to 45mÂ² without planning, subject to conditions. Anything larger needs planning permission, which we can handle for you."
+            "a": "From compact 12m² offices up to 30m² without planning permission. For a self-contained garden dwelling with a bedroom, kitchen and shower room, the new rules allow 32m² to 45m² without planning, subject to conditions. Anything larger needs planning permission, which we can handle for you."
           },
           {
             "q": "Is heating included?",
@@ -266,7 +266,7 @@ export const services = {
     "heroAlt": "Insulated garden room built by MF Project Solutions",
     "title": "Garden Rooms in Dublin & Meath",
     "formType": "Garden room",
-    "intro": "Bespoke garden rooms for home offices, studios, gyms and hobby spaces across Dublin, Meath, Louth, Kildare and Wicklow. Fully insulated, wired and finished by our own team, and up to 30mÂ² without planning permission.",
+    "intro": "Bespoke garden rooms for home offices, studios, gyms and hobby spaces across Dublin, Meath, Louth, Kildare and Wicklow. Fully insulated, wired and finished by our own team, and up to 30m² without planning permission.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Ready to Transform Your Garden?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
@@ -294,9 +294,9 @@ export const services = {
         "alt": "Rendered garden dwelling with rooflights and patio",
         "heading": "The new planning exemption (Class 3A)",
         "items": [
-          "Floor area between 32mÂ² and 45mÂ², including any other sheds or garden structures",
+          "Floor area between 32m² and 45m², including any other sheds or garden structures",
           "Height up to 4m with a pitched roof, or 3m with a flat roof",
-          "At least 0.6m from the boundary, and at least 25mÂ² of rear garden kept for the main house",
+          "At least 0.6m from the boundary, and at least 25m² of rear garden kept for the main house",
           "Water, drainage and electricity connected through the main house, no separate connections",
           "Used together with the main house, which must be the owner's home. It cannot be sold or let separately, and short term letting such as Airbnb is not allowed",
           "No new entrance onto the road",
@@ -311,8 +311,8 @@ export const services = {
         "cards": [
           {
             "icon": "ruler",
-            "title": "Under 32mÂ²?",
-            "text": "A garden unit under 32mÂ² with a bedroom does not qualify for this exemption and needs planning permission."
+            "title": "Under 32m²?",
+            "text": "A garden unit under 32m² with a bedroom does not qualify for this exemption and needs planning permission."
           },
           {
             "icon": "circle-check",
@@ -332,7 +332,7 @@ export const services = {
         "items": [
           {
             "q": "Do I need planning permission?",
-            "a": "Not if the unit meets all the Class 3A conditions above, including the 32mÂ² to 45mÂ² size range and the council notification 14 days before work starts. If it doesn't, we can manage a planning application."
+            "a": "Not if the unit meets all the Class 3A conditions above, including the 32m² to 45m² size range and the council notification 14 days before work starts. If it doesn't, we can manage a planning application."
           },
           {
             "q": "Can I rent it out?",
@@ -352,7 +352,7 @@ export const services = {
           },
           {
             "q": "Is my garden big enough?",
-            "a": "You must keep at least 25mÂ² of rear garden for the main house after the build. We measure this at the site visit."
+            "a": "You must keep at least 25m² of rear garden for the main house after the build. We measure this at the site visit."
           }
         ]
       }
@@ -361,7 +361,7 @@ export const services = {
     "heroAlt": "Garden dwelling built by MF Project Solutions",
     "title": "Granny Flats & Garden Dwellings in Dublin & Meath",
     "formType": "Granny flat",
-    "intro": "Detached garden dwellings from 32mÂ² to 45mÂ² with a bedroom, bathroom, kitchen and living area. Since July 2026 many can be built without planning permission, and we handle design, council notification and the build.",
+    "intro": "Detached garden dwellings from 32m² to 45m² with a bedroom, bathroom, kitchen and living area. Since July 2026 many can be built without planning permission, and we handle design, council notification and the build.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Planning a granny flat?",
     "contactSub": "Tell us about your site and we'll check it against the new rules",
@@ -472,7 +472,7 @@ export const services = {
         "items": [
           {
             "q": "Do I need planning permission for an extension?",
-            "a": "Since July 2026, rear extensions up to 45mÂ² (previously 40mÂ²) can be built without planning permission, subject to conditions on height, boundaries and remaining garden space. Side and rear dormer roof extensions are also now exempt in many cases. Larger or front extensions need planning permission, which we manage for you. Every site is different, so we check your property at the first site visit."
+            "a": "Since July 2026, rear extensions up to 45m² (previously 40m²) can be built without planning permission, subject to conditions on height, boundaries and remaining garden space. Side and rear dormer roof extensions are also now exempt in many cases. Larger or front extensions need planning permission, which we manage for you. Every site is different, so we check your property at the first site visit."
           },
           {
             "q": "How long does it take?",
@@ -484,7 +484,7 @@ export const services = {
           },
           {
             "q": "How much does an extension cost?",
-            "a": "It depends on size, structure (steels and openings), ground conditions, and the kitchen and finishes you choose, so a price per mÂ² can be misleading. Our quantity surveyors give you a fixed, itemised quote after the free site visit, so you can see what every part costs."
+            "a": "It depends on size, structure (steels and openings), ground conditions, and the kitchen and finishes you choose, so a price per m² can be misleading. Our quantity surveyors give you a fixed, itemised quote after the free site visit, so you can see what every part costs."
           },
           {
             "q": "Do you handle structural engineering?",
@@ -501,7 +501,7 @@ export const services = {
     "heroAlt": "Open plan home extension",
     "title": "Home Extensions in Dublin & Meath",
     "formType": "Extension",
-    "intro": "Rear and side extensions across Dublin, Meath, Louth, Kildare and Wicklow, designed to sit naturally with your existing home. Up to 45mÂ² can now be built without planning permission, and we manage larger schemes from planning to handover.",
+    "intro": "Rear and side extensions across Dublin, Meath, Louth, Kildare and Wicklow, designed to sit naturally with your existing home. Up to 45m² can now be built without planning permission, and we manage larger schemes from planning to handover.",
     "ctaLabel": "Request a free site visit",
     "contactHeading": "Ready to Expand Your Home?",
     "contactSub": "Tell us about your project and we'll arrange a free site visit",
