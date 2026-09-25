@@ -91,6 +91,20 @@ export const Projects = () => {
         </div>
       </section>
 
+      <section id="contact" className="py-20 border-t border-border bg-muted/30">
+        <div className={`${wrap} max-w-4xl`}>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">
+            Planning a project?
+          </h2>
+          <p className="text-lg text-muted-foreground mb-10 text-center">
+            Tell us about it and we'll arrange a free site visit.
+          </p>
+          <div className="rounded-2xl border border-border shadow-soft p-6 bg-card">
+            <EnquiryForm defaultType={active ? formType[active] : ""} />
+          </div>
+        </div>
+      </section>
+
       <SiteFooter tagline="Our Projects" />
     </div>
   );

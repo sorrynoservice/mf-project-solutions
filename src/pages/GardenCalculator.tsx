@@ -4,6 +4,7 @@ import { useSeo } from "@/lib/seo";
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
 import { CALC } from "@/data/calculator";
+import { contacts } from "@/data/site";
 
 const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
 const stepCard = "rounded-2xl border border-border shadow-soft p-5 bg-card";
@@ -644,7 +645,7 @@ const GardenCalculator = () => {
                 </ul>
               </div>
 
-              <div className={asideCard}>
+              <div id="contact" className={`${asideCard} scroll-mt-24`}>
                 <h3 className="font-bold text-foreground mb-3 flex items-center gap-2">
                   <Clock className="w-5 h-5 text-accent" /> Prefer to Talk?
                 </h3>
@@ -661,10 +662,10 @@ const GardenCalculator = () => {
                     <MessageSquare className="w-4 h-4 text-accent" /> WhatsApp Us
                   </a>
                   <a
-                    href="tel:+353838014857"
+                    href={contacts.construction.tel}
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    <Phone className="w-4 h-4 text-accent" /> +353 83 801 4857
+                    <Phone className="w-4 h-4 text-accent" /> {contacts.construction.display}
                   </a>
                   <a
                     href={`mailto:${CALC.EMAIL}`}
