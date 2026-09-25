@@ -66,7 +66,7 @@ const leaders: Leader[] = [
   {
     name: "Alexandre Ferreira",
     role: "Founder and Managing Director",
-    image: "/assets/alexandre-ferreira-R7MdZj-Y.jpg",
+    image: "/assets/alexandre-ferreira.jpg",
     bio: "Alexandre founded MF Project Solutions in 2021 after more than 15 years in engineering and construction, including quality management roles on large projects in Ireland and across Europe. He leads design, estimating and delivery on every job.",
     email: contacts.alex.email,
     phone: contacts.alex.display,
@@ -75,7 +75,7 @@ const leaders: Leader[] = [
   {
     name: "Wanessa Correa",
     role: "Director of Operations and Quantity Surveyor",
-    image: "/assets/wanessa-correa-DMt6Behu.jpg",
+    image: "/assets/wanessa-correa.jpg",
     bio: "Wanessa worked in quantity surveying and procurement on major Irish projects with Linesight and Cairn before joining MF Project Solutions. She manages costs, procurement and scheduling, runs our snagging inspections, and is a qualified BER assessor.",
     email: contacts.snagging.email,
     phone: contacts.snagging.display,
@@ -84,7 +84,7 @@ const leaders: Leader[] = [
   {
     name: "Rosana Roos Corrêa",
     role: "Business and Financial Project Manager",
-    // TODO: add a photo at /assets/rosana-roos-correa.jpg and set image here.
+    image: "/assets/rosana-roos-correa.jpg",
     bio: "Rosana manages the business and financial side of our projects: quotes, client accounts, payments and scheduling, and she is often the first person clients deal with. She brings more than 10 years of banking experience as a relationship manager.",
     email: contacts.construction.email,
     phone: contacts.construction.display,
@@ -247,11 +247,12 @@ const About = () => {
           {leaders.map((leader) => (
             <div key={leader.name} className={`${card} overflow-hidden`}>
               <div className="p-0">
-                <div className="aspect-[4/3] w-full overflow-hidden bg-muted/50">
+                <div className="aspect-square w-full overflow-hidden bg-muted/50">
                   {leader.image ? (
                     <img
                       src={leader.image}
-                      alt={leader.name}
+                      alt={`${leader.name}, ${leader.role}`}
+                      loading="lazy"
                       className="w-full h-full object-cover object-top"
                     />
                   ) : (
