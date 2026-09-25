@@ -30,7 +30,7 @@ const groups: Group[] = [
       },
       {
         q: "Which areas do you cover?",
-        a: "Dublin, Meath, Louth, Kildare and Wicklow.",
+        a: "Anywhere within 50km of Dunshaughlin, Co. Meath. That takes in all of Dublin, most of Meath and Kildare, Drogheda and Ardee in Louth, Bray and Blessington in Wicklow, and Kinnegad and Edenderry.",
       },
       {
         q: "Do you speak Portuguese?",

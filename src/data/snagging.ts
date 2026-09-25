@@ -118,7 +118,7 @@ export const snagging = {
     },
     {
       "q": "What about VAT?",
-      "a": "Listed prices already include VAT and travel within 50 km of Dublin. No surprises at checkout."
+      "a": "Listed prices already include VAT and travel within 50km of Dunshaughlin, Co. Meath. No surprises at checkout."
     },
     {
       "q": "Can I get a report in Portuguese?",
@@ -126,7 +126,7 @@ export const snagging = {
     },
     {
       "q": "What areas do you cover?",
-      "a": "We cover Dublin and surrounding areas within 50 km. Contact us if you're outside this range."
+      "a": "We cover anywhere within 50km of Dunshaughlin, Co. Meath, including all of Dublin. Further out, we add a €50 travel fee."
     }
   ],
   "hero": {
@@ -142,8 +142,8 @@ export const snagging = {
     "p2": "Every snag list is aligned to Irish Building Regulations, documented with high-quality photos, and delivered within 24-48 hours. We keep it practical so you get results, not a novel."
   },
   "pricingHeading": "Straightforward pricing",
-  "pricingSub": "Prices include VAT and travel up to 50 km from Dublin",
-  "pricingNote": "*Travel over 50 km will incur an additional €50 fee",
+  "pricingSub": "Prices include VAT and travel up to 50km from Dunshaughlin, Co. Meath",
+  "pricingNote": "*Travel over 50km from Dunshaughlin adds a €50 fee",
   "processHeading": "How we work",
   "processSub": "A simple, professional process designed to give you comprehensive results with minimal hassle",
   "faqHeading": "Common questions",
