@@ -45,6 +45,8 @@ export type CaseStudy = {
   intro?: string[];
   scope?: string[];
   cover: string;
+  /** A different cover on a given page, keyed by page (home, about, or a service key), so the same photo is not repeated across pages. */
+  covers?: Record<string, string>;
   stages: Stage[];
   pairs?: Pair[];
   /** Shown under the design images, for example how a render was produced. */
@@ -77,6 +79,7 @@ export const caseStudies: CaseStudy[] = [
       "Bespoke oak joinery, living room and understairs",
     ],
     cover: "M83",
+    covers: {"home": "N080", "residential": "N076", "whole-house": "N084", "extensions": "N048", "kitchens-bathrooms": "N083", "joinery": "M93", "about": "M92"},
     designNote:
       "Drawings: Francesco Panzeri, architect. The four design visualisations were prepared from the architect's design and enhanced with AI by MF; they are design images, not photographs.",
     stages: [
@@ -89,13 +92,13 @@ export const caseStudies: CaseStudy[] = [
       {
         stage: "construction",
         text: "The house stripped back, the extension shell formed and the rooflight openings framed.",
-        images: ["M32", "M35", "M36", "M37", "M02", "M05"],
+        images: ["M32", "M35", "N059", "N020", "M36", "N048", "M37", "M02", "M05"],
       },
-      { stage: "bespoke", text: "Oak joinery for storage, display and the understairs space.", images: ["M89", "M90", "M93", "M94", "M88"] },
+      { stage: "bespoke", text: "Oak joinery for storage, display and the understairs space.", images: ["M89", "N080", "M90", "M93", "M94", "M88"] },
       {
         stage: "finished",
         text: "The finished extension, kitchen and bathrooms.",
-        images: ["M83", "M84", "M85", "M86", "M87", "M91", "M92", "M95"],
+        images: ["M83", "M84", "M85", "N081", "M86", "N077", "M87", "N078", "N076", "N079", "N084", "M91", "N083", "M92", "M95"],
       },
     ],
     pairs: [
@@ -127,6 +130,7 @@ export const caseStudies: CaseStudy[] = [
       "Slatted timber panelling and feature column",
     ],
     cover: "M141",
+    covers: {"home": "M142", "joinery": "M139", "interior-design": "M148", "commercial": "M140", "about": "M137"},
     stages: [
       { stage: "before", text: "The existing corridor and glass block wall.", images: ["M133"] },
       {
@@ -168,6 +172,7 @@ export const caseStudies: CaseStudy[] = [
       "Coordination with the design team to close out the works",
     ],
     cover: "M159",
+    covers: {"home": "M160", "interior-design": "M165", "commercial": "M157", "about": "M168"},
     stages: [
       {
         stage: "design",
@@ -205,15 +210,16 @@ export const caseStudies: CaseStudy[] = [
       "3D design of bathrooms and joinery",
     ],
     cover: "M18",
+    covers: {"residential": "M20", "whole-house": "M23", "joinery": "M19", "interior-design": "M26"},
     stages: [
       { stage: "design", text: "MF 3D designs for the bathrooms and joinery.", images: ["M316", "M319", "M320", "M315"] },
       { stage: "construction", text: "The new rear extension and bathroom works in progress.", images: ["M15", "M17"] },
       {
         stage: "bespoke",
         text: "Joinery made to fit each room.",
-        images: ["M19", "M20", "M21", "M25", "M26", "M31", "M28"],
+        images: ["M19", "N069", "M20", "M21", "N070", "N065", "M25", "M26", "M31", "M28"],
       },
-      { stage: "finished", text: "Finished landing, stairs, bathrooms and bedrooms.", images: ["M18", "M23", "M24", "M29", "M30", "M27"] },
+      { stage: "finished", text: "Finished landing, stairs, bathrooms and bedrooms.", images: ["M18", "M23", "M24", "M29", "N071", "M30", "M27", "N075", "N074"] },
     ],
     pairs: [
       { design: "M316", built: "M29", caption: "Bathroom: MF design and the finished room" },
@@ -235,11 +241,12 @@ export const caseStudies: CaseStudy[] = [
     ],
     scope: ["Rear extension and roof structure", "Rooflights and sliding doors", "Kitchen with island", "Built-in joinery"],
     cover: "M96",
+    covers: {"residential": "N085", "extensions": "M98"},
     designNote: "Drawings: NBK Architects.",
     stages: [
       { stage: "design", text: "The architect's construction drawings.", images: ["M338", "M339", "M340", "M341"] },
       { stage: "construction", text: "Rooflight framing in the new extension.", images: ["M41"] },
-      { stage: "finished", text: "The finished extension, kitchen and living room.", images: ["M96", "M97", "M99", "M98", "M100", "M42", "M43", "M44"] },
+      { stage: "finished", text: "The finished extension, kitchen and living room.", images: ["M96", "N092", "M97", "N090", "M99", "N096", "M98", "N085", "M100", "N089", "N093", "M42", "M43", "M44"] },
     ],
     pairs: [
       { design: "M338", built: "M42", caption: "Elevations and the finished extension" },
@@ -256,9 +263,10 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "MF designed the bathroom and en-suite in 3D, then built them: stone look tile, brass fittings and a panelled hall and stair.",
     cover: "M101",
+    covers: {"residential": "N105", "kitchens-bathrooms": "N098", "interior-design": "N103"},
     stages: [
       { stage: "design", text: "MF 3D views of the bathroom and en-suite.", images: ["M311", "M312"] },
-      { stage: "finished", text: "The finished en-suite, shower and hall.", images: ["M101", "M102", "M103", "M76", "M77", "M104"] },
+      { stage: "finished", text: "The finished en-suite, shower and hall.", images: ["M101", "N098", "N099", "M102", "N100", "M103", "M76", "M77", "M104", "N105", "N107", "N110"] },
     ],
     pairs: [{ design: "M312", built: "M102", caption: "En-suite: MF design and the finished shower" }],
   },
@@ -272,7 +280,8 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "A clad garden dwelling built by MF at our founder's home, with a kitchenette, shower room, bunk room and built-in storage.",
     cover: "M50",
-    stages: [{ stage: "finished", images: ["M50", "M52", "M53", "M55"] }],
+    covers: {"garden-buildings": "N017"},
+    stages: [{ stage: "finished", images: ["M50", "N018", "M52", "N017", "M53", "M55", "N014"] }],
   },
   {
     slug: "kitchen-living-renovation",
@@ -283,7 +292,7 @@ export const caseStudies: CaseStudy[] = [
     year: "2026",
     summary: "A new kitchen with an island and tall units, a living room with a brick slip wall and a glazed partition to the dining area.",
     cover: "M69",
-    stages: [{ stage: "finished", images: ["M69", "M70", "M71", "M73", "M72", "M68"] }],
+    stages: [{ stage: "finished", images: ["M69", "N041", "M70", "M71", "M73", "M72", "N042", "M68"] }],
   },
   {
     slug: "outdoor-room-ashbourne",
@@ -309,6 +318,7 @@ export const caseStudies: CaseStudy[] = [
     year: "2026",
     summary: "A glass fronted garden room with a new porcelain patio.",
     cover: "M62",
+    covers: {"outdoor-living": "M63"},
     stages: [
       { stage: "construction", images: ["M64"] },
       { stage: "finished", images: ["M62", "M63"] },
@@ -337,6 +347,7 @@ export const caseStudies: CaseStudy[] = [
     year: "2023 to 2024",
     summary: "Open plan kitchens under new rooflights, with islands, fluted details and feature walls.",
     cover: "M198",
+    covers: {"extensions": "M199"},
     stages: [
       { stage: "design", text: "An MF 3D kitchen design, and the kitchen as built.", images: ["M203"] },
       { stage: "finished", images: ["M198", "M199", "M200", "M201", "M202"] },
@@ -352,6 +363,7 @@ export const caseStudies: CaseStudy[] = [
     year: "2024",
     summary: "A glazed garden room under a timber pergola, set on a porcelain terrace.",
     cover: "M177",
+    covers: {"garden-buildings": "M178"},
     stages: [{ stage: "finished", images: ["M177", "M178", "M179"] }],
   },
   {
@@ -374,6 +386,7 @@ export const caseStudies: CaseStudy[] = [
     year: "2023 to 2024",
     summary: "Timber framed outdoor rooms with kitchens, glass rooms and steel canopies over new patios.",
     cover: "M173",
+    covers: {"outdoor-living": "M186"},
     stages: [
       { stage: "construction", images: ["M171", "M172"] },
       { stage: "finished", images: ["M173", "M174", "M184", "M185", "M186", "M187"] },

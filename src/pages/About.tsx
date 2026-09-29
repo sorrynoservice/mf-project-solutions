@@ -321,7 +321,7 @@ const About = () => {
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {caseStudies.filter((c) => c.flagship).slice(0, 3).map((c) => (
-            <CaseCard key={c.slug} c={c} />
+            <CaseCard key={c.slug} c={c} ctx="about" />
           ))}
         </div>
       </div>

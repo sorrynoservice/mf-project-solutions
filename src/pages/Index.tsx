@@ -15,19 +15,19 @@ const flagships = caseStudies.filter((c) => c.flagship);
 const sectors = [
   {
     to: "/residential",
-    img: "M86",
+    img: "N092",
     t: "Residential",
     d: "Whole-house renovations, extensions, attic conversions, kitchens, bathrooms and joinery.",
   },
   {
     to: "/commercial",
-    img: "M159",
+    img: "M164",
     t: "Commercial",
     d: "Clinics, restaurants, retail and offices, designed, fitted out and closed out.",
   },
   {
     to: "/interior-design",
-    img: "M124",
+    img: "M319",
     t: "Interior design",
     d: "Layouts, 3D views and joinery drawings, as a service or as part of design and build.",
   },
@@ -110,7 +110,7 @@ const Index = () => {
           <SectionTitle eyebrow="Projects" title="Recent projects, from before to handover" />
           <div className="grid sm:grid-cols-2 gap-6">
             {flagships.map((c) => (
-              <CaseCard key={c.slug} c={c} />
+              <CaseCard key={c.slug} c={c} ctx="home" />
             ))}
           </div>
           <Link to="/projects" className="mt-8 inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all">
@@ -126,7 +126,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {sectors.map((s) => (
               <Link key={s.to} to={s.to} className="group rounded-2xl overflow-hidden border border-border bg-card shadow-soft hover:shadow-luxury transition-all">
-                <Img id={s.img} className="aspect-[4/3]" label={false} sizes="(min-width: 768px) 33vw, 100vw" />
+                <Img id={s.img} className="aspect-[4/3]" sizes="(min-width: 768px) 33vw, 100vw" />
                 <div className="p-6">
                   <h3 className="text-2xl font-serif text-foreground mb-2">{s.t}</h3>
                   <p className="text-muted-foreground">{s.d}</p>
@@ -184,7 +184,7 @@ const Index = () => {
               Garden buildings <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
-          <Img id="M50" className="order-1 lg:order-2 aspect-[4/3] rounded-2xl" label={false} sizes="(min-width: 1024px) 50vw, 100vw" />
+          <Img id="N018" className="order-1 lg:order-2 aspect-[4/3] rounded-2xl" label={false} sizes="(min-width: 1024px) 50vw, 100vw" />
         </div>
       </section>
 

@@ -93,7 +93,7 @@ const ServiceLanding = ({ route }: { route: string }) => {
           <SectionTitle eyebrow="Projects" title={isHub ? "Recent residential projects" : "Projects"} />
           <div className={`grid sm:grid-cols-2 gap-6 ${featured.length === 4 || featured.length === 2 ? "" : "lg:grid-cols-3"}`}>
             {featured.map((c, i) => (
-              <CaseCard key={c.slug} c={c} eager={i < 3} />
+              <CaseCard key={c.slug} c={c} eager={i < 3} ctx={page.key} />
             ))}
           </div>
           <Link to={page.key === "commercial" ? "/projects?sector=Commercial" : isHub ? "/projects?sector=Residential" : `/projects?service=${page.key}`} className="mt-8 inline-flex items-center gap-2 font-semibold text-foreground hover:gap-3 transition-all">

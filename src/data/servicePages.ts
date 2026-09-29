@@ -32,7 +32,7 @@ export const servicePages: ServicePageData[] = [
     eyebrow: "Residential",
     title: "Homes designed, engineered and built by one team",
     lead: "Whole-house renovations, extensions, kitchens, bathrooms and bespoke joinery across Dublin, Meath and Kildare, often working with your architect.",
-    hero: "M83",
+    hero: "N081",
     intro: [
       "Most of our residential work is a whole house or a large part of one: structural openings, extensions, new services, kitchens and bathrooms, finished with joinery from our own workshop.",
       "We work to an architect's drawings or produce the design ourselves, and we take responsibility for the build from site set-up to handover.",
@@ -48,7 +48,7 @@ export const servicePages: ServicePageData[] = [
     eyebrow: "Whole-house renovations",
     title: "Whole-house renovations, from structure to finish",
     lead: "We take a house back to what works, fix what does not, extend where it helps and finish it properly, under one contract.",
-    hero: "M86",
+    hero: "M85",
     intro: [
       "A whole-house renovation touches every trade at once: structure, roof, insulation, windows, plumbing, heating, electrics, kitchens, bathrooms and joinery. We plan and run all of it with our own site team and trusted specialists, so you deal with one contractor.",
       "Many of these projects start with an architect. We build to your design team's drawings and deal with them directly on site.",
@@ -62,8 +62,7 @@ export const servicePages: ServicePageData[] = [
     ],
     featured: ["extension-renovation-phibsborough", "whole-house-renovation-rathcoole"],
     pairs: [
-      { design: "M332", built: "M86", caption: "Phibsborough kitchen: design and built" },
-      { design: "M316", built: "M29", caption: "Rathcoole bathroom: MF design and built" },
+      { design: "M331", built: "M89", caption: "Phibsborough living room: design and built" },
     ],
     faqs: [
       {
@@ -79,6 +78,7 @@ export const servicePages: ServicePageData[] = [
         a: "We give a fixed contract price for the agreed scope, with a clear list of what is included and how any changes are priced.",
       },
     ],
+    gallery: ["N079", "M95", "M30", "N065", "M24", "N084", "M17", "N074"],
     formType: "Whole-house renovation",
     related: [
       { label: "Extensions and structural alterations", to: "/residential/extensions" },
@@ -92,7 +92,7 @@ export const servicePages: ServicePageData[] = [
     eyebrow: "Extensions and structural alterations",
     title: "Extensions, structural alterations and attic conversions",
     lead: "Single storey and wraparound extensions, new openings and steels, and attic conversions with stairs, rooflights and en-suites.",
-    hero: "M96",
+    hero: "M84",
     intro: [
       "We build extensions from the foundations up: groundworks, blockwork, steel, roof structures, rooflights and large glazed openings, then the kitchen or living space inside.",
       "Structural work is coordinated with your engineer. Attic conversions include the new stair, floor structure, rooflights or dormer, insulation and, often, a shower room.",
@@ -106,9 +106,9 @@ export const servicePages: ServicePageData[] = [
     featured: ["extension-renovation-phibsborough", "rear-extension-leixlip", "attic-conversions", "kitchen-extensions"],
     pairs: [
       { design: "M338", built: "M42", caption: "Leixlip: architect's elevations and the finished extension" },
-      { design: "M330", built: "M83", caption: "Phibsborough: design and built" },
+      { design: "M339", built: "M96", caption: "Leixlip: section through the rooflights and the room under them" },
     ],
-    gallery: ["M36", "M37", "M41", "M190", "M189", "M193", "M198", "M200"],
+    gallery: ["M37", "M41", "M15", "M190", "M188", "M193", "M200", "M43"],
     faqs: [
       {
         q: "Do I need planning permission for an extension?",
@@ -132,7 +132,7 @@ export const servicePages: ServicePageData[] = [
     eyebrow: "Kitchens and bathrooms",
     title: "Kitchens and bathrooms, designed and built",
     lead: "New kitchens, en-suites and family bathrooms, often designed in 3D first so you can see the room before we build it.",
-    hero: "M101",
+    hero: "N077",
     intro: [
       "We plan the layout, the services and the finishes, then fit the room with our own team. Where it helps, we draw the room in 3D first so the decisions are made before work starts.",
     ],
@@ -145,9 +145,10 @@ export const servicePages: ServicePageData[] = [
     featured: ["bathrooms-interiors-leopardstown", "extension-renovation-phibsborough", "kitchen-living-renovation", "kitchen-extensions"],
     pairs: [
       { design: "M312", built: "M102", caption: "Leopardstown en-suite: MF design and built" },
+      { design: "M340", built: "M97", caption: "Leixlip kitchen: architect's drawing and the finished island" },
       { design: "M203", built: "M202", caption: "Kitchen: MF 3D design and built" },
     ],
-    gallery: ["M87", "M91", "M97", "M29", "M76", "M69", "M199", "M192"],
+    gallery: ["M87", "N090", "M91", "N071", "M76", "N041", "N100", "M70"],
     formType: "Kitchen or bathroom",
     related: [{ label: "Interior design", to: "/interior-design" }],
   },
@@ -158,7 +159,7 @@ export const servicePages: ServicePageData[] = [
     eyebrow: "Bespoke joinery",
     title: "Bespoke joinery from our own workshop",
     lead: "Wardrobes, media walls, bookcases, understairs storage, reception desks and panelling, drawn and made to fit.",
-    hero: "M89",
+    hero: "M90",
     intro: [
       "Our joinery workshop is in Drumree, Co. Meath. We draw each piece, make it and fit it ourselves, so it fits the room it was designed for.",
     ],
@@ -170,9 +171,9 @@ export const servicePages: ServicePageData[] = [
     featured: ["whole-house-renovation-rathcoole", "extension-renovation-phibsborough", "clinic-fit-out-dublin-1"],
     pairs: [
       { design: "M130", built: "M138", caption: "Clinic desk: MF drawings and the desk as built" },
-      { design: "M331", built: "M89", caption: "Phibsborough living room: design and built" },
+      { design: "M341", built: "M44", caption: "Leixlip bookcases: drawing and built" },
     ],
-    gallery: ["M10", "M12", "M13", "M19", "M20", "M21", "M25", "M31", "M90", "M94", "M44", "M139"],
+    gallery: ["M10", "N001", "N003", "M12", "N005", "M13", "M25", "N069", "N070", "M31", "M94", "M88"],
     formType: "Bespoke joinery",
   },
   {
@@ -230,7 +231,7 @@ export const servicePages: ServicePageData[] = [
     eyebrow: "Interior design, residential and commercial",
     title: "We design it, then we build it",
     lead: "Layouts, 3D views, finishes, lighting and joinery drawings, as a design service on its own or as part of design and build.",
-    hero: "M141",
+    hero: "N099",
     intro: [
       "Good design saves money on site. We measure the space, agree the brief, draw the layout, show you the rooms in 3D and detail the joinery, so the build follows a plan everyone has seen.",
       "You can take the design to any contractor, or have us build it. The clinic below was designed and fitted out by MF.",
@@ -243,12 +244,11 @@ export const servicePages: ServicePageData[] = [
     ],
     featured: ["clinic-fit-out-dublin-1", "whole-house-renovation-rathcoole", "bathrooms-interiors-leopardstown", "restaurant-fit-out-dublin-2"],
     pairs: [
-      { design: "M124", built: "M141", caption: "Clinic reception: MF design and the finished room" },
-      { design: "M316", built: "M29", caption: "Rathcoole bathroom: MF design and built" },
-      { design: "M312", built: "M102", caption: "Leopardstown en-suite: MF design and built" },
-      { design: "M306", built: "M166", caption: "BAH33 washroom: MF render and built" },
+      { design: "M311", built: "M77", caption: "Leopardstown bathroom: MF design and built" },
+      { design: "M320", built: "M21", caption: "Rathcoole dressing room: MF design and built" },
+      { design: "M126", built: "M148", caption: "Clinic waiting area: MF design and built" },
     ],
-    gallery: ["M129", "M130", "M208", "M209", "M210", "M319", "M320", "M311"],
+    gallery: ["M149", "M305", "M307", "M208", "M209", "M210", "M315", "M150"],
     formType: "Interior design",
     related: [
       { label: "Commercial fit-out", to: "/commercial" },
@@ -275,8 +275,8 @@ export const servicePages: ServicePageData[] = [
     ],
     featured: ["clinic-fit-out-dublin-1", "restaurant-fit-out-dublin-2"],
     pairs: [
-      { design: "M124", built: "M141", caption: "Clinic reception: MF design and the finished room" },
-      { design: "M130", built: "M138", caption: "Clinic desk: MF drawings and the desk as built" },
+      { design: "M306", built: "M166", caption: "BAH33 washroom: MF render and the finished room" },
+      { design: "M129", built: "M143", caption: "Clinic: MF layout plan and the finished room" },
     ],
     faqs: [
       {

@@ -156,12 +156,12 @@ export const PairCard = ({ design, built, caption }: { design: string; built: st
   </figure>
 );
 
-export const CaseCard = ({ c, eager }: { c: CaseStudy; eager?: boolean }) => (
+export const CaseCard = ({ c, eager, ctx }: { c: CaseStudy; eager?: boolean; ctx?: string }) => (
   <Link
     to={`/projects/${c.slug}`}
     className="group flex flex-col rounded-2xl border border-border bg-card overflow-hidden shadow-soft hover:shadow-luxury transition-all duration-300"
   >
-    <Img id={c.cover} className="aspect-[4/3]" eager={eager} label={false} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
+    <Img id={(ctx && c.covers?.[ctx]) || c.cover} className="aspect-[4/3]" eager={eager} label={false} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
     <div className="p-5 flex flex-col flex-1">
       <div className="text-xs uppercase tracking-wider font-semibold text-[#8a6d12] mb-1">{c.sector}</div>
       <h3 className="text-lg font-bold text-foreground leading-snug">{c.title}</h3>

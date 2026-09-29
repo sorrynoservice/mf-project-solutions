@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
-import { ContactSection, Img, PageHero, PairCard, SectionTitle, wrap } from "@/components/work/Work";
+import { ContactSection, Gallery, Img, PageHero, SectionTitle, wrap } from "@/components/work/Work";
 import { useSeo } from "@/lib/seo";
 
 const steps = [
@@ -38,7 +38,7 @@ const HowWeWork = () => {
     <div className="min-h-screen bg-background">
       <Header variant="home" />
       <PageHero
-        id="M36"
+        id="M35"
         eyebrow="How we work"
         title="One team takes responsibility for the whole project"
         lead="Design, engineering coordination, construction and joinery under one contract, founder-led by an engineer and quantity surveyor with over 25 years in construction."
@@ -63,15 +63,15 @@ const HowWeWork = () => {
         <div className={wrap}>
           <SectionTitle
             eyebrow="Example"
-            title="A clinic, designed and then built"
-            text="The reception of a Dublin 1 clinic: our 3D design and joinery drawings, the desk being installed, and the finished room."
+            title="A house, from drawing to handover"
+            text="Extension and renovation in Phibsborough: the architect's plan, the structural work, the new shell and the finished kitchen."
           />
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
             {[
-              ["M124", "1. 3D design"],
-              ["M130", "2. Joinery drawings"],
-              ["M137", "3. Desk installed"],
-              ["M141", "4. Finished"],
+              ["M333", "1. Architect's plan"],
+              ["M02", "2. Structure"],
+              ["N020", "3. New blockwork shell"],
+              ["N078", "4. Finished kitchen"],
             ].map(([id, label]) => (
               <figure key={id}>
                 <Img id={id} className="aspect-[4/3] rounded-xl" label={false} sizes="(min-width: 1024px) 25vw, 50vw" />
@@ -79,8 +79,8 @@ const HowWeWork = () => {
               </figure>
             ))}
           </div>
-          <Link to="/projects/clinic-fit-out-dublin-1" className="mt-8 inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all">
-            See the clinic project <ArrowRight className="w-4 h-4" />
+          <Link to="/projects/extension-renovation-phibsborough" className="mt-8 inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all">
+            See the Phibsborough project <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </section>
@@ -105,9 +105,9 @@ const HowWeWork = () => {
       </section>
 
       <section className="pb-16">
-        <div className={`${wrap} grid md:grid-cols-2 gap-6`}>
-          <PairCard design="M332" built="M86" caption="Phibsborough kitchen: design visualisation and the finished room" />
-          <PairCard design="M340" built="M97" caption="Leixlip kitchen: architect's drawing and the finished island" />
+        <div className={wrap}>
+          <SectionTitle eyebrow="Our team" title="Our own people on site" text="General building work is carried out by our own site team." />
+          <Gallery ids={["N022", "N023", "N028", "M05", "N031", "M07", "N038", "M08"]} cols={4} />
         </div>
       </section>
 
