@@ -193,7 +193,8 @@ export const servicePages: ServicePageData[] = [
       { title: "Structure", text: "Foundation, insulated timber frame, membranes and cladding." },
       { title: "Services and fit-out", text: "Electrics, plumbing, kitchenettes, shower rooms and built-in storage." },
     ],
-    featured: ["our-garden-dwelling", "garden-dwelling-interiors", "glazed-garden-room", "glass-fronted-garden-room-louth"],
+    featured: ["our-garden-dwelling", "composite-clad-garden-room", "garden-room-and-sauna", "garden-office-with-lighting", "rendered-garden-rooms", "glazed-garden-room"],
+    gallery: ["G74", "G76", "G82", "N018", "M52", "M195", "M196", "M62"],
     formType: "Garden building or garden dwelling",
     related: [
       { label: "Granny flats: the planning rules", to: "/granny-flats" },
@@ -217,7 +218,7 @@ export const servicePages: ServicePageData[] = [
       { title: "Glass rooms and canopies", text: "Glass rooms and canopies over new patios." },
       { title: "Patios and paving", text: "Porcelain patios laid on a proper base, as part of the project." },
     ],
-    featured: ["outdoor-room-ashbourne", "outdoor-rooms-and-canopies", "glazed-garden-room", "glass-fronted-garden-room-louth"],
+    featured: ["outdoor-room-ashbourne", "outdoor-rooms-and-canopies", "glass-garden-room-and-garden-store", "glass-fronted-garden-room-louth"],
     formType: "Outdoor living",
     related: [
       { label: "Garden buildings and garden dwellings", to: "/residential/garden-buildings" },

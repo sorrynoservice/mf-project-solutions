@@ -184,7 +184,7 @@ const Index = () => {
               Garden buildings <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
-          <Img id="N018" className="order-1 lg:order-2 aspect-[4/3] rounded-2xl" label={false} sizes="(min-width: 1024px) 50vw, 100vw" />
+          <Img id="G83" className="order-1 lg:order-2 aspect-[4/3] rounded-2xl" label={false} sizes="(min-width: 1024px) 50vw, 100vw" />
         </div>
       </section>
 

@@ -158,5 +158,30 @@
     "route": "/projects/outdoor-rooms-and-canopies",
     "title": "Outdoor rooms, glass rooms and canopies | MF Project Solutions",
     "description": "Timber framed outdoor rooms with kitchens, glass rooms and steel canopies over new patios."
+  },
+  {
+    "route": "/projects/composite-clad-garden-room",
+    "title": "Composite clad garden room | MF Project Solutions",
+    "description": "An insulated garden room with slatted composite cladding, French doors and external lighting, on a new porcelain patio."
+  },
+  {
+    "route": "/projects/garden-room-and-sauna",
+    "title": "Garden room and sauna | MF Project Solutions",
+    "description": "A timber clad garden room with bifold doors and a matching standalone sauna, set into a new lawn."
+  },
+  {
+    "route": "/projects/garden-office-with-lighting",
+    "title": "Garden office with lighting | MF Project Solutions",
+    "description": "A garden office with composite cladding, a stepping stone path and low level garden lighting."
+  },
+  {
+    "route": "/projects/rendered-garden-rooms",
+    "title": "Rendered garden rooms and garden dwellings | MF Project Solutions",
+    "description": "Rendered, flat roofed garden buildings with rooflights and French doors, from garden rooms to self-contained dwellings."
+  },
+  {
+    "route": "/projects/glass-garden-room-and-garden-store",
+    "title": "Glass garden room and glass fronted garden store | MF Project Solutions",
+    "description": "A glass garden room and a glass fronted garden building, with the patios and paths around them."
   }
 ]
