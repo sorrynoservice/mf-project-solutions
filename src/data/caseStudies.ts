@@ -92,13 +92,13 @@ export const caseStudies: CaseStudy[] = [
       {
         stage: "construction",
         text: "The house stripped back, the extension shell formed and the rooflight openings framed.",
-        images: ["M32", "M35", "N059", "N020", "M36", "N048", "M37", "M02", "M05"],
+        images: ["M32", "A06", "A04", "A05", "M35", "N059", "N020", "M36", "N048", "M37", "M02", "M05"],
       },
       { stage: "bespoke", text: "Oak joinery for storage, display and the understairs space.", images: ["M89", "N080", "M90", "M93", "M94", "M88"] },
       {
         stage: "finished",
         text: "The finished extension, kitchen and bathrooms.",
-        images: ["M83", "M84", "M85", "N081", "M86", "N077", "M87", "N078", "N076", "N079", "N084", "M91", "N083", "M92", "M95"],
+        images: ["M83", "A01", "A02", "M84", "M85", "N081", "M86", "N077", "M87", "N078", "N076", "N079", "N084", "M91", "N083", "M92", "M95"],
       },
     ],
     pairs: [

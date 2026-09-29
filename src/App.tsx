@@ -3,6 +3,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import ServiceLanding from "@/pages/ServiceLanding";
 import HowWeWork from "@/pages/HowWeWork";
+import GalleryPage from "@/pages/GalleryPage";
 import ServicePage from "@/components/ServicePage";
 import { servicePages } from "@/data/servicePages";
 import Index from "@/pages/Index";
@@ -23,6 +24,7 @@ const App = () => (
         <Route key={p.route} path={p.route} element={<ServiceLanding route={p.route} />} />
       ))}
       <Route path="/how-we-work" element={<HowWeWork />} />
+      <Route path="/gallery" element={<GalleryPage />} />
       {/* Old service addresses */}
       <Route path="/garden-rooms" element={<Navigate to="/residential/garden-buildings" replace />} />
       <Route path="/granny-flats" element={<ServicePage slug="granny-flats" />} />

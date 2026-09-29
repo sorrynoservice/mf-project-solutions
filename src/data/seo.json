@@ -60,6 +60,11 @@
     "description": "Homes and commercial units designed and built by MF Project Solutions, from before to handover."
   },
   {
+    "route": "/gallery",
+    "title": "Gallery: Kitchens, Bathrooms, Joinery, Extensions | MF Project Solutions",
+    "description": "Photographs of our work by type: kitchens, bathrooms, bespoke joinery, extensions, garden buildings, commercial fit-outs and more."
+  },
+  {
     "route": "/how-we-work",
     "title": "How We Work | MF Project Solutions",
     "description": "Design, engineering coordination, construction and joinery under one contract, with clear terms before we start."

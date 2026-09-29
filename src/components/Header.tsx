@@ -17,6 +17,7 @@ const mainLinks = [
   { name: "Commercial", path: "/commercial" },
   { name: "Interior design", path: "/interior-design" },
   { name: "Projects", path: "/projects" },
+  { name: "Gallery", path: "/gallery" },
   { name: "How we work", path: "/how-we-work" },
   { name: "About", path: "/about" },
 ];

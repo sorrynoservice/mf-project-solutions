@@ -2,6 +2,12 @@
 export type Photo = { src: string; sm: string; w: number; h: number; alt: string; lowRes?: boolean };
 
 export const W: Record<string, Photo> = {
+  A01: { src: "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg", sm: "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01-sm.jpg", w: 1125, h: 2000, alt: "Aerial view of the finished rear extension" },
+  A02: { src: "/assets/work/phibsborough-aerial-view-of-the-house-and-garden-in-p-a02.jpg", sm: "/assets/work/phibsborough-aerial-view-of-the-house-and-garden-in-p-a02-sm.jpg", w: 1125, h: 2000, alt: "Aerial view of the house and garden in Phibsborough" },
+  A03: { src: "/assets/work/phibsborough-aerial-view-over-phibsborough-rooftops-a03.jpg", sm: "/assets/work/phibsborough-aerial-view-over-phibsborough-rooftops-a03-sm.jpg", w: 1125, h: 2000, alt: "Aerial view over Phibsborough rooftops" },
+  A04: { src: "/assets/work/phibsborough-drone-view-of-the-extension-under-constr-a04.jpg", sm: "/assets/work/phibsborough-drone-view-of-the-extension-under-constr-a04-sm.jpg", w: 1600, h: 2000, alt: "Drone view of the extension under construction" },
+  A05: { src: "/assets/work/phibsborough-drone-view-of-the-site-van-and-skip-a05.jpg", sm: "/assets/work/phibsborough-drone-view-of-the-site-van-and-skip-a05-sm.jpg", w: 1125, h: 2000, alt: "Drone view of the site, van and skip" },
+  A06: { src: "/assets/work/phibsborough-drone-view-of-the-whole-site-in-its-stre-a06.jpg", sm: "/assets/work/phibsborough-drone-view-of-the-whole-site-in-its-stre-a06-sm.jpg", w: 2000, h: 1125, alt: "Drone view of the whole site in its street" },
   G72: { src: "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg", sm: "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72-sm.jpg", w: 1024, h: 1536, alt: "Garden office at dusk with path and garden lighting", lowRes: true },
   G73: { src: "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg", sm: "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73-sm.jpg", w: 1122, h: 1402, alt: "Timber clad garden room with bifold doors and a sauna", lowRes: true },
   G74: { src: "/assets/work/garden-clad-garden-room-with-store-stepping-sto-g74.jpg", sm: "/assets/work/garden-clad-garden-room-with-store-stepping-sto-g74-sm.jpg", w: 1200, h: 1600, alt: "Clad garden room with store, stepping stones and patio" },

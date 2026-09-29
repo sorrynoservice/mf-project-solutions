@@ -8,6 +8,8 @@ import { CaseCard, ContactSection, Gallery, PageHero, PairCard, SectionTitle, wr
 import { useSeo } from "@/lib/seo";
 import NotFound from "@/pages/NotFound";
 
+const galleryFor: Record<string, string> = {"residential": "kitchens", "whole-house": "interiors", "extensions": "extensions", "kitchens-bathrooms": "kitchens", "joinery": "joinery", "garden-buildings": "garden", "outdoor-living": "outdoor", "interior-design": "design", "commercial": "commercial"};
+
 const ServiceLanding = ({ route }: { route: string }) => {
   useSeo(route);
   const page = findPage(route);
@@ -128,6 +130,9 @@ const ServiceLanding = ({ route }: { route: string }) => {
           <div className={wrap}>
             <SectionTitle eyebrow="Gallery" title="More of this work" />
             <Gallery ids={page.gallery} cols={4} />
+            <Link to={`/gallery?type=${galleryFor[page.key] ?? "kitchens"}`} className="mt-8 inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all">
+              See all photos in the gallery <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </section>
       )}
