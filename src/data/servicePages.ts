@@ -35,7 +35,7 @@ export const servicePages: ServicePageData[] = [
     hero: "N081",
     intro: [
       "Most of our residential work is a whole house or a large part of one: structural openings, extensions, new services, kitchens and bathrooms, finished with joinery from our own workshop.",
-      "We work to an architect's drawings or produce the design ourselves, and we take responsibility for the build from site set-up to handover.",
+      "We work to an architect's drawings or produce the design ourselves, and we manage the build from site set-up to handover.",
     ],
     includes: [],
     featured: ["extension-renovation-phibsborough", "whole-house-renovation-rathcoole", "rear-extension-leixlip", "bathrooms-interiors-leopardstown"],
@@ -47,7 +47,7 @@ export const servicePages: ServicePageData[] = [
     name: "Whole-house renovations",
     eyebrow: "Whole-house renovations",
     title: "Whole-house renovations, from structure to finish",
-    lead: "We take a house back to what works, fix what does not, extend where it helps and finish it properly, under one contract.",
+    lead: "We take a house back to what works, fix what does not, extend where it helps and finish it properly.",
     hero: "M85",
     intro: [
       "A whole-house renovation touches every trade at once: structure, roof, insulation, windows, plumbing, heating, electrics, kitchens, bathrooms and joinery. We plan and run all of it with our own site team and trusted specialists, so you deal with one contractor.",
@@ -193,8 +193,8 @@ export const servicePages: ServicePageData[] = [
       { title: "Structure", text: "Foundation, insulated timber frame, membranes and cladding." },
       { title: "Services and fit-out", text: "Electrics, plumbing, kitchenettes, shower rooms and built-in storage." },
     ],
-    featured: ["our-garden-dwelling", "composite-clad-garden-room", "garden-room-and-sauna", "garden-office-with-lighting", "rendered-garden-rooms", "glazed-garden-room"],
-    gallery: ["G74", "G76", "G82", "N018", "M52", "M195", "M196", "M62"],
+    featured: ["our-garden-dwelling", "composite-clad-garden-room", "garden-room-and-sauna", "garden-office-with-lighting", "rendered-garden-rooms", "garden-dwelling-interiors"],
+    gallery: ["G74", "G76", "G82", "N018", "M52", "M195", "M196", "N014"],
     formType: "Garden building or garden dwelling",
     related: [
       { label: "Granny flats: the planning rules", to: "/granny-flats" },
@@ -207,18 +207,19 @@ export const servicePages: ServicePageData[] = [
     route: "/residential/outdoor-living",
     name: "Outdoor living",
     eyebrow: "Outdoor living",
-    title: "Outdoor rooms, glass rooms and canopies",
-    lead: "Covered outdoor rooms with kitchens, glass rooms, canopies and the patios around them.",
+    title: "Outdoor rooms, kitchens and glazed outdoor rooms",
+    lead: "Covered outdoor rooms with kitchens, pergolas and canopies, glazed outdoor rooms, and the patios around them.",
     hero: "M173",
     intro: [
       "Outdoor rooms are built like any other structure: a proper base, a timber or block frame, a roof that drains, and electrics run safely from the house.",
     ],
     includes: [
       { title: "Outdoor rooms and kitchens", text: "Timber framed rooms with built-in barbecues, worktops and bars." },
-      { title: "Glass rooms and canopies", text: "Glass rooms and canopies over new patios." },
+      { title: "Pergolas and canopies", text: "Timber pergolas and steel canopies over new patios." },
+      { title: "Glazed outdoor rooms", text: "Aluminium and glass rooms with sliding glass walls and glass or polycarbonate roofs. A separate product from our insulated garden buildings." },
       { title: "Patios and paving", text: "Porcelain patios laid on a proper base, as part of the project." },
     ],
-    featured: ["outdoor-room-ashbourne", "outdoor-rooms-and-canopies", "glass-garden-room-and-garden-store", "glass-fronted-garden-room-louth"],
+    featured: ["outdoor-room-ashbourne", "outdoor-rooms-and-canopies", "glazed-garden-room", "glass-garden-room-and-garden-store", "glass-fronted-garden-room-louth"],
     formType: "Outdoor living",
     related: [
       { label: "Garden buildings and garden dwellings", to: "/residential/garden-buildings" },

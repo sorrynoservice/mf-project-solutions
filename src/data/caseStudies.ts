@@ -98,7 +98,7 @@ export const caseStudies: CaseStudy[] = [
       {
         stage: "finished",
         text: "The finished extension, kitchen and bathrooms.",
-        images: ["M83", "A01", "A02", "M84", "M85", "N081", "M86", "N077", "M87", "N078", "N076", "N079", "N084", "M91", "N083", "M92", "M95"],
+        images: ["H01", "H02", "H04", "H03", "M83", "A01", "A02", "M84", "M85", "N081", "M86", "N077", "M87", "N078", "N076", "N079", "N084", "M91", "N083", "M92", "M95"],
       },
     ],
     pairs: [
@@ -183,7 +183,7 @@ export const caseStudies: CaseStudy[] = [
       {
         stage: "finished",
         text: "The terrace, dining room and washrooms in use.",
-        images: ["M157", "M159", "M156", "M160", "M168", "M170", "M169", "M164", "M165", "M163", "M166", "M167"],
+        images: ["H07", "H08", "H06", "H09", "H12", "M157", "M159", "M156", "M160", "M168", "M170", "M169", "M164", "M165", "H11", "H10", "H05", "M163", "M166", "M167"],
       },
     ],
     pairs: [{ design: "M306", built: "M166", caption: "Washroom: MF render and the finished room" }],
@@ -311,12 +311,12 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "glass-fronted-garden-room-louth",
-    title: "Glass fronted garden room, Co. Louth",
+    title: "Glazed outdoor room and patio, Co. Louth",
     sector: "Residential",
-    services: ["garden-buildings", "outdoor-living"],
+    services: ["outdoor-living"],
     location: "Blackrock, Co. Louth",
     year: "2026",
-    summary: "A glass fronted garden room with a new porcelain patio.",
+    summary: "A glazed outdoor room with a new porcelain patio.",
     cover: "M62",
     covers: {"outdoor-living": "M63"},
     stages: [
@@ -370,11 +370,11 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "glass-garden-room-and-garden-store",
-    title: "Glass garden room and glass fronted garden store",
+    title: "Glass room and glass fronted garden store",
     sector: "Residential",
-    services: ["garden-buildings", "outdoor-living"],
+    services: ["outdoor-living"],
     location: "Dublin and Meath",
-    summary: "A glass garden room and a glass fronted garden building, with the patios and paths around them.",
+    summary: "An aluminium and glass room and a glass fronted garden store, with the patios and paths around them.",
     cover: "G77",
     stages: [{ stage: "finished", images: ["G77", "G84", "G81"] }],
   },
@@ -410,14 +410,13 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "glazed-garden-room",
-    title: "Glazed garden room with timber pergola",
+    title: "Glazed outdoor room with timber pergola",
     sector: "Residential",
-    services: ["garden-buildings", "outdoor-living"],
+    services: ["outdoor-living"],
     location: "Dublin area",
     year: "2024",
-    summary: "A glazed garden room under a timber pergola, set on a porcelain terrace.",
+    summary: "A glazed outdoor room under a timber pergola, set on a porcelain terrace.",
     cover: "M177",
-    covers: {"garden-buildings": "M178"},
     stages: [{ stage: "finished", images: ["M177", "M178", "M179"] }],
   },
   {
@@ -433,7 +432,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "outdoor-rooms-and-canopies",
-    title: "Outdoor rooms, glass rooms and canopies",
+    title: "Outdoor rooms, glazed rooms and canopies",
     sector: "Residential",
     services: ["outdoor-living"],
     location: "Dublin and Meath",

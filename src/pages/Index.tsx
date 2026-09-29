@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, MessageCircle, Star } from "lucide-react";
 import Header from "@/components/Header";
@@ -8,9 +9,46 @@ import { caseStudies } from "@/data/caseStudies";
 import { company, contacts } from "@/data/site";
 import googleRating from "@/data/google-rating.json";
 import { CaseCard, Img, PairCard, SectionTitle, wrap } from "@/components/work/Work";
+import { W } from "@/data/work";
 import { useSeo } from "@/lib/seo";
 
 const flagships = caseStudies.filter((c) => c.flagship);
+
+/**
+ * Home hero set: residential and commercial alternate. Each slide has its own mobile
+ * photograph and focal point, so a wide image is never squeezed into a phone crop.
+ */
+const heroSlides = [
+  { desktop: "H01", mobile: "H03", pos: "50% 55%", mpos: "50% 60%", sector: "Residential", caption: "extension and renovation, Phibsborough. Architect: Francesco Panzeri" },
+  { desktop: "H07", mobile: "H07", pos: "40% 50%", mpos: "36% 50%", sector: "Commercial", caption: "BAH33 restaurant fit-out, Royal Hibernian Way, Dublin 2" },
+  { desktop: "H02", mobile: "H02", pos: "50% 35%", mpos: "60% 50%", sector: "Residential", caption: "the same Phibsborough house from the street" },
+  { desktop: "H06", mobile: "H06", pos: "50% 50%", mpos: "30% 50%", sector: "Commercial", caption: "BAH33 glazed terrace and shopfront, Dublin 2" },
+];
+
+const HeroSlides = ({ index }: { index: number }) => (
+  <div className="absolute inset-0" aria-hidden="true">
+    {heroSlides.map((h, i) => {
+      const d = W[h.desktop];
+      const m = W[h.mobile];
+      return (
+        <picture key={h.desktop} className={`absolute inset-0 transition-opacity duration-[1400ms] ease-in-out ${i === index ? "opacity-100" : "opacity-0"}`}>
+          <source media="(max-width: 767px)" srcSet={m.src} />
+          <img
+            src={d.src}
+            alt=""
+            width={d.w}
+            height={d.h}
+            loading={i === 0 ? "eager" : "lazy"}
+            fetchPriority={i === 0 ? "high" : "low"}
+            decoding="async"
+            className="w-full h-full object-cover hero-img"
+            style={{ ["--pos" as string]: h.pos, ["--mpos" as string]: h.mpos }}
+          />
+        </picture>
+      );
+    })}
+  </div>
+);
 
 const sectors = [
   {
@@ -35,26 +73,43 @@ const sectors = [
 
 const Index = () => {
   useSeo("/");
+  const [slide, setSlide] = useState(0);
+  const [held, setHeld] = useState(false);
+  useEffect(() => {
+    if (held || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const t = setInterval(() => setSlide((i) => (i + 1) % heroSlides.length), 7000);
+    return () => clearInterval(t);
+  }, [held]);
+  const pick = (i: number) => {
+    setSlide(i);
+    setHeld(true);
+  };
   return (
     <div className="min-h-screen bg-background">
       <Header variant="home" />
 
-      {/* Hero */}
-      <section className="relative min-h-[100svh] flex items-end pb-16 md:pb-24 pt-28 text-white">
-        <div className="absolute inset-0">
-          <Img id="M83" className="w-full h-full" eager label={false} sizes="100vw" />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/25" />
+      {/* Hero: a small set of finished residential and commercial work, crossfading slowly */}
+      <section className="relative min-h-[100svh] flex items-end pb-16 md:pb-24 pt-28 text-white overflow-hidden">
+        <HeroSlides index={slide} />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/25" />
+        <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-black/55 via-black/15 to-transparent" />
         <div className={`${wrap} relative z-10 w-full`}>
           <h1 className="text-[#d4af37] text-xs md:text-sm uppercase tracking-[0.25em] font-semibold mb-5">
             Design and build in Dublin, Meath and Kildare
           </h1>
           <p className="text-4xl sm:text-5xl md:text-7xl font-serif leading-[1.05] max-w-4xl">
-            We take responsibility for the <span className="text-[#d4af37] italic">whole project</span>.
+            Engineering-led design and build for <span className="text-[#d4af37] italic">residential and commercial</span> projects.
           </p>
-          <p className="mt-6 text-lg md:text-xl text-white/90 max-w-2xl">
-            Design, engineering and construction under one contract. Whole-house renovations, extensions and commercial fit-outs, built by our own team and finished in our own joinery workshop.
+          <p className="mt-6 hidden sm:block text-lg md:text-xl text-white/90 max-w-2xl">
+            From design through to construction and completion. Whole-house renovations, extensions and commercial fit-outs, built by our own team and finished in our own joinery workshop.
           </p>
+          <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-1 text-sm text-white/85" aria-label="What we do">
+            <li>Residential and commercial</li>
+            <li aria-hidden="true" className="text-[#d4af37]">·</li>
+            <li>Design and build</li>
+            <li aria-hidden="true" className="text-[#d4af37]">·</li>
+            <li>Construction and fit-out</li>
+          </ul>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <a href="#contact" className="inline-flex items-center justify-center h-14 rounded-lg px-8 font-semibold bg-[#d4af37] text-[#0a2e2a] hover:bg-[#d4af37]/90 shadow-lg">
               Arrange a site visit
@@ -66,12 +121,12 @@ const Index = () => {
               href={contacts.construction.whatsapp}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 h-14 rounded-lg px-6 font-semibold text-white/90 hover:text-white"
+              className="hidden sm:inline-flex items-center justify-center gap-2 h-14 rounded-lg px-6 font-semibold text-white/90 hover:text-white"
             >
               <MessageCircle className="w-5 h-5" /> WhatsApp us
             </a>
           </div>
-          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/80">
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-white/80">
             <a href={company.reviewUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-white">
               <span className="flex gap-0.5" aria-hidden="true">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -80,7 +135,22 @@ const Index = () => {
               </span>
               {googleRating.rating.toFixed(1)} from {googleRating.count}+ Google reviews
             </a>
-            <span>Pictured: extension and renovation, Phibsborough. Architect: Francesco Panzeri</span>
+            <span aria-live="polite">Pictured: {heroSlides[slide].caption}</span>
+            <div className="flex items-center gap-2" role="group" aria-label="Hero photographs">
+              {heroSlides.map((h, i) => (
+                <button
+                  key={h.desktop}
+                  type="button"
+                  onClick={() => pick(i)}
+                  aria-label={`Show ${h.sector.toLowerCase()} photo: ${h.caption}`}
+                  aria-current={i === slide}
+                  className="group py-2"
+                >
+                  <span className={`block h-[3px] rounded-full transition-all duration-500 ${i === slide ? "w-9 bg-[#d4af37]" : "w-5 bg-white/45 group-hover:bg-white/80"}`} />
+                </button>
+              ))}
+              <span className="ml-1 text-xs uppercase tracking-[0.18em] text-white/70">{heroSlides[slide].sector}</span>
+            </div>
           </div>
         </div>
       </section>

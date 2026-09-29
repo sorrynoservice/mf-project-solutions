@@ -40,8 +40,8 @@ const HowWeWork = () => {
       <PageHero
         id="M35"
         eyebrow="How we work"
-        title="One team takes responsibility for the whole project"
-        lead="Design, engineering coordination, construction and joinery under one contract, founder-led by an engineer and quantity surveyor with over 25 years in construction."
+        title="Design, construction and project coordination, all under one roof"
+        lead="From initial design and technical planning through to construction, fit-out and completion, our team can manage every stage of the project. Founder-led by an engineer and quantity surveyor with over 25 years in construction."
       />
 
       <section className="py-16 md:py-20">

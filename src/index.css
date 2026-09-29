@@ -48,3 +48,7 @@
     background: var(--gradient-accent);
   }
 }
+
+/* Home hero: separate focal points for desktop and phone crops */
+.hero-img { object-position: var(--pos, 50% 50%); }
+@media (max-width: 767px) { .hero-img { object-position: var(--mpos, 50% 50%); } }

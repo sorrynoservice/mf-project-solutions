@@ -11,6 +11,7 @@ export const residentialLinks = [
   { name: "Kitchens and bathrooms", path: "/residential/kitchens-bathrooms" },
   { name: "Bespoke joinery", path: "/residential/bespoke-joinery" },
   { name: "Garden buildings and garden dwellings", path: "/residential/garden-buildings" },
+  { name: "Outdoor living and glazed rooms", path: "/residential/outdoor-living" },
 ];
 
 const mainLinks = [

@@ -2,6 +2,18 @@
 export type Photo = { src: string; sm: string; w: number; h: number; alt: string; lowRes?: boolean };
 
 export const W: Record<string, Photo> = {
+  H01: { src: "/assets/work/phibsborough-rear-extension-and-garden-h01.jpg", sm: "/assets/work/phibsborough-rear-extension-and-garden-h01-sm.jpg", w: 1536, h: 1024, alt: "Rear extension and garden, Phibsborough" },
+  H02: { src: "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg", sm: "/assets/work/phibsborough-front-elevation-after-renovation-h02-sm.jpg", w: 1488, h: 1057, alt: "Front elevation after the renovation, Phibsborough" },
+  H03: { src: "/assets/work/phibsborough-aerial-rear-extension-and-garden-h03.jpg", sm: "/assets/work/phibsborough-aerial-rear-extension-and-garden-h03-sm.jpg", w: 940, h: 1674, alt: "Aerial view of the rear extension and garden, Phibsborough" },
+  H04: { src: "/assets/work/phibsborough-side-and-rear-elevation-with-gates-h04.jpg", sm: "/assets/work/phibsborough-side-and-rear-elevation-with-gates-h04-sm.jpg", w: 1536, h: 1024, alt: "Side and rear elevation with new gates, Phibsborough" },
+  H05: { src: "/assets/work/bah33-wc-marble-effect-walls-h05.jpg", sm: "/assets/work/bah33-wc-marble-effect-walls-h05-sm.jpg", w: 1066, h: 1600, alt: "BAH33 WC with marble-effect walls and gold fittings" },
+  H06: { src: "/assets/work/bah33-glazed-terrace-and-shopfront-h06.jpg", sm: "/assets/work/bah33-glazed-terrace-and-shopfront-h06-sm.jpg", w: 1600, h: 1078, alt: "BAH33 glazed terrace and shopfront, Royal Hibernian Way" },
+  H07: { src: "/assets/work/bah33-main-dining-room-and-buffet-h07.jpg", sm: "/assets/work/bah33-main-dining-room-and-buffet-h07-sm.jpg", w: 1600, h: 1066, alt: "BAH33 main dining room and buffet" },
+  H08: { src: "/assets/work/bah33-dining-room-brick-feature-wall-h08.jpg", sm: "/assets/work/bah33-dining-room-brick-feature-wall-h08-sm.jpg", w: 1600, h: 1066, alt: "BAH33 dining room with the illuminated brick feature wall" },
+  H09: { src: "/assets/work/bah33-terrace-enclosure-to-the-lane-h09.jpg", sm: "/assets/work/bah33-terrace-enclosure-to-the-lane-h09-sm.jpg", w: 1524, h: 1365, alt: "BAH33 terrace enclosure looking out to the lane" },
+  H10: { src: "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg", sm: "/assets/work/bah33-double-vanity-slatted-timber-h10-sm.jpg", w: 1066, h: 1600, alt: "BAH33 double vanity with slatted timber and gold taps" },
+  H11: { src: "/assets/work/bah33-washroom-corridor-sign-h11.jpg", sm: "/assets/work/bah33-washroom-corridor-sign-h11-sm.jpg", w: 1066, h: 1600, alt: "BAH33 washroom corridor with the illuminated sign" },
+  H12: { src: "/assets/work/bah33-covered-terrace-seating-h12.jpg", sm: "/assets/work/bah33-covered-terrace-seating-h12-sm.jpg", w: 1042, h: 1600, alt: "BAH33 covered terrace seating" },
   A01: { src: "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg", sm: "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01-sm.jpg", w: 1125, h: 2000, alt: "Aerial view of the finished rear extension" },
   A02: { src: "/assets/work/phibsborough-aerial-view-of-the-house-and-garden-in-p-a02.jpg", sm: "/assets/work/phibsborough-aerial-view-of-the-house-and-garden-in-p-a02-sm.jpg", w: 1125, h: 2000, alt: "Aerial view of the house and garden in Phibsborough" },
   A03: { src: "/assets/work/phibsborough-aerial-view-over-phibsborough-rooftops-a03.jpg", sm: "/assets/work/phibsborough-aerial-view-over-phibsborough-rooftops-a03-sm.jpg", w: 1125, h: 2000, alt: "Aerial view over Phibsborough rooftops" },
