@@ -1,18 +1,43 @@
 [
   {
     "route": "/",
-    "title": "Garden Rooms, Extensions & Renovations in Dublin & Meath | MF Project Solutions",
-    "description": "Builders for garden rooms, granny flats, extensions, kitchens and bathrooms across Dublin, Meath and Kildare, within 50km of Dunshaughlin. Rated 4.9 from 130+ Google reviews."
+    "title": "Design and Build Contractor in Dublin, Meath and Kildare | MF Project Solutions",
+    "description": "Whole-house renovations, extensions and commercial fit-outs, designed and built by one team with its own joinery workshop. Arrange a site visit."
   },
   {
-    "route": "/about",
-    "title": "About Us | MF Project Solutions",
-    "description": "Residential construction and renovation company based in Drumree, Co. Meath, with our own build team and joinery workshop."
+    "route": "/residential",
+    "title": "Home Renovations and Extensions in Dublin | MF Project Solutions",
+    "description": "Whole-house renovations, extensions, attic conversions, kitchens, bathrooms and bespoke joinery, often working with your architect."
   },
   {
-    "route": "/garden-rooms",
-    "title": "Garden Rooms in Dublin & Meath | MF Project Solutions",
-    "description": "Insulated garden rooms, studios and home offices up to 30m² without planning permission, built turnkey by our own team. Request a free site visit."
+    "route": "/residential/whole-house-renovations",
+    "title": "Whole-House Renovations in Dublin | MF Project Solutions",
+    "description": "Whole-house renovations from structure to finish under one fixed price contract, with joinery from our own workshop."
+  },
+  {
+    "route": "/residential/extensions",
+    "title": "Extensions and Attic Conversions in Dublin | MF Project Solutions",
+    "description": "Rear, side and wraparound extensions, structural openings and attic conversions with rooflights and en-suites."
+  },
+  {
+    "route": "/residential/kitchens-bathrooms",
+    "title": "Kitchen and Bathroom Renovations in Dublin | MF Project Solutions",
+    "description": "Kitchens, en-suites and bathrooms designed in 3D and built by our own team."
+  },
+  {
+    "route": "/residential/bespoke-joinery",
+    "title": "Bespoke Joinery in Dublin and Meath | MF Project Solutions",
+    "description": "Wardrobes, media walls, bookcases, reception desks and panelling, drawn and made in our workshop in Drumree."
+  },
+  {
+    "route": "/residential/garden-buildings",
+    "title": "Garden Buildings and Garden Dwellings in Dublin and Meath | MF Project Solutions",
+    "description": "Insulated garden rooms and self-contained garden dwellings, designed and built like part of the house."
+  },
+  {
+    "route": "/residential/outdoor-living",
+    "title": "Outdoor Rooms, Glass Rooms and Canopies | MF Project Solutions",
+    "description": "Covered outdoor rooms with kitchens, glass rooms, canopies and the patios around them."
   },
   {
     "route": "/granny-flats",
@@ -20,34 +45,29 @@
     "description": "Detached garden dwellings from 32m² to 45m², now exempt from planning under the July 2026 rules. Design, council notification and build by one team."
   },
   {
-    "route": "/home-extensions",
-    "title": "Home Extensions in Dublin & Meath | MF Project Solutions",
-    "description": "Rear extensions up to 45m² without planning permission, and larger extensions with planning, managed from design to handover. Free site visit."
-  },
-  {
-    "route": "/bathroom-renovations",
-    "title": "Bathroom Renovations in Dublin & Meath | MF Project Solutions",
-    "description": "Full bathroom and ensuite renovations: design, plumbing, tiling and finishing by one team. Serving Dublin and within 50km of Dunshaughlin, Co. Meath."
-  },
-  {
-    "route": "/kitchen-renovations",
-    "title": "Kitchen Renovations in Dublin & Meath | MF Project Solutions",
-    "description": "Kitchen supply and fit with bespoke joinery from our own workshop in Co. Meath. Serving Dublin and within 50km of Dunshaughlin, Co. Meath."
-  },
-  {
-    "route": "/landscaping-pergolas",
-    "title": "Landscaping, Patios & Pergolas in Dublin & Meath | MF Project Solutions",
-    "description": "Paving, artificial grass, decking and pergolas designed and built by our own crew. Serving Dublin and within 50km of Dunshaughlin, Co. Meath."
-  },
-  {
     "route": "/interior-design",
-    "title": "Refurbishments & Fit Outs in Dublin | MF Project Solutions",
-    "description": "Whole house refurbishments and interior fit outs, from layout and finishes to joinery and handover. Dublin and within 50km of Dunshaughlin, Co. Meath."
+    "title": "Interior Design, Residential and Commercial | MF Project Solutions",
+    "description": "Layouts, 3D views, finishes and joinery drawings, as a design service or as part of design and build."
+  },
+  {
+    "route": "/commercial",
+    "title": "Commercial Fit-Out in Dublin: Clinics, Restaurants, Retail | MF Project Solutions",
+    "description": "Commercial design and fit-out for clinics, restaurants, retail and offices, closed out with your design team."
   },
   {
     "route": "/projects",
-    "title": "Our Projects: Garden Rooms, Extensions & Renovations | MF Project Solutions",
-    "description": "Garden rooms, granny flats, extensions, landscaping and commercial fit outs completed by MF Project Solutions across Dublin and Meath."
+    "title": "Projects: Renovations, Extensions and Fit-Outs | MF Project Solutions",
+    "description": "Homes and commercial units designed and built by MF Project Solutions, from before to handover."
+  },
+  {
+    "route": "/how-we-work",
+    "title": "How We Work | MF Project Solutions",
+    "description": "Design, engineering coordination, construction and joinery under one contract, with clear terms before we start."
+  },
+  {
+    "route": "/about",
+    "title": "About Us | MF Project Solutions",
+    "description": "Residential construction and renovation company based in Drumree, Co. Meath, with our own build team and joinery workshop."
   },
   {
     "route": "/snagging",
@@ -63,5 +83,80 @@
     "route": "/garden-calculator",
     "title": "Garden Renovation Cost Calculator | MF Project Solutions",
     "description": "Build your garden project and see an instant estimate for paving, artificial grass, decking and pergolas, then request a confirmed quote."
+  },
+  {
+    "route": "/projects/extension-renovation-phibsborough",
+    "title": "Extension and full renovation, Phibsborough | MF Project Solutions",
+    "description": "A red brick house taken back to its structure, extended to the side and rear, and finished with a new kitchen, bathrooms and full height oak joinery."
+  },
+  {
+    "route": "/projects/clinic-fit-out-dublin-1",
+    "title": "Clinic design and fit-out, Dublin 1 | MF Project Solutions",
+    "description": "We designed the reception and waiting areas, drew the joinery and then built it: a slatted, illuminated reception desk, timber wall panelling and storage."
+  },
+  {
+    "route": "/projects/restaurant-fit-out-dublin-2",
+    "title": "BAH33, restaurant fit-out, Royal Hibernian Way, Dublin 2 | MF Project Solutions",
+    "description": "Fit-out of a city centre restaurant: a glazed terrace enclosure and shopfront, kitchen layouts, a new bar and washrooms, and close-out with the design team."
+  },
+  {
+    "route": "/projects/whole-house-renovation-rathcoole",
+    "title": "Whole house renovation and joinery, Rathcoole | MF Project Solutions",
+    "description": "A rear extension, attic rooms and bathrooms, with bespoke joinery in almost every room: arched doors, eaves wardrobes, a dressing room island and panelled walls."
+  },
+  {
+    "route": "/projects/rear-extension-leixlip",
+    "title": "Rear extension and kitchen, Leixlip | MF Project Solutions",
+    "description": "A single storey rear extension with a standing seam roof and rooflights, opening the house to the garden, with a new kitchen island and built-in bookcases."
+  },
+  {
+    "route": "/projects/bathrooms-interiors-leopardstown",
+    "title": "Bathrooms and interiors, Leopardstown | MF Project Solutions",
+    "description": "MF designed the bathroom and en-suite in 3D, then built them: stone look tile, brass fittings and a panelled hall and stair."
+  },
+  {
+    "route": "/projects/our-garden-dwelling",
+    "title": "Our own garden dwelling | MF Project Solutions",
+    "description": "A clad garden dwelling built by MF at our founder's home, with a kitchenette, shower room, bunk room and built-in storage."
+  },
+  {
+    "route": "/projects/kitchen-living-renovation",
+    "title": "Kitchen and living room renovation | MF Project Solutions",
+    "description": "A new kitchen with an island and tall units, a living room with a brick slip wall and a glazed partition to the dining area."
+  },
+  {
+    "route": "/projects/outdoor-room-ashbourne",
+    "title": "Outdoor room and kitchen, Ashbourne | MF Project Solutions",
+    "description": "A covered outdoor room with glass sliding panels and a built-in barbecue, built from the blockwork up."
+  },
+  {
+    "route": "/projects/glass-fronted-garden-room-louth",
+    "title": "Glass fronted garden room, Co. Louth | MF Project Solutions",
+    "description": "A glass fronted garden room with a new porcelain patio."
+  },
+  {
+    "route": "/projects/attic-conversions",
+    "title": "Attic conversions and en-suites | MF Project Solutions",
+    "description": "New attic stairs, rooflights and shower rooms, turning roof space into bedrooms and studies."
+  },
+  {
+    "route": "/projects/kitchen-extensions",
+    "title": "Kitchen extensions with rooflights | MF Project Solutions",
+    "description": "Open plan kitchens under new rooflights, with islands, fluted details and feature walls."
+  },
+  {
+    "route": "/projects/glazed-garden-room",
+    "title": "Glazed garden room with timber pergola | MF Project Solutions",
+    "description": "A glazed garden room under a timber pergola, set on a porcelain terrace."
+  },
+  {
+    "route": "/projects/garden-dwelling-interiors",
+    "title": "Garden dwelling interior | MF Project Solutions",
+    "description": "A self-contained garden dwelling with a bedroom, built-in wardrobes, shower room and kitchenette."
+  },
+  {
+    "route": "/projects/outdoor-rooms-and-canopies",
+    "title": "Outdoor rooms, glass rooms and canopies | MF Project Solutions",
+    "description": "Timber framed outdoor rooms with kitchens, glass rooms and steel canopies over new patios."
   }
 ]

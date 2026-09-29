@@ -28,10 +28,10 @@ const SiteFooter = ({ tagline, variant = "default" }: Props) => (
         {variant === "calculator" && (
           <div className="flex items-center gap-4">
             <Link
-              to="/landscaping-pergolas"
+              to="/residential/outdoor-living"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              Landscaping &amp; Pergolas
+              Outdoor living
             </Link>
             <Link
               to="/"

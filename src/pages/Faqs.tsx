@@ -22,7 +22,7 @@ const groups: Group[] = [
     items: [
       {
         q: "How do I get a quote?",
-        a: "Send us a WhatsApp or fill in the enquiry form with your project type, location and a few photos. We then arrange a free site visit and send you a written, itemised quote.",
+        a: "Send us a WhatsApp or fill in the enquiry form with your project type, location and a few photos. We then arrange a free site visit and send you a written, fixed price quote.",
       },
       {
         q: "Is the site visit free?",
@@ -49,7 +49,7 @@ const groups: Group[] = [
       {
         q: "Do I need planning permission for a garden room?",
         a: "Since 27 July 2026, garden rooms up to 30m² used as a home office, gym, studio or similar are usually exempt, as long as they are behind the front wall of the house, no higher than 4m with a pitched roof or 3m with a flat roof, and at least 25m² of rear garden is left. Existing sheds count towards the 30m². A room used to live or sleep in is different, see the next question.",
-        link: { to: "/garden-rooms", label: "Garden rooms" },
+        link: { to: "/residential/garden-buildings", label: "Garden buildings" },
       },
       {
         q: "Can I build a granny flat without planning permission?",
@@ -59,7 +59,7 @@ const groups: Group[] = [
       {
         q: "What size extension can I build without planning?",
         a: "Rear extensions up to 45m², subject to conditions on height, boundaries and remaining garden space. Side and rear dormers are also now exempt in many cases.",
-        link: { to: "/home-extensions", label: "Home extensions" },
+        link: { to: "/residential/extensions", label: "Extensions and attic conversions" },
       },
       {
         q: "What if my project needs planning permission?",
@@ -77,7 +77,7 @@ const groups: Group[] = [
     items: [
       {
         q: "How much does a garden room cost?",
-        a: "It depends on the size, specification, and how far the room is from the house for power, water and drainage. We give a fixed, itemised quote after the site visit.",
+        a: "It depends on the size, specification, and how far the room is from the house for power, water and drainage. We give a fixed price quote after the site visit, with optional extras priced separately.",
       },
       {
         q: "Are service connections included?",

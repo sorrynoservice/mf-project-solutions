@@ -4,16 +4,17 @@ import { contacts, WEB3FORMS_KEY } from "@/data/site";
 import { track } from "@/lib/track";
 
 const projectTypes = [
-  "Garden room",
-  "Granny flat",
-  "Extension",
-  "Kitchen",
-  "Bathroom",
-  "Landscaping",
-  "Full renovation",
+  "Whole-house renovation",
+  "Extension or attic",
+  "Kitchen or bathroom",
+  "Bespoke joinery",
+  "Interior design",
+  "Commercial fit-out",
+  "Garden building or garden dwelling",
+  "Outdoor living",
   "Other",
 ];
-const budgets = ["Under €20k", "€20k to €50k", "€50k to €100k", "Over €100k", "Not sure yet"];
+const budgets = ["Under €20k", "€20k to €50k", "€50k to €100k", "€100k to €250k", "Over €250k", "Not sure yet"];
 const sources = [
   "Google",
   "Instagram",

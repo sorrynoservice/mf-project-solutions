@@ -11,7 +11,7 @@ const Footer = () => (
         <div>
           <img loading="lazy" decoding="async" src="/assets/mf-logo-DQmhj-jT.jpg" alt="MF Project Solutions" className="h-16 mb-4" />
           <p className="text-sm opacity-80 mb-4">
-            Design and build for garden rooms, extensions and renovations {coverage.summary}.
+            Design and build for homes and businesses {coverage.summary}.
           </p>
           <p className="text-sm opacity-80">{company.address}</p>
         </div>
@@ -41,13 +41,16 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm opacity-80">
-            <li><Link to="/about" className={linkClass}>About us</Link></li>
-            <li><Link to="/garden-rooms" className={linkClass}>Garden rooms</Link></li>
-            <li><Link to="/granny-flats" className={linkClass}>Granny flats</Link></li>
-            <li><Link to="/home-extensions" className={linkClass}>Home extensions</Link></li>
-            <li><Link to="/interior-design" className={linkClass}>Refurbishments &amp; fit outs</Link></li>
+            <li><Link to="/residential" className={linkClass}>Residential</Link></li>
+            <li><Link to="/residential/whole-house-renovations" className={linkClass}>Whole-house renovations</Link></li>
+            <li><Link to="/residential/extensions" className={linkClass}>Extensions and attics</Link></li>
+            <li><Link to="/commercial" className={linkClass}>Commercial fit-out</Link></li>
+            <li><Link to="/interior-design" className={linkClass}>Interior design</Link></li>
+            <li><Link to="/residential/garden-buildings" className={linkClass}>Garden buildings</Link></li>
             <li><Link to="/projects" className={linkClass}>Projects</Link></li>
-            <li><Link to="/snagging" className={linkClass}>Snagging inspections</Link></li>
+            <li><Link to="/how-we-work" className={linkClass}>How we work</Link></li>
+            <li><Link to="/about" className={linkClass}>About us</Link></li>
+            <li><Link to="/snagging" className={linkClass}>Property inspections</Link></li>
             <li><Link to="/faqs" className={linkClass}>FAQs</Link></li>
             <li><a href="#contact" className={linkClass}>Contact us</a></li>
           </ul>

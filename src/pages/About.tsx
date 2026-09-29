@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
 import { company, contacts, coverage } from "@/data/site";
 import { useSeo } from "@/lib/seo";
+import { caseStudies } from "@/data/caseStudies";
+import { CaseCard } from "@/components/work/Work";
 import googleRating from "@/data/google-rating.json";
 import {
   ArrowRight,
@@ -37,8 +39,8 @@ const principles = [
   },
   {
     icon: Briefcase,
-    title: "2. Written, itemised quote",
-    text: "Every item and every exclusion is listed, so you know exactly what you are paying for.",
+    title: "2. Written, fixed price quote",
+    text: "The specification and the exclusions are set out in writing, with one fixed contract price for the agreed scope.",
   },
   {
     icon: TrendingUp,
@@ -103,26 +105,7 @@ const leaders: Leader[] = [
 
 type Project = { category: string; title: string; image?: string; text: string };
 
-const projects: Project[] = [
-  {
-    category: "Bathroom Renovation",
-    title: "Bathroom Renovation",
-    image: "/assets/bathroom-renovations-hero-new-C7-melRI.jpg",
-    text: "Full bathroom renovation with a walk-in shower, new tiling and modern fittings.",
-  },
-  {
-    category: "Home Extension",
-    title: "Open Plan Extension",
-    image: "/assets/home-extensions-work-1-CkYlBiXD.jpg",
-    text: "Extension creating an open plan kitchen and living area with contemporary finishes and natural light.",
-  },
-  {
-    category: "Commercial Design and Build",
-    title: "BAH33, Royal Hibernian Way, Dublin 2",
-    image: "/assets/bah33-restaurant.webp",
-    text: "Design and build of a restaurant fit out, completed in 2024, increasing capacity from about 26 to 80 seats.",
-  },
-];
+
 
 const initials = (name: string) =>
   name
@@ -149,12 +132,12 @@ const About = () => {
                 <span className="text-sm font-semibold text-foreground tracking-wide">EST. {company.established}</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-black leading-[0.95] text-foreground tracking-tight">
-                Engineering led builders for homes in Dublin and Meath
+                Engineering-led design and build for homes and businesses
               </h1>
               <div className="h-1 w-24 bg-accent" />
               <p className="text-xl text-muted-foreground leading-relaxed font-light">
-                A design and build contractor with our own team and joinery workshop, delivering
-                garden rooms, extensions and renovations {coverage.summary}.
+                A design and build contractor with our own site team and joinery workshop, delivering
+                whole-house renovations, extensions and commercial fit-outs {coverage.summary}.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">
@@ -204,9 +187,9 @@ const About = () => {
               home we build.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              We deliver garden rooms and granny flats, house extensions, full renovations,
-              kitchens, bathrooms and outdoor spaces, plus commercial fit outs and snagging
-              inspections for new homes. We work with homeowners and with architects, and our team
+              We deliver whole-house renovations, extensions and attic conversions, kitchens,
+              bathrooms and bespoke joinery, commercial fit-outs and interior design, garden
+              buildings, and snagging inspections for new homes. We work with homeowners and with architects, and our team
               works in English and Brazilian Portuguese.
             </p>
           </div>
@@ -337,28 +320,8 @@ const About = () => {
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          {projects.map((p) => (
-            <div
-              key={p.title}
-              className={`${card} overflow-hidden group hover:shadow-luxury transition-all duration-300`}
-            >
-              <div className="p-0">
-                {p.image && (
-                  <div className="aspect-[4/3] w-full overflow-hidden">
-                    <img loading="lazy" decoding="async"
-                      src={p.image}
-                      alt={p.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                )}
-                <div className="p-6">
-                  <div className="text-xs font-medium text-accent mb-2">{p.category}</div>
-                  <h3 className="text-xl font-bold text-foreground mb-3">{p.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{p.text}</p>
-                </div>
-              </div>
-            </div>
+          {caseStudies.filter((c) => c.flagship).slice(0, 3).map((c) => (
+            <CaseCard key={c.slug} c={c} />
           ))}
         </div>
       </div>

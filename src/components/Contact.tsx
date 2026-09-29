@@ -14,7 +14,7 @@ const Contact = () => (
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-serif mb-4 text-white">Request a free site visit</h2>
         <p className="text-lg text-[#d4af37]">
-          Tell us about your project and we'll arrange a visit and a written, itemised quote
+          Tell us about your project and we will arrange a visit and a written, fixed price quote
         </p>
       </div>
 

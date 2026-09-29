@@ -1,10 +1,52 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": ".*\\.vercel\\.app" }],
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/garden-rooms",
+      "destination": "/residential/garden-buildings",
+      "permanent": true
+    },
+    {
+      "source": "/home-extensions",
+      "destination": "/residential/extensions",
+      "permanent": true
+    },
+    {
+      "source": "/bathroom-renovations",
+      "destination": "/residential/kitchens-bathrooms",
+      "permanent": true
+    },
+    {
+      "source": "/kitchen-renovations",
+      "destination": "/residential/kitchens-bathrooms",
+      "permanent": true
+    },
+    {
+      "source": "/landscaping-pergolas",
+      "destination": "/residential/outdoor-living",
+      "permanent": true
     }
   ]
 }
