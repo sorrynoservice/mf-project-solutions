@@ -16,9 +16,10 @@
     "h1": "Pre-purchase property inspection in Dublin and Meath",
     "sub": "A practical inspection of a second-hand home by construction people, before you sign. You get a written report on what we found and what needs a closer look.",
     "image": {
-      "image": "/media/video/V014.jpg",
-      "caption": "MF property inspection",
-      "kind": "photo"
+      "image": "/assets/work/pre-purchase-inspection-alex-with-a-buyer-v015.jpg",
+      "caption": "Alex talking a buyer through a pre-purchase inspection",
+      "kind": "photo",
+      "focus": "40% 50%"
     },
     "ctaLabel": "Book an inspection",
     "bullets": [
@@ -56,12 +57,17 @@
   "included": {
     "title": "What the inspection covers",
     "items": [
-      "Visible condition of the roof, from the ground and accessible areas",
-      "Walls, windows and doors",
-      "Signs of damp",
-      "A visual check of the services",
-      "The attic, if it is accessible",
-      "A clear written report, with anything that needs a specialist flagged"
+      "General condition of the house, inside and out",
+      "Roof: visible condition from the ground, and the roof space where safely accessible",
+      "Attic insulation and ventilation, where accessible",
+      "Walls, floors and ceilings: visible cracks, movement and defects",
+      "Visible signs of damp and moisture",
+      "Windows and doors",
+      "External walls, render, brickwork, gutters and downpipes",
+      "Visible drainage problems",
+      "Services: a visual look at the electrics, plumbing and heating",
+      "Extensions and alterations worth a closer look",
+      "A written report of significant defects and recommended next steps"
     ]
   },
   "price": {
@@ -92,10 +98,6 @@
   ],
   "faqs": [
     {
-      "q": "Does the inspection include structural calculations?",
-      "a": "No. It is a practical pre-purchase property inspection of the visible condition of the home. We do not carry out structural calculations. Where something needs an engineer, the report says so."
-    },
-    {
       "q": "When should I book?",
       "a": "Before you sign. The report is most useful while you can still ask questions or negotiate."
     },
@@ -114,6 +116,14 @@
     {
       "q": "Who will I deal with?",
       "a": "Wanessa leads the property inspection service and is your contact from booking to report."
+    },
+    {
+      "q": "Is this a structural survey?",
+      "a": "No. It is a visual, non-invasive pre-purchase inspection by construction people. It does not include structural calculations or an engineer's report. Where something needs an engineer, the report says so."
+    },
+    {
+      "q": "Do you check planning and Building Regulations compliance?",
+      "a": "No. Compliance and title documents are a matter for your solicitor. We point out extensions or alterations that look worth asking about."
     }
   ],
   "projectsTag": "snagging",
@@ -132,24 +142,47 @@
     {
       "title": "What we inspect",
       "bullets": [
-        "Roof: visible condition from the ground and accessible areas",
-        "External and internal walls",
+        "General condition of the house, inside and out",
+        "Roof: visible condition from the ground, and the roof space where safely accessible",
+        "Attic insulation and ventilation, where accessible",
+        "Walls, floors and ceilings: visible cracks, movement and defects",
+        "Visible signs of damp and moisture",
         "Windows and doors",
-        "Signs of damp",
-        "Services, checked visually",
-        "Attic, if accessible"
+        "External walls, render, brickwork, gutters and downpipes",
+        "Visible drainage problems",
+        "Services: a visual look at the electrics, plumbing and heating",
+        "Extensions and alterations worth a closer look"
       ]
     },
     {
-      "title": "What we do not do",
+      "title": "How the inspection works",
       "paragraphs": [
-        "Where something needs an engineer, the report says so."
-      ],
+        "It is a visual, non-invasive inspection of what can be seen and safely reached on the day. We do not lift floor coverings, move furniture or open up walls, floors or finishes.",
+        "Where something needs a structural engineer, an electrician or another specialist, the report says so plainly, so you can arrange that before you commit."
+      ]
+    },
+    {
+      "title": "What it does not include",
       "bullets": [
-        "No opening up of floors, walls or finishes",
-        "No testing of services unless agreed in advance",
-        "No structural calculations"
+        "Structural calculations or a structural engineer's report",
+        "Testing or certification of electrics, gas, plumbing or heating",
+        "Planning or Building Regulations compliance checks (your solicitor deals with these)",
+        "Testing for asbestos or radon",
+        "Anything hidden behind finishes, furniture or stored belongings"
+      ]
+    },
+    {
+      "title": "Other types of survey",
+      "paragraphs": [
+        "The Society of Chartered Surveyors Ireland describes several levels of residential survey, from a general condition report to a more detailed building survey. All of them are visual. If our report suggests you need a more detailed survey or an engineer, we will tell you."
       ]
     }
-  ]
+  ],
+  "video": {
+    "src": "/media/video/V015.mp4",
+    "poster": "/media/video/V015.jpg",
+    "caption": "Alex explains what a pre-purchase inspection looks at",
+    "loop": false,
+    "title": "What we look at before you buy"
+  }
 }

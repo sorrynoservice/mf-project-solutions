@@ -15,16 +15,15 @@
     "h1": "Attic conversions in Dublin, Meath and Kildare",
     "sub": "Attic bedrooms, dressing rooms and en-suites under rooflights or dormers. We are clear from the start whether your attic will be habitable or storage, because it matters when you sell.",
     "image": {
-      "image": "/assets/work/rt/M189.jpg",
-      "caption": "Attic room with three rooflights",
+      "image": "/assets/work/attic-converted-attic-wide-bedroom-study-and-rooflights-a11.jpg",
+      "caption": "Converted attic with bedroom, study area and three rooflights",
       "kind": "photo",
-      "focus": "50% 35%"
+      "focus": "50% 55%"
     },
     "imageMobile": {
-      "image": "/assets/work/rt/M188.jpg",
-      "caption": "Attic bedroom and study under rooflights",
-      "kind": "photo",
-      "focus": "40% 50%"
+      "image": "/assets/work/attic-converted-attic-bedroom-and-study-under-rooflights-a12.jpg",
+      "caption": "Attic bedroom and study under the rooflights",
+      "kind": "photo"
     },
     "ctaLabel": "Talk to us about your attic",
     "bullets": [
@@ -51,8 +50,28 @@
     "title": "Attics we have converted",
     "items": [
       {
-        "image": "/assets/work/rt/M188.jpg",
-        "caption": "Attic bedroom and study under rooflights",
+        "image": "/assets/work/attic-converted-attic-wide-bedroom-study-and-rooflights-a11.jpg",
+        "caption": "The whole attic room: bedroom, study area and three rooflights",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-new-stair-arriving-into-the-attic-room-a13.jpg",
+        "caption": "The new stair arriving into the attic",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-stair-balustrade-bedroom-and-rooflight-a14.jpg",
+        "caption": "Stair balustrade, bedroom and rooflight in the roof slope",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-rooflights-in-the-roof-slope-a15.jpg",
+        "caption": "Rooflights set into the roof slope",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-converted-attic-bedroom-and-study-under-rooflights-a12.jpg",
+        "caption": "Usable floor area under the roof",
         "kind": "photo"
       },
       {
@@ -62,22 +81,12 @@
       },
       {
         "image": "/assets/work/rt/N069.jpg",
-        "caption": "Eaves wardrobes in the attic dressing room, Rathcoole",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rathcoole-wardrobes-built-into-the-eaves-20.jpg",
         "caption": "Wardrobes built into the eaves, Rathcoole",
         "kind": "photo"
       },
       {
         "image": "/assets/work/attic-attic-shower-room-black-framed-screen-192.jpg",
-        "caption": "Attic shower room with black-framed screen",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
-        "caption": "Attic shower room under rooflights",
+        "caption": "Attic shower room with black framed screen",
         "kind": "photo"
       }
     ]
@@ -85,16 +94,16 @@
   "pairs": [
     {
       "a": {
-        "image": "/assets/work/attic-new-attic-stair-installed-190.jpg",
-        "caption": "New attic stair installed",
+        "image": "/assets/work/attic-stair-opening-and-floor-joists-during-works-a17.jpg",
+        "caption": "The stair opening during the works",
         "kind": "photo"
       },
       "b": {
-        "image": "/assets/work/rt/M188.jpg",
-        "caption": "The finished attic bedroom",
+        "image": "/assets/work/attic-new-stair-arriving-into-the-attic-room-a13.jpg",
+        "caption": "The finished stair in the attic",
         "kind": "photo"
       },
-      "caption": "From the new stair to the finished attic bedroom",
+      "caption": "The new attic stair: opening in the floor, then finished",
       "type": "before-after"
     },
     {
@@ -156,7 +165,7 @@
   "faqs": [
     {
       "q": "What is the difference between a habitable attic and storage?",
-      "a": "A habitable room meets Building Regulations: an escape window of at least 450 mm each way and 0.33 m², a protected stair with FD20 doors, interconnected mains smoke alarms and adequate stair headroom. Attics that fall short are sold as storage, and that can cause problems when the house is sold."
+      "a": "A habitable room meets Building Regulations: an escape window of at least 450 mm each way and 0.33 m², a protected stair with FD20 doors, interconnected mains smoke alarms and stair headroom of at least 1.9 m at the centre and 1.8 m at the sides. Attics that fall short are sold as storage, and that can cause problems when the house is sold."
     },
     {
       "q": "Do I need planning permission for a dormer?",
@@ -206,7 +215,7 @@
         "An escape window of at least 450 mm each way and 0.33 m²",
         "A protected stair with FD20 doors",
         "Interconnected mains smoke alarms",
-        "Adequate headroom over the stair"
+        "Headroom over the stair of at least 1.9 m at the centre and 1.8 m at the sides"
       ]
     },
     {

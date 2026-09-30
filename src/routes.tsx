@@ -41,15 +41,27 @@ export type RouteDef = {
 };
 
 const suffix = ` | ${SITE_NAME}`;
-const withSuffix = (t: string) => (t.includes(SITE_NAME) ? t : t + suffix);
+/** Adds the brand only when the whole title still fits in search results (about 62 characters). */
+const withSuffix = (t: string) => (t.includes(SITE_NAME) || (t + suffix).length > 62 ? t : t + suffix);
+
+/** Meta descriptions between roughly 70 and 160 characters, cut at a word boundary. */
+const clampDesc = (d: string, fallback = "") => {
+  let out = d.trim();
+  if (out.length < 70 && fallback) out = `${out} ${fallback}`.trim();
+  if (out.length <= 160) return out;
+  const cut = out.slice(0, 157);
+  return `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:.]$/, "")}...`;
+};
 
 /** og:image from a content image: the original JPEG (link previews handle JPEG more reliably than WebP). */
 const ogFrom = (m?: MediaItem): string | undefined => m?.image || undefined;
 
 /** "Title, Area" unless the title already names the area. */
 const projectTitle = (title: string, location?: string) => {
-  const area = (location ?? "").split(",")[0].trim();
-  return !area || title.toLowerCase().includes(area.toLowerCase()) ? title : `${title}, ${location}`;
+  const parts = (location ?? "").split(",").map((x) => x.trim()).filter(Boolean);
+  const t = title.toLowerCase();
+  if (!parts.length || parts.some((x) => t.includes(x.toLowerCase())) || /founder|area/i.test(location ?? "")) return title;
+  return `${title}, ${parts[0]}`;
 };
 
 const breadcrumbs = (items: { name: string; path: string }[]) => ({
@@ -199,7 +211,7 @@ const projectRoutes: RouteDef[] = projects.map((p) => ({
   element: <ProjectDetail slug={p.slug} />,
   meta: {
     title: withSuffix(projectTitle(p.title, p.location)),
-    description: p.summary ?? "",
+    description: clampDesc(p.summary ?? "", `Photos and project details from MF Project Solutions.`),
     ogImage: ogFrom(p.hero),
     jsonLd: [
       breadcrumbs([

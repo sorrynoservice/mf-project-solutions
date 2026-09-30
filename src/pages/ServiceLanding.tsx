@@ -146,10 +146,10 @@ export default function ServiceLanding({ route }: { route: string }) {
         <section className="bg-paper py-20">
           <div className="wrap">
             <SectionHead
-              eyebrow={s.pairs[0].type === "before-after" ? "Before and after" : "Designed, then built"}
-              title={s.pairs[0].type === "before-after" ? "The same place, before and after" : "The design, and what we built from it"}
+              eyebrow={s.pairs[0].type === "before-after" ? "Before and after" : s.pairs[0].type === "before-design-after" ? "Before, design and after" : "Designed, then built"}
+              title={s.pairs[0].type === "before-after" ? "The same place, before and after" : s.pairs[0].type === "before-design-after" ? "What was there, the design, and what we built" : "The design, and what we built from it"}
             />
-            <div className={`grid gap-10 ${s.pairs.length > 1 ? "lg:grid-cols-2" : "max-w-3xl"}`}>
+            <div className={`grid gap-10 ${s.pairs.length > 1 ? "lg:grid-cols-2" : s.pairs[0].type === "before-design-after" ? "max-w-5xl" : "max-w-3xl"}`}>
               {s.pairs.slice(0, 4).map((p) => (
                 <Pair key={p.caption} pair={p} />
               ))}

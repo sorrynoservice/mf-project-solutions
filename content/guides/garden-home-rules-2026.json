@@ -17,49 +17,52 @@
     {
       "title": "What changed on 27 July 2026",
       "paragraphs": [
-        "The Planning and Development (Exempted Development) Regulations 2026 came into force on 27 July 2026. They created a new class of exempted development, Class 3A, for a detached house in the rear garden. For the first time, a small home for family use can be built behind the main house without a planning application, provided it meets all 20 conditions.",
-        "The same regulations also changed the rules for garden rooms (Class 3), extensions and attic dormers. A garden room and a garden home are now legally different things, and it is worth being clear which one you are building before you spend money on design."
+        "Class 3A was inserted by the Planning and Development (Exempted Development (Act of 2000)) (No. 3) Regulations 2026 (S.I. No. 340 of 2026), which came into force on 27 July 2026. It covers a detached house in the rear garden, occupied in conjunction with the main house, that can be built without a planning application provided it meets all 20 conditions.",
+        "Other statutory instruments signed at the same time changed the rules for garden rooms (Class 3, S.I. No. 338 of 2026) and for dormers and rooflights (S.I. No. 344 of 2026). A garden room and a garden home are now legally different things, and it is worth being clear which one you are building before you spend money on design."
       ]
     },
     {
       "title": "Who a garden home is for",
       "paragraphs": [
-        "A garden home is lived in together with the main house. It cannot be sold or subdivided from the main house, and short-term letting is not allowed. The owner must live in the main house when work starts.",
-        "In practice, this suits a parent moving closer to family, an adult child who needs a place of their own, or extra space for relatives. If you want a separate rental unit, the Class 3A exemption is not the route, and planning permission would be needed."
+        "A garden home must be occupied in conjunction with the main house. It cannot be sold or subdivided from the main house, and short-term letting is not allowed. The main house must be the owner's only or main residence when work starts, and the exemption cannot be used where the house has already been subdivided.",
+        "The regulations do not limit who can live there to family members. In practice it often suits a parent moving closer to family, an adult child who needs a place of their own, or extra space for relatives. If you are thinking about letting it, take advice from your solicitor first: the regulations do not deal expressly with longer-term letting."
       ]
     },
     {
       "title": "Size and height",
       "bullets": [
-        "Floor area between 32 and 45 m²",
-        "Existing sheds count towards the 45 m²",
-        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise"
+        "Floor area of at least 32 m², and no more than 45 m² together with any existing sheds or garden rooms",
+        "Up to 4 m high with a tiled or slated pitched roof, or 3 m otherwise",
+        "It must be a permanent building: caravans and mobile homes do not qualify"
       ],
       "paragraphs": [
-        "Because existing sheds count, a large shed you want to keep can reduce the size of home you can build. Measure what is already in the garden before you plan the layout."
+        "Because existing sheds count, a shed larger than 13 m² makes a 32 m² home impossible unless the shed is removed. Measure what is already in the garden before you plan the layout."
       ]
     },
     {
       "title": "Where it can go",
       "bullets": [
         "In the rear garden, detached from the main house",
-        "At least 0.6 m from the boundaries",
-        "At least 25 m² of garden kept",
-        "No new road access"
+        "At least 0.6 m from any wall or boundary",
+        "Windows at least 0.6 m from the boundary they face",
+        "At least 25 m² of private open space kept",
+        "Independent pedestrian or wheelchair access within the property",
+        "No new vehicle or pedestrian access onto a road"
       ]
     },
     {
       "title": "Services",
       "paragraphs": [
-        "A garden home cannot have separate utility connections. Water, power and drainage must run through the main house. This affects the cost, because trenching and service runs from the house are part of the job. When we price a garden home, groundworks, trenching and service connections are shown separately so you can see them clearly."
+        "A garden home cannot have its own separate connections to utilities, including water and wastewater: services run from the main house. Where the house is not on mains drainage, the home must stay off the percolation area and meet the EPA Code of Practice, without adding a new treatment unit. Trenching and service runs are part of the cost, so when we price a garden home, groundworks, trenching and service connections are shown separately."
       ]
     },
     {
       "title": "Before work starts",
       "bullets": [
-        "The owner lives in the main house when work starts",
-        "The council is notified 14 days before work starts",
-        "The home is built and finished by 31 December 2030"
+        "The main house is the owner's only or main residence when work starts",
+        "The council is notified, with the Eircode, at least 14 days before work starts",
+        "A Commencement Notice is submitted to the Building Control Authority",
+        "The home is started and finished by 31 December 2030"
       ],
       "paragraphs": [
         "The 2030 date is the end of the exemption, not a reason to rush. A well-planned home that meets every condition is worth more than one started in a hurry."
@@ -68,15 +71,16 @@
     {
       "title": "Building Regulations apply in full",
       "paragraphs": [
-        "Being exempt from planning does not mean exempt from Building Regulations. A garden home is a new dwelling, so the regulations apply in full: fire safety, energy, ventilation, drainage and access. This is the biggest practical difference from a garden room, where the regulations apply as for an outbuilding.",
-        "Also note that the extension exemption cannot be used to extend a garden home later. Get the size right at the start."
+        "Being exempt from planning does not mean exempt from Building Regulations. Building control guidance treats a garden home in the same way as any new dwelling: fire safety, energy, ventilation, drainage and access all apply, and the normal building control process, including a Commencement Notice, is required. This is the biggest practical difference from a garden room, which does not need a Commencement Notice when it is planning-exempt.",
+        "The extension exemption now applies only to the main house, so it cannot be used to extend a garden home later. Get the size right at the start."
       ]
     },
     {
       "title": "If your garden does not qualify",
       "paragraphs": [
         "If any one of the conditions is not met, planning permission is needed. Another route is an attached family flat, which always needs planning permission. The rules for family flats are set by each county plan: Fingal, for example, allows up to 75 m², and Meath requires the flat to be attached to the house.",
-        "Where you are unsure, a Section 5 declaration from the council confirms whether a proposal is exempt."
+        "Where you are unsure, a Section 5 declaration from the council confirms whether a proposal is exempt.",
+        "This guide is a plain-English summary, not legal advice. Each condition applies in full, and your council or a Section 5 declaration is the final word on whether a proposal is exempt."
       ]
     },
     {
@@ -101,5 +105,19 @@
     }
   ],
   "leadRoute": "major",
-  "pageCode": "GHM"
+  "pageCode": "GHM",
+  "sources": [
+    {
+      "label": "S.I. No. 340 of 2026 (Class 3A), published by South Dublin County Council",
+      "url": "https://www.sdcc.ie/en/services/planning-building-control/exempted-development/new-exemptions-27-07-26/regulations-2026-si-340-of-2026.pdf"
+    },
+    {
+      "label": "Dublin City Council: new Class 3A summary",
+      "url": "https://www.dublincity.ie/sites/default/files/2026-07/new-class-3a-detached-house-in-rear-garden-of-a-principal-house.pdf"
+    },
+    {
+      "label": "Fingal County Council building control circular BC07/2026",
+      "url": "https://www.fingal.ie/sites/default/files/2026-07/bc07-2026-building-control-amendment-regulations-2026.pdf"
+    }
+  ]
 }

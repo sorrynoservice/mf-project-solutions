@@ -109,7 +109,7 @@ export type Project = {
   before?: MediaItem[];
   after?: MediaItem[];
   /** Design image beside the finished result. */
-  pairs?: { a: MediaItem; b: MediaItem; caption: string; type: "design-built" | "before-after" }[];
+  pairs?: { a: MediaItem; b: MediaItem; mid?: MediaItem; caption: string; type: "design-built" | "before-after" | "before-design-after" }[];
   stages?: ProjectStage[];
   videos?: VideoItem[];
   reviews?: string[];
@@ -128,6 +128,8 @@ export type PriceGuide = {
   note?: string;
   /** Unconfirmed prices never render in production; the preview shows them marked. */
   confirmed: boolean;
+  /** What still needs confirming (review marker only, never shown on the live site). */
+  pending?: string;
   table?: { label: string; value: string }[];
 };
 
@@ -156,7 +158,7 @@ export type ServicePage = {
   proof: { title: string; text: string }[];
   intro?: { title: string; paragraphs: string[] };
   gallery: { title: string; intro?: string; items: MediaItem[] };
-  pairs?: { a: MediaItem; b: MediaItem; caption: string; type: "design-built" | "before-after" }[];
+  pairs?: { a: MediaItem; b: MediaItem; mid?: MediaItem; caption: string; type: "design-built" | "before-after" | "before-design-after" }[];
   video?: VideoItem & { title?: string };
   included?: { title: string; items: string[]; priceFactors?: string[] };
   price?: PriceGuide;
@@ -186,6 +188,8 @@ export type Guide = {
   updated: string;
   sections: { title: string; paragraphs?: string[]; bullets?: string[] }[];
   related?: { route: string; label: string }[];
+  /** Official sources the guide was checked against. */
+  sources?: { label: string; url: string }[];
   leadRoute: LeadRoute;
   pageCode: string;
 };

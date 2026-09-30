@@ -105,27 +105,18 @@
         "caption": "The house before, with the old side garage, Phibsborough",
         "kind": "photo"
       },
+      "mid": {
+        "image": "/assets/work/phibsborough-front-elevation-red-brick-house-with-new-329.jpg",
+        "caption": "Front elevation render from the design stage, Phibsborough",
+        "kind": "ai-enhanced"
+      },
       "b": {
         "image": "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg",
         "caption": "The house after the renovation, Phibsborough",
         "kind": "photo"
       },
-      "caption": "Phibsborough: the front before and after",
-      "type": "before-after"
-    },
-    {
-      "a": {
-        "image": "/assets/work/phibsborough-front-elevation-red-brick-house-with-new-329.jpg",
-        "caption": "Front render, Phibsborough",
-        "kind": "ai-enhanced"
-      },
-      "b": {
-        "image": "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg",
-        "caption": "The finished front, Phibsborough",
-        "kind": "photo"
-      },
-      "caption": "Phibsborough: the front render beside the finished house",
-      "type": "design-built"
+      "caption": "Phibsborough: the house before, the proposed front, and the finished house",
+      "type": "before-design-after"
     }
   ],
   "video": {

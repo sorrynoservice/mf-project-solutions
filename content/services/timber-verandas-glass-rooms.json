@@ -113,9 +113,9 @@
     }
   ],
   "video": {
-    "src": "/media/video/V002.mp4",
-    "poster": "/media/video/V002.jpg",
-    "caption": "Ashbourne outdoor room",
+    "src": "/media/video/V001.mp4",
+    "poster": "/media/video/V001.jpg",
+    "caption": "Alex walks through the finished Ashbourne outdoor room",
     "loop": false,
     "title": "The Ashbourne outdoor room"
   },

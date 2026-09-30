@@ -81,3 +81,20 @@ Upload these to the MF YouTube channel, then add a video on the page with the Yo
 - Changing a **Web address** (projects, service pages, guides) after it is live. Google Ads and search results point to these addresses. If one must change, ask the developer to add a redirect.
 - Uploading screenshots of WhatsApp chats or photos that show house numbers, car registrations or people's faces without permission.
 - Editing review text. It must match Google.
+
+## Google rating and review count
+
+The numbers in every "on Google from N reviews" badge come from one place: `scripts/fetch-google-rating.mjs`,
+which runs before each build and writes `src/generated/google-rating.json`.
+
+- With `GOOGLE_PLACES_API_KEY` set (Vercel, Production and Preview), the build fetches the live figure.
+- Without it, the last committed figure in `src/data/google-rating.json` is used only if it was checked in
+  the last 21 days. Older figures are never shown: badges read "Read our reviews on Google" instead.
+- The build log always prints a `[google-rating]` line saying which source was used.
+- Never type a review count into page copy.
+
+## Videos
+
+All videos use `src/components/ui/Video.tsx`. Clips with sound (`"loop": false`) show a play button and
+then native controls. Silent clips (`"loop": true`) play muted while on screen and pause when scrolled
+away. Export clips as H.264 MP4, yuv420p, BT.709 colour (not HDR/HLG), with `-movflags +faststart`.

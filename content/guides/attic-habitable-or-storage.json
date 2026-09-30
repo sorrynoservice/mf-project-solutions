@@ -24,10 +24,10 @@
     {
       "title": "What a habitable attic room needs",
       "bullets": [
-        "An escape window of at least 450 mm each way and at least 0.33 m² of opening",
-        "A protected stair, with FD20 fire doors",
-        "Interconnected mains smoke alarms",
-        "Adequate headroom over the stair"
+        "An escape window of at least 450 mm each way and at least 0.33 m² of opening, with the cill 800 to 1100 mm above the floor (a rooflight cill at least 600 mm) and no more than 1.7 m from the eaves",
+        "A protected stair with a 30-minute enclosure and fire doors",
+        "Interconnected mains smoke alarms, usually upgraded throughout the house",
+        "Headroom over the stair of at least 1.9 m at the centre and 1.8 m at the sides"
       ],
       "paragraphs": [
         "These points are about getting out safely in a fire, and about using the stair every day. Each one affects the design. The escape window decides the size and position of rooflights or a dormer. The protected stair can mean new fire doors on the rooms below. Headroom decides where the new stair can land."
@@ -42,7 +42,7 @@
     {
       "title": "Dormers: the 2026 rules",
       "paragraphs": [
-        "Since 27 July 2026, rear and side dormers may be exempt from planning under Class 1B, which makes a habitable attic easier to achieve."
+        "Since 27 July 2026, rear and side dormers may be exempt from planning under Class 1B (S.I. No. 344 of 2026), which makes a habitable attic easier to achieve. General restrictions still apply, for example to protected structures."
       ],
       "bullets": [
         "Rear and side dormers up to 30 m³",
@@ -102,5 +102,15 @@
     }
   ],
   "leadRoute": "major",
-  "pageCode": "ATT"
+  "pageCode": "ATT",
+  "sources": [
+    {
+      "label": "S.I. No. 344 of 2026 (dormers and rooflights)",
+      "url": "https://www.sdcc.ie/en/services/planning-building-control/exempted-development/new-exemptions-27-07-26/regulations-2026-si-344-of-2026.pdf"
+    },
+    {
+      "label": "Wicklow County Council: loft conversion guidelines",
+      "url": "https://www.wicklow.ie/Portals/0/adam/Documents/ogRdHgZGak6MBI1p9YO3XQ/Link/Loft%20Conversion%20Guidlines.pdf"
+    }
+  ]
 }

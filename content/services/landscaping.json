@@ -8,12 +8,12 @@
   "formService": "Outdoor living",
   "seo": {
     "title": "Landscaping Dublin, Meath and Kildare | MF Project Solutions",
-    "description": "Full garden rebuilds in Dublin, Meath and Kildare: drainage, porcelain paving, lawns, lighting and garden stores, planned together and built by our own crew."
+    "description": "Complete garden transformations in Dublin, Meath and Kildare: drainage, porcelain, lawn, walls, planting, pergolas and outdoor kitchens, planned as one job."
   },
   "hero": {
     "eyebrow": "Landscaping",
-    "h1": "Landscaping and garden rebuilds in Dublin and Meath",
-    "sub": "Full garden rebuilds including drainage, paving, lawn, lighting and garden stores, built by our own crew.",
+    "h1": "Garden rebuilds and landscaping in Dublin and Meath",
+    "sub": "Complete garden transformations planned as one job: drainage, paving, lawn, walls, planting, pergolas and verandas, outdoor kitchens and garden rooms, built by our own crew.",
     "image": {
       "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
       "caption": "Porcelain patio and path through the lawn",
@@ -28,9 +28,9 @@
     },
     "ctaLabel": "Get a garden quotation",
     "bullets": [
-      "Drainage dealt with as part of the rebuild",
-      "Porcelain laid on a compacted sub-base",
-      "Lawns, lighting and garden stores"
+      "The whole garden planned as one job",
+      "Drainage and levels dealt with first",
+      "Paving, lawn, walls, planting and structures"
     ]
   },
   "proof": [
@@ -43,41 +43,41 @@
       "text": "Porcelain is laid on a compacted sub-base with falls, the same way we build every patio."
     },
     {
-      "title": "Planned as one garden",
-      "text": "Paving, lawn, lighting and garden stores are planned together, so levels and routes work from the back door to the end of the garden."
+      "title": "More than a patio",
+      "text": "A rebuild can bring together porcelain, drainage, lawn, walls, planting, a pergola or veranda, a barbecue or outdoor kitchen and a garden room. If you only need a patio, see our porcelain patios page."
     }
   ],
   "gallery": {
-    "title": "Gardens we have rebuilt",
+    "title": "Gardens we have transformed",
     "items": [
+      {
+        "image": "/assets/work/rt/M63.jpg",
+        "caption": "Whole garden rebuild: patio, lawn and garden building, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
+        "caption": "Outdoor room with barbecue and kitchen as part of a garden rebuild",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathfarnham-rear-patio-levels-and-steps-p05.jpg",
+        "caption": "New levels, steps and patio above the lawn, Rathfarnham",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/kinsealy-side-porcelain-patio-and-lawn-p04.jpg",
+        "caption": "Side passage, patio and new lawn, Kinsealy",
+        "kind": "photo"
+      },
       {
         "image": "/assets/work/kitchen-living-rear-patio-lawn-and-garden-store-at-dusk-68.jpg",
         "caption": "Rear patio, lawn and garden store at dusk",
         "kind": "photo"
       },
       {
-        "image": "/assets/work/rt/G81.jpg",
-        "caption": "Porcelain patio, paths and a garden store",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
-        "caption": "Patio, lawn and stepping-stone path",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M63.jpg",
-        "caption": "Whole garden rebuild, Blackrock, Co. Louth",
-        "kind": "photo"
-      },
-      {
         "image": "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg",
         "caption": "Aerial view of the finished garden, Phibsborough",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M67.jpg",
-        "caption": "Side and rear porcelain patio with lawn",
         "kind": "photo"
       }
     ]
@@ -92,11 +92,14 @@
   "included": {
     "title": "What a garden rebuild can include",
     "items": [
-      "Drainage",
+      "Drainage and levels",
       "Porcelain patios and paths on a compacted sub-base",
       "Lawn, natural or artificial",
+      "Garden walls, boundaries and planting beds",
+      "Pergolas and timber verandas",
+      "Barbecue and outdoor kitchen areas",
       "Garden lighting",
-      "Garden stores"
+      "Garden rooms and garden stores"
     ],
     "priceFactors": [
       "Size of the garden",
@@ -155,12 +158,17 @@
     {
       "route": "/porcelain-patios",
       "label": "Porcelain patios",
-      "text": "Just the patio? See how we lay porcelain on a proper base."
+      "text": "Just need a patio? See our patio prices and examples."
+    },
+    {
+      "route": "/timber-verandas-glass-rooms",
+      "label": "Timber verandas and glass rooms",
+      "text": "A covered outdoor room with a kitchen or fireplace."
     },
     {
       "route": "/garden-rooms",
       "label": "Garden rooms",
-      "text": "Add an insulated garden room for an office, gym or studio."
+      "text": "An insulated garden room for an office, gym or studio."
     }
   ],
   "cta": {

@@ -24,26 +24,26 @@
       "title": "Garden room (Class 3)",
       "bullets": [
         "Home office, gym, studio or store",
-        "Up to 30 m² in total with other sheds (it was 25 m²)",
-        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise",
-        "Behind the front wall of the house",
-        "At least 25 m² of garden kept",
-        "Not for living in",
-        "Building Regulations apply as for an outbuilding; no commencement notice"
+        "Up to 30 m² in total with other sheds and garden rooms (it was 25 m²)",
+        "Up to 4 m high with a tiled or slated pitched roof, or 3 m otherwise",
+        "Not forward of the front wall of the house; to the side, the finishes must match the house",
+        "At least 25 m² of private open space kept",
+        "Not for human habitation",
+        "Building Regulations still apply; no Commencement Notice needed when it is planning-exempt"
       ]
     },
     {
       "title": "Garden home (Class 3A)",
       "bullets": [
         "A detached house in the rear garden",
-        "32 to 45 m², with existing sheds counting towards the 45 m²",
-        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise",
-        "Lived in together with the main house; cannot be sold or subdivided; no short-term letting",
-        "Owner lives in the main house when work starts",
-        "At least 0.6 m from boundaries and 25 m² of garden kept",
+        "At least 32 m², and no more than 45 m² together with existing sheds",
+        "Up to 4 m high with a tiled or slated pitched roof, or 3 m otherwise",
+        "Occupied in conjunction with the main house; cannot be sold or subdivided; no short-term letting",
+        "Main house is the owner's only or main residence when work starts",
+        "At least 0.6 m from boundaries, windows 0.6 m from the boundary they face, and 25 m² of open space kept",
         "No separate utility connections and no new road access",
-        "Council notified 14 days before starting; built and finished by 31 December 2030",
-        "Building Regulations apply in full, as for a new dwelling"
+        "Council notified at least 14 days before starting; started and finished by 31 December 2030",
+        "Building Regulations apply as for a new dwelling, with a Commencement Notice"
       ]
     },
     {
@@ -61,14 +61,14 @@
     {
       "title": "Why Building Regulations make the biggest difference",
       "paragraphs": [
-        "A garden room is treated as an outbuilding under Building Regulations. A garden home is a new dwelling, so the regulations apply in full: fire safety, energy, ventilation, drainage and access. That changes the insulation, the services, the bathroom and kitchen, and the cost per square metre.",
+        "Building Regulations apply to both, but a garden home is treated as a new dwelling: fire safety, energy, ventilation, drainage and access all apply as they would to a new house, and a Commencement Notice is needed. That changes the insulation, the services, the bathroom and kitchen, and the cost per square metre.",
         "Services are different too. A garden room can be as simple as a power supply. A garden home needs water, power and drainage, and all of it must run through the main house, because separate utility connections are not allowed."
       ]
     },
     {
       "title": "Which one should you build?",
       "paragraphs": [
-        "Ask who will use it and how. An office, gym or studio for the household is a garden room. A place for a parent, an adult child or a relative to live is a garden home. If you want income from letting it, neither exemption fits, and you need planning permission.",
+        "Ask who will use it and how. An office, gym or studio for the household is a garden room. A place for someone to live, occupied in conjunction with the main house, is a garden home. If you want a separate property to sell or to let short-term, neither exemption fits, and you need planning permission.",
         "Both may be exempt if they meet all the conditions. We check your site first, and a Section 5 declaration from the council gives certainty."
       ]
     },
@@ -94,5 +94,19 @@
     }
   ],
   "leadRoute": "major",
-  "pageCode": "GHM"
+  "pageCode": "GHM",
+  "sources": [
+    {
+      "label": "S.I. No. 338 of 2026 (Class 3 garden rooms and Class 1 extensions)",
+      "url": "https://www.sdcc.ie/en/services/planning-building-control/exempted-development/new-exemptions-27-07-26/regulations-2026-si-338-of-2026.pdf"
+    },
+    {
+      "label": "S.I. No. 340 of 2026 (Class 3A garden homes)",
+      "url": "https://www.sdcc.ie/en/services/planning-building-control/exempted-development/new-exemptions-27-07-26/regulations-2026-si-340-of-2026.pdf"
+    },
+    {
+      "label": "Fingal County Council building control circular BC07/2026",
+      "url": "https://www.fingal.ie/sites/default/files/2026-07/bc07-2026-building-control-amendment-regulations-2026.pdf"
+    }
+  ]
 }

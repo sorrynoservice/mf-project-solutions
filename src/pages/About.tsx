@@ -20,7 +20,8 @@ const workshop: MediaItem[] = [
 ];
 
 export default function About() {
-  const team = people.filter(visible);
+  // A person without a photo is not shown until one is supplied (no placeholder portraits).
+  const team = people.filter(visible).filter((p) => !!p.headshot);
   return (
     <Layout header="overlay" page={{ route: "major", pageCode: "ABT", service: "a project", contactHref: "#contact", ctaShort: "Get in touch" }}>
       <PageHero
@@ -36,7 +37,7 @@ export default function About() {
           <SectionHead className="mb-0" eyebrow="Who we are" title="Professional delivery, and a person you can call" />
           <div className="prose-mf text-lg text-neutral-700">
             <p>
-              MF is run by Alex Ferreira and his wife Wanessa, with Alex's sister Rosanne and sister-in-law Rosana. Alex and Wanessa have called Ireland home for about 13 years, after earlier years in Brazil and the United States.
+              MF is a family business, led day to day by Alex Ferreira and Wanessa Correa. They have called Ireland home for about 13 years, after earlier years in Brazil and the United States.
             </p>
             <p>
               Alex founded the company in 2021. Today we build structural openings, extensions, whole-house renovations, commercial fit-outs and the joinery that finishes them. Our crew builds the work, our joiners make the kitchens and joinery in our own workshop, and we bring in specialist trades, architects, engineers and certifiers where a project needs them.

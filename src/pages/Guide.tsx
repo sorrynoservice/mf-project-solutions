@@ -38,7 +38,19 @@ export default function Guide({ route }: { route: string }) {
               )}
             </section>
           ))}
-          <p className="mt-12 rounded-md bg-paper p-4 text-sm text-muted-foreground">
+          {g.sources && g.sources.length > 0 && (
+            <div className="mt-12">
+              <h2 className="mb-3 text-lg text-ink">Official sources</h2>
+              <ul className="list-disc space-y-1.5 pl-5 text-sm text-muted-foreground">
+                {g.sources.map((src) => (
+                  <li key={src.url}>
+                    <a href={src.url} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink">{src.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          <p className="mt-8 rounded-md bg-paper p-4 text-sm text-muted-foreground">
             This guide is general information, not legal or planning advice for your property. Rules change; check with your local council or a qualified professional before relying on it.
           </p>
         </article>

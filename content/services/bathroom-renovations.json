@@ -102,7 +102,7 @@
   "pairs": [
     {
       "a": {
-        "image": "/assets/work/rathcoole-second-bathroom-with-oval-mirror-and-lit-316.jpg",
+        "image": "/assets/work/rathcoole-bathroom-3d-selected-design-terrazzo-and-blue-316b.jpg",
         "caption": "Our 3D design, Rathcoole",
         "kind": "design"
       },
@@ -169,9 +169,10 @@
     ]
   },
   "price": {
-    "headline": "Most complete bathroom renovations we quote fall between €7,000 and €15,000 plus VAT.",
-    "note": "Your detailed written quotation sets out exactly what is included for your room.",
-    "confirmed": false
+    "headline": "Complete bathroom renovations from €8,000 plus VAT.",
+    "note": "That starting point is a standard bathroom of about 4 m² in the same layout: strip-out and skip, plumbing and electrics, shower area and floor tiled, mid-range sanitaryware and brassware supplied and fitted. Most complete bathrooms we build fall between €9,000 and €15,000 plus VAT. Your written quotation sets out exactly what is included.",
+    "confirmed": false,
+    "pending": "Proposed from the market benchmark. Confirm €8,000 + VAT as the starting point for that specification."
   },
   "process": [
     {

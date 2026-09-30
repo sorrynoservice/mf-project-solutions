@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, ChevronDown, Star } from "lucide-react";
-import googleRating from "@/data/google-rating.json";
+import { ArrowRight, ChevronDown, Play, Star } from "lucide-react";
+import googleRatingRaw from "@/generated/google-rating.json";
 import Pic from "@/components/ui/Pic";
 import { isPreview, settings } from "@/lib/content";
 import type { PriceGuide, Project, Review } from "@/lib/types";
@@ -39,12 +39,21 @@ export function Pending({ note, className = "" }: { note?: string; className?: s
   if (!isPreview || !note) return null;
   return (
     <div className={`rounded border border-amber-400 bg-amber-50 px-3 py-2 text-xs font-medium text-amber-900 ${className}`} role="note">
-      Preview only, awaiting confirmation: {note}
+      Review marker, never shown on the live site. Needs confirmation: {note}
     </div>
   );
 }
 
-export const googleSummary = () => `${googleRating.rating.toFixed(1)} on Google from ${googleRating.count} reviews`;
+const googleRating = googleRatingRaw as { rating: number | null; count: number | null; show: boolean; source: string };
+
+/**
+ * Written at build time by scripts/fetch-google-rating.mjs (the only source of the numbers).
+ * When no live or recent figure exists, `show` is false and no numbers appear anywhere.
+ */
+export const googleSummary = () =>
+  googleRating.show && typeof googleRating.rating === "number" && typeof googleRating.count === "number"
+    ? `${googleRating.rating.toFixed(1)} on Google from ${googleRating.count} reviews`
+    : "Read our reviews on Google";
 
 export function GoogleBadge({ tone = "light" }: { tone?: "light" | "dark" }) {
   const dark = tone === "dark";
@@ -157,7 +166,7 @@ export function PriceBlock({ price }: { price: PriceGuide }) {
   if (!price.confirmed && !isPreview) return null;
   return (
     <div className="rounded-lg border border-tan bg-paper p-6 md:p-8">
-      {!price.confirmed && <Pending note="price not yet approved for publishing" className="mb-4" />}
+      {!price.confirmed && <Pending note={price.pending || "price not yet approved for publishing"} className="mb-4" />}
       <div className="eyebrow mb-2 text-tan-deep">Price guide</div>
       <p className="font-serif text-2xl leading-snug text-ink md:text-[1.7rem]">{price.headline}</p>
       {price.table && (
@@ -178,7 +187,14 @@ export function PriceBlock({ price }: { price: PriceGuide }) {
 export function ProjectCard({ p, compact = false }: { p: Project; compact?: boolean }) {
   return (
     <Link to={`/projects/${p.slug}`} className="group block overflow-hidden rounded-lg border border-border bg-white shadow-soft transition-shadow hover:shadow-luxury">
-      <Pic item={p.hero} className={compact ? "aspect-[4/3]" : "aspect-[3/2]"} layout="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
+      <div className="relative">
+        <Pic item={p.hero} className={compact ? "aspect-[4/3]" : "aspect-[3/2]"} layout="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" />
+        {!!p.videos?.length && (
+          <span className="absolute bottom-2 left-2 inline-flex items-center gap-1 rounded bg-black/65 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-white">
+            <Play className="h-3 w-3 fill-current" /> Video
+          </span>
+        )}
+      </div>
       <div className="p-5">
         <div className="eyebrow mb-2 text-tan-deep">{p.sector === "commercial" ? "Commercial" : "Residential"} · {p.location}</div>
         <h3 className="text-xl leading-snug text-ink">{p.title}</h3>

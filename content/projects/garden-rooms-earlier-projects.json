@@ -1,0 +1,55 @@
+{
+  "slug": "garden-rooms-earlier-projects",
+  "title": "Garden rooms from earlier projects",
+  "location": "Dublin and Meath",
+  "sector": "residential",
+  "categories": [
+    "garden-room",
+    "landscaping",
+    "patio"
+  ],
+  "role": "Built by MF",
+  "summary": "A selection of insulated garden rooms from our earlier work, shown together until each is confirmed and documented as its own project.",
+  "hero": {
+    "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+    "caption": "Garden office at dusk with path and garden lighting",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+      "caption": "Garden office at dusk with path and garden lighting",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/G74.jpg",
+      "caption": "Clad garden room with store, stepping stones and patio",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg",
+      "caption": "Timber clad garden room with bifold doors and a sauna",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-composite-clad-garden-room-at-sunset-g75.jpg",
+      "caption": "Composite clad garden room at sunset",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-rendered-garden-room-with-french-doors-g82.jpg",
+      "caption": "Rendered garden room with French doors",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-rendered-garden-room-at-sunset-g83.jpg",
+      "caption": "Rendered garden room at sunset",
+      "kind": "photo"
+    }
+  ],
+  "order": 30,
+  "published": true,
+  "pending": "Photos taken from the previous MF website: confirm each is an MF build and unedited before this goes live.",
+  "flagship": false,
+  "featured": false
+}

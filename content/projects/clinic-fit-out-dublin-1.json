@@ -23,34 +23,34 @@
     "Slatted timber panelling and feature column"
   ],
   "hero": {
-    "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
-    "caption": "Slatted wall and blue cabinetry with lighting",
+    "image": "/assets/work/rt/M141.jpg",
+    "caption": "Reception with illuminated desk, storage wall and slatted panelling",
     "kind": "photo"
   },
   "heroMobile": {
-    "image": "/assets/work/rt/M141.jpg",
-    "caption": "Reception with illuminated desk and storage wall",
+    "image": "/assets/work/clinic-consultation-room-with-pendant-and-featu-144.jpg",
+    "caption": "Consultation room with pendant and feature wall",
     "kind": "photo"
   },
   "gallery": [
     {
-      "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
-      "caption": "Slatted wall and blue cabinetry with lighting",
-      "kind": "photo"
-    },
-    {
       "image": "/assets/work/rt/M141.jpg",
-      "caption": "Reception with illuminated desk and storage wall",
+      "caption": "Reception with illuminated desk, storage wall and slatted panelling",
       "kind": "photo"
     },
     {
-      "image": "/assets/work/rt/M142.jpg",
-      "caption": "Illuminated reception desk, second angle",
+      "image": "/assets/work/clinic-consultation-room-with-pendant-and-featu-144.jpg",
+      "caption": "Consultation room with pendant and feature wall",
       "kind": "photo"
     },
     {
       "image": "/assets/work/clinic-waiting-room-entrance-with-shelving-148.jpg",
-      "caption": "Waiting room entrance with shelving",
+      "caption": "Waiting room entrance with lit shelving",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
+      "caption": "Slatted wall and blue cabinetry with lighting",
       "kind": "photo"
     },
     {
@@ -179,7 +179,7 @@
           "kind": "photo"
         },
         {
-          "image": "/assets/work/rt/M142.jpg",
+          "image": "/assets/work/rt/M141.jpg",
           "caption": "Illuminated reception desk, second angle",
           "kind": "photo"
         },

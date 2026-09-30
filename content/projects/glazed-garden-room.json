@@ -1,24 +1,34 @@
 {
   "slug": "glazed-garden-room",
-  "title": "Glazed outdoor room with timber pergola",
+  "title": "Timber outdoor room and kitchen, later glazed in",
   "location": "Dublin area",
-  "year": "2024",
+  "year": "2023 to 2024",
   "sector": "residential",
   "categories": [
     "veranda",
     "patio"
   ],
   "role": "Built by MF",
-  "summary": "A glazed outdoor room under a timber pergola, set on a porcelain terrace.",
+  "summary": "One project: a timber-framed outdoor room with a built-in barbecue and kitchen, later closed in with sliding glass on a porcelain terrace.",
   "hero": {
-    "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
-    "caption": "Glazed room, porcelain terrace and lawn",
+    "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
+    "caption": "The timber outdoor room with its kitchen and lounge",
     "kind": "photo"
   },
   "gallery": [
     {
+      "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
+      "caption": "Open timber outdoor room with kitchen and lounge",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
+      "caption": "Outdoor kitchen, bar and lounge",
+      "kind": "photo"
+    },
+    {
       "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
-      "caption": "Glazed room, porcelain terrace and lawn",
+      "caption": "The same room later closed in with sliding glass",
       "kind": "photo"
     },
     {
@@ -34,11 +44,37 @@
   ],
   "stages": [
     {
+      "stage": "construction",
+      "text": "The barbecue blockwork and concrete worktop going in.",
+      "images": [
+        {
+          "image": "/assets/work/outdoor-room-bbq-blockwork-base-against-brick-wall-au-171.jpg",
+          "caption": "Barbecue blockwork base, August 2023",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/outdoor-room-concrete-worktop-and-bbq-tower-in-progre-172.jpg",
+          "caption": "Concrete worktop and barbecue tower in progress, October 2023",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
       "stage": "completed",
       "images": [
         {
+          "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
+          "caption": "Open timber outdoor room with kitchen and lounge",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
+          "caption": "Outdoor kitchen, bar and lounge",
+          "kind": "photo"
+        },
+        {
           "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
-          "caption": "Glazed room, porcelain terrace and lawn",
+          "caption": "The same room later closed in with sliding glass",
           "kind": "photo"
         },
         {
@@ -57,5 +93,40 @@
   "order": 25,
   "published": true,
   "flagship": false,
-  "featured": false
+  "featured": false,
+  "heroMobile": {
+    "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+    "caption": "The same room closed in with sliding glass",
+    "kind": "photo"
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/outdoor-room-bbq-blockwork-base-against-brick-wall-au-171.jpg",
+        "caption": "Barbecue blockwork base, August 2023",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
+        "caption": "Finished outdoor kitchen",
+        "kind": "photo"
+      },
+      "caption": "Barbecue blockwork, then the finished outdoor kitchen",
+      "type": "before-after"
+    },
+    {
+      "a": {
+        "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
+        "caption": "Open timber room",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+        "caption": "Closed in with sliding glass",
+        "kind": "photo"
+      },
+      "caption": "The same structure, open and then glazed in",
+      "type": "before-after"
+    }
+  ]
 }

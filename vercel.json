@@ -46,23 +46,125 @@
     }
   ],
   "redirects": [
-    {"source": "/kitchen-renovations", "destination": "/kitchens", "permanent": true},
-    {"source": "/landscaping-pergolas", "destination": "/landscaping", "permanent": true},
-    {"source": "/interior-design", "destination": "/design", "permanent": true},
-    {"source": "/gallery", "destination": "/projects", "permanent": true},
-    {"source": "/residential/whole-house-renovations", "destination": "/house-renovations", "permanent": true},
-    {"source": "/residential/extensions", "destination": "/home-extensions", "permanent": true},
-    {"source": "/residential/kitchens-bathrooms", "destination": "/bathroom-renovations", "permanent": true},
-    {"source": "/residential/bespoke-joinery", "destination": "/bespoke-joinery", "permanent": true},
-    {"source": "/residential/garden-buildings", "destination": "/garden-rooms", "permanent": true},
-    {"source": "/residential/outdoor-living", "destination": "/landscaping", "permanent": true},
-    {"source": "/projects/garden-room-with-artificial-grass", "destination": "/projects/garden-office-with-lighting", "permanent": true},
-    {"source": "/projects/clad-garden-dwelling", "destination": "/projects/our-garden-dwelling", "permanent": true},
-    {"source": "/projects/rendered-garden-dwelling", "destination": "/projects/rendered-garden-rooms", "permanent": true},
-    {"source": "/projects/rear-extension-standing-seam-roof", "destination": "/projects/rear-extension-leixlip", "permanent": true},
-    {"source": "/projects/rear-extension-zinc-fascia", "destination": "/home-extensions", "permanent": true},
-    {"source": "/projects/extension-frameless-glass", "destination": "/home-extensions", "permanent": true},
-    {"source": "/projects/patio-and-garden-store", "destination": "/projects/glass-garden-room-and-garden-store", "permanent": true},
-    {"source": "/projects/bah33-royal-hibernian-way", "destination": "/projects/restaurant-fit-out-dublin-2", "permanent": true}
+    {
+      "source": "/kitchen-renovations",
+      "destination": "/kitchens",
+      "permanent": true
+    },
+    {
+      "source": "/landscaping-pergolas",
+      "destination": "/landscaping",
+      "permanent": true
+    },
+    {
+      "source": "/interior-design",
+      "destination": "/design",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/projects",
+      "permanent": true
+    },
+    {
+      "source": "/residential/whole-house-renovations",
+      "destination": "/house-renovations",
+      "permanent": true
+    },
+    {
+      "source": "/residential/extensions",
+      "destination": "/home-extensions",
+      "permanent": true
+    },
+    {
+      "source": "/residential/kitchens-bathrooms",
+      "destination": "/bathroom-renovations",
+      "permanent": true
+    },
+    {
+      "source": "/residential/bespoke-joinery",
+      "destination": "/bespoke-joinery",
+      "permanent": true
+    },
+    {
+      "source": "/residential/garden-buildings",
+      "destination": "/garden-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/residential/outdoor-living",
+      "destination": "/landscaping",
+      "permanent": true
+    },
+    {
+      "source": "/projects/garden-room-with-artificial-grass",
+      "destination": "/garden-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/projects/clad-garden-dwelling",
+      "destination": "/projects/our-garden-dwelling",
+      "permanent": true
+    },
+    {
+      "source": "/projects/rendered-garden-dwelling",
+      "destination": "/granny-flats",
+      "permanent": true
+    },
+    {
+      "source": "/projects/rear-extension-standing-seam-roof",
+      "destination": "/projects/rear-extension-leixlip",
+      "permanent": true
+    },
+    {
+      "source": "/projects/rear-extension-zinc-fascia",
+      "destination": "/home-extensions",
+      "permanent": true
+    },
+    {
+      "source": "/projects/extension-frameless-glass",
+      "destination": "/home-extensions",
+      "permanent": true
+    },
+    {
+      "source": "/projects/patio-and-garden-store",
+      "destination": "/porcelain-patios",
+      "permanent": true
+    },
+    {
+      "source": "/projects/bah33-royal-hibernian-way",
+      "destination": "/projects/restaurant-fit-out-dublin-2",
+      "permanent": true
+    },
+    {
+      "source": "/projects/outdoor-rooms-and-canopies",
+      "destination": "/projects/glazed-garden-room",
+      "permanent": true
+    },
+    {
+      "source": "/projects/garden-office-with-lighting",
+      "destination": "/garden-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/projects/garden-room-and-sauna",
+      "destination": "/garden-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/projects/composite-clad-garden-room",
+      "destination": "/garden-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/projects/rendered-garden-rooms",
+      "destination": "/garden-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/projects/glass-garden-room-and-garden-store",
+      "destination": "/timber-verandas-glass-rooms",
+      "permanent": true
+    }
   ]
 }

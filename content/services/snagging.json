@@ -157,12 +157,16 @@
       "a": "Send it to your builder or developer. Each item has a photo and a description, so the builder can see exactly what needs fixing."
     },
     {
-      "q": "Can you check the repairs afterwards?",
-      "a": "Yes. A re-snag after the builder's repairs is available and quoted when you book."
-    },
-    {
       "q": "Can you measure the rooms at the same time?",
       "a": "Yes. Room measurements can be added to your inspection for €200."
+    },
+    {
+      "q": "Can you check the repairs afterwards?",
+      "a": "Yes. A re-snag checks each item on the original report after the builder says it has been fixed, and shows what is still outstanding. It is quoted when you book."
+    },
+    {
+      "q": "Is a snag inspection a structural survey or a certificate?",
+      "a": "No. It is a visual inspection of finishes and workmanship in a new home. It does not certify compliance with the Building Regulations and does not include testing of electrical, gas or plumbing systems. Anything that needs a specialist is flagged in the report."
     }
   ],
   "projectsTag": "snagging",
@@ -179,9 +183,60 @@
   },
   "sections": [
     {
-      "title": "Re-snag after the builder's repairs",
+      "title": "What we inspect",
       "paragraphs": [
-        "Once the builder has worked through the list, we can return and check each item again. Re-snag is available and quoted when you book."
+        "A visual, room-by-room inspection of the finished home, inside and out. What we can reach depends on access on the day."
+      ],
+      "bullets": [
+        "Walls, ceilings and paintwork: cracks, marks, missed areas and poor finishes",
+        "Floors and skirtings: damage, gaps and visible unevenness",
+        "Doors, locks and handles: operation, alignment and gaps",
+        "Windows and seals: opening, locking, sealant and damaged frames or glass",
+        "Kitchen units, doors, drawers, worktop joints and sealant",
+        "Bathrooms and sanitaryware: tiling, lippage, sealant, fixings and visible leaks",
+        "Taps and wastes: run and checked for visible leaks",
+        "Heating: radiators fitted and warming, where the system is on",
+        "Sockets, switches and fittings: fitted, level and undamaged (a visual check, not an electrical test)",
+        "Vents and extractor fans fitted and running",
+        "Attic and insulation, where it is safe to access",
+        "Outside: render, brickwork, gutters and downpipes",
+        "Paths, driveway, boundaries, fencing and gates",
+        "Drainage covers and manholes, where accessible",
+        "Anything left unfinished"
+      ]
+    },
+    {
+      "title": "What you receive",
+      "bullets": [
+        "A written photo report, organised room by room",
+        "A photo of every item, with a short description and where it is",
+        "Plain-English explanations, so you know what to ask for",
+        "A report you can forward straight to your builder or developer",
+        "A call to go through the findings if you could not attend"
+      ]
+    },
+    {
+      "title": "When to book",
+      "paragraphs": [
+        "Book as soon as the builder confirms the house is finished, ideally before you close the sale, so repairs can be done before you move in. If you already have the keys, a snag inspection is still worth doing while the builder is dealing with defects."
+      ]
+    },
+    {
+      "title": "What a re-snag is",
+      "paragraphs": [
+        "Once the builder or developer says the items have been addressed, we return and check each item on the original report. You get a short update showing what has been fixed and what is still outstanding. A re-snag is quoted when you book."
+      ]
+    },
+    {
+      "title": "What a snag inspection is not",
+      "paragraphs": [
+        "A snag inspection is a visual check of finishes and workmanship in a new home. It is not a structural survey, a Building Regulations compliance certificate or any form of statutory certification, and we do not test electrical, gas or plumbing systems or open up the building. If we see something that needs an engineer or another specialist, the report says so."
+      ]
+    },
+    {
+      "title": "Why MF",
+      "paragraphs": [
+        "We build and renovate homes ourselves, so we know how a house is put together and where problems tend to hide. Wanessa, who leads the service, holds a degree in Construction Economics. Most of our Google reviews come from snagging clients, and many mention how thorough the inspection was."
       ]
     },
     {

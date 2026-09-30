@@ -3,13 +3,33 @@ import Pic from "@/components/ui/Pic";
 import Img from "@/components/Img";
 import type { MediaItem } from "@/lib/types";
 
-export type PairData = { a: MediaItem; b: MediaItem; caption: string; type: "design-built" | "before-after" };
+export type PairData = { a: MediaItem; b: MediaItem; mid?: MediaItem; caption: string; type: "design-built" | "before-after" | "before-design-after" };
 
-const labels = (t: PairData["type"]) => (t === "before-after" ? ["Before", "After"] : ["Design", "Built"]);
+const labels = (t: PairData["type"]) => (t === "before-after" ? ["Before", "After"] : t === "before-design-after" ? ["Before", "After"] : ["Design", "Built"]);
 
 /** Design (or before) beside the finished result, with plain labels. */
 export function Pair({ pair, tone = "light" }: { pair: PairData; tone?: "light" | "dark" }) {
   const [l1, l2] = labels(pair.type);
+  if (pair.type === "before-design-after" && pair.mid) {
+    const cells: [MediaItem, string, string][] = [
+      [pair.a, "Before", "bg-white/90 text-ink"],
+      [pair.mid, "Design", "bg-tan text-ink"],
+      [pair.b, "After", "bg-ink text-tan"],
+    ];
+    return (
+      <figure>
+        <div className="grid grid-cols-3 gap-2">
+          {cells.map(([m, label, cls]) => (
+            <div key={label} className="relative">
+              <Pic item={m} badge={false} className="aspect-[3/4] rounded-md sm:aspect-[4/3]" layout="(min-width: 1024px) 22vw, 33vw" />
+              <span className={`absolute left-2 top-2 rounded px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${cls}`}>{label}</span>
+            </div>
+          ))}
+        </div>
+        <figcaption className={`mt-3 text-sm ${tone === "dark" ? "text-white/75" : "text-muted-foreground"}`}>{pair.caption}</figcaption>
+      </figure>
+    );
+  }
   return (
     <figure>
       <div className="grid grid-cols-2 gap-2">

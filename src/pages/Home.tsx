@@ -217,7 +217,7 @@ export default function Home() {
           <div>
             <SectionHead className="mb-6" eyebrow="Who we are" title="A family-run company, with the owners on the job" />
             <p className="text-lg leading-relaxed text-neutral-700">
-              MF Project Solutions is run by Alex Ferreira and his wife Wanessa, with Alex's sister Rosanne and sister-in-law Rosana. Our crew builds the work, our joiners make the kitchens and joinery in Drumree, and you deal with a named person from first contact to handover.
+              MF Project Solutions is a family-run company, and the people who own it run the work. From the first call to handover you deal with named people: the person who prices your job, the person who manages it and the crew who build it. Our joiners make the kitchens and joinery in our own workshop in Drumree.
             </p>
             {team.length > 0 && (
               <div className="mt-8 flex flex-wrap gap-6">

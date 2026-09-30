@@ -1,6 +1,6 @@
 {
   "slug": "attic-conversions",
-  "title": "Attic conversions and en-suites",
+  "title": "Attic conversions, selected work",
   "location": "Dublin and Meath",
   "year": "2023 to 2024",
   "sector": "residential",
@@ -9,16 +9,36 @@
     "bathroom"
   ],
   "role": "Built by MF",
-  "summary": "New attic stairs, rooflights and shower rooms, turning roof space into bedrooms and studies.",
+  "summary": "A finished attic bedroom and study with a new stair and three rooflights, plus attic shower rooms from other conversions.",
   "hero": {
-    "image": "/assets/work/rt/M188.jpg",
-    "caption": "Attic bedroom with rooflights and study area",
+    "image": "/assets/work/attic-converted-attic-wide-bedroom-study-and-rooflights-a11.jpg",
+    "caption": "Converted attic: bedroom, study area and three rooflights",
     "kind": "photo"
   },
   "gallery": [
     {
-      "image": "/assets/work/rt/M188.jpg",
-      "caption": "Attic bedroom with rooflights and study area",
+      "image": "/assets/work/attic-converted-attic-wide-bedroom-study-and-rooflights-a11.jpg",
+      "caption": "Converted attic: bedroom, study area and three rooflights",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-new-stair-arriving-into-the-attic-room-a13.jpg",
+      "caption": "New stair arriving into the attic room",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-converted-attic-bedroom-and-study-under-rooflights-a12.jpg",
+      "caption": "Bedroom and study under the rooflights",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-stair-balustrade-bedroom-and-rooflight-a14.jpg",
+      "caption": "Stair balustrade, bedroom and rooflight",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-rooflights-in-the-roof-slope-a15.jpg",
+      "caption": "Rooflights in the roof slope",
       "kind": "photo"
     },
     {
@@ -27,37 +47,47 @@
       "kind": "photo"
     },
     {
-      "image": "/assets/work/rt/M189.jpg",
-      "caption": "Attic room with three rooflights",
+      "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
+      "caption": "Attic shower room under rooflights",
       "kind": "photo"
     },
     {
-      "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
-      "caption": "Attic shower room under rooflights",
+      "image": "/assets/work/rt/M188.jpg",
+      "caption": "Attic bedroom with rooflights and study area",
       "kind": "photo"
     }
   ],
   "pairs": [
     {
       "a": {
-        "image": "/assets/work/attic-new-attic-stair-installed-190.jpg",
-        "caption": "New attic stair installed",
+        "image": "/assets/work/attic-stair-opening-and-floor-joists-during-works-a17.jpg",
+        "caption": "The stair opening during the works",
         "kind": "photo"
       },
       "b": {
-        "image": "/assets/work/rt/M188.jpg",
-        "caption": "Attic bedroom with rooflights and study area",
+        "image": "/assets/work/attic-new-stair-arriving-into-the-attic-room-a13.jpg",
+        "caption": "The finished stair arriving in the attic",
         "kind": "photo"
       },
-      "caption": "The new attic stair, then the finished attic bedroom",
+      "caption": "The new stair: opening in the floor, then finished",
       "type": "before-after"
     }
   ],
   "stages": [
     {
       "stage": "construction",
-      "text": "The new attic stair installed.",
+      "text": "Opening the floor for the new stair.",
       "images": [
+        {
+          "image": "/assets/work/attic-new-stair-opening-framed-in-the-floor-a16.jpg",
+          "caption": "New stair opening framed in the floor",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/attic-stair-opening-and-floor-joists-during-works-a17.jpg",
+          "caption": "Stair opening and floor joists during the works",
+          "kind": "photo"
+        },
         {
           "image": "/assets/work/attic-new-attic-stair-installed-190.jpg",
           "caption": "New attic stair installed",
@@ -69,23 +99,28 @@
       "stage": "completed",
       "images": [
         {
-          "image": "/assets/work/rt/M189.jpg",
-          "caption": "Attic room with three rooflights",
+          "image": "/assets/work/attic-converted-attic-wide-bedroom-study-and-rooflights-a11.jpg",
+          "caption": "Converted attic: bedroom, study area and three rooflights",
           "kind": "photo"
         },
         {
-          "image": "/assets/work/rt/M188.jpg",
-          "caption": "Attic bedroom with rooflights and study area",
+          "image": "/assets/work/attic-new-stair-arriving-into-the-attic-room-a13.jpg",
+          "caption": "New stair arriving into the attic room",
           "kind": "photo"
         },
         {
-          "image": "/assets/work/attic-attic-shower-room-black-framed-screen-192.jpg",
-          "caption": "Attic shower room, black framed screen",
+          "image": "/assets/work/attic-converted-attic-bedroom-and-study-under-rooflights-a12.jpg",
+          "caption": "Bedroom and study under the rooflights",
           "kind": "photo"
         },
         {
-          "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
-          "caption": "Attic shower room under rooflights",
+          "image": "/assets/work/attic-stair-balustrade-bedroom-and-rooflight-a14.jpg",
+          "caption": "Stair balustrade, bedroom and rooflight",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/attic-rooflights-in-the-roof-slope-a15.jpg",
+          "caption": "Rooflights in the roof slope",
           "kind": "photo"
         }
       ]
@@ -94,5 +129,10 @@
   "order": 23,
   "published": true,
   "flagship": false,
-  "featured": false
+  "featured": false,
+  "heroMobile": {
+    "image": "/assets/work/attic-converted-attic-bedroom-and-study-under-rooflights-a12.jpg",
+    "caption": "Bedroom and study under the rooflights",
+    "kind": "photo"
+  }
 }

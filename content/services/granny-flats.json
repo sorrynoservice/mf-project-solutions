@@ -50,7 +50,7 @@
     "title": "Garden room or garden home?",
     "paragraphs": [
       "Since 27 July 2026 they are legally different things. A garden room (Class 3) is a home office, gym, studio or store of up to 30 m², and nobody can live in it. A garden home (Class 3A) is a detached house of 32 to 45 m² in the rear garden, lived in together with the main house.",
-      "A garden home is meant for family use alongside the main house. It cannot be sold or let separately, and short-term letting is not allowed. If you are looking for a rental unit, this exemption is not the route."
+      "A garden home must be occupied in conjunction with the main house. It cannot be sold or subdivided from the main house, and short-term letting is not allowed. The regulations do not limit it to family members, but it is not a separate property you can sell off."
     ]
   },
   "gallery": {
@@ -117,9 +117,9 @@
     ]
   },
   "price": {
-    "headline": "Building from about €2,500 per m² including VAT.",
-    "note": "Groundworks, trenching and service connections are priced separately.",
-    "confirmed": false
+    "headline": "Garden homes are priced per project.",
+    "note": "A garden home is a separate dwelling, built to the Building Regulations for a new home: insulation and airtightness, ventilation, heating, a kitchen, a shower room and full plumbing and drainage. It costs considerably more per m² than a garden room, so we price each one after a site visit and a written specification. Service connections and groundworks are included on the quotation.",
+    "confirmed": true
   },
   "process": [
     {
@@ -151,7 +151,7 @@
     },
     {
       "q": "Can I rent out a garden home?",
-      "a": "No. It must be lived in together with the main house. It cannot be sold or let separately, and short-term letting is not allowed."
+      "a": "It must be occupied in conjunction with the main house. It cannot be sold or subdivided, and short-term letting is not allowed. The regulations say nothing specific about longer-term letting, so take advice from your solicitor before relying on it."
     },
     {
       "q": "Does my existing shed count?",

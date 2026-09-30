@@ -50,6 +50,41 @@
     "title": "Patios we have laid",
     "items": [
       {
+        "image": "/assets/work/rt/M63.jpg",
+        "caption": "Finished patio, lawn strip and garden building, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/kinsealy-side-porcelain-patio-and-lawn-p04.jpg",
+        "caption": "Side and rear porcelain patio with new lawn, Kinsealy",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/ashtown-porcelain-patio-laid-with-contrasting-border-p02.jpg",
+        "caption": "Light porcelain with a dark contrasting border, Ashtown",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathfarnham-rear-patio-levels-and-steps-p05.jpg",
+        "caption": "Raised patio with steps down to the lawn, Rathfarnham",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/duleek-porcelain-side-path-and-rear-patio-p06.jpg",
+        "caption": "Sandstone-colour porcelain side path and rear patio, Duleek",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/duleek-porcelain-patio-lawn-and-pergola-p07.jpg",
+        "caption": "Rear patio beside the lawn with a pergola post, Duleek",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/ashtown-porcelain-patio-border-and-falls-p03.jpg",
+        "caption": "Border detail and falls away from the house, Ashtown",
+        "kind": "photo"
+      },
+      {
         "image": "/assets/work/rt/G81.jpg",
         "caption": "Porcelain patio, paths and a garden store",
         "kind": "photo"
@@ -63,20 +98,25 @@
         "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
         "caption": "Porcelain patio with a path through the lawn",
         "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M63.jpg",
-        "caption": "Porcelain patio and lawn, Blackrock, Co. Louth",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M67.jpg",
-        "caption": "Side and rear porcelain patio with lawn",
-        "kind": "photo"
       }
-    ]
+    ],
+    "intro": "Real patios from our jobs across Dublin, Meath and Louth: different sizes, colours, borders, steps and levels."
   },
   "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/ashtown-rear-garden-before-patio-works-p01.jpg",
+        "caption": "The garden before, Ashtown",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/ashtown-porcelain-patio-laid-with-contrasting-border-p02.jpg",
+        "caption": "The new patio with its contrasting border, Ashtown",
+        "kind": "photo"
+      },
+      "caption": "Ashtown: the garden before, then the new porcelain patio",
+      "type": "before-after"
+    },
     {
       "a": {
         "image": "/assets/work/blackrock-porcelain-paving-being-laid-64.jpg",
@@ -117,9 +157,24 @@
     ]
   },
   "price": {
-    "headline": "From about €180 per m² supplied and laid.",
-    "note": "The price changes with access, the porcelain you choose, steps and changes in level, and the drainage the garden needs.",
-    "confirmed": false
+    "headline": "Porcelain patios from €180 per m² plus VAT, supplied and laid.",
+    "table": [
+      {
+        "label": "20 m² patio",
+        "value": "from €3,600 + VAT"
+      },
+      {
+        "label": "30 m² patio",
+        "value": "from €5,400 + VAT"
+      },
+      {
+        "label": "40 m² patio",
+        "value": "from €7,200 + VAT"
+      }
+    ],
+    "note": "Examples assume normal ground and access. Excavation, removing an existing surface, access, levels, drainage, steps, edging, the tile you choose and unusual groundwork can change the final figure, and your written quotation sets it out. VAT is charged at 13.5%.",
+    "confirmed": false,
+    "pending": "Confirm that €180 per m² is the price before VAT (VAT at 13.5% added on top)."
   },
   "process": [
     {
@@ -169,8 +224,8 @@
   "crossSell": [
     {
       "route": "/landscaping",
-      "label": "Landscaping",
-      "text": "Doing the whole garden? We rebuild gardens from drainage up."
+      "label": "Landscaping and garden rebuilds",
+      "text": "Doing the whole garden? Drainage, lawn, walls, planting, pergola and garden room planned as one job."
     },
     {
       "route": "/timber-verandas-glass-rooms",
