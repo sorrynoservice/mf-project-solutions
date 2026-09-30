@@ -483,6 +483,12 @@
   "published": true,
   "videos": [
     {
+      "src": "/media/video/V211.mp4",
+      "poster": "/media/video/V211.jpg",
+      "caption": "The house from outside, with the new extension",
+      "loop": true
+    },
+    {
       "src": "/media/video/phibsborough-before-to-finished-alt.mp4",
       "poster": "/media/video/phibsborough-before-to-finished-alt.jpg",
       "caption": "Before, during and after, Phibsborough",
@@ -492,6 +498,36 @@
       "src": "/media/video/V315.mp4",
       "poster": "/media/video/V315.jpg",
       "caption": "Our joiners fitting the kitchen",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V206.mp4",
+      "poster": "/media/video/V206.jpg",
+      "caption": "The finished oak and red kitchen",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V207.mp4",
+      "poster": "/media/video/V207.jpg",
+      "caption": "Living room joinery around the original fireplace",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V208.mp4",
+      "poster": "/media/video/V208.jpg",
+      "caption": "Push to open storage, walk-in unit and understairs joinery",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V210.mp4",
+      "poster": "/media/video/V210.jpg",
+      "caption": "The stairs before and after, with oak understairs storage",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V209.mp4",
+      "poster": "/media/video/V209.jpg",
+      "caption": "The finished bathrooms",
       "loop": true
     }
   ]

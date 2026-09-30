@@ -8,7 +8,7 @@
   "formService": "Interior design",
   "seo": {
     "title": "Interior Design and Planning Drawings | MF Project Solutions",
-    "description": "Interior design, 3D visualisation and planning drawings in Dublin, Meath and Kildare, from a team that also builds. Fixed fee quoted after the first meeting."
+    "description": "Interior design packages from €200 plus VAT, plus 3D visualisation and planning drawings in Dublin, Meath and Kildare, from a team that also builds."
   },
   "hero": {
     "eyebrow": "Design services",
@@ -27,7 +27,7 @@
     },
     "ctaLabel": "Book a first meeting",
     "bullets": [
-      "Fixed design fee, quoted after the first meeting",
+      "Interior design packages from €200 plus VAT",
       "Rathcoole bathrooms built almost exactly to our 3D designs",
       "We can build what we design"
     ]
@@ -275,7 +275,7 @@
     },
     {
       "q": "How much does design cost?",
-      "a": "Design is a paid service. We quote a fixed fee after the first meeting, once we know what the project needs."
+      "a": "Interior design packages have fixed prices: a one-hour consultation is €200, a room design starts at €1,000, a kitchen cabinet layout is €650, a full kitchen design is €2,950 and a full interior design is €3,950, all plus VAT. For extensions and renovations that need planning or technical drawings, we quote a fee after the first meeting."
     },
     {
       "q": "Is the design fee taken off the build price?",
@@ -315,12 +315,25 @@
     {
       "title": "Our staged design service",
       "paragraphs": [
-        "Design is a paid service. We quote a fixed fee after the first meeting."
+        "Design is a paid service. Our interior design packages have fixed prices, shown on this page. For extensions and renovations that need planning and technical drawings, we quote a fee after the first meeting."
       ],
       "bullets": [
         "Stage 1: brief and feasibility",
         "Stage 2: design and planning drawings",
         "Stage 3: technical design, coordinated with the engineer"
+      ]
+    },
+    {
+      "title": "What each interior design package includes",
+      "paragraphs": [
+        "Every package starts with a 15-minute discovery call, then a site visit or online briefing, the design work, and a round of review before we hand over."
+      ],
+      "bullets": [
+        "One-hour design consultation (€200): a 60-minute session on site or online covering layout, colour, lighting, surfaces and styling, with a written summary within 48 hours",
+        "Room by room design package (from €1,000 per room): mood board, furniture layout to scale, finish and fitting schedule, shopping links and one round of refinements",
+        "Kitchen cabinet layout only (€650): a working cabinet and appliance layout with finish and material suggestions, and one round of tweaks",
+        "Full kitchen design package (€2,950): 2D layout and 3D renders, cabinetry, materials, lighting and appliance specification, documents ready for a builder, and up to 3 design revisions",
+        "Full interior design package (€3,950): whole-house mood board and layout plan, fixture and fittings schedule, shopping list and two follow-up design calls, delivered in stages"
       ]
     },
     {
@@ -335,5 +348,32 @@
         "Fire engineering"
       ]
     }
-  ]
+  ],
+  "price": {
+    "headline": "Interior design packages from €200 plus VAT",
+    "confirmed": true,
+    "note": "Prices exclude VAT. A 50% deposit secures your booking and the balance is due when we deliver the final design pack. Travel outside Dublin is quoted separately.",
+    "table": [
+      {
+        "label": "One-hour design consultation",
+        "value": "€200"
+      },
+      {
+        "label": "Room by room design package",
+        "value": "From €1,000 per room, €500 for each additional room"
+      },
+      {
+        "label": "Kitchen cabinet layout only",
+        "value": "€650"
+      },
+      {
+        "label": "Full kitchen design package",
+        "value": "€2,950"
+      },
+      {
+        "label": "Full interior design package",
+        "value": "€3,950"
+      }
+    ]
+  }
 }
