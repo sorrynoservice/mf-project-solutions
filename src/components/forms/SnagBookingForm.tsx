@@ -175,6 +175,8 @@ const SnagBookingForm = ({ pageCode = "SNG", tone = "light", compact = false, he
       );
       pushUserData({ email: v.email, phone: v.phone });
       track("snagging_booking_submit", { lead_route: route, page_code: pageCode, bedrooms: v.bedrooms });
+      // The live GTM container counts snagging bookings on this older event; keep it until GTM is updated.
+      track("snagging_booking_click", { lead_route: route, page_code: pageCode, legacy: true });
       setStatus("sent");
       setAnnounce("");
     } catch {

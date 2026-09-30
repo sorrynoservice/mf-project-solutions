@@ -79,9 +79,11 @@ export const installLinkTracking = () => {
       const lead_route = isRoute(routeAttr) ? routeAttr : routeFromContact(href);
 
       if (/(^|\/\/)(api\.)?wa\.me\//i.test(href) || href.includes("api.whatsapp.com/")) {
-        track("whatsapp_click", { lead_route, page_code });
+        // `line` keeps the existing GTM triggers (construction / snagging) working.
+        track("whatsapp_click", { lead_route, page_code, line: lead_route === "property" ? "snagging" : "construction" });
       } else if (href.startsWith("tel:")) {
-        track("phone_click", { lead_route, page_code });
+        // `number` keeps the existing GTM phone triggers working.
+        track("phone_click", { lead_route, page_code, number: toE164(href.slice(4)) });
       } else if (href.startsWith("mailto:")) {
         track("email_click", { lead_route, page_code });
       } else if (href.includes("forms.gle/") || href.includes("docs.google.com/forms")) {
