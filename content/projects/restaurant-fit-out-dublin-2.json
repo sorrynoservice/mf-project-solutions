@@ -101,9 +101,52 @@
       "image": "/assets/work/bah33-terrace-enclosure-at-night-bah33-planter-157.jpg",
       "caption": "Terrace enclosure at night, BAH33 planters",
       "kind": "photo"
+    },
+    {
+      "image": "/assets/work/design-bah33-3d-bar-front-and-dining-r02.jpg",
+      "caption": "MF 3D design: bar front and dining area",
+      "kind": "design"
+    },
+    {
+      "image": "/assets/work/design-bah33-3d-dining-room-looking-to-the-windows-r06.jpg",
+      "caption": "MF 3D design: dining room looking to the windows",
+      "kind": "design"
+    },
+    {
+      "image": "/assets/work/design-bah33-3d-window-side-dining-r11.jpg",
+      "caption": "MF 3D design: window side dining",
+      "kind": "design"
     }
   ],
   "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/design-bah33-3d-brick-feature-wall-and-seating-r10.jpg",
+        "caption": "MF 3D design: brick feature wall and banquette seating",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/bah33-dining-room-brick-feature-wall-h08.jpg",
+        "caption": "The finished brick feature wall and seating",
+        "kind": "photo"
+      },
+      "caption": "Dining room: MF 3D design and the finished room",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/design-bah33-3d-dining-room-buffet-and-bar-r01.jpg",
+        "caption": "MF 3D design: dining room, buffet station and bar",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/bah33-main-dining-room-and-buffet-h07.jpg",
+        "caption": "The finished dining room and buffet",
+        "kind": "photo"
+      },
+      "caption": "Buffet and dining: MF 3D design and the finished room",
+      "type": "design-built"
+    },
     {
       "a": {
         "image": "/assets/work/bah33-washroom-with-timber-cladding-and-round-306.jpg",
@@ -122,8 +165,28 @@
   "stages": [
     {
       "stage": "design",
-      "text": "Kitchen layouts and MF renders of the bar, ceiling and washrooms.",
+      "text": "MF 3D designs of the dining room, bar and feature walls, plus kitchen layouts and renders of the ceiling and washrooms.",
       "images": [
+        {
+          "image": "/assets/work/design-bah33-3d-dining-room-buffet-and-bar-r01.jpg",
+          "caption": "MF 3D design: dining room, buffet station and bar",
+          "kind": "design"
+        },
+        {
+          "image": "/assets/work/design-bah33-3d-brick-feature-wall-and-seating-r10.jpg",
+          "caption": "MF 3D design: brick feature wall and banquette seating",
+          "kind": "design"
+        },
+        {
+          "image": "/assets/work/design-bah33-3d-curved-bar-and-back-bar-r03.jpg",
+          "caption": "MF 3D design: curved bar and back bar",
+          "kind": "design"
+        },
+        {
+          "image": "/assets/work/design-bah33-3d-wine-shelving-and-brick-sign-wall-r07.jpg",
+          "caption": "MF 3D design: wine shelving and the brick sign wall",
+          "kind": "design"
+        },
         {
           "image": "/assets/work/bah33-commercial-kitchen-3d-layout-kitchen-bah-149.jpg",
           "caption": "Commercial kitchen 3D layout (kitchen bah33 folder)",
