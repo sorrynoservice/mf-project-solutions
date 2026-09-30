@@ -643,3 +643,17 @@ content:
         label: Instagram strip
         component: media_item
         list: true
+  - name: home
+    label: Home page
+    type: file
+    path: content/pages/home.json
+    format: json
+    fields:
+      - name: video
+        label: Home video
+        type: object
+        fields:
+          - { name: src, label: Video file, type: string }
+          - { name: poster, label: Poster image, type: string }
+          - { name: caption, label: Caption, type: string }
+          - { name: loop, label: Silent loop, type: boolean }

@@ -7,7 +7,7 @@
  * (services, guides, projects) comes from the JSON in /content.
  */
 import type { ReactNode } from "react";
-import { guides, projects, services } from "@/lib/content";
+import { guides, isPreview, projects, services } from "@/lib/content";
 import { SITE_URL, SITE_NAME } from "@/lib/head";
 import type { MediaItem } from "@/lib/types";
 import GardenCalculator from "@/pages/GardenCalculator";
@@ -123,7 +123,7 @@ const fixedRoutes: RouteDef[] = [
   page(
     "/",
     <Home />,
-    "Extensions, Renovations and Fit-Outs in Dublin and Meath",
+    "Extensions and Renovations in Dublin and Meath",
     "Family-run construction company building extensions, whole-house renovations and commercial fit-outs across Dublin, Meath and Kildare, with our own joinery workshop.",
     { meta: { jsonLd: [org] } },
   ),
@@ -154,7 +154,7 @@ const fixedRoutes: RouteDef[] = [
   page("/thank-you", <ThankYou />, "Thank You", "Thanks for getting in touch.", { meta: { noindex: true }, sitemap: false }),
 ];
 
-const serviceRoutes: RouteDef[] = services.map((s) => ({
+const serviceRoutes: RouteDef[] = services.filter((s) => !s.hidden || isPreview).map((s) => ({
   path: s.route,
   element: <ServiceLanding route={s.route} />,
   meta: {
