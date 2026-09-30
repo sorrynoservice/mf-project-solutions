@@ -210,6 +210,18 @@
       "poster": "/media/video/V019.jpg",
       "caption": "From stripped house to finished rooms, Drumcondra",
       "loop": true
+    },
+    {
+      "src": "/media/video/V204.mp4",
+      "poster": "/media/video/V204.jpg",
+      "caption": "This house needed everything: rebuilding the structure",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V205.mp4",
+      "poster": "/media/video/V205.jpg",
+      "caption": "Preparation before the paint goes on",
+      "loop": true
     }
   ],
   "order": 8,
