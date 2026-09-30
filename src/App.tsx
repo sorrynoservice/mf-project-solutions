@@ -5,8 +5,8 @@
  */
 import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "@/components/ScrollToTop";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import NotFoundPage from "@/pages/placeholders/NotFoundPage";
+import ConsentBanner from "@/components/ConsentBanner";
+import { NotFound } from "@/pages/Simple";
 import { Head } from "@/lib/head";
 import { routes, type RouteDef } from "@/routes";
 
@@ -33,9 +33,17 @@ const App = () => (
       {routes.map((r) => (
         <Route key={r.path} path={r.path} element={<RoutePage route={r} />} />
       ))}
-      <Route path="*" element={<NotFoundPage />} />
+      <Route
+        path="*"
+        element={
+          <>
+            <Head title="Page not found | MF Project Solutions" description="This page does not exist." noindex priority={2} />
+            <NotFound />
+          </>
+        }
+      />
     </Routes>
-    <FloatingWhatsApp />
+    <ConsentBanner />
   </>
 );
 

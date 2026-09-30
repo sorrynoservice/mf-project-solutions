@@ -14,6 +14,9 @@ export default {
         serif: ['"Source Serif 4 Variable"', "ui-serif", "Georgia", "serif"],
       },
       colors: {
+        ink: { DEFAULT: "#0a3632", 2: "#0f4a44", 3: "#062421" },
+        tan: { DEFAULT: "#d5be9c", light: "#e8dcc8", deep: "#86683e" },
+        paper: "#f6f3ee",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

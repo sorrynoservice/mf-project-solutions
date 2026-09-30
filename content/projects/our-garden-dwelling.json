@@ -112,5 +112,13 @@
   "flagship": true,
   "order": 6,
   "published": true,
-  "featured": false
+  "featured": false,
+  "videos": [
+    {
+      "src": "/media/video/V007.mp4",
+      "poster": "/media/video/V007.jpg",
+      "caption": "Inside our garden dwelling",
+      "loop": true
+    }
+  ]
 }

@@ -11,11 +11,16 @@ import { guides, projects, services } from "@/lib/content";
 import { SITE_URL, SITE_NAME } from "@/lib/head";
 import type { MediaItem } from "@/lib/types";
 import GardenCalculator from "@/pages/GardenCalculator";
-import Placeholder from "@/pages/placeholders/Placeholder";
-import ServiceLandingPlaceholder from "@/pages/placeholders/ServiceLandingPlaceholder";
-import GuidePlaceholder from "@/pages/placeholders/GuidePlaceholder";
-import ProjectPlaceholder from "@/pages/placeholders/ProjectPlaceholder";
-import ProjectsPlaceholder from "@/pages/placeholders/ProjectsPlaceholder";
+import Home from "@/pages/Home";
+import Residential from "@/pages/Residential";
+import Commercial from "@/pages/Commercial";
+import About from "@/pages/About";
+import ForArchitects from "@/pages/ForArchitects";
+import PropertyServices from "@/pages/PropertyServices";
+import ServiceLanding from "@/pages/ServiceLanding";
+import Guide from "@/pages/Guide";
+import { ProjectDetail, Projects } from "@/pages/Projects";
+import { Contact, Cookies, Faqs, HowWeWork, Privacy, ThankYou } from "@/pages/Simple";
 
 export type RouteMeta = {
   title: string;
@@ -68,105 +73,90 @@ const faqPage = (faqs: { q: string; a: string }[]) => ({
   })),
 });
 
-const fixed = (
+const page = (
   path: string,
-  name: string,
+  element: ReactNode,
   title: string,
   description: string,
-  extra: Partial<RouteDef> = {},
-): RouteDef => ({
-  path,
-  element: <Placeholder name={name} />,
-  meta: { title: withSuffix(title), description },
-  priority: path === "/" ? 1 : 0.7,
-  ...extra,
-});
+  extra: Omit<Partial<RouteDef>, "meta"> & { meta?: Partial<RouteMeta> } = {},
+): RouteDef => {
+  const { meta, ...rest } = extra;
+  return {
+    path,
+    element,
+    priority: path === "/" ? 1 : 0.7,
+    ...rest,
+    meta: { title: withSuffix(title), description, ...meta },
+  };
+};
+
+const org = {
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  name: SITE_NAME,
+  legalName: "MF Engineering and Designs Limited",
+  url: SITE_URL,
+  logo: `${SITE_URL}/assets/mf-logo-DQmhj-jT.jpg`,
+  image: `${SITE_URL}/og-image.jpg`,
+  telephone: "+353838097035",
+  email: "info@mfeng.ie",
+  foundingDate: "2021",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Unit 1, Merrywell Business Park",
+    addressLocality: "Drumree",
+    addressRegion: "Co. Meath",
+    postalCode: "A85 EC84",
+    addressCountry: "IE",
+  },
+  geo: { "@type": "GeoCoordinates", latitude: 53.5126, longitude: -6.5403 },
+  areaServed: {
+    "@type": "GeoCircle",
+    geoMidpoint: { "@type": "GeoCoordinates", latitude: 53.5126, longitude: -6.5403 },
+    geoRadius: "50000",
+    description: "Within 50 km of Dunshaughlin, Co. Meath, including all of Dublin",
+  },
+  sameAs: ["https://www.facebook.com/profile.php?id=61566828341610", "https://www.instagram.com/mfprojectsolutions/"],
+};
 
 const fixedRoutes: RouteDef[] = [
-  fixed(
+  page(
     "/",
-    "Home",
-    "Design and Build Contractor in Dublin, Meath and Kildare",
-    "Whole-house renovations, extensions and commercial fit-outs, designed and built by one team with its own joinery workshop. Arrange a site visit.",
+    <Home />,
+    "Extensions, Renovations and Fit-Outs in Dublin and Meath",
+    "Family-run construction company building extensions, whole-house renovations and commercial fit-outs across Dublin, Meath and Kildare, with our own joinery workshop.",
+    { meta: { jsonLd: [org] } },
   ),
-  fixed(
+  page(
     "/residential",
-    "Residential",
-    "Home Renovations and Extensions in Dublin",
-    "Whole-house renovations, extensions, attic conversions, kitchens, bathrooms and bespoke joinery, often working with your architect.",
+    <Residential />,
+    "Home Extensions and Renovations in Dublin and Meath",
+    "Extensions, whole-house renovations, attic conversions, garden homes, kitchens and joinery, built from your architect's drawings or designed with you first.",
     { priority: 0.9 },
   ),
-  fixed(
+  page(
     "/commercial",
-    "Commercial",
-    "Commercial Fit-Out in Dublin: Clinics, Restaurants, Retail",
-    "Commercial design and fit-out for clinics, restaurants, retail and offices, closed out with your design team.",
+    <Commercial />,
+    "Commercial Fit-Outs in Dublin: Restaurants, Clinics, Retail",
+    "Design, construction and joinery for restaurants, clinics, retail units and offices, programmed around your opening date and closed out with your design team.",
     { priority: 0.9 },
   ),
-  fixed(
-    "/about",
-    "About",
-    "About MF Project Solutions",
-    "A design and build contractor based in Drumree, Co. Meath, with its own site team and joinery workshop.",
-  ),
-  fixed(
-    "/for-architects",
-    "For architects",
-    "Working with Architects and Designers",
-    "A main contractor that builds to your drawings, prices openly and closes out with your design team.",
-  ),
-  fixed(
-    "/property-services",
-    "Property services",
-    "Snagging and Property Inspections in Dublin",
-    "Snag lists for new homes and pre-purchase inspections, documented with photos and delivered quickly.",
-  ),
-  {
-    path: "/projects",
-    element: <ProjectsPlaceholder />,
-    meta: {
-      title: withSuffix("Projects: Renovations, Extensions and Fit-Outs"),
-      description: "Homes and commercial units designed and built by MF Project Solutions, from before to handover.",
-    },
-    priority: 0.9,
-  },
-  fixed(
-    "/contact",
-    "Contact",
-    "Contact MF Project Solutions",
-    "Call, WhatsApp or send an enquiry to arrange a site visit in Dublin, Meath, Kildare or Louth.",
-  ),
-  fixed(
-    "/how-we-work",
-    "How we work",
-    "How We Work: From Site Visit to Handover",
-    "How a project runs with MF Project Solutions, from the first visit and fixed price to handover.",
-  ),
-  fixed("/faqs", "FAQs", "Frequently Asked Questions", "Answers to common questions about pricing, timing, planning and how we work."),
-  {
-    path: "/garden-calculator",
-    element: <GardenCalculator />,
-    meta: {
-      title: withSuffix("Garden Landscaping Price Calculator"),
-      description: "Build an instant estimate for patios, artificial grass, planting beds, drainage and garden structures.",
-    },
-    priority: 0.6,
-  },
-  fixed("/privacy", "Privacy", "Privacy Policy", "How MF Project Solutions collects, uses and protects personal data.", {
-    priority: 0.2,
-  }),
-  fixed("/cookies", "Cookies", "Cookie Policy", "The cookies this website uses and how to change your choices.", {
-    priority: 0.2,
-  }),
-  fixed("/thank-you", "Thank you", "Thank You", "Thanks for getting in touch. We will reply shortly.", {
-    meta: { title: withSuffix("Thank You"), description: "Thanks for getting in touch.", noindex: true },
-    sitemap: false,
-  }),
+  page("/about", <About />, "About Us: A Family-Run Construction Company", "MF Project Solutions is a family-run construction company in Drumree, Co. Meath, with its own site crew and joinery workshop. Meet the people who run it."),
+  page("/for-architects", <ForArchitects />, "For Architects and Designers: Building Your Design", "A main contractor that prices your tender package, builds to your drawings with its own crew and joiners, and closes out with your design team. Send tender drawings."),
+  page("/property-services", <PropertyServices />, "Snagging and Pre-Purchase Inspections in Dublin", "Snag inspections for new homes and pre-purchase property inspections, led by Wanessa, with a clear photo report you can act on. Dublin, Meath and Kildare."),
+  page("/projects", <Projects />, "Projects: Extensions, Renovations and Fit-Outs", "Homes and commercial units built by MF Project Solutions, shown from before to handover, with our role stated and architects credited.", { priority: 0.9 }),
+  page("/contact", <Contact />, "Contact MF Project Solutions", "Call, WhatsApp or send an enquiry. Choose what it is about and it goes straight to the right person. Dublin, Meath, Kildare and Louth."),
+  page("/how-we-work", <HowWeWork />, "How We Work: From Site Visit to Handover", "How a project runs with MF Project Solutions: site visit, detailed written quotation, programme, the build and handover."),
+  page("/faqs", <Faqs />, "Frequently Asked Questions", "Answers to common questions about quotations, areas we cover, planning, Building Regulations and snag inspections."),
+  page("/garden-calculator", <GardenCalculator />, "Garden Renovation Price Calculator", "Build an instant indicative estimate for patios, artificial grass, planting beds, drainage and garden structures.", { priority: 0.6 }),
+  page("/privacy", <Privacy />, "Privacy Policy", "How MF Project Solutions collects, uses and protects personal data.", { priority: 0.2 }),
+  page("/cookies", <Cookies />, "Cookie Policy", "The cookies this website uses and how to change your choices.", { priority: 0.2 }),
+  page("/thank-you", <ThankYou />, "Thank You", "Thanks for getting in touch.", { meta: { noindex: true }, sitemap: false }),
 ];
 
 const serviceRoutes: RouteDef[] = services.map((s) => ({
   path: s.route,
-  element: <ServiceLandingPlaceholder route={s.route} />,
+  element: <ServiceLanding route={s.route} />,
   meta: {
     title: withSuffix(s.seo?.title ?? s.name),
     description: s.seo?.description ?? "",
@@ -186,7 +176,7 @@ const serviceRoutes: RouteDef[] = services.map((s) => ({
 
 const guideRoutes: RouteDef[] = guides.map((g) => ({
   path: g.route,
-  element: <GuidePlaceholder route={g.route} />,
+  element: <Guide route={g.route} />,
   meta: {
     title: withSuffix(g.seo?.title ?? g.title),
     description: g.seo?.description ?? g.lead ?? "",
@@ -206,7 +196,7 @@ const guideRoutes: RouteDef[] = guides.map((g) => ({
 
 const projectRoutes: RouteDef[] = projects.map((p) => ({
   path: `/projects/${p.slug}`,
-  element: <ProjectPlaceholder slug={p.slug} />,
+  element: <ProjectDetail slug={p.slug} />,
   meta: {
     title: withSuffix(projectTitle(p.title, p.location)),
     description: p.summary ?? "",

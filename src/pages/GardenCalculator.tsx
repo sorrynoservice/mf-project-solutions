@@ -1,8 +1,7 @@
 import { useMemo, useState } from "react";
 import { ArrowRight, CircleCheck, Clock, Mail, MessageSquare, Package, Phone, Ruler, Settings } from "lucide-react";
-import { useSeo } from "@/lib/seo";
-import Header from "@/components/Header";
-import SiteFooter from "@/components/SiteFooter";
+import Layout from "@/components/site/Layout";
+import { track } from "@/lib/track";
 import { CALC } from "@/data/calculator";
 import { contacts } from "@/data/site";
 
@@ -96,7 +95,6 @@ const ItemRow = ({
 };
 
 const GardenCalculator = () => {
-  useSeo("/garden-calculator");
   const [mode, setMode] = useState<"fixed" | "custom">("fixed");
   const [pkg, setPkg] = useState<string | null>(null);
   const [patio, setPatio] = useState(0);
@@ -194,6 +192,7 @@ const GardenCalculator = () => {
       body.push("Note: Some items require site confirmation. Final price confirmed after site inspection.");
     }
     body.push("", "This is an indicative estimate generated via the online configurator.");
+    track("calculator_result", { value: String(Math.round(quote.totInc)), lead_route: "small", page_code: "CALC" });
     const subject = encodeURIComponent(`Quote Request: ${name}, ${fmt(quote.totInc)}`);
     window.location.href = `mailto:${CALC.EMAIL}?subject=${subject}&body=${encodeURIComponent(body.join("\n"))}`;
   };
@@ -207,10 +206,9 @@ const GardenCalculator = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header variant="dark" />
+    <Layout page={{ route: "small", pageCode: "CALC", service: "a garden project", contactHref: "#quote", ctaShort: "Get a quotation" }}>
 
-      <section className="relative bg-foreground pt-24 pb-16">
+      <section className="relative bg-ink pt-16 pb-16">
         <div className={wrap}>
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-background mb-4">
@@ -680,8 +678,7 @@ const GardenCalculator = () => {
         </div>
       </section>
 
-      <SiteFooter tagline="Garden Renovation Calculator" variant="calculator" />
-    </div>
+    </Layout>
   );
 };
 

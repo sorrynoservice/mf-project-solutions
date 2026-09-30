@@ -5,50 +5,44 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 174 45% 15%;
-    --card: 0 0% 100%;
-    --card-foreground: 174 45% 15%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 174 45% 15%;
-    --primary: 174 45% 15%;
-    --primary-foreground: 35 40% 80%;
-    --secondary: 35 40% 80%;
-    --secondary-foreground: 174 45% 15%;
-    --muted: 174 15% 95%;
-    --muted-foreground: 174 20% 45%;
-    --accent: 35 40% 80%;
-    --accent-foreground: 174 45% 15%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 174 15% 90%;
-    --input: 174 15% 90%;
-    --ring: 174 45% 15%;
+    --foreground: 172 40% 11%;
+    --primary: 172 69% 13%;
+    --primary-foreground: 36 42% 72%;
+    --secondary: 36 42% 72%;
+    --secondary-foreground: 172 69% 13%;
+    --muted: 36 25% 95%;
+    --muted-foreground: 172 12% 36%;
+    --accent: 36 42% 72%;
+    --accent-foreground: 172 69% 13%;
+    --border: 36 16% 86%;
+    --input: 36 16% 80%;
+    --ring: 172 69% 13%;
     --radius: 0.5rem;
-
-    --gradient-primary: linear-gradient(135deg, hsl(174 45% 15%), hsl(174 55% 12%));
-    --gradient-accent: linear-gradient(135deg, hsl(35 40% 80%), hsl(35 45% 75%));
-    --shadow-luxury: 0 20px 60px -15px hsl(174 45% 15% / 0.3);
-    --shadow-soft: 0 4px 20px hsl(174 15% 15% / 0.08);
+    --shadow-luxury: 0 24px 60px -24px rgb(10 54 50 / 0.35);
+    --shadow-soft: 0 4px 20px rgb(10 54 50 / 0.07);
   }
-
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { @apply bg-background text-foreground font-sans antialiased; text-rendering: optimizeLegibility; }
+  h1, h2, h3, .font-display { @apply font-serif; font-optical-sizing: auto; letter-spacing: -0.015em; }
+  ::selection { background: #d5be9c; color: #0a3632; }
+  :focus-visible { outline: 2px solid #86683e; outline-offset: 2px; }
 }
 
 @layer components {
-  .luxury-gradient {
-    background: var(--gradient-primary);
-  }
-  .accent-gradient {
-    background: var(--gradient-accent);
-  }
+  .wrap { @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12; }
+  .eyebrow { @apply text-[11px] sm:text-xs font-semibold uppercase tracking-[0.22em]; }
+  .prose-mf p { @apply mb-4 leading-relaxed; }
+  .prose-mf p:last-child { @apply mb-0; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-md px-6 h-12 font-semibold text-[15px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2; }
+  .btn-tan { @apply btn bg-tan text-ink hover:bg-tan-light focus-visible:ring-tan; }
+  .btn-ink { @apply btn bg-ink text-white hover:bg-ink-2 focus-visible:ring-ink; }
+  .btn-ghost-light { @apply btn border border-white/60 text-white hover:bg-white/10 focus-visible:ring-white; }
+  .btn-ghost-ink { @apply btn border border-ink/70 text-ink hover:bg-ink/5 focus-visible:ring-ink; }
+  .link-arrow { @apply inline-flex items-center gap-1.5 font-semibold underline-offset-4 hover:underline; }
 }
 
-/* Home hero: separate focal points for desktop and phone crops */
-.hero-img { object-position: var(--pos, 50% 50%); }
-@media (max-width: 767px) { .hero-img { object-position: var(--mpos, 50% 50%); } }
+/* Focal points that differ between desktop and phone crops */
+.fx { object-position: var(--pos, 50% 50%); }
+@media (max-width: 767px) { .fx { object-position: var(--mpos, var(--pos, 50% 50%)); } }

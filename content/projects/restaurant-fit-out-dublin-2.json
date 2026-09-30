@@ -252,5 +252,19 @@
   "flagship": true,
   "featured": true,
   "order": 2,
-  "published": true
+  "published": true,
+  "videos": [
+    {
+      "src": "/media/video/V158.mp4",
+      "poster": "/media/video/V158.jpg",
+      "caption": "BAH33, Royal Hibernian Way",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V162.mp4",
+      "poster": "/media/video/V162.jpg",
+      "caption": "Walking through the finished restaurant",
+      "loop": true
+    }
+  ]
 }

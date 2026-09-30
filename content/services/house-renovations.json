@@ -129,8 +129,8 @@
     }
   ],
   "video": {
-    "src": "/media/video/phibsborough-before-to-finished.mp4",
-    "poster": "/media/video/phibsborough-before-to-finished.jpg",
+    "src": "/media/video/phibsborough-before-to-finished-alt.mp4",
+    "poster": "/media/video/phibsborough-before-to-finished-alt.jpg",
     "caption": "Phibsborough: from the house as it was to the finished renovation",
     "loop": true,
     "title": "Before to finished"

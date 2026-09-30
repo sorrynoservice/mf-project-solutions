@@ -475,5 +475,25 @@
   "featured": true,
   "order": 1,
   "designNote": "Drawings: Francesco Panzeri, architect. The four design visualisations were prepared from the architect's design and enhanced with AI by MF; they are design images, not photographs.",
-  "published": true
+  "published": true,
+  "videos": [
+    {
+      "src": "/media/video/phibsborough-before-to-finished-alt.mp4",
+      "poster": "/media/video/phibsborough-before-to-finished-alt.jpg",
+      "caption": "Before, during and after, Phibsborough",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V315.mp4",
+      "poster": "/media/video/V315.jpg",
+      "caption": "Our joiners fitting the kitchen",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V016.mp4",
+      "poster": "/media/video/V016.jpg",
+      "caption": "The finished house",
+      "loop": true
+    }
+  ]
 }

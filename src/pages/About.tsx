@@ -1,395 +1,133 @@
-import Header from "@/components/Header";
-import SiteFooter from "@/components/SiteFooter";
-import { company, contacts, coverage } from "@/data/site";
-import { useSeo } from "@/lib/seo";
-import { caseStudies } from "@/data/caseStudies";
-import { CaseCard } from "@/components/work/Work";
-import googleRating from "@/data/google-rating.json";
-import {
-  ArrowRight,
-  Award,
-  Briefcase,
-  Building2,
-  Mail,
-  MessageSquare,
-  Phone,
-  TrendingUp,
-  Users,
-} from "lucide-react";
+import { Link } from "react-router-dom";
+import { ArrowRight, Phone } from "lucide-react";
+import Layout from "@/components/site/Layout";
+import ContactBlock from "@/components/site/ContactBlock";
+import PageHero from "@/components/ui/PageHero";
+import Img from "@/components/Img";
+import Pic from "@/components/ui/Pic";
+import Video from "@/components/ui/Video";
+import { GoogleBadge, Pending, ReviewGrid, SectionHead } from "@/components/ui/Blocks";
+import { people, reviewsByIds, settings, visible } from "@/lib/content";
+import type { MediaItem } from "@/lib/types";
 
-const wrap = "max-w-7xl mx-auto px-8 sm:px-11 md:px-16 lg:px-22";
-const card = "rounded-lg border bg-card text-card-foreground shadow-sm border-border shadow-soft";
-const pill =
-  "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 text-accent text-sm font-medium";
-const outlineBtn =
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-primary/20 bg-transparent text-foreground hover:bg-primary/5 h-11 px-6 py-2 w-full text-sm";
+const REVIEWS = ["cathal-brennan-2025-10-19", "simon-chuberre-2026-05-27", "lilian-ramos-2025-05-29"];
 
-const stats = [
-  { value: String(company.established), label: "Established" },
-  { value: "~15", label: "In our team" },
-  { value: "500+", label: "Projects and inspections" },
-  { value: googleRating.rating.toFixed(1), label: `Stars from ${googleRating.count}+ Google reviews` },
+const crew: MediaItem = { image: "/assets/work/phibsborough-whole-crew-in-branded-kit-beside-the-mf-01.jpg", caption: "Our crew on site in Phibsborough" };
+const workshop: MediaItem[] = [
+  { image: "/assets/work/workshop-joiner-at-the-panel-saw-in-mf-workshop-10.jpg", caption: "At the panel saw in our Drumree workshop" },
+  { image: "/assets/work/workshop-measuring-a-worktop-in-the-workshop-13.jpg", caption: "Measuring a worktop before fitting" },
+  { image: "/assets/work/phibsborough-site-lead-directing-the-team-07.jpg", caption: "Site lead with the team, Phibsborough" },
 ];
 
-const principles = [
-  {
-    icon: Award,
-    title: "1. Free site visit",
-    text: "We visit, measure and give you honest advice on planning before anything is priced.",
-  },
-  {
-    icon: Briefcase,
-    title: "2. Written, fixed price quote",
-    text: "The specification and the exclusions are set out in writing, with one fixed contract price for the agreed scope.",
-  },
-  {
-    icon: TrendingUp,
-    title: "3. Our own team builds",
-    text: "Our own crew and joinery workshop deliver the work, with one point of contact throughout.",
-  },
-  {
-    icon: Users,
-    title: "4. Handover",
-    text: "A walkthrough of the finished work and a snag check before we hand over.",
-  },
-];
-
-type Leader = {
-  name: string;
-  role: string;
-  image?: string;
-  bio: string;
-  email: string;
-  phone: string;
-  tel: string;
-};
-
-const leaders: Leader[] = [
-  {
-    name: "Alexandre Ferreira",
-    role: "Founder and Managing Director",
-    image: "/assets/alexandre-ferreira.jpg",
-    bio: "Alexandre has worked in engineering and construction since 1999. He started as a draftsperson with engineering and survey firms in Massachusetts, went on to run his own construction and engineering businesses there, and later worked in quality management on large projects in Ireland and across Europe. He founded MF Project Solutions in 2021 and leads design, estimating and delivery on every job.",
-    email: contacts.alex.email,
-    phone: contacts.alex.display,
-    tel: contacts.alex.tel,
-  },
-  {
-    name: "Wanessa Correa",
-    role: "Director of Operations and Quantity Surveyor",
-    image: "/assets/wanessa-correa.jpg",
-    bio: "Wanessa worked in quantity surveying and procurement on major Irish projects with Linesight and Cairn before joining MF Project Solutions. She manages costs, procurement and scheduling, runs our snagging inspections, and is a qualified BER assessor.",
-    email: contacts.snagging.email,
-    phone: contacts.snagging.display,
-    tel: contacts.snagging.tel,
-  },
-  {
-    name: "Rosanne Martins",
-    role: "HR and Commercial Director",
-    image: "/assets/rosanne-martins.jpg",
-    bio: "Rosanne brings more than 25 years in executive search, leadership assessment and business development across Brazil, Europe and the United States. She founded the consultancy Pro Human and leads the national Prêmio Ser Humano awards for ABRH Brasil. At MF Project Solutions she leads recruitment, people and team development, and the commercial side of the business: client and architect relationships, partnerships and growth.",
-    email: contacts.construction.email,
-    phone: contacts.construction.display,
-    tel: contacts.construction.tel,
-  },
-  {
-    name: "Rosana Roos Corrêa",
-    role: "Business and Financial Project Manager",
-    image: "/assets/rosana-roos-correa.jpg",
-    bio: "Rosana manages the business and financial side of our projects: quotes, client accounts, payments and scheduling, and she is often the first person clients deal with. She brings more than 10 years of banking experience as a relationship manager.",
-    email: contacts.construction.email,
-    phone: contacts.construction.display,
-    tel: contacts.construction.tel,
-  },
-];
-
-type Project = { category: string; title: string; image?: string; text: string };
-
-
-
-const initials = (name: string) =>
-  name
-    .split(/\s+/)
-    .filter((w) => /^[A-Z]/.test(w))
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join("");
-
-const About = () => {
-  useSeo("/about");
-
+export default function About() {
+  const team = people.filter(visible);
   return (
-  <div className="min-h-screen bg-background">
-    <Header variant="dark" />
+    <Layout header="overlay" page={{ route: "major", pageCode: "ABT", service: "a project", contactHref: "#contact", ctaShort: "Get in touch" }}>
+      <PageHero
+        eyebrow="About us"
+        title="A family-run construction company, with the owners on the job"
+        sub="MF Project Solutions builds extensions, renovations and commercial fit-outs across Dublin, Meath and Kildare, with our own site crew and a joinery workshop in Drumree, Co. Meath."
+        image={crew}
+        crumbs={[{ name: "Home", to: "/" }, { name: "About" }]}
+      />
 
-    <section className="relative border-b border-border">
-      <div className={`${wrap} py-20 md:py-28`}>
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-3 px-5 py-3 rounded-lg bg-secondary/10 border border-border">
-                <Building2 className="w-5 h-5 text-accent" />
-                <span className="text-sm font-semibold text-foreground tracking-wide">EST. {company.established}</span>
-              </div>
-              <h1 className="text-5xl md:text-7xl font-black leading-[0.95] text-foreground tracking-tight">
-                Engineering-led design and build for homes and businesses
-              </h1>
-              <div className="h-1 w-24 bg-accent" />
-              <p className="text-xl text-muted-foreground leading-relaxed font-light">
-                A design and build contractor with our own site team and joinery workshop, delivering
-                whole-house renovations, extensions and commercial fit-outs {coverage.summary}.
-              </p>
-            </div>
-            <div className="grid grid-cols-2 gap-4 pt-4">
-              {stats.map((s) => (
-                <div key={s.label} className="p-6 rounded-xl border border-border bg-card shadow-soft">
-                  <div className="text-4xl font-bold text-foreground mb-1">{s.value}</div>
-                  <div className="text-xs text-muted-foreground font-medium uppercase tracking-wider">
-                    {s.label}
+      <section className="py-20 md:py-24">
+        <div className="wrap grid gap-12 lg:grid-cols-[1fr_1.2fr]">
+          <SectionHead className="mb-0" eyebrow="Who we are" title="Professional delivery, and a person you can call" />
+          <div className="prose-mf text-lg text-neutral-700">
+            <p>
+              MF is run by Alex Ferreira and his wife Wanessa, with Alex's sister Rosanne and sister-in-law Rosana. Alex and Wanessa have called Ireland home for about 13 years, after earlier years in Brazil and the United States.
+            </p>
+            <p>
+              Alex founded the company in 2021. Today we build structural openings, extensions, whole-house renovations, commercial fit-outs and the joinery that finishes them. Our crew builds the work, our joiners make the kitchens and joinery in our own workshop, and we bring in specialist trades, architects, engineers and certifiers where a project needs them.
+            </p>
+            <p>
+              We are growing, and we intend to keep the thing clients tell us they value: you deal with a named person from the first visit to handover.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-paper py-20 md:py-24">
+        <div className="wrap">
+          <SectionHead eyebrow="The people who run MF" title="Who you will deal with" />
+          <div className="grid gap-8 md:grid-cols-2">
+            {team.map((p) => {
+              const route = p.route && p.route !== "none" ? settings.routes[p.route] : undefined;
+              return (
+                <article key={p.id} className="flex flex-col gap-5 rounded-lg border border-border bg-white p-6 sm:flex-row">
+                  <Img src={p.headshot} alt={p.name} layout="(min-width: 640px) 160px, 100vw" className="h-40 w-40 shrink-0 rounded-md object-cover" />
+                  <div>
+                    <Pending note={p.pending} className="mb-3" />
+                    <h3 className="text-2xl text-ink">{p.name}</h3>
+                    <div className="eyebrow mt-1 text-tan-deep">{p.role}</div>
+                    <div className="mt-3 space-y-3 text-[15px] leading-relaxed text-neutral-700">
+                      {p.bio.map((b) => (
+                        <p key={b.slice(0, 30)}>{b}</p>
+                      ))}
+                    </div>
+                    {route && (
+                      <a href={route.tel} data-route={p.route} data-page="ABT" className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-ink">
+                        <Phone className="h-4 w-4" /> {route.phone}
+                      </a>
+                    )}
                   </div>
-                </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 md:py-24">
+        <div className="wrap">
+          <SectionHead eyebrow="The crew and the workshop" title="The people who build it" text="Our own site crew does the building work, and our joiners make and fit the kitchens, wardrobes, panelling and reception desks in our workshop in Drumree. Specialist trades and suppliers we work with regularly complete the team." />
+          <div className="grid gap-4 md:grid-cols-[1.4fr_1fr]">
+            <Pic item={crew} className="aspect-[4/3] rounded-lg md:row-span-2 md:aspect-auto" layout="(min-width: 768px) 58vw, 100vw" />
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-1">
+              {workshop.slice(0, 2).map((m) => (
+                <Pic key={m.image} item={m} className="aspect-[4/3] rounded-lg" layout="(min-width: 768px) 40vw, 50vw" />
               ))}
             </div>
           </div>
-          <div className="relative lg:h-[600px]">
-            <div className="absolute inset-0 bg-accent/10 rounded-2xl transform translate-x-4 translate-y-4" />
-            <div className="relative h-full rounded-2xl overflow-hidden border-2 border-border shadow-luxury">
-              <img
-                src="/assets/team/crew-van-sunset.jpg"
-                alt="MF Project Solutions build crew in hi-vis beside the company van"
-                className="w-full h-full object-cover object-[center_65%]"
-              />
+          <div className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] lg:items-center">
+            <div className="mx-auto w-full max-w-xs">
+              <Video video={{ src: "/media/video/V091.mp4", poster: "/media/video/V091.jpg", caption: "Our workshop in Drumree", loop: true }} />
+            </div>
+            <div>
+              <h3 className="text-2xl text-ink">How we deliver a project</h3>
+              <p className="mt-4 text-[17px] leading-relaxed text-neutral-700">
+                MF contracts for the agreed scope and manages the people needed to deliver it: our crew, our joiners, specialist trades such as electricians and plumbers, suppliers, and external architects, engineers and certifiers where the work calls for them. You have one point of contact at MF throughout.
+              </p>
+              <Link to="/how-we-work" className="link-arrow mt-5 text-ink">How we work <ArrowRight className="h-4 w-4" /></Link>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="py-20 border-t border-border">
-      <div className={wrap}>
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className={`${pill} mb-6`}>
-              <Building2 className="w-4 h-4" />
-              Our Company
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Who we are
-            </h2>
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              MF Project Solutions is the trading name of MF Engineering and Designs Limited,
-              established in 2021 and based at Merrywell Business Park, Drumree, Co. Meath. We are
-              an engineering led design and build contractor.
-            </p>
-            <p className="text-muted-foreground mb-6 leading-relaxed">
-              Our founder has worked in engineering and construction since 1999, first in the United
-              States and then in Ireland and across Europe, and we apply the same standards to every
-              home we build.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              We deliver whole-house renovations, extensions and attic conversions, kitchens,
-              bathrooms and bespoke joinery, commercial fit-outs and interior design, garden
-              buildings, and snagging inspections for new homes. We work with homeowners and with architects, and our team
-              works in English and Brazilian Portuguese.
-            </p>
+      <section className="bg-paper py-20 md:py-24">
+        <div className="wrap">
+          <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+            <SectionHead className="mb-0" eyebrow="Reviews" title="What clients say about working with us" />
+            <GoogleBadge />
           </div>
-          <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-foreground">How we work</h3>
-            {principles.map(({ icon: Icon, title, text }) => (
-              <div key={title} className={card}>
-                <div className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-xl bg-secondary/20 shrink-0">
-                      <Icon className="w-6 h-6 text-accent" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">{title}</h3>
-                      <p className="text-sm text-muted-foreground">{text}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ReviewGrid items={reviewsByIds(REVIEWS)} />
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="py-20 border-t border-border bg-muted/30">
-      <div className={wrap}>
-        <div className="text-center mb-16">
-          <div className={`${pill} mb-4`}>
-            <Users className="w-4 h-4" />
-            Leadership
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Our Team
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            The people you will deal with, from your first call to handover
-          </p>
+      <section className="py-14">
+        <div className="wrap">
+          <h2 className="mb-4 text-xl text-ink">Company details</h2>
+          <dl className="grid gap-x-10 gap-y-3 text-[15px] sm:grid-cols-2">
+            <div><dt className="text-muted-foreground">Registered name</dt><dd className="text-ink">{settings.company.legalName}, trading as {settings.company.name}</dd></div>
+            <div><dt className="text-muted-foreground">Company number</dt><dd className="text-ink">{settings.company.companyReg} (Ireland)</dd></div>
+            <div><dt className="text-muted-foreground">VAT</dt><dd className="text-ink">{settings.company.vat}</dd></div>
+            <div><dt className="text-muted-foreground">Office and workshop</dt><dd className="text-ink">{settings.company.address}, {settings.company.eircode}</dd></div>
+          </dl>
         </div>
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {leaders.map((leader) => (
-            <div key={leader.name} className={`${card} overflow-hidden`}>
-              <div className="p-0">
-                <div className="aspect-square w-full overflow-hidden bg-muted/50">
-                  {leader.image ? (
-                    <img decoding="async"
-                      src={leader.image}
-                      alt={`${leader.name}, ${leader.role}`}
-                      loading="lazy"
-                      className="w-full h-full object-cover object-top"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center bg-[#0a2e2a] text-[#d4af37] text-6xl font-serif">
-                      {initials(leader.name)}
-                    </div>
-                  )}
-                </div>
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-foreground mb-1">{leader.name}</h3>
-                  <p className="text-accent font-medium mb-4">{leader.role}</p>
-                  <p className="text-muted-foreground mb-6 leading-relaxed">{leader.bio}</p>
-                  <div className="space-y-3 pt-4 border-t border-border">
-                    <a
-                      href={`mailto:${leader.email}`}
-                      className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                      <Mail className="w-4 h-4" />
-                      {leader.email}
-                    </a>
-                    <a
-                      href={leader.tel}
-                      className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                      <Phone className="w-4 h-4" />
-                      {leader.phone}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="py-20 border-t border-border">
-      <div className={wrap}>
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-          <img
-            src="/assets/team/crew-van-candid.jpg"
-            alt="MF Project Solutions build crew laughing beside the company van"
-            loading="lazy"
-            decoding="async"
-            className="rounded-2xl shadow-luxury w-full aspect-[4/5] md:aspect-auto md:h-[520px] object-cover object-[center_60%]"
-          />
-          <div>
-            <div className={`${pill} mb-4`}>
-              <Building2 className="w-4 h-4" />
-              The crew
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              The people on your site
-            </h2>
-            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-              Our own build team of around 15 does the work, not subcontracted crews we have never
-              met. Specialist trades such as electricians and plumbers are managed by us, and joinery
-              comes from our workshop in Drumree, Co. Meath.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              We work in English and Portuguese, and you have one point of contact from quote to
-              handover.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="py-20 border-t border-border">
-      <div className={wrap}>
-        <div className="text-center mb-16">
-          <div className={`${pill} mb-4`}>
-            <Award className="w-4 h-4" />
-            Our Work
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A selection of residential and commercial work
-          </p>
-        </div>
-        <div className="grid md:grid-cols-3 gap-8">
-          {caseStudies.filter((c) => c.flagship).slice(0, 3).map((c) => (
-            <CaseCard key={c.slug} c={c} ctx="about" />
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" className="py-20 border-t border-border">
-      <div className={wrap}>
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Start Your Project Today
-          </h2>
-          <p className="text-lg text-muted-foreground">Request a free site visit and a written quote</p>
-        </div>
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          <div className={card}>
-            <div className="p-6">
-              <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
-                <MessageSquare className="w-5 h-5 text-accent" /> WhatsApp
-              </div>
-              <a href={contacts.construction.whatsapp} target="_blank" rel="noreferrer">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all duration-300 luxury-gradient text-primary-foreground hover:opacity-90 shadow-luxury font-semibold h-14 rounded-lg px-6 text-base w-full">
-                  Message us <ArrowRight className="w-4 h-4" />
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div className={card}>
-            <div className="p-6">
-              <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
-                <Phone className="w-5 h-5 text-accent" /> Phone
-              </div>
-              <div className="space-y-2">
-                <a href={contacts.construction.tel}>
-                  <button className={outlineBtn}>{contacts.construction.display} (construction)</button>
-                </a>
-                <a href={contacts.snagging.tel}>
-                  <button className={outlineBtn}>{contacts.snagging.display} (snagging)</button>
-                </a>
-                <a href={contacts.alex.tel}>
-                  <button className={outlineBtn}>{contacts.alex.display} (Alex)</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className={card}>
-            <div className="p-6">
-              <div className="flex items-center gap-2 text-foreground font-semibold mb-4">
-                <Mail className="w-5 h-5 text-accent" /> Email
-              </div>
-              <div className="space-y-2">
-                <a href={`mailto:${contacts.construction.email}`}>
-                  <button className={outlineBtn}>{contacts.construction.email}</button>
-                </a>
-                <a href={`mailto:${contacts.alex.email}`}>
-                  <button className={outlineBtn}>{contacts.alex.email}</button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <SiteFooter tagline="Engineering led design and build" />
-  </div>
+      <ContactBlock title="Get in touch" text="Choose what it is about and it goes to the right person." pageCode="ABT" />
+    </Layout>
   );
-};
-
-export default About;
+}

@@ -36,17 +36,51 @@ export type EnquiryFormProps = {
 };
 
 export const DEFAULT_SERVICES: Record<LeadRoute, string[]> = {
-  property: ["Snagging inspection", "Re-snag inspection", "Pre-purchase inspection", "Property inspection", "Other"],
-  small: ["Bathroom", "Garden room", "Patio or outdoor works", "Kitchen", "Bespoke joinery", "Other"],
-  major: [
-    "Extension",
-    "Whole-house renovation",
-    "Garden home",
-    "Commercial fit-out",
-    "Design and planning",
-    "Architect or designer project",
+  property: ["Snagging inspection", "Re-snag inspection", "Pre-purchase inspection", "Room measurements", "Other"],
+  small: [
+    "Bathroom renovation",
+    "Garden room",
+    "Porcelain patio",
+    "Landscaping",
+    "Timber veranda or glass room",
+    "Decking or pergola",
+    "Kitchen",
+    "Bespoke joinery",
     "Other",
   ],
+  major: [
+    "Extension",
+    "House renovation",
+    "Attic conversion",
+    "Garden home or granny flat",
+    "Commercial fit-out",
+    "Design service",
+    "Pricing from architect's drawings",
+    "Other",
+  ],
+};
+
+/** The service each page pre-selects in the form and names in WhatsApp messages. */
+export const SERVICE_BY_CODE: Record<string, string> = {
+  SNG: "Snagging inspection",
+  PPS: "Pre-purchase inspection",
+  PRS: "Snagging inspection",
+  BER: "Other",
+  BTH: "Bathroom renovation",
+  GRM: "Garden room",
+  PAT: "Porcelain patio",
+  LND: "Landscaping",
+  VER: "Timber veranda or glass room",
+  DEK: "Decking or pergola",
+  KIT: "Kitchen",
+  JNY: "Bespoke joinery",
+  EXT: "Extension",
+  REN: "House renovation",
+  ATT: "Attic conversion",
+  GHM: "Garden home or granny flat",
+  COM: "Commercial fit-out",
+  DES: "Design service",
+  ARC: "Pricing from architect's drawings",
 };
 
 export const TIMINGS = ["ASAP", "1 to 3 months", "3 to 6 months", "6 to 12 months", "Just planning"];

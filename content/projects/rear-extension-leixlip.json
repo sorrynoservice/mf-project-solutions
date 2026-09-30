@@ -277,5 +277,13 @@
   "order": 3,
   "designNote": "Drawings: NBK Architects.",
   "published": true,
-  "featured": false
+  "featured": false,
+  "videos": [
+    {
+      "src": "/media/video/leixlip-opened-to-finished.mp4",
+      "poster": "/media/video/leixlip-opened-to-finished.jpg",
+      "caption": "The rear opened up on props, then the finished extension",
+      "loop": true
+    }
+  ]
 }

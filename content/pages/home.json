@@ -1,0 +1,145 @@
+{
+  "heroSlides": [
+    {
+      "desktop": {
+        "image": "/assets/work/phibsborough-rear-extension-and-garden-h01.jpg",
+        "focus": "50% 55%"
+      },
+      "mobile": {
+        "image": "/assets/work/phibsborough-aerial-rear-extension-and-garden-h03.jpg",
+        "focus": "50% 60%"
+      },
+      "sector": "Residential",
+      "caption": "Extension and renovation, Phibsborough, Dublin 7"
+    },
+    {
+      "desktop": {
+        "image": "/assets/work/bah33-main-dining-room-and-buffet-h07.jpg",
+        "focus": "40% 50%"
+      },
+      "mobile": {
+        "image": "/assets/work/bah33-washroom-corridor-sign-h11.jpg",
+        "focus": "50% 50%"
+      },
+      "sector": "Commercial",
+      "caption": "Restaurant fit-out, Royal Hibernian Way, Dublin 2"
+    },
+    {
+      "desktop": {
+        "image": "/assets/work/phibsborough-kitchen-wide-with-oven-tower-and-island-87.jpg",
+        "focus": "50% 55%"
+      },
+      "mobile": {
+        "image": "/assets/work/rathcoole-arched-door-landing-bespoke-storage-balu-18.jpg",
+        "focus": "50% 50%"
+      },
+      "sector": "Residential",
+      "caption": "Kitchen made in our Drumree workshop, Phibsborough"
+    },
+    {
+      "desktop": {
+        "image": "/assets/work/bah33-glazed-terrace-and-shopfront-h06.jpg",
+        "focus": "50% 50%"
+      },
+      "mobile": {
+        "image": "/assets/work/bah33-covered-terrace-seating-h12.jpg",
+        "focus": "50% 50%"
+      },
+      "sector": "Commercial",
+      "caption": "Glazed terrace and shopfront, Royal Hibernian Way, Dublin 2"
+    },
+    {
+      "desktop": {
+        "image": "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg",
+        "focus": "50% 35%"
+      },
+      "mobile": {
+        "image": "/assets/work/phibsborough-aerial-view-of-the-house-and-garden-in-p-a02.jpg",
+        "focus": "50% 50%"
+      },
+      "sector": "Residential",
+      "caption": "The same Phibsborough house from the street"
+    }
+  ],
+  "sectors": [
+    {
+      "route": "/residential",
+      "title": "Residential",
+      "text": "Extensions, whole-house renovations, attic conversions, garden homes, kitchens and joinery, often built from an architect's drawings.",
+      "image": {
+        "image": "/assets/work/phibsborough-red-island-oak-joinery-stone-splashback-86.jpg",
+        "caption": "Kitchen, Phibsborough"
+      }
+    },
+    {
+      "route": "/commercial",
+      "title": "Commercial",
+      "text": "Fit-outs for restaurants, clinics, retail and offices, programmed around your opening date.",
+      "image": {
+        "image": "/assets/work/bah33-dining-room-brick-feature-wall-h08.jpg",
+        "caption": "Restaurant, Royal Hibernian Way"
+      }
+    },
+    {
+      "route": "/design",
+      "title": "Design",
+      "text": "Layouts, 3D visualisation, interiors, joinery and planning drawings, as a paid service or as the first stage of your build.",
+      "image": {
+        "image": "/assets/work/phibsborough-living-room-with-oak-shelving-slatted-pa-331.jpg",
+        "caption": "Living room design, Phibsborough",
+        "kind": "ai-enhanced"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/phibsborough-kitchen-with-orange-island-oak-tall-unit-332.jpg",
+        "caption": "Kitchen design image",
+        "kind": "ai-enhanced"
+      },
+      "b": {
+        "image": "/assets/work/phibsborough-red-island-oak-joinery-stone-splashback-86.jpg",
+        "caption": "The finished kitchen"
+      },
+      "caption": "Kitchen, Phibsborough: design image from the architect's design, and the kitchen we made and fitted",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/bah33-washroom-with-timber-cladding-and-round-306.jpg",
+        "caption": "Washroom design",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg",
+        "caption": "The finished washroom"
+      },
+      "caption": "Restaurant washrooms, Dublin 2: designed by MF, then built",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/rathcoole-second-bathroom-with-oval-mirror-and-lit-316.jpg",
+        "caption": "3D bathroom design",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M29.jpg",
+        "caption": "The finished bathroom"
+      },
+      "caption": "Bathroom, Rathcoole: our 3D design, then the room as built",
+      "type": "design-built"
+    }
+  ],
+  "crew": {
+    "image": "/assets/work/phibsborough-whole-crew-in-branded-kit-beside-the-mf-01.jpg",
+    "caption": "Our crew on site in Phibsborough"
+  },
+  "video": {
+    "src": "/media/video/V016.mp4",
+    "poster": "/media/video/V016.jpg",
+    "caption": "A finished whole-house renovation",
+    "loop": true
+  }
+}

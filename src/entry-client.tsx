@@ -7,8 +7,10 @@ import "./index.css";
 import App from "./App";
 import { HeadProvider, createClientHead } from "@/lib/head";
 import { installLinkTracking } from "@/lib/track";
+import { captureAttribution } from "@/lib/attribution";
 
 installLinkTracking();
+captureAttribution();
 
 const head = createClientHead();
 const container = document.getElementById("root")!;

@@ -1,177 +1,327 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Check } from "lucide-react";
-import Header from "@/components/Header";
-import SiteFooter from "@/components/SiteFooter";
-import { findCase } from "@/data/caseStudies";
-import { commercialDesign, findPage, servicePages } from "@/data/servicePages";
-import { CaseCard, ContactSection, Gallery, PageHero, PairCard, SectionTitle, wrap } from "@/components/work/Work";
-import { useSeo } from "@/lib/seo";
-import NotFound from "@/pages/NotFound";
+import { ArrowRight, Check, MessageCircle, Phone } from "lucide-react";
+import Layout from "@/components/site/Layout";
+import Pic, { HeroImage } from "@/components/ui/Pic";
+import Gallery from "@/components/ui/Gallery";
+import Video from "@/components/ui/Video";
+import { Pair } from "@/components/ui/Pair";
+import { Crumbs, Faq, GoogleBadge, Pending, PriceBlock, ProjectCard, ReviewGrid, SectionHead, Steps } from "@/components/ui/Blocks";
+import EnquiryForm, { SERVICE_BY_CODE } from "@/components/forms/EnquiryForm";
+import SnagBookingForm from "@/components/forms/SnagBookingForm";
+import { projectsByTag, reviewsByIds, serviceByRoute, settings } from "@/lib/content";
+import { waLink } from "@/lib/whatsapp";
+import type { ServicePage } from "@/lib/types";
 
-const galleryFor: Record<string, string> = {"residential": "kitchens", "whole-house": "interiors", "extensions": "extensions", "kitchens-bathrooms": "kitchens", "joinery": "joinery", "garden-buildings": "garden", "outdoor-living": "outdoor", "interior-design": "design", "commercial": "commercial"};
+const parentOf = (s: ServicePage) =>
+  s.leadRoute === "property"
+    ? { name: "Property services", to: "/property-services" }
+    : s.pageCode === "COM"
+      ? { name: "Commercial", to: "/commercial" }
+      : s.pageCode === "DES"
+        ? undefined
+        : { name: "Residential", to: "/residential" };
 
-const ServiceLanding = ({ route }: { route: string }) => {
-  useSeo(route);
-  const page = findPage(route);
-  if (!page) return <NotFound />;
-  const featured = page.featured.map((s) => findCase(s)).filter((c): c is NonNullable<typeof c> => Boolean(c));
-  const isHub = page.key === "residential";
-  const children = isHub ? servicePages.filter((p) => p.route.startsWith("/residential/")) : [];
+/** Every service landing page: one template, all copy and media from /content/services. */
+export default function ServiceLanding({ route }: { route: string }) {
+  const s = serviceByRoute(route);
+  if (!s) return null;
+  const r = settings.routes[s.leadRoute];
+  const service = SERVICE_BY_CODE[s.pageCode] || s.name;
+  const reviews = reviewsByIds(s.reviews ?? []);
+  const related = s.projectsTag ? projectsByTag(s.projectsTag).slice(0, 3) : [];
+  const booking = s.form === "snag-booking";
+  const parent = parentOf(s);
+  const wa = waLink(s.leadRoute, s.pageCode, service);
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header variant="home" />
-      <PageHero id={page.hero} eyebrow={page.eyebrow} title={page.title} lead={page.lead}>
-        <div className="mt-8 flex flex-wrap gap-3">
-          <a href="#contact" className="inline-flex items-center h-12 rounded-lg px-6 font-semibold bg-[#d4af37] text-[#0a2e2a] hover:bg-[#d4af37]/90">
-            Arrange a site visit
-          </a>
-          <a href="#projects" className="inline-flex items-center h-12 rounded-lg px-6 font-semibold border-2 border-white/80 text-white hover:bg-white/10">
-            See the projects
-          </a>
+    <Layout
+      header="overlay"
+      page={{ route: s.leadRoute, pageCode: s.pageCode, service, contactHref: "#enquire", ctaShort: booking ? "Book an inspection" : s.hero.ctaLabel.length < 22 ? s.hero.ctaLabel : "Get a quotation" }}
+    >
+      {/* Hero */}
+      <section className="relative flex min-h-[88svh] items-end overflow-hidden bg-ink pb-14 pt-28 text-white md:min-h-[82vh] md:pb-20">
+        <div className="absolute inset-0">
+          <HeroImage desktop={s.hero.image} mobile={s.hero.imageMobile} />
         </div>
-      </PageHero>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/30" />
+        <div className="absolute inset-0 hidden bg-gradient-to-r from-black/60 via-black/20 to-transparent md:block" />
+        <div className="wrap relative z-10">
+          <Pending note={s.hidden ? "hidden page: not in menus or sitemap until switched on" : undefined} className="mb-4 max-w-xl" />
+          {parent && (
+            <div className="mb-5">
+              <Crumbs tone="dark" items={[{ name: "Home", to: "/" }, parent, { name: s.name }]} />
+            </div>
+          )}
+          <div className="eyebrow mb-4 text-tan">{s.hero.eyebrow}</div>
+          <h1 className="max-w-4xl text-[2.35rem] leading-[1.05] sm:text-5xl md:text-6xl">{s.hero.h1}</h1>
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/90 md:text-xl">{s.hero.sub}</p>
+          {s.hero.bullets && (
+            <ul className="mt-6 grid max-w-3xl gap-2 text-[15px] text-white/90 sm:grid-cols-3 sm:gap-4">
+              {s.hero.bullets.map((b) => (
+                <li key={b} className="flex gap-2">
+                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-tan" aria-hidden="true" />
+                  {b}
+                </li>
+              ))}
+            </ul>
+          )}
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a href="#enquire" className="btn-tan h-14 px-8 text-base">
+              {s.hero.ctaLabel}
+            </a>
+            <a href={wa} target="_blank" rel="noreferrer" data-route={s.leadRoute} data-page={s.pageCode} className="btn-ghost-light h-14">
+              <MessageCircle className="h-5 w-5" aria-hidden="true" /> WhatsApp {r.person}
+            </a>
+            <a href={r.tel} data-route={s.leadRoute} data-page={s.pageCode} className="btn h-14 text-white/90 hover:text-white">
+              <Phone className="h-5 w-5" aria-hidden="true" /> {r.phone}
+            </a>
+          </div>
+          <div className="mt-7">
+            <GoogleBadge tone="dark" />
+          </div>
+        </div>
+      </section>
 
-      <section className="py-16 md:py-20">
-        <div className={`${wrap} grid lg:grid-cols-5 gap-12`}>
-          <div className="lg:col-span-3 space-y-5 text-lg text-foreground/85 leading-relaxed">
-            {page.intro.map((p) => (
-              <p key={p}>{p}</p>
+      {/* Proof points */}
+      <section className="border-b border-border bg-paper">
+        <div className="wrap grid gap-8 py-12 md:grid-cols-3 md:gap-10">
+          {s.proof.map((p) => (
+            <div key={p.title} className="border-l-2 border-tan pl-5">
+              <h2 className="text-xl text-ink">{p.title}</h2>
+              <p className="mt-2 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Intro beside the video */}
+      {(s.intro || s.video) && (
+        <section className="py-20">
+          <div className={`wrap grid gap-12 lg:items-center ${s.video ? "lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]" : "lg:grid-cols-[1fr_1.2fr]"}`}>
+            {s.intro ? (
+              s.video ? (
+                <div>
+                  <SectionHead className="mb-6" eyebrow={s.name} title={s.intro.title} />
+                  <div className="prose-mf text-lg text-neutral-700">
+                    {s.intro.paragraphs.map((p) => (
+                      <p key={p.slice(0, 40)}>{p}</p>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <SectionHead className="mb-0" eyebrow={s.name} title={s.intro.title} />
+                  <div className="prose-mf text-lg text-neutral-700">
+                    {s.intro.paragraphs.map((p) => (
+                      <p key={p.slice(0, 40)}>{p}</p>
+                    ))}
+                  </div>
+                </>
+              )
+            ) : (
+              <SectionHead className="mb-0" eyebrow={s.name} title={s.gallery.title} text={s.gallery.intro} />
+            )}
+            {s.video && (
+              <div className="mx-auto w-full max-w-[20rem]">
+                {s.video.title && <div className="eyebrow mb-3 text-tan-deep">{s.video.title}</div>}
+                <Video video={s.video} />
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* Gallery */}
+      {s.gallery.items.length > 0 && (
+        <section className={s.intro || s.video ? "pb-20" : "py-20"}>
+          <div className="wrap">
+            {(s.intro || !s.video) && <SectionHead className="mb-8" title={s.gallery.title} text={s.gallery.intro} />}
+            <Gallery items={s.gallery.items} variant="feature" />
+          </div>
+        </section>
+      )}
+
+      {/* Design beside built / before and after */}
+      {s.pairs && s.pairs.length > 0 && (
+        <section className="bg-paper py-20">
+          <div className="wrap">
+            <SectionHead
+              eyebrow={s.pairs[0].type === "before-after" ? "Before and after" : "Designed, then built"}
+              title={s.pairs[0].type === "before-after" ? "The same place, before and after" : "The design, and what we built from it"}
+            />
+            <div className={`grid gap-10 ${s.pairs.length > 1 ? "lg:grid-cols-2" : "max-w-3xl"}`}>
+              {s.pairs.slice(0, 4).map((p) => (
+                <Pair key={p.caption} pair={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Extra sections */}
+      {s.sections && s.sections.length > 0 && (
+        <section className="py-20">
+          <div className={`wrap grid gap-x-16 gap-y-14 ${s.sections.length > 1 ? "lg:grid-cols-2" : "max-w-4xl"}`}>
+            {s.sections.map((sec) => (
+              <div key={sec.title}>
+                <h2 className="mb-4 text-2xl text-ink md:text-3xl">{sec.title}</h2>
+                {sec.paragraphs?.map((p) => (
+                  <p key={p.slice(0, 40)} className="mb-4 text-[17px] leading-relaxed text-neutral-700">
+                    {p}
+                  </p>
+                ))}
+                {sec.bullets && (
+                  <ul className="mt-2 space-y-2.5">
+                    {sec.bullets.map((b) => (
+                      <li key={b} className="flex gap-3 text-[16px] leading-relaxed text-neutral-700">
+                        <Check className="mt-1 h-4 w-4 shrink-0 text-tan-deep" aria-hidden="true" />
+                        {b}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {sec.image && <Pic item={sec.image} className="mt-6 aspect-[3/2] rounded-lg" />}
+              </div>
             ))}
           </div>
-          {page.includes.length > 0 && (
-            <div className="lg:col-span-2">
-              <div className="rounded-2xl bg-[#0a2e2a] text-white p-7">
-                <h2 className="font-serif text-2xl mb-5">What we do</h2>
-                <ul className="space-y-4">
-                  {page.includes.map((i) => (
-                    <li key={i.title} className="flex gap-3">
-                      <Check className="w-5 h-5 text-[#d4af37] shrink-0 mt-0.5" />
-                      <div>
-                        <div className="font-semibold">{i.title}</div>
-                        <div className="text-sm text-white/75">{i.text}</div>
-                      </div>
+        </section>
+      )}
+
+      {/* What is included, price */}
+      {(s.included || s.price) && (
+        <section className="border-y border-border bg-white py-20">
+          <div className="wrap grid gap-12 lg:grid-cols-2">
+            {s.included && (
+              <div>
+                <SectionHead className="mb-6" eyebrow="What you get" title={s.included.title} />
+                <ul className="space-y-3">
+                  {s.included.items.map((i) => (
+                    <li key={i} className="flex gap-3 text-[17px] text-neutral-700">
+                      <Check className="mt-1 h-5 w-5 shrink-0 text-tan-deep" aria-hidden="true" />
+                      {i}
                     </li>
                   ))}
                 </ul>
               </div>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {isHub && (
-        <section className="pb-16">
-          <div className={`${wrap} grid sm:grid-cols-2 lg:grid-cols-3 gap-4`}>
-            {children.map((c) => (
-              <Link
-                key={c.route}
-                to={c.route}
-                className="group flex items-center justify-between rounded-xl border border-border p-5 hover:border-[#d4af37] hover:bg-muted/40 transition-colors"
-              >
-                <span className="font-semibold text-foreground">{c.name}</span>
-                <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {page.pairs && page.pairs.length > 0 && (
-        <section className="py-16 bg-muted/30 border-y border-border">
-          <div className={wrap}>
-            <SectionTitle eyebrow="Designed, then built" title="The design beside the finished result" text="Where we have the design and the photographs of the finished room, we show them together." />
-            <div className="grid md:grid-cols-2 gap-6">
-              {page.pairs.map((p) => (
-                <PairCard key={p.design + p.built} {...p} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      <section id="projects" className="py-16 md:py-20 scroll-mt-20">
-        <div className={wrap}>
-          <SectionTitle eyebrow="Projects" title={isHub ? "Recent residential projects" : "Projects"} />
-          <div className={`grid sm:grid-cols-2 gap-6 ${featured.length === 4 || featured.length === 2 ? "" : "lg:grid-cols-3"}`}>
-            {featured.map((c, i) => (
-              <CaseCard key={c.slug} c={c} eager={i < 3} ctx={page.key} />
-            ))}
-          </div>
-          <Link to={page.key === "commercial" ? "/projects?sector=Commercial" : isHub ? "/projects?sector=Residential" : `/projects?service=${page.key}`} className="mt-8 inline-flex items-center gap-2 font-semibold text-foreground hover:gap-3 transition-all">
-            All projects <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-      </section>
-
-      {page.key === "commercial" && (
-        <section className="py-16 bg-muted/30 border-y border-border">
-          <div className={wrap}>
-            <SectionTitle
-              eyebrow="Commercial design"
-              title="Design work for restaurants and food halls"
-              text="Layouts, 3D views and joinery details prepared by MF. These are design images, not photographs of finished units."
-            />
-            <div className="space-y-12">
-              {commercialDesign.map((d) => (
-                <div key={d.title}>
-                  <h3 className="text-xl font-bold text-foreground">{d.title}</h3>
-                  <p className="text-muted-foreground mb-4">{d.text}</p>
-                  <Gallery ids={d.images} cols={d.images.length === 4 ? 4 : 3} />
+            )}
+            <div className="space-y-8">
+              {s.price && <PriceBlock price={s.price} />}
+              {s.included?.priceFactors && (
+                <div>
+                  <h3 className="mb-4 text-xl text-ink">What changes the price</h3>
+                  <ul className="space-y-2.5">
+                    {s.included.priceFactors.map((f) => (
+                      <li key={f} className="flex gap-3 text-[16px] text-muted-foreground">
+                        <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-tan-deep" aria-hidden="true" />
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Process */}
+      {s.process && s.process.length > 0 && (
+        <section className="bg-ink py-20 text-white">
+          <div className="wrap">
+            <SectionHead tone="dark" eyebrow="How it works" title="What happens next" />
+            <Steps items={s.process} tone="dark" />
+          </div>
+        </section>
+      )}
+
+      {/* Reviews */}
+      {reviews.length > 0 && (
+        <section className="bg-paper py-20">
+          <div className="wrap">
+            <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+              <SectionHead className="mb-0" eyebrow="Reviews" title="What clients say" />
+              <GoogleBadge />
+            </div>
+            <ReviewGrid items={reviews.slice(0, 6)} />
+          </div>
+        </section>
+      )}
+
+      {/* Related projects */}
+      {related.length > 0 && (
+        <section className="py-20">
+          <div className="wrap">
+            <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+              <SectionHead className="mb-0" eyebrow="Projects" title="Related projects" />
+              <Link to="/projects" className="link-arrow text-ink">
+                All projects <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {related.map((p) => (
+                <ProjectCard key={p.slug} p={p} />
               ))}
             </div>
           </div>
         </section>
       )}
 
-      {page.gallery && page.gallery.length > 0 && (
-        <section className="py-16">
-          <div className={wrap}>
-            <SectionTitle eyebrow="Gallery" title="More of this work" />
-            <Gallery ids={page.gallery} cols={4} />
-            <Link to={`/gallery?type=${galleryFor[page.key] ?? "kitchens"}`} className="mt-8 inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all">
-              See all photos in the gallery <ArrowRight className="w-4 h-4" />
-            </Link>
+      {/* FAQs */}
+      {s.faqs && s.faqs.length > 0 && (
+        <section className={`py-20 ${related.length ? "bg-paper" : ""}`}>
+          <div className="wrap grid gap-10 lg:grid-cols-[1fr_2fr]">
+            <SectionHead className="mb-0" eyebrow="Questions" title="Common questions" />
+            <Faq items={s.faqs} />
           </div>
         </section>
       )}
 
-      {page.faqs && page.faqs.length > 0 && (
-        <section className="py-16 border-t border-border">
-          <div className={`${wrap} max-w-4xl`}>
-            <SectionTitle title="Questions we are often asked" />
-            <div className="divide-y divide-border border-y border-border">
-              {page.faqs.map((f) => (
-                <details key={f.q} className="group py-5">
-                  <summary className="cursor-pointer list-none flex justify-between gap-4 font-semibold text-foreground">
-                    {f.q}
-                    <span className="text-[#8a6d12] group-open:rotate-45 transition-transform text-xl leading-none">+</span>
-                  </summary>
-                  <p className="mt-3 text-muted-foreground">{f.a}</p>
-                </details>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {page.related && (
-        <section className="pb-4">
-          <div className={`${wrap} flex flex-wrap gap-3`}>
-            {page.related.map((r) => (
-              <Link key={r.to} to={r.to} className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm hover:bg-muted">
-                {r.label} <ArrowRight className="w-4 h-4" />
+      {/* Cross-sell */}
+      {s.crossSell && s.crossSell.length > 0 && (
+        <section className="border-t border-border py-14">
+          <div className="wrap grid gap-5 md:grid-cols-2">
+            {s.crossSell.map((c) => (
+              <Link key={c.route} to={c.route} className="group flex items-center justify-between gap-6 rounded-lg border border-border p-6 hover:border-tan hover:bg-paper">
+                <div>
+                  <div className="text-lg font-semibold text-ink">{c.label}</div>
+                  <p className="mt-1 text-[15px] text-muted-foreground">{c.text}</p>
+                </div>
+                <ArrowRight className="h-5 w-5 shrink-0 text-tan-deep transition-transform group-hover:translate-x-1" />
               </Link>
             ))}
           </div>
         </section>
       )}
 
-      <ContactSection formType={page.formType} />
-      <SiteFooter tagline={page.name} />
-    </div>
+      {/* Enquiry */}
+      <section id="enquire" className="scroll-mt-20 bg-ink py-20 text-white">
+        <div className="wrap grid gap-12 lg:grid-cols-[1fr_1.3fr]">
+          <div>
+            <div className="eyebrow mb-3 text-tan">{booking ? "Book" : "Enquire"}</div>
+            <h2 className="text-3xl leading-tight md:text-[2.6rem]">{s.cta.title}</h2>
+            <p className="mt-4 text-lg leading-relaxed text-white/80">{s.cta.text}</p>
+            <div className="mt-8 space-y-4 text-[15px]">
+              <p className="text-white/70">
+                {booking ? "Bookings are handled by" : "Your enquiry goes to"} <span className="font-semibold text-white">{r.person}</span>.
+              </p>
+              <a href={wa} target="_blank" rel="noreferrer" data-route={s.leadRoute} data-page={s.pageCode} className="flex items-center gap-3 text-white hover:text-tan">
+                <MessageCircle className="h-5 w-5 text-tan" aria-hidden="true" /> WhatsApp {r.phone}
+              </a>
+              <a href={r.tel} data-route={s.leadRoute} data-page={s.pageCode} className="flex items-center gap-3 text-white hover:text-tan">
+                <Phone className="h-5 w-5 text-tan" aria-hidden="true" /> Call {r.phone}
+              </a>
+              <p className="text-sm text-white/55">We work {settings.serviceArea.summary}.</p>
+            </div>
+          </div>
+          <div className="rounded-xl bg-white/[0.04] p-5 ring-1 ring-white/10 sm:p-8">
+            {booking ? (
+              <SnagBookingForm pageCode={s.pageCode} tone="dark" />
+            ) : (
+              <EnquiryForm route={s.leadRoute} pageCode={s.pageCode} service={service} tone="dark" />
+            )}
+          </div>
+        </div>
+      </section>
+    </Layout>
   );
-};
-
-export default ServiceLanding;
+}

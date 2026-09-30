@@ -102,3 +102,10 @@ export const people: Person[] = collection<Person>("people")
   .map((p) => ({ ...strip(p), id: p.id || p.__file }))
   .filter((p) => p.show && visible(p))
   .sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || byText(a.name ?? "", b.name ?? ""));
+
+// Page content -----------------------------------------------------------------
+
+/** Editable copy and media for fixed pages, from /content/pages/<name>.json. */
+export function pageContent<T>(name: string): T {
+  return (files[`/content/pages/${name}.json`] ?? {}) as T;
+}

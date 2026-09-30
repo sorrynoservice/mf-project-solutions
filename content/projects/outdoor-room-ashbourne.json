@@ -87,5 +87,19 @@
   "order": 7,
   "published": true,
   "pending": "facts.md lists M173 and M177 under Ashbourne, but the photo library files them under a 2023 outdoor room project, so they are not added here. Owner to confirm.",
-  "featured": false
+  "featured": false,
+  "videos": [
+    {
+      "src": "/media/video/V001.mp4",
+      "poster": "/media/video/V001.jpg",
+      "caption": "Alex walks through the finished outdoor room",
+      "loop": false
+    },
+    {
+      "src": "/media/video/V002.mp4",
+      "poster": "/media/video/V002.jpg",
+      "caption": "The outdoor room with its sliding glass",
+      "loop": false
+    }
+  ]
 }
