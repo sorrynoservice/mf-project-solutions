@@ -123,20 +123,6 @@
     },
     {
       "a": {
-        "image": "/assets/work/kitchen-3d-of-grey-island-kitchen-with-timber-to-203.jpg",
-        "caption": "Our 3D kitchen design",
-        "kind": "design"
-      },
-      "b": {
-        "image": "/assets/work/rt/M202.jpg",
-        "caption": "The finished kitchen",
-        "kind": "photo"
-      },
-      "caption": "Our 3D design beside the finished grey island kitchen",
-      "type": "design-built"
-    },
-    {
-      "a": {
         "image": "/assets/work/leixlip-kitchen-plan-and-elevation-with-island-340.jpg",
         "caption": "Kitchen plan and elevation drawing, Leixlip",
         "kind": "drawing"

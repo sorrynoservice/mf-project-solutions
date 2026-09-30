@@ -80,11 +80,6 @@
         "image": "/assets/work/rt/M141.jpg",
         "caption": "Reception built to our design, Clinic, Dublin 1",
         "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M202.jpg",
-        "caption": "Kitchen built to our 3D design",
-        "kind": "photo"
       }
     ]
   },
@@ -101,6 +96,20 @@
         "kind": "photo"
       },
       "caption": "Rathcoole bathroom: 3D design beside the finished room",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/millmount-kitchen-design-view-sink-and-hob-run-d07.jpg",
+        "caption": "Kitchen design view, Drumcondra",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/millmount-dark-oak-kitchen-and-patterned-splashback-d05.jpg",
+        "caption": "The kitchen as built, Drumcondra",
+        "kind": "photo"
+      },
+      "caption": "Drumcondra: the kitchen design view, then the kitchen as built",
       "type": "design-built"
     },
     {
@@ -143,20 +152,6 @@
         "kind": "photo"
       },
       "caption": "Leopardstown: isometric design beside the finished shower",
-      "type": "design-built"
-    },
-    {
-      "a": {
-        "image": "/assets/work/kitchen-3d-of-grey-island-kitchen-with-timber-to-203.jpg",
-        "caption": "Our 3D kitchen design",
-        "kind": "design"
-      },
-      "b": {
-        "image": "/assets/work/rt/M202.jpg",
-        "caption": "The finished kitchen",
-        "kind": "photo"
-      },
-      "caption": "Kitchen: 3D design beside the finished room",
       "type": "design-built"
     }
   ],
