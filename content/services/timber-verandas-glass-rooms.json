@@ -8,7 +8,7 @@
   "formService": "Outdoor living",
   "seo": {
     "title": "Timber Verandas and Glass Rooms | MF Project Solutions",
-    "description": "Timber-framed verandas and glass rooms in Dublin, Meath and Kildare, open or enclosed with sliding glass. See our Ashbourne outdoor room with outdoor kitchen."
+    "description": "Timber-framed verandas and glass rooms in Dublin, Meath and Kildare, open or enclosed with sliding glass. See our timber outdoor rooms with outdoor kitchens."
   },
   "hero": {
     "eyebrow": "Timber verandas and glass rooms",
@@ -16,13 +16,13 @@
     "sub": "Timber-framed verandas, left open or enclosed with sliding glass, so you can use the garden for more of the year.",
     "image": {
       "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
-      "caption": "Timber veranda with outdoor kitchen and lounge, Ashbourne",
+      "caption": "Timber veranda with outdoor kitchen and lounge",
       "kind": "photo",
       "focus": "50% 45%"
     },
     "imageMobile": {
       "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
-      "caption": "The same veranda enclosed with sliding glass, Ashbourne",
+      "caption": "The same veranda enclosed with sliding glass",
       "kind": "photo",
       "focus": "40% 50%"
     },
@@ -35,8 +35,8 @@
   },
   "proof": [
     {
-      "title": "Ashbourne outdoor room",
-      "text": "A timber veranda with an outdoor kitchen, bar and lounge, closed in with sliding glass and set on a porcelain terrace."
+      "title": "Outdoor rooms we have built",
+      "text": "Timber-framed outdoor rooms with kitchens, bars and lounges, left open or closed in with sliding glass, on porcelain terraces."
     },
     {
       "title": "Open or enclosed",
@@ -52,7 +52,7 @@
     "items": [
       {
         "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
-        "caption": "Veranda enclosed with sliding glass, Ashbourne",
+        "caption": "The same veranda enclosed with sliding glass",
         "kind": "photo"
       },
       {
@@ -67,7 +67,7 @@
       },
       {
         "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
-        "caption": "Outdoor room with kitchen, bar and lounge, Ashbourne",
+        "caption": "Outdoor room with kitchen, bar and lounge",
         "kind": "photo"
       },
       {
@@ -77,7 +77,7 @@
       },
       {
         "image": "/assets/work/rt/M178.jpg",
-        "caption": "Inside the glazed room, timber roof and lounge, Ashbourne",
+        "caption": "Inside the glazed room, timber roof and lounge",
         "kind": "photo"
       }
     ]
@@ -100,15 +100,15 @@
     {
       "a": {
         "image": "/assets/work/outdoor-room-bbq-blockwork-base-against-brick-wall-au-171.jpg",
-        "caption": "Blockwork base for the outdoor kitchen",
+        "caption": "The outdoor kitchen base during the build",
         "kind": "photo"
       },
       "b": {
         "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
-        "caption": "The finished outdoor kitchen and bar",
+        "caption": "Outdoor room with kitchen, bar and lounge",
         "kind": "photo"
       },
-      "caption": "Ashbourne: the outdoor kitchen base, then the finished kitchen and bar",
+      "caption": "Outdoor kitchen base during the build, then the finished kitchen and bar",
       "type": "before-after"
     }
   ],
@@ -175,7 +175,7 @@
     },
     {
       "q": "Can you build an outdoor kitchen inside it?",
-      "a": "Yes. The Ashbourne outdoor room has a built-in outdoor kitchen and bar."
+      "a": "Yes. We have built outdoor rooms with built-in kitchens, bars and BBQs, including the one in Ashbourne."
     },
     {
       "q": "Do you work in my area?",
