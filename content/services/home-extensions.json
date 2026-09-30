@@ -102,6 +102,20 @@
   "pairs": [
     {
       "a": {
+        "image": "/assets/work/millmount-rear-before-works-d14.jpg",
+        "caption": "The rear before the works, Drumcondra",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/millmount-new-rear-extension-and-patio-d02.jpg",
+        "caption": "The new rear extension, Drumcondra",
+        "kind": "photo"
+      },
+      "caption": "Drumcondra: the rear before, then the new extension",
+      "type": "before-after"
+    },
+    {
+      "a": {
         "image": "/assets/work/phibsborough-rear-garden-and-dark-rendered-single-sto-330.jpg",
         "caption": "Render of the rear extension, Phibsborough",
         "kind": "ai-enhanced"

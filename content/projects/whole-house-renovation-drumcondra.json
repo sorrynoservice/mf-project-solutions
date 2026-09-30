@@ -69,12 +69,31 @@
   ],
   "before": [
     {
+      "image": "/assets/work/millmount-rear-before-works-d14.jpg",
+      "caption": "The rear of the house before the works",
+      "kind": "photo"
+    },
+    {
       "image": "/assets/work/millmount-red-brick-front-before-works-d09.jpg",
       "caption": "The red-brick front before the works",
       "kind": "photo"
     }
   ],
   "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/millmount-rear-before-works-d14.jpg",
+        "caption": "The rear of the house before the works",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/millmount-new-rear-extension-and-patio-d02.jpg",
+        "caption": "The same view after: new rear extension, patio and lawn",
+        "kind": "photo"
+      },
+      "caption": "Drumcondra: the rear before, then the new extension from the same spot",
+      "type": "before-after"
+    },
     {
       "a": {
         "image": "/assets/work/millmount-kitchen-design-view-sink-and-hob-run-d07.jpg",
@@ -95,6 +114,11 @@
       "stage": "existing",
       "text": "A 1926 terraced house that needed everything.",
       "images": [
+        {
+          "image": "/assets/work/millmount-rear-before-works-d14.jpg",
+          "caption": "The rear of the house before the works",
+          "kind": "photo"
+        },
         {
           "image": "/assets/work/millmount-red-brick-front-before-works-d09.jpg",
           "caption": "The red-brick front before the works",
