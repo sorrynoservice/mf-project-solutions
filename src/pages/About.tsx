@@ -33,8 +33,9 @@ export default function About() {
       />
 
       <section className="py-20 md:py-24">
-        <div className="wrap grid gap-12 lg:grid-cols-[1fr_1.2fr]">
-          <SectionHead className="mb-0" eyebrow="Who we are" title="Professional delivery, and a person you can call" />
+        <div className="wrap grid gap-12 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] lg:items-center">
+          <div>
+          <SectionHead className="mb-6" eyebrow="Who we are" title="Professional delivery, and a person you can call" />
           <div className="prose-mf text-lg text-neutral-700">
             <p>
               MF is a family business, led day to day by Alex Ferreira and Wanessa Correa. They have called Ireland home for about 13 years, after earlier years in Brazil and the United States.
@@ -45,6 +46,10 @@ export default function About() {
             <p>
               We are growing, and we intend to keep the thing clients tell us they value: you deal with a named person from the first visit to handover.
             </p>
+          </div>
+          </div>
+          <div className="mx-auto w-full max-w-xs">
+            <Video video={{ src: "/media/video/alex-intro.mp4", poster: "/media/video/alex-intro.jpg", caption: "Alex on what MF does, from new builds and renovations to kitchens and gardens", loop: false }} />
           </div>
         </div>
       </section>
