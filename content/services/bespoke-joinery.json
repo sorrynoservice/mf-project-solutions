@@ -1,0 +1,210 @@
+{
+  "slug": "bespoke-joinery",
+  "route": "/bespoke-joinery",
+  "name": "Bespoke joinery",
+  "pageCode": "JNY",
+  "leadRoute": "small",
+  "engine": "organic",
+  "formService": "Bespoke joinery",
+  "seo": {
+    "title": "Bespoke Joinery Dublin and Meath | MF Project Solutions",
+    "description": "Bespoke joinery made in our Drumree workshop and fitted across Dublin, Meath and Kildare: media walls, wardrobes, understairs storage and reception desks."
+  },
+  "hero": {
+    "eyebrow": "Bespoke joinery",
+    "h1": "Bespoke joinery in Dublin and Meath, made in our own workshop",
+    "sub": "Media walls, wardrobes, understairs storage and display units, made in our Drumree workshop and fitted by our own joiners.",
+    "image": {
+      "image": "/assets/work/phibsborough-oak-and-red-display-joinery-doors-open-90.jpg",
+      "caption": "Oak and red display joinery, Phibsborough",
+      "kind": "photo",
+      "focus": "35% 50%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/rathcoole-curved-end-drawer-unit-led-wash-21.jpg",
+      "caption": "Curved-end drawer unit with LED wash, Rathcoole",
+      "kind": "photo",
+      "focus": "65% 55%"
+    },
+    "ctaLabel": "Get a joinery quotation",
+    "bullets": [
+      "Made in our Drumree workshop",
+      "Fitted by our own joiners",
+      "Designed with you, in 3D where useful"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Our own workshop",
+      "text": "Every piece is made at Unit 1, Merrywell Business Park, Drumree, then fitted by the joiners who made it."
+    },
+    {
+      "title": "Phibsborough",
+      "text": "Full-height oak and red lacquered joinery, from the display wall to understairs storage with a hidden door."
+    },
+    {
+      "title": "Commercial joinery",
+      "text": "At a Dublin 1 clinic, we designed the reception, waiting areas and joinery, then built them."
+    }
+  ],
+  "gallery": {
+    "title": "Joinery we have made",
+    "items": [
+      {
+        "image": "/assets/work/phibsborough-full-height-oak-joinery-and-fireplace-89.jpg",
+        "caption": "Full-height oak joinery around the fireplace, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-oak-and-red-joinery-wall-from-the-kitche-n080.jpg",
+        "caption": "Oak and red joinery wall from the kitchen, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-understairs-storage-and-hidden-door-94.jpg",
+        "caption": "Understairs storage and hidden door, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-arched-door-landing-bespoke-storage-balu-18.jpg",
+        "caption": "Arched door landing with bespoke storage, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-child-s-desk-shelving-and-wall-units-26.jpg",
+        "caption": "Desk, shelving and wall units, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-curved-end-drawer-unit-led-wash-21.jpg",
+        "caption": "Curved-end drawer unit with LED wash, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-bedroom-with-built-in-desk-and-lit-shelv-n065.jpg",
+        "caption": "Built-in desk and lit shelving, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-arched-wardrobe-doors-in-nursery-25.jpg",
+        "caption": "Arched wardrobe doors, Rathcoole",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/phibsborough-living-room-with-oak-shelving-slatted-pa-331.jpg",
+        "caption": "Render of the living room joinery, Phibsborough",
+        "kind": "ai-enhanced"
+      },
+      "b": {
+        "image": "/assets/work/phibsborough-full-height-oak-joinery-and-fireplace-89.jpg",
+        "caption": "The finished joinery, Phibsborough",
+        "kind": "photo"
+      },
+      "caption": "Phibsborough: the render beside the finished oak joinery",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leixlip-joinery-plans-and-elevations-bookcases-s-341.jpg",
+        "caption": "Joinery plans and elevations, Leixlip",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/rt/M44.jpg",
+        "caption": "The built-in shelving, Leixlip",
+        "kind": "photo"
+      },
+      "caption": "Leixlip: the joinery drawing beside the finished shelving",
+      "type": "design-built"
+    }
+  ],
+  "video": {
+    "src": "/media/video/V081.mp4",
+    "poster": "/media/video/V081.jpg",
+    "caption": "Cutting the red lacquered panels in our Drumree workshop",
+    "loop": true,
+    "title": "From our workshop"
+  },
+  "included": {
+    "title": "What we make",
+    "items": [
+      "Media walls and living room shelving",
+      "Wardrobes, including arched doors and eaves wardrobes",
+      "Understairs storage and hidden doors",
+      "Desks, display units and drawer units",
+      "Reception desks and commercial joinery"
+    ],
+    "priceFactors": [
+      "Size and number of pieces",
+      "Materials and finishes, such as oak veneer or lacquer",
+      "Curves, arches and integrated lighting",
+      "Hardware and internal fittings"
+    ]
+  },
+  "process": [
+    {
+      "title": "Brief and measure",
+      "text": "Tell us what the space needs to hold and we measure it."
+    },
+    {
+      "title": "Design",
+      "text": "We draw the joinery, in 3D where useful, or work from your designer's drawings."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation for each piece."
+    },
+    {
+      "title": "Made in Drumree",
+      "text": "The joinery is made in our workshop."
+    },
+    {
+      "title": "Fitted by our joiners",
+      "text": "The same team fits it on site."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "Where is the joinery made?",
+      "a": "In our workshop at Unit 1, Merrywell Business Park, Drumree, Co. Meath. Our own joiners fit it."
+    },
+    {
+      "q": "Can you design it for me?",
+      "a": "Yes. Joinery design, including 3D views, is part of our design service. We can also work from your designer's drawings."
+    },
+    {
+      "q": "Do you make joinery for businesses?",
+      "a": "Yes. We designed and built the reception, waiting areas and joinery for a clinic in Dublin 1."
+    },
+    {
+      "q": "Can you build storage into the eaves of an attic?",
+      "a": "Yes. We have built eaves wardrobes and dressing rooms in attic conversions in Rathcoole."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "joinery",
+  "crossSell": [
+    {
+      "route": "/kitchens",
+      "label": "Kitchens",
+      "text": "Kitchens made in the same workshop and fitted by the same joiners."
+    },
+    {
+      "route": "/attic-conversions",
+      "label": "Attic conversions",
+      "text": "Make use of the eaves with fitted wardrobes."
+    }
+  ],
+  "cta": {
+    "title": "Have a space that needs joinery?",
+    "text": "Send us photos, rough sizes or a sketch. We will measure, design and prepare a detailed written quotation."
+  }
+}

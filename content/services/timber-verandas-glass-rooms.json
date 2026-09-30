@@ -1,0 +1,211 @@
+{
+  "slug": "timber-verandas-glass-rooms",
+  "route": "/timber-verandas-glass-rooms",
+  "name": "Timber verandas and glass rooms",
+  "pageCode": "VER",
+  "leadRoute": "small",
+  "engine": "seasonal",
+  "formService": "Outdoor living",
+  "seo": {
+    "title": "Timber Verandas and Glass Rooms | MF Project Solutions",
+    "description": "Timber-framed verandas and glass rooms in Dublin, Meath and Kildare, open or enclosed with sliding glass. See our Ashbourne outdoor room with outdoor kitchen."
+  },
+  "hero": {
+    "eyebrow": "Timber verandas and glass rooms",
+    "h1": "Timber verandas and glass rooms in Dublin and Meath",
+    "sub": "Timber-framed verandas, left open or enclosed with sliding glass, so you can use the garden for more of the year.",
+    "image": {
+      "image": "/assets/work/outdoor-room-timber-framed-outdoor-room-with-kitchen-173.jpg",
+      "caption": "Timber veranda with outdoor kitchen and lounge, Ashbourne",
+      "kind": "photo",
+      "focus": "50% 45%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+      "caption": "The same veranda enclosed with sliding glass, Ashbourne",
+      "kind": "photo",
+      "focus": "40% 50%"
+    },
+    "ctaLabel": "Get a veranda quotation",
+    "bullets": [
+      "Timber-framed, open or enclosed",
+      "Sliding glass panels",
+      "Outdoor kitchens built in"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Ashbourne outdoor room",
+      "text": "A timber veranda with an outdoor kitchen, bar and lounge, closed in with sliding glass and set on a porcelain terrace."
+    },
+    {
+      "title": "Open or enclosed",
+      "text": "Choose an open timber veranda, or add sliding glass for a room you can close up in poor weather."
+    },
+    {
+      "title": "Planning checked",
+      "text": "Detached structures fall under the Class 3 limits and attached ones are treated as extensions. We check which applies to yours."
+    }
+  ],
+  "gallery": {
+    "title": "Verandas and glass rooms we have built",
+    "items": [
+      {
+        "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+        "caption": "Veranda enclosed with sliding glass, Ashbourne",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M62.jpg",
+        "caption": "Glass-fronted garden room at dusk, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/glass-room-glass-room-on-rear-of-new-house-lawn-184.jpg",
+        "caption": "Glass room on the rear of a new house",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
+        "caption": "Outdoor room with kitchen, bar and lounge, Ashbourne",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/ashbourne-covered-outdoor-room-with-glass-sliding-60.jpg",
+        "caption": "Covered outdoor room with sliding glass panels, Ashbourne",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M178.jpg",
+        "caption": "Inside the glazed room, timber roof and lounge, Ashbourne",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/ashbourne-garden-before-works-58.jpg",
+        "caption": "The garden before, Ashbourne",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/ashbourne-covered-outdoor-room-with-glass-sliding-60.jpg",
+        "caption": "The finished outdoor room, Ashbourne",
+        "kind": "photo"
+      },
+      "caption": "Ashbourne: the garden before, and the finished outdoor room",
+      "type": "before-after"
+    },
+    {
+      "a": {
+        "image": "/assets/work/outdoor-room-bbq-blockwork-base-against-brick-wall-au-171.jpg",
+        "caption": "Blockwork base for the outdoor kitchen",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/outdoor-room-outdoor-room-interior-kitchen-bar-and-lo-174.jpg",
+        "caption": "The finished outdoor kitchen and bar",
+        "kind": "photo"
+      },
+      "caption": "Ashbourne: the outdoor kitchen base, then the finished kitchen and bar",
+      "type": "before-after"
+    }
+  ],
+  "video": {
+    "src": "/media/video/V002.mp4",
+    "poster": "/media/video/V002.jpg",
+    "caption": "Ashbourne outdoor room",
+    "loop": false,
+    "title": "The Ashbourne outdoor room"
+  },
+  "included": {
+    "title": "What we build",
+    "items": [
+      "Timber frame and roof",
+      "Sliding glass panels, if you want it enclosed",
+      "Porcelain terrace or base",
+      "Lighting",
+      "Outdoor kitchen and bar, if you want one"
+    ],
+    "priceFactors": [
+      "Size of the structure",
+      "Open veranda or enclosed with sliding glass",
+      "Roof type",
+      "Outdoor kitchen, bar and lighting",
+      "Groundwork and the base it sits on"
+    ]
+  },
+  "price": {
+    "headline": "Typical projects €13,000 to €15,000 plus VAT; larger enclosed rooms cost more.",
+    "note": "Your detailed written quotation reflects the size, glazing and fit-out you choose.",
+    "confirmed": false
+  },
+  "process": [
+    {
+      "title": "Tell us what you want",
+      "text": "Send photos of the garden, rough sizes and whether you want it open or enclosed."
+    },
+    {
+      "title": "Visit and design",
+      "text": "We check the site, confirm whether Class 3 or the extension rules apply, and agree the design."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation for the structure, glazing and any outdoor kitchen."
+    },
+    {
+      "title": "Build",
+      "text": "Our crew builds the timber frame, roof and glazing on site."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "Do I need planning permission?",
+      "a": "It depends on whether the structure is detached or attached. A detached structure is assessed under the Class 3 limits; one attached to the house is treated as an extension. We check your site first, and a Section 5 declaration from the council gives certainty."
+    },
+    {
+      "q": "Can I start open and enclose it later?",
+      "a": "Talk to us at design stage. Planning for sliding glass from the start keeps the options open."
+    },
+    {
+      "q": "Are your verandas timber or aluminium?",
+      "a": "Timber. Our verandas and glass rooms are timber-framed."
+    },
+    {
+      "q": "Can you build an outdoor kitchen inside it?",
+      "a": "Yes. The Ashbourne outdoor room has a built-in outdoor kitchen and bar."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "veranda",
+  "crossSell": [
+    {
+      "route": "/porcelain-patios",
+      "label": "Porcelain patios",
+      "text": "A veranda needs a good base. See how we lay porcelain."
+    },
+    {
+      "route": "/decking-pergolas",
+      "label": "Decking and pergolas",
+      "text": "Prefer an open structure? See decking, canopies and pergolas."
+    }
+  ],
+  "cta": {
+    "title": "Planning a veranda or glass room?",
+    "text": "Send us photos of the garden and rough sizes, and tell us whether you want it open or enclosed. We will visit and prepare a detailed written quotation."
+  },
+  "sections": [
+    {
+      "title": "Planning: detached or attached",
+      "paragraphs": [
+        "A detached timber veranda or glass room is assessed under the Class 3 limits for garden structures. One attached to the house is treated as an extension, with its own rules.",
+        "Either may be exempt if it meets the conditions. We check your site first."
+      ]
+    }
+  ]
+}

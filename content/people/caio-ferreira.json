@@ -1,0 +1,14 @@
+{
+  "id": "caio-ferreira",
+  "name": "Caio Ferreira",
+  "role": "Inspection support (part time)",
+  "headshot": "",
+  "bio": [
+    "Caio supports the snagging and property inspection service part time.",
+    "He works alongside Wanessa on inspections."
+  ],
+  "route": "none",
+  "order": 5,
+  "show": false,
+  "pending": "Owner to decide whether Caio appears"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "wanessa-correa",
+  "name": "Wanessa Correa",
+  "role": "Director of Operations",
+  "headshot": "/assets/wanessa-correa.jpg",
+  "bio": [
+    "Wanessa leads the snagging and property inspection service and is your contact from booking to report.",
+    "She holds a degree in Construction Economics and previously worked in cost and procurement roles with Linesight and Cairn."
+  ],
+  "route": "property",
+  "order": 2,
+  "show": true
+}

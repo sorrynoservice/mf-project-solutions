@@ -1,0 +1,204 @@
+{
+  "slug": "garden-rooms",
+  "route": "/garden-rooms",
+  "name": "Garden rooms",
+  "pageCode": "GRM",
+  "leadRoute": "small",
+  "engine": "both",
+  "formService": "Garden building or garden dwelling",
+  "seo": {
+    "title": "Garden Rooms Dublin and Meath | MF Project Solutions",
+    "description": "Insulated garden rooms for home offices, gyms and studios in Dublin, Meath and Kildare, built on site by our own crew. We check the Class 3 rules first."
+  },
+  "hero": {
+    "eyebrow": "Garden rooms",
+    "h1": "Garden rooms in Dublin, Meath and Kildare",
+    "sub": "Insulated garden rooms for a home office, gym, studio or storage, built on site by our own crew. We check the Class 3 limits for your garden before you commit.",
+    "image": {
+      "image": "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg",
+      "caption": "Timber-clad garden room with bifold doors and a sauna",
+      "kind": "photo",
+      "focus": "65% 60%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+      "caption": "Garden office at dusk with a lit path",
+      "kind": "photo",
+      "focus": "50% 40%"
+    },
+    "ctaLabel": "Get a garden room quotation",
+    "bullets": [
+      "Built on site by our own crew",
+      "Insulated for use all year",
+      "Own joinery workshop in Drumree"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Built by our crew",
+      "text": "Your garden room is built on site by our own crew, with joinery from our workshop in Drumree."
+    },
+    {
+      "title": "Rules checked first",
+      "text": "We check the Class 3 limits for your garden, including any existing sheds that count towards the 30 m² total."
+    },
+    {
+      "title": "A room, not a shed",
+      "text": "Insulated buildings made for daily use as an office, gym or studio, as well as storage."
+    }
+  ],
+  "gallery": {
+    "title": "Garden rooms we have built",
+    "items": [
+      {
+        "image": "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg",
+        "caption": "Timber-clad garden room with bifold doors and a sauna",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+        "caption": "Garden office at dusk with path lighting",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-composite-clad-garden-room-at-sunset-g75.jpg",
+        "caption": "Composite-clad garden room at sunset",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-rendered-garden-room-with-french-doors-g82.jpg",
+        "caption": "Render-finished garden room with French doors",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/G74.jpg",
+        "caption": "Clad garden room with store and stepping stones",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-rendered-garden-room-at-sunset-g83.jpg",
+        "caption": "Render-finished garden room at sunset",
+        "kind": "photo"
+      }
+    ]
+  },
+  "video": {
+    "src": "/media/video/V325.mp4",
+    "poster": "/media/video/V325.jpg",
+    "caption": "Timber-lined garden building with corner sliders, Phibsborough",
+    "loop": true,
+    "title": "Inside a garden building"
+  },
+  "included": {
+    "title": "What your garden room includes",
+    "items": [
+      "Layout planned around how you will use it: office, gym, studio or storage",
+      "Insulated floor, walls and roof",
+      "Cladding, windows and doors to your choice",
+      "Internal finish ready to use",
+      "Built on site by our own crew"
+    ],
+    "priceFactors": [
+      "Floor area",
+      "Groundworks and access to the garden, priced separately",
+      "Trenching and service connections, priced separately",
+      "Cladding, glazing and internal finishes"
+    ]
+  },
+  "price": {
+    "headline": "Building from about €2,500 per m² including VAT.",
+    "note": "Groundworks, trenching and service connections are priced separately.",
+    "confirmed": false
+  },
+  "process": [
+    {
+      "title": "Tell us what you need",
+      "text": "Send the size you have in mind, what the room is for and a few photos of the garden."
+    },
+    {
+      "title": "Site check",
+      "text": "We check the garden against the Class 3 limits, including other sheds and the garden you need to keep."
+    },
+    {
+      "title": "Layout and quotation",
+      "text": "You receive a layout and a detailed written quotation, with groundworks and services shown separately."
+    },
+    {
+      "title": "Build",
+      "text": "Our crew builds the garden room on site."
+    },
+    {
+      "title": "Handover",
+      "text": "We walk you through the finished room before we leave."
+    }
+  ],
+  "reviews": [
+    "harry-english-2026-05-27",
+    "simon-chuberre-2026-05-27"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need planning permission for a garden room?",
+      "a": "A garden room may be exempt under Class 3 if it meets all the conditions: up to 30 m² in total with other sheds, 4 m high with a pitched tiled roof or 3 m otherwise, behind the front wall of the house, and at least 25 m² of garden kept. We check your site first. A Section 5 declaration from the council gives certainty."
+    },
+    {
+      "q": "Does my existing shed count?",
+      "a": "Yes. Existing sheds and garden buildings count towards the 30 m² total."
+    },
+    {
+      "q": "Can someone live or sleep in a garden room?",
+      "a": "No. A garden room cannot be lived in. A home in the garden falls under the separate Class 3A rules for garden homes."
+    },
+    {
+      "q": "What is not included in the price per m²?",
+      "a": "Groundworks, trenching and service connections are priced separately, because they depend on your garden and how far the services need to run."
+    },
+    {
+      "q": "Can you do the patio and paths at the same time?",
+      "a": "Yes. We also lay porcelain patios and rebuild gardens, so the garden room and its surroundings can be built together."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "garden-room",
+  "crossSell": [
+    {
+      "route": "/granny-flats",
+      "label": "Garden homes",
+      "text": "Want someone to live in it? A garden home follows the Class 3A rules."
+    },
+    {
+      "route": "/porcelain-patios",
+      "label": "Porcelain patios",
+      "text": "Finish the garden around it with a patio laid on a proper base."
+    }
+  ],
+  "cta": {
+    "title": "Planning a garden room?",
+    "text": "Tell us the size, what it is for and send a few photos of the garden. We will check the rules and prepare a detailed written quotation."
+  },
+  "sections": [
+    {
+      "title": "The garden room rules (Class 3)",
+      "paragraphs": [
+        "A garden room may be exempt from planning if it meets all the conditions. We check your site first, and a Section 5 declaration from the council gives certainty."
+      ],
+      "bullets": [
+        "Up to 30 m² in total, counting existing sheds and garden buildings",
+        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise",
+        "Behind the front wall of the house",
+        "At least 25 m² of garden kept",
+        "Not for living in",
+        "Building Regulations apply as for an outbuilding"
+      ]
+    },
+    {
+      "title": "Size it with our garden calculator",
+      "paragraphs": [
+        "Our garden calculator at /garden-calculator lets you test sizes against the rules before you enquire."
+      ]
+    }
+  ]
+}

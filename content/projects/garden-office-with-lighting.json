@@ -1,0 +1,52 @@
+{
+  "slug": "garden-office-with-lighting",
+  "title": "Garden office with lighting",
+  "location": "Dublin and Meath",
+  "sector": "residential",
+  "categories": [
+    "garden-room",
+    "landscaping",
+    "patio"
+  ],
+  "role": "Built by MF",
+  "summary": "A garden office with composite cladding, a stepping stone path and low level garden lighting.",
+  "hero": {
+    "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+    "caption": "Garden office at dusk with path and garden lighting",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+      "caption": "Garden office at dusk with path and garden lighting",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/G74.jpg",
+      "caption": "Clad garden room with store, stepping stones and patio",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
+          "caption": "Garden office at dusk with path and garden lighting",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/G74.jpg",
+          "caption": "Clad garden room with store, stepping stones and patio",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 30,
+  "published": true,
+  "pending": "Photos taken from the current website: confirm each is an MF build and unedited.",
+  "flagship": false,
+  "featured": false
+}

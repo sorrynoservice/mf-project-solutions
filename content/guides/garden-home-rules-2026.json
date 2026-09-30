@@ -1,0 +1,105 @@
+{
+  "slug": "garden-home-rules-2026",
+  "route": "/guides/garden-home-rules-2026",
+  "title": "Garden home rules 2026: the Class 3A exemption explained",
+  "seo": {
+    "title": "Garden Home Rules 2026 Explained | MF Project Solutions",
+    "description": "The 2026 Class 3A rules for garden homes and granny flats in plain English: size, height, boundaries, services, who lives there and when permission is needed."
+  },
+  "lead": "Since 27 July 2026, a detached home of 32 to 45 m² in the rear garden may be built without planning permission, if every condition is met. Here is what the Class 3A exemption allows, what it does not, and how to check whether your garden qualifies.",
+  "hero": {
+    "image": "/assets/work/garden-dwelling-clad-garden-dwelling-at-dusk-planter-law-50.jpg",
+    "caption": "Our own garden dwelling at dusk",
+    "kind": "photo"
+  },
+  "updated": "2026-09-30",
+  "sections": [
+    {
+      "title": "What changed on 27 July 2026",
+      "paragraphs": [
+        "The Planning and Development (Exempted Development) Regulations 2026 came into force on 27 July 2026. They created a new class of exempted development, Class 3A, for a detached house in the rear garden. For the first time, a small home for family use can be built behind the main house without a planning application, provided it meets all 20 conditions.",
+        "The same regulations also changed the rules for garden rooms (Class 3), extensions and attic dormers. A garden room and a garden home are now legally different things, and it is worth being clear which one you are building before you spend money on design."
+      ]
+    },
+    {
+      "title": "Who a garden home is for",
+      "paragraphs": [
+        "A garden home is lived in together with the main house. It cannot be sold or subdivided from the main house, and short-term letting is not allowed. The owner must live in the main house when work starts.",
+        "In practice, this suits a parent moving closer to family, an adult child who needs a place of their own, or extra space for relatives. If you want a separate rental unit, the Class 3A exemption is not the route, and planning permission would be needed."
+      ]
+    },
+    {
+      "title": "Size and height",
+      "bullets": [
+        "Floor area between 32 and 45 m²",
+        "Existing sheds count towards the 45 m²",
+        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise"
+      ],
+      "paragraphs": [
+        "Because existing sheds count, a large shed you want to keep can reduce the size of home you can build. Measure what is already in the garden before you plan the layout."
+      ]
+    },
+    {
+      "title": "Where it can go",
+      "bullets": [
+        "In the rear garden, detached from the main house",
+        "At least 0.6 m from the boundaries",
+        "At least 25 m² of garden kept",
+        "No new road access"
+      ]
+    },
+    {
+      "title": "Services",
+      "paragraphs": [
+        "A garden home cannot have separate utility connections. Water, power and drainage must run through the main house. This affects the cost, because trenching and service runs from the house are part of the job. When we price a garden home, groundworks, trenching and service connections are shown separately so you can see them clearly."
+      ]
+    },
+    {
+      "title": "Before work starts",
+      "bullets": [
+        "The owner lives in the main house when work starts",
+        "The council is notified 14 days before work starts",
+        "The home is built and finished by 31 December 2030"
+      ],
+      "paragraphs": [
+        "The 2030 date is the end of the exemption, not a reason to rush. A well-planned home that meets every condition is worth more than one started in a hurry."
+      ]
+    },
+    {
+      "title": "Building Regulations apply in full",
+      "paragraphs": [
+        "Being exempt from planning does not mean exempt from Building Regulations. A garden home is a new dwelling, so the regulations apply in full: fire safety, energy, ventilation, drainage and access. This is the biggest practical difference from a garden room, where the regulations apply as for an outbuilding.",
+        "Also note that the extension exemption cannot be used to extend a garden home later. Get the size right at the start."
+      ]
+    },
+    {
+      "title": "If your garden does not qualify",
+      "paragraphs": [
+        "If any one of the conditions is not met, planning permission is needed. Another route is an attached family flat, which always needs planning permission. The rules for family flats are set by each county plan: Fingal, for example, allows up to 75 m², and Meath requires the flat to be attached to the house.",
+        "Where you are unsure, a Section 5 declaration from the council confirms whether a proposal is exempt."
+      ]
+    },
+    {
+      "title": "How we help",
+      "paragraphs": [
+        "We start with a feasibility check: we look at your site against the Class 3A conditions and tell you whether a garden home looks possible, or whether planning permission is needed. The fee is fixed and quoted after the first meeting. If it works, we design the home, prepare a detailed written quotation and build it, using our own garden dwelling as the example of the finish you can expect."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "route": "/granny-flats",
+      "label": "Garden homes and granny flats"
+    },
+    {
+      "route": "/guides/garden-room-or-garden-home",
+      "label": "Garden room or garden home: which rules apply?"
+    },
+    {
+      "route": "/garden-rooms",
+      "label": "Garden rooms"
+    }
+  ],
+  "leadRoute": "major",
+  "pageCode": "GHM"
+}

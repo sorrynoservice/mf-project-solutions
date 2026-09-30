@@ -1,0 +1,190 @@
+{
+  "slug": "bathrooms-interiors-leopardstown",
+  "title": "Bathrooms and interiors, Leopardstown",
+  "location": "Leopardstown, Dublin 18",
+  "year": "2025 to 2026",
+  "sector": "residential",
+  "categories": [
+    "bathroom",
+    "design",
+    "joinery"
+  ],
+  "role": "Design and build",
+  "summary": "MF designed the bathroom and en-suite in 3D, then built them: stone look tile, brass fittings and a panelled hall and stair.",
+  "hero": {
+    "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
+    "caption": "En-suite: stone-look tile, lit oval mirror",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/rt/N098.jpg",
+      "caption": "Bathroom with stone look tile and oval mirror",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
+      "caption": "En-suite: stone-look tile, lit oval mirror",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M102.jpg",
+      "caption": "Walk-in shower, brass fittings",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M76.jpg",
+      "caption": "Shower with brass frame, green tile, terrazzo",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-vanity-under-a-lit-oval-mirror-n099.jpg",
+      "caption": "Vanity under a lit oval mirror",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-shower-over-the-bath-with-brass-fittings-n100.jpg",
+      "caption": "Shower over the bath with brass fittings",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-brass-wall-light-on-stone-tile-103.jpg",
+      "caption": "Brass wall light on stone tile",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M77.jpg",
+      "caption": "Whole bathroom, vanity and mirror",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-brass-wall-light-on-stone-tile-n103.jpg",
+      "caption": "Brass wall light on stone tile",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-panelled-hall-with-column-radiator-n105.jpg",
+      "caption": "Panelled hall with column radiator",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-panelled-stair-with-dark-spindles-n107.jpg",
+      "caption": "Panelled stair with dark spindles",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-panelled-hall-and-stair-104.jpg",
+      "caption": "Panelled hall and stair",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leopardstown-hall-to-the-front-door-panelling-and-sta-n110.jpg",
+      "caption": "Hall to the front door, panelling and stair",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/leopardstown-mf-isometric-of-the-en-suite-with-brass-312.jpg",
+        "caption": "MF isometric of the en-suite with brass fittings",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M76.jpg",
+        "caption": "Shower with brass frame, green tile, terrazzo",
+        "kind": "photo"
+      },
+      "caption": "En-suite: MF design and the finished shower",
+      "type": "design-built"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "design",
+      "text": "MF 3D views of the bathroom and en-suite.",
+      "images": [
+        {
+          "image": "/assets/work/leopardstown-mf-isometric-of-the-bathroom-navy-tile-a-311.jpg",
+          "caption": "MF isometric of the bathroom, navy tile and brass shower",
+          "kind": "design"
+        },
+        {
+          "image": "/assets/work/leopardstown-mf-isometric-of-the-en-suite-with-brass-312.jpg",
+          "caption": "MF isometric of the en-suite with brass fittings",
+          "kind": "design"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "text": "The finished en-suite, shower and hall.",
+      "images": [
+        {
+          "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
+          "caption": "En-suite: stone-look tile, lit oval mirror",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/N098.jpg",
+          "caption": "Bathroom with stone look tile and oval mirror",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-vanity-under-a-lit-oval-mirror-n099.jpg",
+          "caption": "Vanity under a lit oval mirror",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M102.jpg",
+          "caption": "Walk-in shower, brass fittings",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-shower-over-the-bath-with-brass-fittings-n100.jpg",
+          "caption": "Shower over the bath with brass fittings",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-brass-wall-light-on-stone-tile-103.jpg",
+          "caption": "Brass wall light on stone tile",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M76.jpg",
+          "caption": "Shower with brass frame, green tile, terrazzo",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M77.jpg",
+          "caption": "Whole bathroom, vanity and mirror",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-panelled-hall-and-stair-104.jpg",
+          "caption": "Panelled hall and stair",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-panelled-hall-with-column-radiator-n105.jpg",
+          "caption": "Panelled hall with column radiator",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-panelled-stair-with-dark-spindles-n107.jpg",
+          "caption": "Panelled stair with dark spindles",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leopardstown-hall-to-the-front-door-panelling-and-sta-n110.jpg",
+          "caption": "Hall to the front door, panelling and stair",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 20,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "glass-fronted-garden-room-louth",
+  "title": "Glazed outdoor room and patio, Co. Louth",
+  "location": "Blackrock, Co. Louth",
+  "year": "2026",
+  "sector": "residential",
+  "categories": [
+    "veranda",
+    "patio",
+    "landscaping"
+  ],
+  "role": "Built by MF",
+  "summary": "A glazed outdoor room with a new porcelain patio.",
+  "hero": {
+    "image": "/assets/work/rt/M62.jpg",
+    "caption": "Glass-fronted garden room at dusk, porcelain patio",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/rt/M62.jpg",
+      "caption": "Glass-fronted garden room at dusk, porcelain patio",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M63.jpg",
+      "caption": "Whole garden: patio, grass strip, building",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/blackrock-porcelain-paving-being-laid-64.jpg",
+        "caption": "Porcelain paving being laid",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/rt/M63.jpg",
+        "caption": "Whole garden: patio, grass strip, building",
+        "kind": "photo"
+      },
+      "caption": "Porcelain being laid, then the finished garden",
+      "type": "before-after"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "construction",
+      "text": "Porcelain paving being laid.",
+      "images": [
+        {
+          "image": "/assets/work/blackrock-porcelain-paving-being-laid-64.jpg",
+          "caption": "Porcelain paving being laid",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/rt/M62.jpg",
+          "caption": "Glass-fronted garden room at dusk, porcelain patio",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M63.jpg",
+          "caption": "Whole garden: patio, grass strip, building",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 24,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

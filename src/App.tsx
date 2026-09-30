@@ -1,46 +1,42 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+/**
+ * The app's routes, without a router. src/entry-client.tsx wraps it in <BrowserRouter> and
+ * src/entry-server.tsx in <StaticRouter>, so the same tree renders in the browser and at build
+ * time. Pages are registered in src/routes.tsx.
+ */
+import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "@/components/ScrollToTop";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import ServiceLanding from "@/pages/ServiceLanding";
-import HowWeWork from "@/pages/HowWeWork";
-import GalleryPage from "@/pages/GalleryPage";
-import ServicePage from "@/components/ServicePage";
-import { servicePages } from "@/data/servicePages";
-import Index from "@/pages/Index";
-import About from "@/pages/About";
-import Snagging from "@/pages/Snagging";
-import GardenCalculator from "@/pages/GardenCalculator";
-import Faqs from "@/pages/Faqs";
-import { ProjectDetail, Projects } from "@/pages/Projects";
-import NotFound from "@/pages/NotFound";
+import NotFoundPage from "@/pages/placeholders/NotFoundPage";
+import { Head } from "@/lib/head";
+import { routes, type RouteDef } from "@/routes";
+
+/** Applies the registry meta for a route, then renders the page. */
+const RoutePage = ({ route }: { route: RouteDef }) => (
+  <>
+    <Head
+      title={route.meta.title}
+      description={route.meta.description}
+      path={route.path}
+      noindex={route.meta.noindex}
+      jsonLd={route.meta.jsonLd}
+      ogImage={route.meta.ogImage}
+      priority={0}
+    />
+    {route.element}
+  </>
+);
 
 const App = () => (
-  <BrowserRouter>
+  <>
     <ScrollToTop />
     <Routes>
-      <Route path="/" element={<Index />} />
-      <Route path="/about" element={<About />} />
-      {servicePages.map((p) => (
-        <Route key={p.route} path={p.route} element={<ServiceLanding route={p.route} />} />
+      {routes.map((r) => (
+        <Route key={r.path} path={r.path} element={<RoutePage route={r} />} />
       ))}
-      <Route path="/how-we-work" element={<HowWeWork />} />
-      <Route path="/gallery" element={<GalleryPage />} />
-      {/* Old service addresses */}
-      <Route path="/garden-rooms" element={<Navigate to="/residential/garden-buildings" replace />} />
-      <Route path="/granny-flats" element={<ServicePage slug="granny-flats" />} />
-      <Route path="/home-extensions" element={<Navigate to="/residential/extensions" replace />} />
-      <Route path="/bathroom-renovations" element={<Navigate to="/residential/kitchens-bathrooms" replace />} />
-      <Route path="/kitchen-renovations" element={<Navigate to="/residential/kitchens-bathrooms" replace />} />
-      <Route path="/landscaping-pergolas" element={<Navigate to="/residential/outdoor-living" replace />} />
-      <Route path="/snagging" element={<Snagging />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/projects/:slug" element={<ProjectDetail />} />
-      <Route path="/faqs" element={<Faqs />} />
-      <Route path="/garden-calculator" element={<GardenCalculator />} />
-      <Route path="*" element={<NotFound />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
     <FloatingWhatsApp />
-  </BrowserRouter>
+  </>
 );
 
 export default App;

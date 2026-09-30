@@ -1,0 +1,68 @@
+{
+  "company": {
+    "name": "MF Project Solutions",
+    "legalName": "MF Engineering and Designs Limited",
+    "companyReg": "695263",
+    "vat": "IE3774742UH",
+    "established": 2021,
+    "address": "Unit 1, Merrywell Business Park, Drumree, Co. Meath",
+    "eircode": "A85 EC84",
+    "reviewUrl": "https://g.page/r/CQe6nq8vC3oqEAE/review",
+    "facebook": "https://www.facebook.com/profile.php?id=61566828341610",
+    "instagram": "https://www.instagram.com/mfprojectsolutions/"
+  },
+  "routes": {
+    "property": {
+      "label": "Snagging and property inspections",
+      "person": "Wanessa",
+      "phone": "+353 83 801 4857",
+      "tel": "tel:+353838014857",
+      "whatsapp": "https://wa.me/353838014857",
+      "email": "wcorrea@mfeng.ie"
+    },
+    "small": {
+      "label": "Construction enquiries",
+      "person": "Rosana",
+      "phone": "+353 83 809 7035",
+      "tel": "tel:+353838097035",
+      "whatsapp": "https://wa.me/353838097035",
+      "email": "info@mfeng.ie"
+    },
+    "major": {
+      "label": "Larger projects and professionals",
+      "person": "Alex",
+      "phone": "+353 87 603 9378",
+      "tel": "tel:+353876039378",
+      "whatsapp": "https://wa.me/353876039378",
+      "email": "aferreira@mfeng.ie"
+    }
+  },
+  "serviceArea": {
+    "centre": "Dunshaughlin, Co. Meath",
+    "radiusKm": 50,
+    "summary": "within 50 km of Dunshaughlin, Co. Meath, including all of Dublin"
+  },
+  "web3formsKey": "175196db-96cf-41a0-aa5c-27e2cf24caa9",
+  "leadSheetUrl": "",
+  "finance": {
+    "enabled": false,
+    "text": ""
+  },
+  "instagramStrip": [
+    {
+      "image": "/assets/work/phibsborough-kitchen-wide-with-oven-tower-and-island-87.jpg",
+      "caption": "Kitchen wide with oven tower and island",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rathcoole-arched-door-landing-bespoke-storage-balu-18.jpg",
+      "caption": "Arched door landing, bespoke storage, balustrade",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-clad-garden-dwelling-at-dusk-planter-law-50.jpg",
+      "caption": "Clad garden dwelling at dusk, planter, lawn",
+      "kind": "photo"
+    }
+  ]
+}

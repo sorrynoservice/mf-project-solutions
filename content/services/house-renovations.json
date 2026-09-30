@@ -1,0 +1,233 @@
+{
+  "slug": "house-renovations",
+  "route": "/house-renovations",
+  "name": "House renovations",
+  "pageCode": "REN",
+  "leadRoute": "major",
+  "engine": "pipeline",
+  "formService": "Whole-house renovation",
+  "seo": {
+    "title": "House Renovations Dublin and Meath | MF Project Solutions",
+    "description": "Whole-house renovations in Dublin, Meath and Kildare, from a Phibsborough house taken back to structure to a Rathcoole home we designed and built ourselves."
+  },
+  "hero": {
+    "eyebrow": "House renovations",
+    "h1": "Whole-house renovations in Dublin, Meath and Kildare",
+    "sub": "We plan and build whole-house renovations with our own crew and joiners, from your architect's drawings or from a design we develop with you.",
+    "image": {
+      "image": "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg",
+      "caption": "Front elevation after the renovation, Phibsborough",
+      "kind": "photo"
+    },
+    "imageMobile": {
+      "image": "/assets/work/phibsborough-aerial-view-of-the-house-and-garden-in-p-a02.jpg",
+      "caption": "Aerial view of the house and garden, Phibsborough",
+      "kind": "photo",
+      "focus": "45% 55%"
+    },
+    "ctaLabel": "Tell us about the house",
+    "bullets": [
+      "Phibsborough house taken back to structure",
+      "Rathcoole house designed and built by us",
+      "Joinery from our Drumree workshop"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Phibsborough",
+      "text": "A whole house taken back to structure, with a side and rear extension to Francesco Panzeri's design and joinery made in our workshop."
+    },
+    {
+      "title": "Rathcoole",
+      "text": "Designed and built by us, including bathrooms built almost exactly to our 3D designs and joinery throughout."
+    },
+    {
+      "title": "Leixlip",
+      "text": "A three-month renovation. The client wrote that the team were \"incredibly tidy and neat around the property\"."
+    }
+  ],
+  "intro": {
+    "title": "A whole house, one plan",
+    "paragraphs": [
+      "A whole-house renovation touches everything: structure, roof, services, stairs, kitchens, bathrooms and joinery. We plan it as one job, bring in the engineer and other professionals the house needs, and build it with our own crew and joiners.",
+      "Alex Ferreira holds a Bachelor's degree in Construction Project Management and has over 25 years' experience across construction, engineering and project delivery. He is your contact from the first visit."
+    ]
+  },
+  "gallery": {
+    "title": "Renovations we have delivered",
+    "items": [
+      {
+        "image": "/assets/work/phibsborough-living-room-fireplace-between-oak-joiner-n081.jpg",
+        "caption": "Living room fireplace between oak joinery, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-full-height-oak-joinery-and-fireplace-89.jpg",
+        "caption": "Full-height oak joinery and fireplace, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-kitchen-wide-with-oven-tower-and-island-87.jpg",
+        "caption": "Oak and red kitchen with island, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-arched-door-landing-bespoke-storage-balu-18.jpg",
+        "caption": "Arched door landing with bespoke storage, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-staircase-with-led-step-lighting-23.jpg",
+        "caption": "Staircase with LED step lighting, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-new-staircase-with-oak-handrail-n084.jpg",
+        "caption": "New staircase with oak handrail, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leopardstown-hall-to-the-front-door-panelling-and-sta-n110.jpg",
+        "caption": "Hall with panelling and stair, Leopardstown",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leopardstown-panelled-hall-and-stair-104.jpg",
+        "caption": "Panelled hall and stair, Leopardstown",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/phibsborough-original-house-with-side-garage-119.jpg",
+        "caption": "The house before, with the old side garage, Phibsborough",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg",
+        "caption": "The house after the renovation, Phibsborough",
+        "kind": "photo"
+      },
+      "caption": "Phibsborough: the front before and after",
+      "type": "before-after"
+    },
+    {
+      "a": {
+        "image": "/assets/work/phibsborough-front-elevation-red-brick-house-with-new-329.jpg",
+        "caption": "Front render, Phibsborough",
+        "kind": "ai-enhanced"
+      },
+      "b": {
+        "image": "/assets/work/phibsborough-front-elevation-after-renovation-h02.jpg",
+        "caption": "The finished front, Phibsborough",
+        "kind": "photo"
+      },
+      "caption": "Phibsborough: the front render beside the finished house",
+      "type": "design-built"
+    }
+  ],
+  "video": {
+    "src": "/media/video/phibsborough-before-to-finished.mp4",
+    "poster": "/media/video/phibsborough-before-to-finished.jpg",
+    "caption": "Phibsborough: from the house as it was to the finished renovation",
+    "loop": true,
+    "title": "Before to finished"
+  },
+  "included": {
+    "title": "What a whole-house renovation can include",
+    "items": [
+      "Strip-out, back to structure where needed",
+      "Structural alterations to the engineer's design",
+      "Extensions and roof work",
+      "New stairs, kitchens and joinery from our workshop",
+      "Bathrooms and en-suites",
+      "Services, plastering and finishes"
+    ],
+    "priceFactors": [
+      "The condition of the house once it is opened up",
+      "How much structural work is needed",
+      "Whether an extension is part of the job",
+      "The kitchen, bathroom and joinery specification",
+      "The level of finish throughout"
+    ]
+  },
+  "process": [
+    {
+      "title": "Tell us about the house",
+      "text": "Send drawings if you have them, or photos and what you want to change."
+    },
+    {
+      "title": "Site visit",
+      "text": "Alex visits, looks at the structure and condition, and discusses the design route."
+    },
+    {
+      "title": "Design or drawings",
+      "text": "We work from your architect's drawings, or develop the design with you."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation that sets out the work and what is included."
+    },
+    {
+      "title": "Build and handover",
+      "text": "Our crew and joiners build it, and we walk you through the finished house."
+    }
+  ],
+  "reviews": [
+    "cathal-brennan-2025-10-19"
+  ],
+  "faqs": [
+    {
+      "q": "Do you work from an architect's drawings?",
+      "a": "Yes. Phibsborough was built to Francesco Panzeri's design. We price and build from your architect's or designer's drawings and work with your design team."
+    },
+    {
+      "q": "Can you design the renovation?",
+      "a": "Yes. We designed and built the Rathcoole house. Design is a paid service with a fixed fee quoted after the first meeting, and we bring in an architect or engineer where the project needs one."
+    },
+    {
+      "q": "What if you find problems once the house is opened up?",
+      "a": "The condition of the house once it is opened up is one of the main things that affects the cost. Your detailed written quotation sets out what is included, so anything outside it is clear from the start."
+    },
+    {
+      "q": "Do you keep the house tidy during the works?",
+      "a": "We aim to. On the Leixlip renovation the client wrote that the team were \"incredibly tidy and neat around the property\"."
+    },
+    {
+      "q": "Do you publish renovation prices?",
+      "a": "No. Every house is different, so we prepare a detailed written quotation from the drawings and a site visit."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "renovation",
+  "crossSell": [
+    {
+      "route": "/home-extensions",
+      "label": "Home extensions",
+      "text": "Adding space as part of the renovation?"
+    },
+    {
+      "route": "/design",
+      "label": "Design services",
+      "text": "No drawings yet? See our staged design service."
+    }
+  ],
+  "cta": {
+    "title": "Renovating a house?",
+    "text": "Send us drawings if you have them, or tell us about the house. Alex will arrange a site visit."
+  },
+  "sections": [
+    {
+      "title": "Two ways to start",
+      "paragraphs": [
+        "Already have drawings? We price and build from your architect's or designer's drawings and work with your design team.",
+        "Need design help? We develop layouts, interiors, 3D visualisation, planning and design drawings and the construction concept, bringing in the appropriate architect, engineer or other professional where specialist engineering, certification or regulated services are required, and can then build it."
+      ]
+    }
+  ]
+}

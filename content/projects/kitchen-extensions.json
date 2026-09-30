@@ -1,0 +1,110 @@
+{
+  "slug": "kitchen-extensions",
+  "title": "Kitchen extensions with rooflights",
+  "location": "Dublin area",
+  "year": "2023 to 2024",
+  "sector": "residential",
+  "categories": [
+    "extension",
+    "kitchen",
+    "design"
+  ],
+  "role": "Built by MF",
+  "summary": "Open plan kitchens under new rooflights, with islands, fluted details and feature walls.",
+  "hero": {
+    "image": "/assets/work/kitchen-kitchen-island-fluted-column-rooflights-198.jpg",
+    "caption": "Kitchen island, fluted column, rooflights",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/kitchen-kitchen-island-fluted-column-rooflights-198.jpg",
+      "caption": "Kitchen island, fluted column, rooflights",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M200.jpg",
+      "caption": "Navy kitchen with island under rooflights",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-island-seating-and-planted-rooflight-199.jpg",
+      "caption": "Island seating and planted rooflight",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-slatted-feature-wall-and-green-kitchen-201.jpg",
+      "caption": "Slatted feature wall and green kitchen",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M202.jpg",
+      "caption": "Grey island with timber worktop, marble floor",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/kitchen-3d-of-grey-island-kitchen-with-timber-to-203.jpg",
+        "caption": "3D of grey island kitchen with timber top",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M202.jpg",
+        "caption": "Grey island with timber worktop, marble floor",
+        "kind": "photo"
+      },
+      "caption": "Kitchen: MF 3D design and the finished kitchen",
+      "type": "design-built"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "design",
+      "text": "An MF 3D kitchen design, and the kitchen as built.",
+      "images": [
+        {
+          "image": "/assets/work/kitchen-3d-of-grey-island-kitchen-with-timber-to-203.jpg",
+          "caption": "3D of grey island kitchen with timber top",
+          "kind": "design"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/kitchen-kitchen-island-fluted-column-rooflights-198.jpg",
+          "caption": "Kitchen island, fluted column, rooflights",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-island-seating-and-planted-rooflight-199.jpg",
+          "caption": "Island seating and planted rooflight",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M200.jpg",
+          "caption": "Navy kitchen with island under rooflights",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-slatted-feature-wall-and-green-kitchen-201.jpg",
+          "caption": "Slatted feature wall and green kitchen",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M202.jpg",
+          "caption": "Grey island with timber worktop, marble floor",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 22,
+  "published": true,
+  "pending": "Confirm M198 and M199 are photographs of the finished build, not renders.",
+  "flagship": false,
+  "featured": false
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "glass-garden-room-and-garden-store",
+  "title": "Glass room and glass fronted garden store",
+  "location": "Dublin and Meath",
+  "sector": "residential",
+  "categories": [
+    "veranda",
+    "patio",
+    "landscaping"
+  ],
+  "role": "Built by MF",
+  "summary": "An aluminium and glass room and a glass fronted garden store, with the patios and paths around them.",
+  "hero": {
+    "image": "/assets/work/garden-glass-fronted-garden-building-lit-at-dus-g77.jpg",
+    "caption": "Glass fronted garden building lit at dusk",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/garden-glass-fronted-garden-building-lit-at-dus-g77.jpg",
+      "caption": "Glass fronted garden building lit at dusk",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/G81.jpg",
+      "caption": "Porcelain patio, paths and a garden store",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-glass-garden-room-from-above-g84.jpg",
+      "caption": "Glass garden room from above",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/garden-glass-fronted-garden-building-lit-at-dus-g77.jpg",
+          "caption": "Glass fronted garden building lit at dusk",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-glass-garden-room-from-above-g84.jpg",
+          "caption": "Glass garden room from above",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/G81.jpg",
+          "caption": "Porcelain patio, paths and a garden store",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 27,
+  "published": true,
+  "pending": "Photos taken from the current website: confirm each is an MF build and unedited.",
+  "flagship": false,
+  "featured": false
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "landscaping",
+  "route": "/landscaping",
+  "name": "Landscaping",
+  "pageCode": "LND",
+  "leadRoute": "small",
+  "engine": "seasonal",
+  "formService": "Outdoor living",
+  "seo": {
+    "title": "Landscaping Dublin, Meath and Kildare | MF Project Solutions",
+    "description": "Full garden rebuilds in Dublin, Meath and Kildare: drainage, porcelain paving, lawns, lighting and garden stores, planned together and built by our own crew."
+  },
+  "hero": {
+    "eyebrow": "Landscaping",
+    "h1": "Landscaping and garden rebuilds in Dublin and Meath",
+    "sub": "Full garden rebuilds including drainage, paving, lawn, lighting and garden stores, built by our own crew.",
+    "image": {
+      "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
+      "caption": "Porcelain patio and path through the lawn",
+      "kind": "photo",
+      "focus": "50% 55%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/kitchen-living-rear-patio-lawn-and-garden-store-at-dusk-68.jpg",
+      "caption": "Rear patio, lawn and garden store at dusk",
+      "kind": "photo",
+      "focus": "55% 50%"
+    },
+    "ctaLabel": "Get a garden quotation",
+    "bullets": [
+      "Drainage dealt with as part of the rebuild",
+      "Porcelain laid on a compacted sub-base",
+      "Lawns, lighting and garden stores"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Drainage first",
+      "text": "Drainage is planned as part of the rebuild, so the new garden copes with Irish rain."
+    },
+    {
+      "title": "Paving on a proper base",
+      "text": "Porcelain is laid on a compacted sub-base with falls, the same way we build every patio."
+    },
+    {
+      "title": "Planned as one garden",
+      "text": "Paving, lawn, lighting and garden stores are planned together, so levels and routes work from the back door to the end of the garden."
+    }
+  ],
+  "gallery": {
+    "title": "Gardens we have rebuilt",
+    "items": [
+      {
+        "image": "/assets/work/kitchen-living-rear-patio-lawn-and-garden-store-at-dusk-68.jpg",
+        "caption": "Rear patio, lawn and garden store at dusk",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/G81.jpg",
+        "caption": "Porcelain patio, paths and a garden store",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
+        "caption": "Patio, lawn and stepping-stone path",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M63.jpg",
+        "caption": "Whole garden rebuild, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg",
+        "caption": "Aerial view of the finished garden, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M67.jpg",
+        "caption": "Side and rear porcelain patio with lawn",
+        "kind": "photo"
+      }
+    ]
+  },
+  "video": {
+    "src": "/media/video/V005.mp4",
+    "poster": "/media/video/V005.jpg",
+    "caption": "Garden transformation timelapse",
+    "loop": true,
+    "title": "A garden rebuilt"
+  },
+  "included": {
+    "title": "What a garden rebuild can include",
+    "items": [
+      "Drainage",
+      "Porcelain patios and paths on a compacted sub-base",
+      "Lawn, natural or artificial",
+      "Garden lighting",
+      "Garden stores"
+    ],
+    "priceFactors": [
+      "Size of the garden",
+      "Access for machinery and materials",
+      "How much drainage is needed",
+      "Paving and lawn materials",
+      "Lighting and garden stores"
+    ]
+  },
+  "process": [
+    {
+      "title": "Tell us about the garden",
+      "text": "Send photos, rough sizes and what you want the garden to do for you."
+    },
+    {
+      "title": "Visit and plan",
+      "text": "We check levels, drainage and access and agree a layout with you."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation covering each part of the garden."
+    },
+    {
+      "title": "Build",
+      "text": "Our crew builds the garden, starting with drainage and the sub-base."
+    }
+  ],
+  "reviews": [
+    "harry-english-2026-05-27",
+    "marcos-vasconcelos-da-silva-2025-03-09"
+  ],
+  "faqs": [
+    {
+      "q": "Can you do the whole garden in one job?",
+      "a": "Yes. We rebuild whole gardens, including drainage, paving, lawn, lighting and garden stores."
+    },
+    {
+      "q": "Do you lay artificial grass?",
+      "a": "Yes, as well as natural lawn. It is chosen as part of the garden layout."
+    },
+    {
+      "q": "Our garden holds water. Can you fix that?",
+      "a": "Drainage is part of every garden rebuild we quote. We look at where water collects and plan the drainage and falls around it."
+    },
+    {
+      "q": "Do you publish prices for landscaping?",
+      "a": "No. Every garden is different, so we prepare a detailed written quotation after a visit. For porcelain patios, see our patios page."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "landscaping",
+  "crossSell": [
+    {
+      "route": "/porcelain-patios",
+      "label": "Porcelain patios",
+      "text": "Just the patio? See how we lay porcelain on a proper base."
+    },
+    {
+      "route": "/garden-rooms",
+      "label": "Garden rooms",
+      "text": "Add an insulated garden room for an office, gym or studio."
+    }
+  ],
+  "cta": {
+    "title": "Rebuilding your garden?",
+    "text": "Send us photos and rough sizes. We will visit, look at levels and drainage, and prepare a detailed written quotation."
+  }
+}

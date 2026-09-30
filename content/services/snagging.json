@@ -1,0 +1,202 @@
+{
+  "slug": "snagging",
+  "route": "/snagging",
+  "name": "Snagging inspections",
+  "pageCode": "SNG",
+  "leadRoute": "property",
+  "engine": "cash-flow",
+  "formService": "Snagging inspection",
+  "form": "snag-booking",
+  "seo": {
+    "title": "Snag Inspections Dublin and Meath | MF Project Solutions",
+    "description": "New home snag inspections in Dublin, Meath and Kildare from €280 including VAT. Led by Wanessa, with a clear photo report you can send to your builder."
+  },
+  "hero": {
+    "eyebrow": "Snagging inspections",
+    "h1": "Snag list inspections for new homes in Dublin and Meath",
+    "sub": "A careful, detailed snag inspection led by Wanessa, with a clear photo report you can send to the builder.",
+    "image": {
+      "image": "/media/video/V014.jpg",
+      "caption": "Alex explains snagging a new house",
+      "kind": "photo"
+    },
+    "ctaLabel": "Book a snag inspection",
+    "bullets": [
+      "From €280 including VAT",
+      "Photo report you can send to the builder",
+      "Book by WhatsApp, phone or online"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Led by Wanessa",
+      "text": "Wanessa holds a degree in Construction Economics and worked in cost and procurement with Linesight and Cairn. She leads the service and is your contact from booking to report."
+    },
+    {
+      "title": "A report the builder can act on",
+      "text": "Each defect is photographed and described, so you can send the report straight to your builder or developer."
+    },
+    {
+      "title": "Reviews mention the detail",
+      "text": "Our Google reviews repeatedly mention how thorough the inspections are and how clearly the findings are explained."
+    }
+  ],
+  "intro": {
+    "title": "Why a snag list matters",
+    "paragraphs": [
+      "A snag list records the defects and unfinished work in a new home so the builder can put them right. A clear list, with a photo of every item, is far easier for a builder to work through than a list of notes.",
+      "Our inspections are carried out by people who work in construction every day. We explain what each item is and why it matters, so you know what to ask the builder for."
+    ]
+  },
+  "gallery": {
+    "title": "Inspections and reports",
+    "intro": "Photos from our inspections and sample report pages are being added.",
+    "items": []
+  },
+  "video": {
+    "src": "/media/video/V014.mp4",
+    "poster": "/media/video/V014.jpg",
+    "caption": "Alex explains snagging a new house",
+    "loop": false,
+    "title": "What a snag inspection covers"
+  },
+  "included": {
+    "title": "What you get",
+    "items": [
+      "A room-by-room inspection of your new home by our property inspection team",
+      "A photo report listing every defect we find",
+      "A clear explanation of each issue, in plain English",
+      "Wanessa as your contact from booking to report",
+      "Room measurements, if you add them",
+      "A re-snag after the builder's repairs, quoted when you book"
+    ],
+    "priceFactors": [
+      "Number of bedrooms",
+      "Travel beyond 50 km of Dunshaughlin adds €50",
+      "Room measurements, if added, cost €200"
+    ]
+  },
+  "price": {
+    "headline": "Snag inspection prices, including VAT",
+    "note": "Prices include VAT and travel within 50 km of Dunshaughlin, Co. Meath.",
+    "confirmed": true,
+    "table": [
+      {
+        "label": "2 bedroom home",
+        "value": "€280"
+      },
+      {
+        "label": "3 bedroom home",
+        "value": "€300"
+      },
+      {
+        "label": "4 bedroom home",
+        "value": "€350"
+      },
+      {
+        "label": "5 bedroom home",
+        "value": "€400"
+      },
+      {
+        "label": "Room measurements",
+        "value": "€200"
+      },
+      {
+        "label": "Travel beyond 50 km of Dunshaughlin",
+        "value": "+€50"
+      }
+    ]
+  },
+  "process": [
+    {
+      "title": "Book",
+      "text": "Message Wanessa on WhatsApp, call, or use the booking form. Tell us the address, the number of bedrooms and the date you would like."
+    },
+    {
+      "title": "Inspection",
+      "text": "We inspect the home room by room and photograph each defect. If you cannot be there, we go through the findings with you afterwards."
+    },
+    {
+      "title": "Photo report",
+      "text": "You receive a clear report with a photo and description of every issue. Reviews mention reports arriving within a day or two."
+    },
+    {
+      "title": "Send it to the builder",
+      "text": "Forward the report to your builder or developer so the defects can be put right."
+    },
+    {
+      "title": "Re-snag if you want it",
+      "text": "Once the repairs are done, we can come back and check the items on the list."
+    }
+  ],
+  "reviews": [
+    "gabriela-otaviano-2025-12-06",
+    "pedro-henrique-meyer-2025-11-18",
+    "ingrid-gon-alves-machuca-dias-2025-11-03",
+    "caynan-cibiem-2025-10-10",
+    "abi-adeyoola-2025-06-12",
+    "bruna-almada-2025-10-18",
+    "daniel-korschener-2026-08-07",
+    "rino-m-raju-2026-03-04"
+  ],
+  "faqs": [
+    {
+      "q": "How much does a snag inspection cost?",
+      "a": "€280 for a 2 bedroom home, €300 for 3 bedrooms, €350 for 4 bedrooms and €400 for 5 bedrooms. Prices include VAT and travel within 50 km of Dunshaughlin; beyond that, add €50."
+    },
+    {
+      "q": "Who carries out the inspection?",
+      "a": "Wanessa leads the snagging service and is your contact from booking to report. Inspections are carried out by our property inspection team."
+    },
+    {
+      "q": "Do I need to be there?",
+      "a": "It helps if you can attend, but it is not essential. If you cannot be there, we go through the findings with you once the inspection is done."
+    },
+    {
+      "q": "What do I do with the report?",
+      "a": "Send it to your builder or developer. Each item has a photo and a description, so the builder can see exactly what needs fixing."
+    },
+    {
+      "q": "Can you check the repairs afterwards?",
+      "a": "Yes. A re-snag after the builder's repairs is available and quoted when you book."
+    },
+    {
+      "q": "Can you measure the rooms at the same time?",
+      "a": "Yes. Room measurements can be added to your inspection for €200."
+    }
+  ],
+  "projectsTag": "snagging",
+  "crossSell": [
+    {
+      "route": "/pre-purchase-survey",
+      "label": "Pre-purchase property inspection",
+      "text": "Buying a second-hand home instead? Get a practical inspection before you sign."
+    }
+  ],
+  "cta": {
+    "title": "Book your snag inspection",
+    "text": "Send Wanessa the address, the number of bedrooms and your preferred date on WhatsApp, or use the booking form."
+  },
+  "sections": [
+    {
+      "title": "Re-snag after the builder's repairs",
+      "paragraphs": [
+        "Once the builder has worked through the list, we can return and check each item again. Re-snag is available and quoted when you book."
+      ]
+    },
+    {
+      "title": "Room measurements",
+      "paragraphs": [
+        "While we are in the house, we can measure every room, which is useful when you plan flooring, blinds and furniture. Room measurements cost €200."
+      ]
+    },
+    {
+      "title": "Typical items on a snag list",
+      "bullets": [
+        "Gaps in sealant around baths, showers and worktops",
+        "Paint defects and marks",
+        "Uneven tiles and lippage between tiles"
+      ]
+    }
+  ]
+}

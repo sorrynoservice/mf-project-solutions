@@ -1,0 +1,244 @@
+{
+  "slug": "bathroom-renovations",
+  "route": "/bathroom-renovations",
+  "name": "Bathroom renovations",
+  "pageCode": "BTH",
+  "leadRoute": "small",
+  "engine": "cash-flow",
+  "formService": "Kitchen or bathroom",
+  "seo": {
+    "title": "Bathroom Renovations Dublin and Meath | MF Project Solutions",
+    "description": "Full bathroom renovations in Dublin, Meath and Kildare, often designed in 3D first and built by one team, with tiling to the shower area and floor as standard."
+  },
+  "hero": {
+    "eyebrow": "Bathroom renovations",
+    "h1": "Bathroom renovations in Dublin and Meath",
+    "sub": "We design your bathroom, often in 3D first, then strip it out and build it with one team. You get a detailed written quotation for the whole room.",
+    "image": {
+      "image": "/assets/work/phibsborough-green-walls-freestanding-look-bath-91.jpg",
+      "caption": "Main bathroom, Phibsborough",
+      "kind": "photo",
+      "focus": "50% 60%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/leopardstown-vanity-under-a-lit-oval-mirror-n099.jpg",
+      "caption": "Oak vanity under a lit oval mirror, Leopardstown",
+      "kind": "photo",
+      "focus": "45% 40%"
+    },
+    "ctaLabel": "Get a bathroom quotation",
+    "bullets": [
+      "Bathrooms often designed in 3D before work starts",
+      "Tiling to the shower area and floor as standard",
+      "Own joinery workshop in Drumree"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Built to the 3D design",
+      "text": "In Rathcoole, the finished bathrooms were built almost exactly to our 3D designs. You see the layout, tiles and fittings before a wall is touched."
+    },
+    {
+      "title": "One team, design to handover",
+      "text": "The same team designs the room and builds it, so nothing gets lost between a designer's drawing and the tiler on site."
+    },
+    {
+      "title": "Clear about what is standard",
+      "text": "Our quotations tile the shower area and floor as standard. Anything beyond that is listed and priced, so you can compare like with like."
+    }
+  ],
+  "intro": {
+    "title": "A complete bathroom, planned before it is built",
+    "paragraphs": [
+      "Most of our bathroom work is a full renovation: the old room stripped out, the layout reworked where it helps, and a new bathroom tiled, fitted and finished. For many clients we prepare a 3D design first, so decisions on tiles, niches, lighting and brassware are made on screen rather than on site.",
+      "One practical point before you plan a rainfall shower: we do not fit booster pumps. A strong shower needs good mains pressure at the house, so raise it with us early and we will plan around what you have."
+    ]
+  },
+  "gallery": {
+    "title": "Recent bathrooms",
+    "items": [
+      {
+        "image": "/assets/work/rt/N098.jpg",
+        "caption": "Stone-look tile and oval mirror, Leopardstown",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M29.jpg",
+        "caption": "Terrazzo and blue tile with lit niches, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-wc-with-stone-wall-and-fluted-timber-n075.jpg",
+        "caption": "WC with stone wall and fluted timber, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
+        "caption": "En-suite with stone-look tile, Leopardstown",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-brass-framed-shower-navy-tile-in-progres-17.jpg",
+        "caption": "Brass-framed shower and navy tile, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M102.jpg",
+        "caption": "Walk-in shower with brass fittings, Leopardstown",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-bathroom-with-green-walls-and-oak-vanity-n083.jpg",
+        "caption": "Main bathroom with green walls and oak vanity, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M76.jpg",
+        "caption": "Brass-framed shower with green tile, Leopardstown",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/rathcoole-second-bathroom-with-oval-mirror-and-lit-316.jpg",
+        "caption": "Our 3D design, Rathcoole",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M29.jpg",
+        "caption": "The finished bathroom, Rathcoole",
+        "kind": "photo"
+      },
+      "caption": "Rathcoole: our 3D design beside the finished bathroom",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leopardstown-mf-isometric-of-the-en-suite-with-brass-312.jpg",
+        "caption": "Our isometric design, Leopardstown",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M76.jpg",
+        "caption": "The finished shower, Leopardstown",
+        "kind": "photo"
+      },
+      "caption": "Leopardstown: our isometric design beside the finished shower",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/rathcoole-attic-en-suite-with-rooflight-and-blue-t-315.jpg",
+        "caption": "3D design of the attic en-suite, Rathcoole",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rathcoole-brass-framed-shower-navy-tile-in-progres-17.jpg",
+        "caption": "The shower as built, Rathcoole",
+        "kind": "photo"
+      },
+      "caption": "Rathcoole attic en-suite: 3D design beside the shower as built",
+      "type": "design-built"
+    }
+  ],
+  "video": {
+    "src": "/media/video/V021.mp4",
+    "poster": "/media/video/V021.jpg",
+    "caption": "Finished bathroom with green vertical tile and brass fittings",
+    "loop": true,
+    "title": "A finished bathroom"
+  },
+  "included": {
+    "title": "What a complete bathroom renovation includes",
+    "items": [
+      "Layout and finishes agreed with you, often with a 3D design",
+      "Strip-out of the existing bathroom and removal of waste",
+      "Plumbing and electrical work for the new layout",
+      "Tiling to the shower area and floor as standard",
+      "Supply and fitting of sanitaryware, brassware and shower screen as quoted",
+      "Made-to-measure vanity or storage joinery where you want it"
+    ],
+    "priceFactors": [
+      "The size of the room and how much of the walls you want tiled",
+      "Whether the layout changes and waste pipes or supplies need to move",
+      "The tiles, sanitaryware and brassware you choose",
+      "Made-to-measure joinery such as vanities and lit niches",
+      "The condition of floors and walls once the old bathroom is removed"
+    ]
+  },
+  "price": {
+    "headline": "Most complete bathroom renovations we quote fall between €7,000 and €15,000 plus VAT.",
+    "note": "Your detailed written quotation sets out exactly what is included for your room.",
+    "confirmed": false
+  },
+  "process": [
+    {
+      "title": "Tell us about the room",
+      "text": "Send photos, rough sizes and what you want to change by WhatsApp, phone or the form."
+    },
+    {
+      "title": "Visit and design",
+      "text": "We look at the room with you, agree the layout and finishes, and where useful prepare a 3D design."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation listing the work, the tiling extent and the fittings included."
+    },
+    {
+      "title": "Strip-out and build",
+      "text": "Our team strips the room back and builds the new bathroom: plumbing, electrics, tiling and fitting."
+    },
+    {
+      "title": "Handover",
+      "text": "We walk you through the finished room and its fittings before we leave."
+    }
+  ],
+  "reviews": [
+    "paula-medici-2026-04-03"
+  ],
+  "faqs": [
+    {
+      "q": "Will I see the design before work starts?",
+      "a": "Often, yes. We prepare 3D designs for many of our bathrooms so you can see the layout, tiles and fittings first. In Rathcoole the finished rooms match the 3D designs almost exactly."
+    },
+    {
+      "q": "What tiling is included?",
+      "a": "Our standard is tiling to the shower area and the floor. If you want more walls tiled, it is listed and priced separately in your quotation."
+    },
+    {
+      "q": "Can you fit a booster pump for a stronger shower?",
+      "a": "No, we do not fit booster pumps. A powerful shower depends on good mains pressure at your house, so it is worth raising early in the design."
+    },
+    {
+      "q": "What affects the price?",
+      "a": "The size of the room, whether the layout and drainage move, the tiling extent, and the tiles, sanitaryware and brassware you choose. Your detailed written quotation lists each item."
+    },
+    {
+      "q": "Do you build attic en-suites?",
+      "a": "Yes. We have built en-suites under rooflights in attic conversions, including a Rathcoole attic en-suite designed in 3D first."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "bathroom",
+  "crossSell": [
+    {
+      "route": "/attic-conversions",
+      "label": "Attic conversions",
+      "text": "Adding an en-suite in the attic? See how we plan habitable attic rooms."
+    },
+    {
+      "route": "/house-renovations",
+      "label": "House renovations",
+      "text": "Doing more than the bathroom? We renovate whole houses too."
+    }
+  ],
+  "cta": {
+    "title": "Planning a new bathroom?",
+    "text": "Send us photos and rough sizes of the room. We will arrange a visit and prepare a detailed written quotation."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "attic-habitable-or-storage",
+  "route": "/guides/attic-habitable-or-storage",
+  "title": "Habitable attic or storage: what it means when you sell",
+  "seo": {
+    "title": "Habitable Attic or Storage? | MF Project Solutions",
+    "description": "What makes an attic habitable under Irish Building Regulations, why storage attics cause problems when you sell, and the 2026 dormer and rooflight rules."
+  },
+  "lead": "Two attic conversions can look identical and be worth very different amounts. One is a habitable room. The other is storage. The difference comes down to a short list of Building Regulations requirements, and it shows up when you sell.",
+  "hero": {
+    "image": "/assets/work/rt/M188.jpg",
+    "caption": "Attic bedroom and study under rooflights",
+    "kind": "photo"
+  },
+  "updated": "2026-09-30",
+  "sections": [
+    {
+      "title": "Why the label matters",
+      "paragraphs": [
+        "An attic that does not meet Building Regulations for a habitable room is sold as \"storage\", even if it has a bed, a desk and an en-suite. That can cause problems when the house is sold, because the room cannot be described as a bedroom and questions about compliance can come up during the sale.",
+        "The time to decide is before the work starts. It is far easier to build a habitable room from the beginning than to upgrade a storage conversion later."
+      ]
+    },
+    {
+      "title": "What a habitable attic room needs",
+      "bullets": [
+        "An escape window of at least 450 mm each way and at least 0.33 m² of opening",
+        "A protected stair, with FD20 fire doors",
+        "Interconnected mains smoke alarms",
+        "Adequate headroom over the stair"
+      ],
+      "paragraphs": [
+        "These points are about getting out safely in a fire, and about using the stair every day. Each one affects the design. The escape window decides the size and position of rooflights or a dormer. The protected stair can mean new fire doors on the rooms below. Headroom decides where the new stair can land."
+      ]
+    },
+    {
+      "title": "Headroom and the stair",
+      "paragraphs": [
+        "The stair is often the hardest part. It has to fit on the landing below without blocking rooms, and arrive in the attic where there is enough height to stand. In many houses, a dormer is what makes the headroom work."
+      ]
+    },
+    {
+      "title": "Dormers: the 2026 rules",
+      "paragraphs": [
+        "Since 27 July 2026, rear and side dormers may be exempt from planning under Class 1B, which makes a habitable attic easier to achieve."
+      ],
+      "bullets": [
+        "Rear and side dormers up to 30 m³",
+        "No higher than the ridge of the roof",
+        "Set back at least 20 cm from the eaves",
+        "Front dormers still need planning permission"
+      ]
+    },
+    {
+      "title": "Rooflights",
+      "paragraphs": [
+        "Up to two front rooflights of 100 by 90 cm may be exempt under Class 1C. Rooflights at the rear are common in attic bedrooms and en-suites, and a correctly sized rooflight can also serve as the escape window.",
+        "Any exemption applies only if all the conditions are met. We check your house first, and a Section 5 declaration from the council gives certainty."
+      ]
+    },
+    {
+      "title": "Structure",
+      "paragraphs": [
+        "Converting an attic usually means a new floor structure and changes to the roof. That design comes from an engineer. We build to the engineer's design, and bring one in if you do not have one."
+      ]
+    },
+    {
+      "title": "En-suites and storage in the eaves",
+      "paragraphs": [
+        "An attic en-suite under rooflights is one of the most useful things you can add. In Rathcoole we designed an attic en-suite in 3D before building it, and made eaves wardrobes and a dressing room in our Drumree workshop to use the low spaces at the sides."
+      ]
+    },
+    {
+      "title": "Questions to ask any builder",
+      "bullets": [
+        "Will this be built as a habitable room or as storage?",
+        "Where will the escape window be, and does it meet the size requirement?",
+        "Which doors below need to become fire doors for a protected stair?",
+        "Is there enough headroom over the new stair?",
+        "Who is doing the structural design?"
+      ]
+    },
+    {
+      "title": "How we approach it",
+      "paragraphs": [
+        "We tell you at the first visit whether your attic can be habitable, and what it would take. Our detailed written quotation then states whether the room is built as habitable or as storage, so there are no surprises when you come to sell."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "route": "/attic-conversions",
+      "label": "Attic conversions"
+    },
+    {
+      "route": "/bathroom-renovations",
+      "label": "Bathroom renovations"
+    },
+    {
+      "route": "/bespoke-joinery",
+      "label": "Bespoke joinery"
+    }
+  ],
+  "leadRoute": "major",
+  "pageCode": "ATT"
+}

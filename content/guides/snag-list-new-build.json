@@ -1,0 +1,91 @@
+{
+  "slug": "snag-list-new-build",
+  "route": "/guides/snag-list-new-build",
+  "title": "Snag list for a new build: how it works and what to expect",
+  "seo": {
+    "title": "Snag List for a New Build | MF Project Solutions",
+    "description": "How a snag inspection on a new build home works in Ireland: what a snag list is, what the report looks like, what to do with it, re-snags and what it costs."
+  },
+  "lead": "Buying a new build is exciting, but no new home is perfect on the day it is finished. A snag list records the defects and unfinished work so the builder can put them right. Here is how a snag inspection works and how to get the most from the report.",
+  "updated": "2026-09-30",
+  "sections": [
+    {
+      "title": "What a snag list is",
+      "paragraphs": [
+        "A snag list is a written record of defects in a new home: things that are damaged, unfinished or not built properly. Most items are small, but together they make a real difference to how the house looks and works. The list gives the builder a clear, agreed set of items to fix."
+      ]
+    },
+    {
+      "title": "Why a professional inspection helps",
+      "paragraphs": [
+        "It is easy to miss things when you walk around your own new home. A snag inspection by people who work in construction every day is methodical, room by room, and picks up items most buyers would not notice. Our clients often say the inspection found things they would never have spotted themselves.",
+        "Just as important is how the findings are explained. A good inspector tells you what each item is and why it matters, so you know what to ask the builder for."
+      ]
+    },
+    {
+      "title": "Typical items on a snag list",
+      "bullets": [
+        "Gaps in sealant around baths, showers and worktops",
+        "Paint defects and marks",
+        "Uneven tiles and lippage between tiles"
+      ],
+      "paragraphs": [
+        "Every house is different, and the list is only as good as the inspection behind it."
+      ]
+    },
+    {
+      "title": "What the report should look like",
+      "paragraphs": [
+        "A useful snag report has a photo of every defect and a short, clear description of it, organised so the builder can work through it. Our reports are photo reports you can send straight to the builder or developer. Reviews mention our reports arriving within a day or two of the inspection."
+      ]
+    },
+    {
+      "title": "Should you be there?",
+      "paragraphs": [
+        "It helps if you can attend, because you can see issues in person and ask questions. It is not essential. If you cannot be there, we go through the findings with you afterwards."
+      ]
+    },
+    {
+      "title": "What to do with the report",
+      "paragraphs": [
+        "Send it to your builder or developer and ask for the items to be fixed. Keep a copy, and keep a note of what you are told about when the repairs will be done."
+      ]
+    },
+    {
+      "title": "Re-snag after the repairs",
+      "paragraphs": [
+        "Once the builder says the repairs are done, a re-snag checks each item on the original list. It is the easiest way to be sure the work has actually been completed. With us, a re-snag is available and quoted when you book the first inspection."
+      ]
+    },
+    {
+      "title": "Room measurements",
+      "paragraphs": [
+        "While we are in the house, we can also measure every room, which is useful when you plan flooring, blinds and furniture. Room measurements cost €200."
+      ]
+    },
+    {
+      "title": "What a snag inspection costs",
+      "paragraphs": [
+        "Our prices include VAT and travel within 50 km of Dunshaughlin, Co. Meath: €280 for a 2 bedroom home, €300 for 3 bedrooms, €350 for 4 bedrooms and €400 for 5 bedrooms. Beyond 50 km, add €50."
+      ]
+    },
+    {
+      "title": "How to book",
+      "paragraphs": [
+        "Wanessa leads our snagging service and is your contact from booking to report. Send her the address, the number of bedrooms and the date you would like on WhatsApp, or use the booking form on our snagging page."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "route": "/snagging",
+      "label": "Snag list inspections"
+    },
+    {
+      "route": "/pre-purchase-survey",
+      "label": "Pre-purchase property inspection"
+    }
+  ],
+  "leadRoute": "property",
+  "pageCode": "SNG"
+}

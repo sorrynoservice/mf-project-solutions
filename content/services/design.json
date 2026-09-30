@@ -1,0 +1,273 @@
+{
+  "slug": "design",
+  "route": "/design",
+  "name": "Design services",
+  "pageCode": "DES",
+  "leadRoute": "major",
+  "engine": "both",
+  "formService": "Interior design",
+  "seo": {
+    "title": "Interior Design and Planning Drawings | MF Project Solutions",
+    "description": "Interior design, 3D visualisation and planning drawings in Dublin, Meath and Kildare, from a team that also builds. Fixed fee quoted after the first meeting."
+  },
+  "hero": {
+    "eyebrow": "Design services",
+    "h1": "Interior design, 3D and planning drawings in Dublin and Meath",
+    "sub": "Already have drawings? We price and build from them. Need design help? We develop layouts, interiors, 3D views and planning drawings, and bring in an architect or engineer where your project needs one.",
+    "image": {
+      "image": "/assets/work/phibsborough-living-room-with-oak-shelving-slatted-pa-331.jpg",
+      "caption": "Living room visualisation with oak shelving and fireplace, Phibsborough",
+      "kind": "ai-enhanced"
+    },
+    "imageMobile": {
+      "image": "/assets/work/rathcoole-second-bathroom-with-oval-mirror-and-lit-316.jpg",
+      "caption": "3D design of a bathroom, Rathcoole",
+      "kind": "design",
+      "focus": "50% 40%"
+    },
+    "ctaLabel": "Book a first meeting",
+    "bullets": [
+      "Fixed design fee, quoted after the first meeting",
+      "Rathcoole bathrooms built almost exactly to our 3D designs",
+      "We can build what we design"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Rathcoole",
+      "text": "The bathrooms were built almost exactly to our 3D designs."
+    },
+    {
+      "title": "BAH33, Royal Hibernian Way",
+      "text": "We designed the bar and washrooms, then built them with the restaurant's design team, Assigned Certifier and fire engineer."
+    },
+    {
+      "title": "Clinic, Dublin 1",
+      "text": "We designed the reception, waiting areas and joinery, then built them."
+    }
+  ],
+  "intro": {
+    "title": "Two routes, depending on where you are",
+    "paragraphs": [
+      "Already have drawings? We price and build from your architect's or designer's drawings and work with your design team.",
+      "Need design help? We develop layouts, interiors, 3D visualisation, planning and design drawings and the construction concept, bringing in the appropriate architect, engineer or other professional where specialist engineering, certification or regulated services are required, and can then build it."
+    ]
+  },
+  "gallery": {
+    "title": "Built from the design",
+    "items": [
+      {
+        "image": "/assets/work/phibsborough-full-height-oak-joinery-and-fireplace-89.jpg",
+        "caption": "Oak joinery made in our workshop, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-red-island-oak-joinery-stone-splashback-86.jpg",
+        "caption": "Oak and red kitchen made in our workshop, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M29.jpg",
+        "caption": "Bathroom built to our 3D design, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg",
+        "caption": "Washroom built to our design, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M141.jpg",
+        "caption": "Reception built to our design, Clinic, Dublin 1",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M202.jpg",
+        "caption": "Kitchen built to our 3D design",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/rathcoole-second-bathroom-with-oval-mirror-and-lit-316.jpg",
+        "caption": "Our 3D design, Rathcoole",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M29.jpg",
+        "caption": "The finished bathroom, Rathcoole",
+        "kind": "photo"
+      },
+      "caption": "Rathcoole bathroom: 3D design beside the finished room",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/bah33-washroom-with-timber-cladding-and-round-306.jpg",
+        "caption": "Our washroom render, BAH33",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg",
+        "caption": "The finished washroom, BAH33",
+        "kind": "photo"
+      },
+      "caption": "BAH33, Royal Hibernian Way: washroom render beside the finished room",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/clinic-3d-isometric-of-reception-slatted-desk-a-124.jpg",
+        "caption": "Our reception design, Clinic, Dublin 1",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M141.jpg",
+        "caption": "The finished reception, Clinic, Dublin 1",
+        "kind": "photo"
+      },
+      "caption": "Clinic, Dublin 1: reception design beside the finished reception",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leopardstown-mf-isometric-of-the-en-suite-with-brass-312.jpg",
+        "caption": "Our isometric design, Leopardstown",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M76.jpg",
+        "caption": "The finished shower, Leopardstown",
+        "kind": "photo"
+      },
+      "caption": "Leopardstown: isometric design beside the finished shower",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/kitchen-3d-of-grey-island-kitchen-with-timber-to-203.jpg",
+        "caption": "Our 3D kitchen design",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M202.jpg",
+        "caption": "The finished kitchen",
+        "kind": "photo"
+      },
+      "caption": "Kitchen: 3D design beside the finished room",
+      "type": "design-built"
+    }
+  ],
+  "included": {
+    "title": "What we design",
+    "items": [
+      "Interior design and space planning",
+      "Layouts and 3D visualisation",
+      "Kitchen, bathroom and joinery design",
+      "Concept and design drawings",
+      "Planning drawings and design development",
+      "Commercial interior and fit-out design"
+    ],
+    "priceFactors": [
+      "The size and complexity of the project",
+      "Which stages you need",
+      "Whether planning drawings are needed",
+      "Specialist input from an architect or engineer"
+    ]
+  },
+  "process": [
+    {
+      "title": "First meeting",
+      "text": "We talk through the project, what you have already and what you need. We then quote a fixed design fee."
+    },
+    {
+      "title": "Stage 1: brief and feasibility",
+      "text": "We agree the brief and check what is possible on your site."
+    },
+    {
+      "title": "Stage 2: design and planning drawings",
+      "text": "We develop layouts, 3D views and the design and planning drawings."
+    },
+    {
+      "title": "Stage 3: technical design",
+      "text": "We develop the technical design, coordinated with the engineer."
+    },
+    {
+      "title": "Build, if you want us to",
+      "text": "We can then price and build what we have designed."
+    }
+  ],
+  "reviews": [
+    "darren-c-2025-07-30"
+  ],
+  "faqs": [
+    {
+      "q": "Are you architects?",
+      "a": "No. MF is not an architecture practice. We provide interior design, layouts, 3D visualisation, planning and design drawings, and bring in a registered architect where a project needs one."
+    },
+    {
+      "q": "How much does design cost?",
+      "a": "Design is a paid service. We quote a fixed fee after the first meeting, once we know what the project needs."
+    },
+    {
+      "q": "Is the design fee taken off the build price?",
+      "a": "The design fee is separate. Your design agreement sets out exactly what the fee covers."
+    },
+    {
+      "q": "Do you do structural engineering or certification?",
+      "a": "No. Structural engineering design, structural calculations, engineering certification, the Assigned Certifier role and fire engineering are provided by external professionals. We coordinate our design with them."
+    },
+    {
+      "q": "I already have drawings. Do I need your design service?",
+      "a": "No. We price and build from your architect's or designer's drawings and work with your design team."
+    },
+    {
+      "q": "Can you prepare planning drawings?",
+      "a": "Yes. Planning drawings are part of Stage 2 of our design service."
+    }
+  ],
+  "projectsTag": "design",
+  "crossSell": [
+    {
+      "route": "/home-extensions",
+      "label": "Home extensions",
+      "text": "Design and planning drawings for your extension, then the build."
+    },
+    {
+      "route": "/commercial-fit-outs",
+      "label": "Commercial fit-outs",
+      "text": "Fit-out design and build for restaurants and clinics."
+    }
+  ],
+  "cta": {
+    "title": "Start with a first meeting",
+    "text": "Tell us about the project and what you have already. We will quote a fixed design fee after the first meeting."
+  },
+  "sections": [
+    {
+      "title": "Our staged design service",
+      "paragraphs": [
+        "Design is a paid service. We quote a fixed fee after the first meeting."
+      ],
+      "bullets": [
+        "Stage 1: brief and feasibility",
+        "Stage 2: design and planning drawings",
+        "Stage 3: technical design, coordinated with the engineer"
+      ]
+    },
+    {
+      "title": "What we do not provide under our name",
+      "paragraphs": [
+        "These go to registered external professionals. We bring them in and coordinate with them."
+      ],
+      "bullets": [
+        "Structural engineering design and calculations",
+        "Engineering certification",
+        "Assigned Certifier",
+        "Fire engineering"
+      ]
+    }
+  ]
+}

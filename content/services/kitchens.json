@@ -1,0 +1,219 @@
+{
+  "slug": "kitchens",
+  "route": "/kitchens",
+  "name": "Kitchens",
+  "pageCode": "KIT",
+  "leadRoute": "small",
+  "engine": "both",
+  "formService": "Kitchen or bathroom",
+  "seo": {
+    "title": "Kitchens Made in Our Meath Workshop | MF Project Solutions",
+    "description": "Kitchens made in our Drumree workshop and fitted by our own joiners across Dublin, Meath and Kildare. See the Phibsborough oak and red kitchen, render to built."
+  },
+  "hero": {
+    "eyebrow": "Kitchens",
+    "h1": "Made-to-measure kitchens in Dublin and Meath",
+    "sub": "Kitchens made in our Drumree workshop and fitted by our own joiners, from the tall units to the island.",
+    "image": {
+      "image": "/assets/work/phibsborough-kitchen-wide-with-oven-tower-and-island-87.jpg",
+      "caption": "Oak and red kitchen with island, Phibsborough",
+      "kind": "photo",
+      "focus": "55% 60%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/kitchen-living-kitchen-island-pendants-full-height-unit-69.jpg",
+      "caption": "Kitchen island with pendants and full-height units",
+      "kind": "photo",
+      "focus": "60% 60%"
+    },
+    "ctaLabel": "Get a kitchen quotation",
+    "bullets": [
+      "Made in our Drumree workshop",
+      "Fitted by our own joiners",
+      "Kitchen design and 3D views available"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Made in Drumree",
+      "text": "Your kitchen is made in our joinery workshop at Merrywell Business Park, Drumree, Co. Meath."
+    },
+    {
+      "title": "Fitted by the people who made it",
+      "text": "Our joiners fit what they built, so any adjustment on site is handled by the same team."
+    },
+    {
+      "title": "Render to built",
+      "text": "In Phibsborough, the finished oak and red kitchen follows the render closely, down to the island and tall units."
+    }
+  ],
+  "gallery": {
+    "title": "Kitchens we have made and fitted",
+    "items": [
+      {
+        "image": "/assets/work/phibsborough-red-island-oak-joinery-stone-splashback-86.jpg",
+        "caption": "Red island and oak joinery, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-red-kitchen-island-n077.jpg",
+        "caption": "Red kitchen island, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/kitchen-living-kitchen-island-pendants-full-height-unit-69.jpg",
+        "caption": "Kitchen island with pendants and full-height units",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M97.jpg",
+        "caption": "Kitchen island with seating, Leixlip",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leixlip-kitchen-and-dining-under-the-extension-n092.jpg",
+        "caption": "Kitchen and dining in the extension, Leixlip",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M200.jpg",
+        "caption": "Navy kitchen with island under rooflights",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/phibsborough-kitchen-with-orange-island-oak-tall-unit-332.jpg",
+        "caption": "Render of the kitchen, Phibsborough",
+        "kind": "ai-enhanced"
+      },
+      "b": {
+        "image": "/assets/work/phibsborough-red-island-oak-joinery-stone-splashback-86.jpg",
+        "caption": "The finished kitchen, Phibsborough",
+        "kind": "photo"
+      },
+      "caption": "Phibsborough: the render beside the finished oak and red kitchen",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/kitchen-3d-of-grey-island-kitchen-with-timber-to-203.jpg",
+        "caption": "Our 3D kitchen design",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M202.jpg",
+        "caption": "The finished kitchen",
+        "kind": "photo"
+      },
+      "caption": "Our 3D design beside the finished grey island kitchen",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leixlip-kitchen-plan-and-elevation-with-island-340.jpg",
+        "caption": "Kitchen plan and elevation drawing, Leixlip",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/rt/M97.jpg",
+        "caption": "The finished island, Leixlip",
+        "kind": "photo"
+      },
+      "caption": "Leixlip: the kitchen drawing beside the finished island",
+      "type": "design-built"
+    }
+  ],
+  "video": {
+    "src": "/media/video/V315.mp4",
+    "poster": "/media/video/V315.jpg",
+    "caption": "Our joiners fitting the oak kitchen and island, Phibsborough",
+    "loop": true,
+    "title": "Made and fitted by us"
+  },
+  "included": {
+    "title": "What your kitchen includes",
+    "items": [
+      "Layout and design, with 3D views where useful",
+      "Units, tall units and island made in our workshop",
+      "Worktops measured and fitted",
+      "Fitting by our own joiners",
+      "Matching joinery such as larders, display units and storage walls if you want it"
+    ],
+    "priceFactors": [
+      "Size of the kitchen and number of units",
+      "Materials and finishes, such as oak veneer or lacquer",
+      "Worktop material",
+      "Island size and seating",
+      "Appliances and integrated lighting"
+    ]
+  },
+  "process": [
+    {
+      "title": "Brief and measure",
+      "text": "Tell us how you use the kitchen and we measure the room."
+    },
+    {
+      "title": "Design",
+      "text": "We develop the layout and finishes, with 3D views where useful. Already have your architect's or designer's drawings? We work from those."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation for the kitchen as designed."
+    },
+    {
+      "title": "Made in Drumree",
+      "text": "Your kitchen is made in our workshop."
+    },
+    {
+      "title": "Fitted by our joiners",
+      "text": "The same team fits the kitchen and worktops on site."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "Where are your kitchens made?",
+      "a": "In our joinery workshop at Unit 1, Merrywell Business Park, Drumree, Co. Meath. Our own joiners then fit them."
+    },
+    {
+      "q": "Can you work from my architect's drawings?",
+      "a": "Yes. We price and build from your architect's or designer's drawings. In Leixlip we built the kitchen to the architect's plan and elevation."
+    },
+    {
+      "q": "Do you design the kitchen?",
+      "a": "Yes. Kitchen design, including 3D views, is part of what we offer."
+    },
+    {
+      "q": "Can the kitchen be part of an extension or renovation?",
+      "a": "Yes. Most of the kitchens shown here were made for our extension and renovation projects."
+    },
+    {
+      "q": "Do you publish kitchen prices?",
+      "a": "No. Every kitchen is made to measure, so we prepare a detailed written quotation once the layout and finishes are agreed."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "kitchen",
+  "crossSell": [
+    {
+      "route": "/bespoke-joinery",
+      "label": "Bespoke joinery",
+      "text": "Media walls, wardrobes and storage made in the same workshop."
+    },
+    {
+      "route": "/home-extensions",
+      "label": "Home extensions",
+      "text": "Building a new kitchen extension? See our extension work."
+    }
+  ],
+  "cta": {
+    "title": "Planning a new kitchen?",
+    "text": "Send us photos, rough sizes or your drawings. We will arrange a visit and prepare a detailed written quotation."
+  }
+}

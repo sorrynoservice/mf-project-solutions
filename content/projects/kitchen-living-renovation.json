@@ -1,0 +1,113 @@
+{
+  "slug": "kitchen-living-renovation",
+  "title": "Kitchen and living room renovation",
+  "location": "Dublin area",
+  "year": "2026",
+  "sector": "residential",
+  "categories": [
+    "kitchen",
+    "renovation",
+    "patio",
+    "landscaping"
+  ],
+  "role": "Built by MF",
+  "summary": "A new kitchen with an island and tall units, a living room with a brick slip wall and a glazed partition to the dining area, and a rear patio with lawn and garden store.",
+  "hero": {
+    "image": "/assets/work/kitchen-living-kitchen-island-pendants-full-height-unit-69.jpg",
+    "caption": "Kitchen island, pendants, full-height units",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/kitchen-living-kitchen-island-pendants-full-height-unit-69.jpg",
+      "caption": "Kitchen island, pendants, full-height units",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-living-pendant-lights-over-the-dining-table-n041.jpg",
+      "caption": "Pendant lights over the dining table",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M70.jpg",
+      "caption": "Shaker kitchen, integrated appliances",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M71.jpg",
+      "caption": "Tall units and fridge housing",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-living-dining-with-black-framed-glazed-partitio-73.jpg",
+      "caption": "Dining with black-framed glazed partition",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-living-living-room-brick-slip-wall-track-lighti-72.jpg",
+      "caption": "Living room, brick slip wall, track lighting",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-living-wall-hung-vanity-in-a-new-bathroom-n042.jpg",
+      "caption": "Wall hung vanity in a new bathroom",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/kitchen-living-rear-patio-lawn-and-garden-store-at-dusk-68.jpg",
+      "caption": "Rear patio, lawn and garden store at dusk",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/kitchen-living-kitchen-island-pendants-full-height-unit-69.jpg",
+          "caption": "Kitchen island, pendants, full-height units",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-living-pendant-lights-over-the-dining-table-n041.jpg",
+          "caption": "Pendant lights over the dining table",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M70.jpg",
+          "caption": "Shaker kitchen, integrated appliances",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M71.jpg",
+          "caption": "Tall units and fridge housing",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-living-dining-with-black-framed-glazed-partitio-73.jpg",
+          "caption": "Dining with black-framed glazed partition",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-living-living-room-brick-slip-wall-track-lighti-72.jpg",
+          "caption": "Living room, brick slip wall, track lighting",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-living-wall-hung-vanity-in-a-new-bathroom-n042.jpg",
+          "caption": "Wall hung vanity in a new bathroom",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/kitchen-living-rear-patio-lawn-and-garden-store-at-dusk-68.jpg",
+          "caption": "Rear patio, lawn and garden store at dusk",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 21,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

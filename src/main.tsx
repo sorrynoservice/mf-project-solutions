@@ -1,13 +1,2 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import App from "./App";
-import "./index.css";
-import { installLinkTracking } from "@/lib/track";
-
-installLinkTracking();
-
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+/** Browser entry referenced by index.html. The app itself boots in entry-client.tsx. */
+import "./entry-client";

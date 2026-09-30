@@ -1,0 +1,237 @@
+{
+  "slug": "home-extensions",
+  "route": "/home-extensions",
+  "name": "Home extensions",
+  "pageCode": "EXT",
+  "leadRoute": "major",
+  "engine": "pipeline",
+  "formService": "Extension or attic",
+  "seo": {
+    "title": "House Extensions Dublin and Meath | MF Project Solutions",
+    "description": "House extensions in Dublin, Meath and Kildare, built from your architect's drawings or designed with us. See our Phibsborough and Leixlip extensions in detail."
+  },
+  "hero": {
+    "eyebrow": "Home extensions",
+    "h1": "House extensions in Dublin, Meath and Kildare",
+    "sub": "We build extensions from your architect's drawings, or develop the design with you and bring in the engineer and other professionals your project needs.",
+    "image": {
+      "image": "/assets/work/phibsborough-rear-extension-and-garden-h01.jpg",
+      "caption": "Rear extension and garden, Phibsborough",
+      "kind": "photo",
+      "focus": "45% 50%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg",
+      "caption": "Aerial view of the finished rear extension, Phibsborough",
+      "kind": "photo",
+      "focus": "45% 55%"
+    },
+    "ctaLabel": "Talk to us about your extension",
+    "bullets": [
+      "Extensions built in Phibsborough and Leixlip",
+      "We work with your architect or designer",
+      "Detailed written quotation"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Phibsborough",
+      "text": "Side and rear extension to Francesco Panzeri's design, built on a fixed price contract from structural openings to handover."
+    },
+    {
+      "title": "Leixlip",
+      "text": "Rear extension with a standing seam lean-to roof, rooflights and sliding doors, built to NBK Architects' construction drawings."
+    },
+    {
+      "title": "Rules checked first",
+      "text": "Rear extensions up to 45 m² may now be exempt from planning if they meet the conditions. We check your house before you commit to a design."
+    }
+  ],
+  "intro": {
+    "title": "Built properly from the structural openings up",
+    "paragraphs": [
+      "An extension is where structure, services and finishes all meet. We open up the house, form the structural openings to the engineer's design, build the shell and roof, and finish the inside with our own crew and joiners.",
+      "Alex Ferreira holds a Bachelor's degree in Construction Project Management and has over 25 years' experience across construction, engineering and project delivery. He is your contact for extension projects."
+    ]
+  },
+  "gallery": {
+    "title": "Extensions we have built",
+    "items": [
+      {
+        "image": "/assets/work/phibsborough-extension-and-side-entrance-with-timber-84.jpg",
+        "caption": "Extension and side entrance with timber screen, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg",
+        "caption": "Aerial view of the finished rear extension, Phibsborough",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leixlip-dining-under-rooflight-in-new-extension-96.jpg",
+        "caption": "Dining under a rooflight in the new extension, Leixlip",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leixlip-view-through-to-garden-and-sliding-doors-98.jpg",
+        "caption": "View through to the garden and sliding doors, Leixlip",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/leixlip-kitchen-and-dining-under-the-extension-n092.jpg",
+        "caption": "Kitchen and dining in the extension, Leixlip",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M42.jpg",
+        "caption": "Finished rear extension with standing seam roof, Leixlip",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/phibsborough-rear-garden-and-dark-rendered-single-sto-330.jpg",
+        "caption": "Render of the rear extension, Phibsborough",
+        "kind": "ai-enhanced"
+      },
+      "b": {
+        "image": "/assets/work/phibsborough-finished-rear-extension-render-and-full-83.jpg",
+        "caption": "The finished rear extension, Phibsborough",
+        "kind": "photo"
+      },
+      "caption": "Phibsborough: the rear render beside the finished extension",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leixlip-proposed-elevations-rear-extension-with-338.jpg",
+        "caption": "NBK Architects' elevation drawing, Leixlip",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/rt/M42.jpg",
+        "caption": "The finished extension, Leixlip",
+        "kind": "photo"
+      },
+      "caption": "Leixlip: built to NBK Architects' construction drawings",
+      "type": "design-built"
+    }
+  ],
+  "video": {
+    "src": "/media/video/leixlip-opened-to-finished.mp4",
+    "poster": "/media/video/leixlip-opened-to-finished.jpg",
+    "caption": "Leixlip: the rear opened up on props, then the finished extension",
+    "loop": true,
+    "title": "Opened up to finished"
+  },
+  "included": {
+    "title": "What we take on",
+    "items": [
+      "Pricing your drawings in a detailed written quotation",
+      "Structural openings, steels and foundations to the engineer's design",
+      "Shell, roof, rooflights and glazing",
+      "Services, plastering and finishes",
+      "Kitchens and joinery from our Drumree workshop",
+      "Working with your architect, engineer and certifier throughout"
+    ],
+    "priceFactors": [
+      "Size of the extension",
+      "Structural work, such as steels and openings in existing walls",
+      "Roof type and rooflights",
+      "Glazing, such as sliding doors",
+      "Kitchen, joinery and finishes",
+      "Access to the rear of the house"
+    ]
+  },
+  "process": [
+    {
+      "title": "Drawings or brief",
+      "text": "Send your architect's drawings, or tell us what you want and we discuss the design route."
+    },
+    {
+      "title": "Site visit",
+      "text": "Alex visits the house, looks at the structure and access, and checks the planning position."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation that sets out the work and what is included."
+    },
+    {
+      "title": "Build",
+      "text": "We open up, build the structure and shell, and finish the inside with our crew and joiners."
+    },
+    {
+      "title": "Handover",
+      "text": "We walk you through the finished extension."
+    }
+  ],
+  "reviews": [
+    "cathal-brennan-2025-10-19"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need planning permission for my extension?",
+      "a": "Rear extensions up to 45 m² may be exempt if they meet all the conditions, including a 12 m² limit on the upper floor of a semi-detached or terraced house and minimum distances from windows to the boundary. We check your house first, and a Section 5 declaration gives certainty."
+    },
+    {
+      "q": "Will you work with my architect?",
+      "a": "Yes. We price and build from your architect's or designer's drawings and work with your design team. Phibsborough was built to Francesco Panzeri's design and Leixlip to NBK Architects' drawings."
+    },
+    {
+      "q": "We do not have a designer yet. Can you help?",
+      "a": "Yes. We develop layouts, 3D views and planning and design drawings, and bring in an architect or engineer where the project needs one. Design is a paid service with a fixed fee quoted after the first meeting."
+    },
+    {
+      "q": "Do you do the structural design?",
+      "a": "No. Structural design and calculations come from an external engineer. We build to the engineer's design and bring one in if you do not have one."
+    },
+    {
+      "q": "How is the price set out?",
+      "a": "In a detailed written quotation based on the drawings, listing the work and what is included."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "extension",
+  "crossSell": [
+    {
+      "route": "/design",
+      "label": "Design services",
+      "text": "No drawings yet? See how our staged design service works."
+    },
+    {
+      "route": "/house-renovations",
+      "label": "House renovations",
+      "text": "Renovating the whole house at the same time?"
+    }
+  ],
+  "cta": {
+    "title": "Planning an extension?",
+    "text": "Send us your drawings, or tell us about the house and what you want to add. Alex will arrange a site visit."
+  },
+  "sections": [
+    {
+      "title": "Two ways to start",
+      "paragraphs": [
+        "Already have drawings? We price and build from your architect's or designer's drawings and work with your design team.",
+        "Need design help? We develop layouts, interiors, 3D visualisation, planning and design drawings and the construction concept, bringing in the appropriate architect, engineer or other professional where specialist engineering, certification or regulated services are required, and can then build it."
+      ]
+    },
+    {
+      "title": "The 45 m² rear extension exemption",
+      "paragraphs": [
+        "It may be exempt if it meets all the conditions; we check your site first. For certainty, you can ask the council for a Section 5 declaration."
+      ],
+      "bullets": [
+        "Rear extensions up to 45 m² may be exempt (up from 40 m²)",
+        "The upper floor is still limited to 12 m² on a semi-detached or terraced house",
+        "Windows must be 1 m from the boundary at ground level, and 8 m above it",
+        "The exemption cannot be used to extend a garden home"
+      ]
+    }
+  ]
+}

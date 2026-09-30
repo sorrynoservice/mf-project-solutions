@@ -1,0 +1,281 @@
+{
+  "slug": "rear-extension-leixlip",
+  "title": "Rear extension and kitchen, Leixlip",
+  "location": "Leixlip, Co. Kildare",
+  "year": "2025",
+  "sector": "residential",
+  "categories": [
+    "extension",
+    "renovation",
+    "kitchen",
+    "joinery"
+  ],
+  "role": "Main contractor, built from NBK Architects' construction drawings",
+  "architect": "NBK Architects",
+  "summary": "A single storey rear extension with a standing seam roof and rooflights, opening the house to the garden, with a new kitchen island and built-in bookcases.",
+  "intro": [
+    "Built to NBK Architects' construction drawings: a new rear extension with a standing seam lean-to roof, rooflights over the dining area and wide sliding doors to the garden.",
+    "The work was part of a three month renovation of the house, finished with a new kitchen and island, tall units and a larder, and built-in shelving in the living room."
+  ],
+  "scope": [
+    "Rear extension and roof structure",
+    "Rooflights and sliding doors",
+    "Kitchen with island",
+    "Built-in joinery"
+  ],
+  "hero": {
+    "image": "/assets/work/leixlip-dining-under-rooflight-in-new-extension-96.jpg",
+    "caption": "Dining under rooflight in new extension",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/leixlip-dining-under-rooflight-in-new-extension-96.jpg",
+      "caption": "Dining under rooflight in new extension",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-view-through-to-garden-and-sliding-doors-98.jpg",
+      "caption": "View through to garden and sliding doors",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-kitchen-and-dining-under-the-extension-n092.jpg",
+      "caption": "Kitchen and dining under the extension",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M42.jpg",
+      "caption": "Finished rear extension, standing seam roof, patio",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M97.jpg",
+      "caption": "Kitchen island with seating",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-kitchen-island-and-built-in-shelving-n090.jpg",
+      "caption": "Kitchen island and built-in shelving",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-dining-area-and-garden-view-n085.jpg",
+      "caption": "Dining area and garden view",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-tall-kitchen-units-and-larder-n096.jpg",
+      "caption": "Tall kitchen units and larder",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M99.jpg",
+      "caption": "Kitchen and island wide",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-dining-table-and-garden-view-100.jpg",
+      "caption": "Dining table and garden view",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-reading-corner-by-the-new-glazing-n089.jpg",
+      "caption": "Reading corner by the new glazing",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-living-room-with-a-feature-wall-n093.jpg",
+      "caption": "Living room with a feature wall",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/leixlip-finished-living-room-herringbone-floor-43.jpg",
+      "caption": "Finished living room, herringbone floor",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M44.jpg",
+      "caption": "Built-in shelving",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/leixlip-proposed-elevations-rear-extension-with-338.jpg",
+        "caption": "Proposed elevations, rear extension with standing seam lean-to roof",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/rt/M42.jpg",
+        "caption": "Finished rear extension, standing seam roof, patio",
+        "kind": "photo"
+      },
+      "caption": "Elevations and the finished extension",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leixlip-sections-through-the-extension-and-roofl-339.jpg",
+        "caption": "Sections through the extension and rooflights",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/leixlip-dining-under-rooflight-in-new-extension-96.jpg",
+        "caption": "Dining under rooflight in new extension",
+        "kind": "photo"
+      },
+      "caption": "Section and the rooflight over the dining area",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leixlip-kitchen-plan-and-elevation-with-island-340.jpg",
+        "caption": "Kitchen plan and elevation with island",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/rt/M97.jpg",
+        "caption": "Kitchen island with seating",
+        "kind": "photo"
+      },
+      "caption": "Kitchen drawing and the finished island",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/leixlip-joinery-plans-and-elevations-bookcases-s-341.jpg",
+        "caption": "Joinery plans and elevations (bookcases, storage)",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/rt/M44.jpg",
+        "caption": "Built-in shelving",
+        "kind": "photo"
+      },
+      "caption": "Bookcase drawing and the built-in shelving",
+      "type": "design-built"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "design",
+      "text": "The architect's construction drawings.",
+      "images": [
+        {
+          "image": "/assets/work/leixlip-proposed-elevations-rear-extension-with-338.jpg",
+          "caption": "Proposed elevations, rear extension with standing seam lean-to roof",
+          "kind": "drawing"
+        },
+        {
+          "image": "/assets/work/leixlip-sections-through-the-extension-and-roofl-339.jpg",
+          "caption": "Sections through the extension and rooflights",
+          "kind": "drawing"
+        },
+        {
+          "image": "/assets/work/leixlip-kitchen-plan-and-elevation-with-island-340.jpg",
+          "caption": "Kitchen plan and elevation with island",
+          "kind": "drawing"
+        },
+        {
+          "image": "/assets/work/leixlip-joinery-plans-and-elevations-bookcases-s-341.jpg",
+          "caption": "Joinery plans and elevations (bookcases, storage)",
+          "kind": "drawing"
+        }
+      ]
+    },
+    {
+      "stage": "construction",
+      "text": "Rooflight framing in the new extension.",
+      "images": [
+        {
+          "image": "/assets/work/leixlip-rooflight-framing-in-new-extension-41.jpg",
+          "caption": "Rooflight framing in new extension",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "text": "The finished extension, kitchen and living room.",
+      "images": [
+        {
+          "image": "/assets/work/leixlip-dining-under-rooflight-in-new-extension-96.jpg",
+          "caption": "Dining under rooflight in new extension",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-kitchen-and-dining-under-the-extension-n092.jpg",
+          "caption": "Kitchen and dining under the extension",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M97.jpg",
+          "caption": "Kitchen island with seating",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-kitchen-island-and-built-in-shelving-n090.jpg",
+          "caption": "Kitchen island and built-in shelving",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M99.jpg",
+          "caption": "Kitchen and island wide",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-tall-kitchen-units-and-larder-n096.jpg",
+          "caption": "Tall kitchen units and larder",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-view-through-to-garden-and-sliding-doors-98.jpg",
+          "caption": "View through to garden and sliding doors",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-dining-area-and-garden-view-n085.jpg",
+          "caption": "Dining area and garden view",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-dining-table-and-garden-view-100.jpg",
+          "caption": "Dining table and garden view",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-reading-corner-by-the-new-glazing-n089.jpg",
+          "caption": "Reading corner by the new glazing",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-living-room-with-a-feature-wall-n093.jpg",
+          "caption": "Living room with a feature wall",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M42.jpg",
+          "caption": "Finished rear extension, standing seam roof, patio",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/leixlip-finished-living-room-herringbone-floor-43.jpg",
+          "caption": "Finished living room, herringbone floor",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M44.jpg",
+          "caption": "Built-in shelving",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "flagship": true,
+  "order": 3,
+  "designNote": "Drawings: NBK Architects.",
+  "published": true,
+  "featured": false
+}

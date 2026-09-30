@@ -1,0 +1,106 @@
+{
+  "slug": "pre-purchase-inspection",
+  "route": "/guides/pre-purchase-inspection",
+  "title": "Pre-purchase property inspection: what is checked and what is not",
+  "seo": {
+    "title": "Pre-Purchase Inspection Guide | MF Project Solutions",
+    "description": "What a pre-purchase property inspection of a second-hand home in Ireland covers, what it does not, when to book it and how to use the report before you sign."
+  },
+  "lead": "Buying a second-hand home means buying its history: the roof, the windows, any damp and how well it has been looked after. A pre-purchase property inspection tells you what can be seen before you commit. Here is what it covers, what it does not, and how to use it.",
+  "updated": "2026-09-30",
+  "sections": [
+    {
+      "title": "What it is for",
+      "paragraphs": [
+        "A pre-purchase property inspection is a practical look at the visible condition of a second-hand home, carried out before you sign. It helps you decide whether to go ahead, what to ask the seller, and what work to budget for after you move in.",
+        "It is different from a snag inspection. A snag inspection checks a new build for defects the builder should fix. A pre-purchase inspection checks an existing home whose condition you are about to take on."
+      ]
+    },
+    {
+      "title": "When to book",
+      "paragraphs": [
+        "Before you sign. The report is most useful while you can still ask questions, get quotes for repairs, or discuss the price."
+      ]
+    },
+    {
+      "title": "What we inspect",
+      "bullets": [
+        "The visible condition of the roof, from the ground and accessible areas",
+        "External and internal walls",
+        "Windows and doors",
+        "Signs of damp",
+        "Services, checked visually",
+        "The attic, if it is accessible"
+      ],
+      "paragraphs": [
+        "The inspection is carried out by construction people, who build and renovate homes, so the report focuses on what matters in practice."
+      ]
+    },
+    {
+      "title": "What it does not include",
+      "bullets": [
+        "No opening up of floors, walls or finishes",
+        "No testing of services unless agreed in advance",
+        "No structural calculations"
+      ],
+      "paragraphs": [
+        "Where something needs an engineer or another specialist, the report says so. It is better to know that something needs an engineer's opinion than to have it guessed at."
+      ]
+    },
+    {
+      "title": "Before the day",
+      "paragraphs": [
+        "Ask the estate agent or seller to make sure we can get into every room, and into the attic if there is a hatch. An attic that cannot be reached cannot be inspected, and the report will say so. If you know of anything that worries you, such as a stain on a ceiling or a window that will not close, tell us when you book so we look at it closely."
+      ]
+    },
+    {
+      "title": "Questions to take from the report",
+      "bullets": [
+        "Does anything need an engineer or specialist before I sign?",
+        "Are there signs of damp, and where?",
+        "What condition are the roof, windows and doors in?",
+        "What would I want to repair or upgrade in the first year?"
+      ]
+    },
+    {
+      "title": "Reading the report",
+      "paragraphs": [
+        "Read the report with three questions in mind. What needs attention now? What can wait? What needs a specialist before I commit? Items in the last group are the ones to resolve before you sign, either with further advice or in discussion with the seller."
+      ]
+    },
+    {
+      "title": "Repair and upgrade estimate",
+      "paragraphs": [
+        "Many buyers plan work once they move in, such as new windows, a new bathroom or better insulation. On request, we add an estimate for the repairs and upgrades you are considering, so you have a better idea of the total cost of the home."
+      ]
+    },
+    {
+      "title": "What it costs",
+      "paragraphs": [
+        "Our pre-purchase property inspection costs €650 plus VAT."
+      ]
+    },
+    {
+      "title": "Who you deal with",
+      "paragraphs": [
+        "Wanessa leads our property inspection service and is your contact from booking to report. Send us the address and where you are in the sale, and we will confirm a date."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "route": "/pre-purchase-survey",
+      "label": "Pre-purchase property inspection"
+    },
+    {
+      "route": "/snagging",
+      "label": "Snag list inspections"
+    },
+    {
+      "route": "/house-renovations",
+      "label": "House renovations"
+    }
+  ],
+  "leadRoute": "property",
+  "pageCode": "PPS"
+}

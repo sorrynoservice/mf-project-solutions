@@ -1,0 +1,14 @@
+{
+  "id": "rosanne-martins",
+  "name": "Rosanne Martins",
+  "role": "HR and Commercial Director",
+  "headshot": "/assets/rosanne-martins.jpg",
+  "bio": [
+    "Rosanne's background is in executive search, leadership assessment and business development across Brazil, Europe and the United States. She founded the consultancy Pro Human and leads the Prêmio Ser Humano awards for ABRH Brasil.",
+    "At MF Project Solutions she works with Alex on people and growth."
+  ],
+  "route": "none",
+  "order": 4,
+  "show": true,
+  "pending": "Role awaiting owner confirmation"
+}

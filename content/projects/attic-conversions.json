@@ -1,0 +1,98 @@
+{
+  "slug": "attic-conversions",
+  "title": "Attic conversions and en-suites",
+  "location": "Dublin and Meath",
+  "year": "2023 to 2024",
+  "sector": "residential",
+  "categories": [
+    "attic",
+    "bathroom"
+  ],
+  "role": "Built by MF",
+  "summary": "New attic stairs, rooflights and shower rooms, turning roof space into bedrooms and studies.",
+  "hero": {
+    "image": "/assets/work/rt/M188.jpg",
+    "caption": "Attic bedroom with rooflights and study area",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/rt/M188.jpg",
+      "caption": "Attic bedroom with rooflights and study area",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-attic-shower-room-black-framed-screen-192.jpg",
+      "caption": "Attic shower room, black framed screen",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M189.jpg",
+      "caption": "Attic room with three rooflights",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
+      "caption": "Attic shower room under rooflights",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/attic-new-attic-stair-installed-190.jpg",
+        "caption": "New attic stair installed",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/rt/M188.jpg",
+        "caption": "Attic bedroom with rooflights and study area",
+        "kind": "photo"
+      },
+      "caption": "The new attic stair, then the finished attic bedroom",
+      "type": "before-after"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "construction",
+      "text": "The new attic stair installed.",
+      "images": [
+        {
+          "image": "/assets/work/attic-new-attic-stair-installed-190.jpg",
+          "caption": "New attic stair installed",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/rt/M189.jpg",
+          "caption": "Attic room with three rooflights",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M188.jpg",
+          "caption": "Attic bedroom with rooflights and study area",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/attic-attic-shower-room-black-framed-screen-192.jpg",
+          "caption": "Attic shower room, black framed screen",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
+          "caption": "Attic shower room under rooflights",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 23,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

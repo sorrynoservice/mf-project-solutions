@@ -1,0 +1,225 @@
+{
+  "slug": "attic-conversions",
+  "route": "/attic-conversions",
+  "name": "Attic conversions",
+  "pageCode": "ATT",
+  "leadRoute": "major",
+  "engine": "organic",
+  "formService": "Extension or attic",
+  "seo": {
+    "title": "Attic Conversions Dublin and Meath | MF Project Solutions",
+    "description": "Attic conversions in Dublin, Meath and Kildare, built as habitable rooms or storage, with dormers, rooflights and en-suites. Know which before you sell."
+  },
+  "hero": {
+    "eyebrow": "Attic conversions",
+    "h1": "Attic conversions in Dublin, Meath and Kildare",
+    "sub": "Attic bedrooms, dressing rooms and en-suites under rooflights or dormers. We are clear from the start whether your attic will be habitable or storage, because it matters when you sell.",
+    "image": {
+      "image": "/assets/work/rt/M189.jpg",
+      "caption": "Attic room with three rooflights",
+      "kind": "photo",
+      "focus": "50% 35%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/rt/M188.jpg",
+      "caption": "Attic bedroom and study under rooflights",
+      "kind": "photo",
+      "focus": "40% 50%"
+    },
+    "ctaLabel": "Talk to us about your attic",
+    "bullets": [
+      "Habitable or storage explained up front",
+      "En-suites under rooflights",
+      "Eaves wardrobes from our workshop"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Habitable or storage",
+      "text": "A habitable attic room must meet Building Regulations for escape, fire protection and headroom. We tell you which you are getting before you commit."
+    },
+    {
+      "title": "En-suites under rooflights",
+      "text": "Showers and en-suites built into the roof space, like the Rathcoole attic en-suite we designed in 3D first."
+    },
+    {
+      "title": "Joinery that fits the eaves",
+      "text": "Eaves wardrobes and dressing rooms made in our Drumree workshop, as in the Rathcoole attic."
+    }
+  ],
+  "gallery": {
+    "title": "Attics we have converted",
+    "items": [
+      {
+        "image": "/assets/work/rt/M188.jpg",
+        "caption": "Attic bedroom and study under rooflights",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M19.jpg",
+        "caption": "Attic dressing room with island unit, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/N069.jpg",
+        "caption": "Eaves wardrobes in the attic dressing room, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rathcoole-wardrobes-built-into-the-eaves-20.jpg",
+        "caption": "Wardrobes built into the eaves, Rathcoole",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-attic-shower-room-black-framed-screen-192.jpg",
+        "caption": "Attic shower room with black-framed screen",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-attic-shower-room-under-rooflights-193.jpg",
+        "caption": "Attic shower room under rooflights",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/attic-new-attic-stair-installed-190.jpg",
+        "caption": "New attic stair installed",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/rt/M188.jpg",
+        "caption": "The finished attic bedroom",
+        "kind": "photo"
+      },
+      "caption": "From the new stair to the finished attic bedroom",
+      "type": "before-after"
+    },
+    {
+      "a": {
+        "image": "/assets/work/rathcoole-attic-en-suite-with-rooflight-and-blue-t-315.jpg",
+        "caption": "3D design of the attic en-suite, Rathcoole",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rathcoole-brass-framed-shower-navy-tile-in-progres-17.jpg",
+        "caption": "The shower as built, Rathcoole",
+        "kind": "photo"
+      },
+      "caption": "Rathcoole: attic en-suite designed in 3D, then built",
+      "type": "design-built"
+    }
+  ],
+  "included": {
+    "title": "What an attic conversion involves",
+    "items": [
+      "New stair from the landing",
+      "Floor structure and roof alterations to the engineer's design",
+      "Insulation and plastering",
+      "Rooflights or a dormer",
+      "En-suite, if wanted",
+      "Eaves wardrobes and storage from our workshop"
+    ],
+    "priceFactors": [
+      "Rooflights or a dormer",
+      "Habitable room or storage",
+      "Stair position and headroom",
+      "Whether an en-suite is included",
+      "Fitted joinery"
+    ]
+  },
+  "process": [
+    {
+      "title": "Tell us about the attic",
+      "text": "Send photos of the attic and landing, and what you want the space for."
+    },
+    {
+      "title": "Site visit",
+      "text": "Alex checks the roof structure, headroom and stair position, and whether the attic can be habitable."
+    },
+    {
+      "title": "Design and engineer",
+      "text": "We agree the layout and bring in an engineer for the structural design."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation that states whether the room is built as habitable or storage."
+    },
+    {
+      "title": "Build and handover",
+      "text": "Our crew and joiners build the conversion, and we walk you through it."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "What is the difference between a habitable attic and storage?",
+      "a": "A habitable room meets Building Regulations: an escape window of at least 450 mm each way and 0.33 m², a protected stair with FD20 doors, interconnected mains smoke alarms and adequate stair headroom. Attics that fall short are sold as storage, and that can cause problems when the house is sold."
+    },
+    {
+      "q": "Do I need planning permission for a dormer?",
+      "a": "Rear and side dormers may be exempt up to 30 m³ if they are no higher than the ridge and set back at least 20 cm from the eaves. Front dormers still need permission. We check your house first, and a Section 5 declaration gives certainty."
+    },
+    {
+      "q": "Can I put rooflights on the front of the house?",
+      "a": "Up to two front rooflights of 100 by 90 cm may be exempt under Class 1C."
+    },
+    {
+      "q": "Can you fit an en-suite in the attic?",
+      "a": "Yes. We have built attic en-suites under rooflights, including one in Rathcoole designed in 3D first."
+    },
+    {
+      "q": "Who does the structural design?",
+      "a": "An external engineer. We build to the engineer's design and bring one in if you do not have one."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "attic",
+  "crossSell": [
+    {
+      "route": "/bathroom-renovations",
+      "label": "Bathroom renovations",
+      "text": "See our bathrooms, including attic en-suites."
+    },
+    {
+      "route": "/bespoke-joinery",
+      "label": "Bespoke joinery",
+      "text": "Eaves wardrobes and dressing rooms from our workshop."
+    }
+  ],
+  "cta": {
+    "title": "Thinking about your attic?",
+    "text": "Send us photos of the attic and landing. Alex will tell you whether a habitable room looks possible and what it involves."
+  },
+  "sections": [
+    {
+      "title": "Habitable or storage",
+      "paragraphs": [
+        "Attics that fall short of the regulations are sold as \"storage\", and that can cause problems when the house is sold. A habitable attic room needs:"
+      ],
+      "bullets": [
+        "An escape window of at least 450 mm each way and 0.33 m²",
+        "A protected stair with FD20 doors",
+        "Interconnected mains smoke alarms",
+        "Adequate headroom over the stair"
+      ]
+    },
+    {
+      "title": "Dormers and rooflights: the 2026 rules",
+      "paragraphs": [
+        "A dormer or rooflights may be exempt if they meet all the conditions; we check your house first. For certainty, you can ask the council for a Section 5 declaration."
+      ],
+      "bullets": [
+        "Rear and side dormers up to 30 m³ (Class 1B)",
+        "No higher than the ridge, and set back at least 20 cm from the eaves",
+        "Up to two front rooflights of 100 by 90 cm (Class 1C)",
+        "Front dormers still need planning permission"
+      ]
+    }
+  ]
+}

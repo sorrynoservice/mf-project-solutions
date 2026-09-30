@@ -1,0 +1,91 @@
+{
+  "slug": "outdoor-room-ashbourne",
+  "title": "Outdoor room and kitchen, Ashbourne",
+  "location": "Ashbourne, Co. Meath",
+  "year": "2025",
+  "sector": "residential",
+  "categories": [
+    "veranda",
+    "patio"
+  ],
+  "role": "Design and build",
+  "summary": "A covered outdoor room with glass sliding panels and a built-in barbecue, built from the blockwork up.",
+  "hero": {
+    "image": "/assets/work/ashbourne-covered-outdoor-room-with-glass-sliding-60.jpg",
+    "caption": "Covered outdoor room with glass sliding panels",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/ashbourne-covered-outdoor-room-with-glass-sliding-60.jpg",
+      "caption": "Covered outdoor room with glass sliding panels",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/ashbourne-inside-the-outdoor-room-built-in-bbq-61.jpg",
+      "caption": "Inside the outdoor room, built-in BBQ",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/ashbourne-garden-before-works-58.jpg",
+        "caption": "Garden before works",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/ashbourne-covered-outdoor-room-with-glass-sliding-60.jpg",
+        "caption": "Covered outdoor room with glass sliding panels",
+        "kind": "photo"
+      },
+      "caption": "The garden before works and the finished outdoor room",
+      "type": "before-after"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "existing",
+      "text": "The garden before works.",
+      "images": [
+        {
+          "image": "/assets/work/ashbourne-garden-before-works-58.jpg",
+          "caption": "Garden before works",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "construction",
+      "text": "The block barbecue and flue being built.",
+      "images": [
+        {
+          "image": "/assets/work/ashbourne-block-bbq-and-flue-being-built-59.jpg",
+          "caption": "Block BBQ and flue being built",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "text": "The finished outdoor room with its sliding glass panels.",
+      "images": [
+        {
+          "image": "/assets/work/ashbourne-covered-outdoor-room-with-glass-sliding-60.jpg",
+          "caption": "Covered outdoor room with glass sliding panels",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/ashbourne-inside-the-outdoor-room-built-in-bbq-61.jpg",
+          "caption": "Inside the outdoor room, built-in BBQ",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "flagship": true,
+  "order": 7,
+  "published": true,
+  "pending": "facts.md lists M173 and M177 under Ashbourne, but the photo library files them under a 2023 outdoor room project, so they are not added here. Owner to confirm.",
+  "featured": false
+}

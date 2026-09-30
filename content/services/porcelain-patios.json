@@ -1,0 +1,185 @@
+{
+  "slug": "porcelain-patios",
+  "route": "/porcelain-patios",
+  "name": "Porcelain patios",
+  "pageCode": "PAT",
+  "leadRoute": "small",
+  "engine": "seasonal",
+  "formService": "Outdoor living",
+  "seo": {
+    "title": "Porcelain Patios Dublin and Meath | MF Project Solutions",
+    "description": "Porcelain patios in Dublin, Meath and Kildare, laid on a properly compacted sub-base with falls and drainage planned in. Paths, lawns and garden stores too."
+  },
+  "hero": {
+    "eyebrow": "Porcelain patios",
+    "h1": "Porcelain patios in Dublin and Meath",
+    "sub": "Porcelain paving laid on a properly compacted sub-base, with falls and drainage planned in from the start.",
+    "image": {
+      "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
+      "caption": "Porcelain patio and path through the lawn",
+      "kind": "photo",
+      "focus": "50% 60%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/rt/G81.jpg",
+      "caption": "Porcelain patio, paths and a garden store",
+      "kind": "photo"
+    },
+    "ctaLabel": "Get a patio quotation",
+    "bullets": [
+      "Compacted sub-base under every patio",
+      "Falls and drainage planned in",
+      "Paths, lawns and garden stores too"
+    ]
+  },
+  "proof": [
+    {
+      "title": "The base does the work",
+      "text": "Every patio is laid on a proper compacted sub-base. It is the part you never see, and the part that keeps the paving level."
+    },
+    {
+      "title": "Falls and drainage",
+      "text": "We set falls and drainage so rainwater runs off the patio instead of sitting on it."
+    },
+    {
+      "title": "Part of the whole garden",
+      "text": "We also build paths, lawns, lighting and garden stores, so the patio fits the rest of the garden."
+    }
+  ],
+  "gallery": {
+    "title": "Patios we have laid",
+    "items": [
+      {
+        "image": "/assets/work/rt/G81.jpg",
+        "caption": "Porcelain patio, paths and a garden store",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/kitchen-living-rear-patio-lawn-and-garden-store-at-dusk-68.jpg",
+        "caption": "Rear patio, lawn and garden store at dusk",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
+        "caption": "Porcelain patio with a path through the lawn",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M63.jpg",
+        "caption": "Porcelain patio and lawn, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M67.jpg",
+        "caption": "Side and rear porcelain patio with lawn",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/blackrock-porcelain-paving-being-laid-64.jpg",
+        "caption": "Porcelain being laid, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      "b": {
+        "image": "/assets/work/rt/M63.jpg",
+        "caption": "The finished garden, Blackrock, Co. Louth",
+        "kind": "photo"
+      },
+      "caption": "Blackrock, Co. Louth: porcelain being laid, then the finished garden",
+      "type": "before-after"
+    }
+  ],
+  "video": {
+    "src": "/media/video/patio-sequence.mp4",
+    "poster": "/media/video/patio-sequence.jpg",
+    "caption": "Compacting the sub-base, laying the porcelain and the finished patio",
+    "loop": true,
+    "title": "Laid on a proper base"
+  },
+  "included": {
+    "title": "What your patio includes",
+    "items": [
+      "A compacted sub-base prepared for porcelain",
+      "Falls and drainage so water runs off",
+      "Porcelain supplied and laid",
+      "Borders, edges and steps as agreed",
+      "Paths, lawn and garden stores if you want the whole garden done"
+    ],
+    "priceFactors": [
+      "Area of the patio in m²",
+      "The porcelain you choose",
+      "Access to the garden for materials and removal of soil",
+      "Steps, borders and changes in level",
+      "How much drainage the garden needs"
+    ]
+  },
+  "price": {
+    "headline": "From about €180 per m² supplied and laid.",
+    "note": "The price changes with access, the porcelain you choose, steps and changes in level, and the drainage the garden needs.",
+    "confirmed": false
+  },
+  "process": [
+    {
+      "title": "Tell us about the garden",
+      "text": "Send photos, rough sizes and what you would like: patio only, or paths and lawn too."
+    },
+    {
+      "title": "Visit and layout",
+      "text": "We check levels, drainage and access, and agree the layout and porcelain with you."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation for the patio and any other garden work."
+    },
+    {
+      "title": "Build",
+      "text": "Our crew prepares the sub-base, sets the falls and drainage, and lays the porcelain."
+    }
+  ],
+  "reviews": [
+    "harry-english-2026-05-27",
+    "marcos-vasconcelos-da-silva-2025-03-09"
+  ],
+  "faqs": [
+    {
+      "q": "Why does the sub-base matter so much?",
+      "a": "Porcelain is only as good as what it sits on. A properly compacted sub-base keeps the paving level and stops it moving or cracking."
+    },
+    {
+      "q": "Will water sit on the patio?",
+      "a": "It should not. We lay the patio with falls and plan the drainage so rainwater runs off."
+    },
+    {
+      "q": "Can you do the lawn, paths and garden store as well?",
+      "a": "Yes. We rebuild whole gardens, including drainage, paving, lawn, lighting and garden stores."
+    },
+    {
+      "q": "What changes the price?",
+      "a": "The area, the porcelain you choose, access to the garden, steps and level changes, and how much drainage is needed. Your detailed written quotation sets it out."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "patio",
+  "crossSell": [
+    {
+      "route": "/landscaping",
+      "label": "Landscaping",
+      "text": "Doing the whole garden? We rebuild gardens from drainage up."
+    },
+    {
+      "route": "/timber-verandas-glass-rooms",
+      "label": "Timber verandas and glass rooms",
+      "text": "Add a covered outdoor room to your new patio."
+    }
+  ],
+  "cta": {
+    "title": "Planning a new patio?",
+    "text": "Send us photos of the garden and rough sizes. We will visit, check levels and drainage, and prepare a detailed written quotation."
+  }
+}

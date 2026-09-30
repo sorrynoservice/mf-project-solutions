@@ -1,0 +1,98 @@
+{
+  "slug": "garden-room-or-garden-home",
+  "route": "/guides/garden-room-or-garden-home",
+  "title": "Garden room or garden home: which rules apply?",
+  "seo": {
+    "title": "Garden Room or Garden Home? | MF Project Solutions",
+    "description": "Garden room or garden home? How Class 3 and the new Class 3A rules differ on size, height, who can live there, Building Regulations and planning in Ireland."
+  },
+  "lead": "Since July 2026, a building at the end of your garden falls under one of two sets of rules. A garden room is for work, exercise or storage. A garden home is somewhere a person lives. The difference decides the size you can build, how it is built and what it costs.",
+  "hero": {
+    "image": "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg",
+    "caption": "Timber-clad garden room with bifold doors and a sauna",
+    "kind": "photo"
+  },
+  "updated": "2026-09-30",
+  "sections": [
+    {
+      "title": "The short answer",
+      "paragraphs": [
+        "If nobody will sleep or live in it, you are building a garden room under Class 3. If someone will live in it, you are building a garden home under Class 3A. You cannot build a garden room and later move someone into it: a garden room is not for living in."
+      ]
+    },
+    {
+      "title": "Garden room (Class 3)",
+      "bullets": [
+        "Home office, gym, studio or store",
+        "Up to 30 m² in total with other sheds (it was 25 m²)",
+        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise",
+        "Behind the front wall of the house",
+        "At least 25 m² of garden kept",
+        "Not for living in",
+        "Building Regulations apply as for an outbuilding; no commencement notice"
+      ]
+    },
+    {
+      "title": "Garden home (Class 3A)",
+      "bullets": [
+        "A detached house in the rear garden",
+        "32 to 45 m², with existing sheds counting towards the 45 m²",
+        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise",
+        "Lived in together with the main house; cannot be sold or subdivided; no short-term letting",
+        "Owner lives in the main house when work starts",
+        "At least 0.6 m from boundaries and 25 m² of garden kept",
+        "No separate utility connections and no new road access",
+        "Council notified 14 days before starting; built and finished by 31 December 2030",
+        "Building Regulations apply in full, as for a new dwelling"
+      ]
+    },
+    {
+      "title": "Attached family flat",
+      "paragraphs": [
+        "A third option is accommodation joined to the house. It always needs planning permission, the size is set by the county plan (Fingal, for example, allows up to 75 m²), and it is usually occupied by a family member under a planning condition, with internal access and reversion to the main house. Meath requires it to be attached."
+      ]
+    },
+    {
+      "title": "Does my shed count?",
+      "paragraphs": [
+        "Yes, for both. Existing sheds count towards the 30 m² garden room total and towards the 45 m² garden home limit. If you want to keep a large shed, it reduces what you can build. Measure what is already there before you plan."
+      ]
+    },
+    {
+      "title": "Why Building Regulations make the biggest difference",
+      "paragraphs": [
+        "A garden room is treated as an outbuilding under Building Regulations. A garden home is a new dwelling, so the regulations apply in full: fire safety, energy, ventilation, drainage and access. That changes the insulation, the services, the bathroom and kitchen, and the cost per square metre.",
+        "Services are different too. A garden room can be as simple as a power supply. A garden home needs water, power and drainage, and all of it must run through the main house, because separate utility connections are not allowed."
+      ]
+    },
+    {
+      "title": "Which one should you build?",
+      "paragraphs": [
+        "Ask who will use it and how. An office, gym or studio for the household is a garden room. A place for a parent, an adult child or a relative to live is a garden home. If you want income from letting it, neither exemption fits, and you need planning permission.",
+        "Both may be exempt if they meet all the conditions. We check your site first, and a Section 5 declaration from the council gives certainty."
+      ]
+    },
+    {
+      "title": "What it costs",
+      "paragraphs": [
+        "We price both by floor area, with groundworks, trenching and service connections shown separately, because they depend on your garden and how far services need to run. For a garden home, the service runs from the main house are always part of the cost."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "route": "/garden-rooms",
+      "label": "Garden rooms"
+    },
+    {
+      "route": "/granny-flats",
+      "label": "Garden homes and granny flats"
+    },
+    {
+      "route": "/guides/garden-home-rules-2026",
+      "label": "Garden home rules 2026 explained"
+    }
+  ],
+  "leadRoute": "major",
+  "pageCode": "GHM"
+}

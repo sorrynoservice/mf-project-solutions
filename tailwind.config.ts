@@ -9,6 +9,10 @@ export default {
       screens: { "2xl": "1400px" },
     },
     extend: {
+      fontFamily: {
+        sans: ['"Inter Variable"', "ui-sans-serif", "system-ui", "sans-serif"],
+        serif: ['"Source Serif 4 Variable"', "ui-serif", "Georgia", "serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

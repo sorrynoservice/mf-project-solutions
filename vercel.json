@@ -1,10 +1,6 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -20,33 +16,53 @@
           "value": "noindex"
         }
       ]
+    },
+    {
+      "source": "/_img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/media/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
     }
   ],
   "redirects": [
-    {
-      "source": "/garden-rooms",
-      "destination": "/residential/garden-buildings",
-      "permanent": true
-    },
-    {
-      "source": "/home-extensions",
-      "destination": "/residential/extensions",
-      "permanent": true
-    },
-    {
-      "source": "/bathroom-renovations",
-      "destination": "/residential/kitchens-bathrooms",
-      "permanent": true
-    },
-    {
-      "source": "/kitchen-renovations",
-      "destination": "/residential/kitchens-bathrooms",
-      "permanent": true
-    },
-    {
-      "source": "/landscaping-pergolas",
-      "destination": "/residential/outdoor-living",
-      "permanent": true
-    }
+    {"source": "/kitchen-renovations", "destination": "/kitchens", "permanent": true},
+    {"source": "/landscaping-pergolas", "destination": "/landscaping", "permanent": true},
+    {"source": "/interior-design", "destination": "/design", "permanent": true},
+    {"source": "/gallery", "destination": "/projects", "permanent": true},
+    {"source": "/residential/whole-house-renovations", "destination": "/house-renovations", "permanent": true},
+    {"source": "/residential/extensions", "destination": "/home-extensions", "permanent": true},
+    {"source": "/residential/kitchens-bathrooms", "destination": "/bathroom-renovations", "permanent": true},
+    {"source": "/residential/bespoke-joinery", "destination": "/bespoke-joinery", "permanent": true},
+    {"source": "/residential/garden-buildings", "destination": "/garden-rooms", "permanent": true},
+    {"source": "/residential/outdoor-living", "destination": "/landscaping", "permanent": true},
+    {"source": "/projects/garden-room-with-artificial-grass", "destination": "/projects/garden-office-with-lighting", "permanent": true},
+    {"source": "/projects/clad-garden-dwelling", "destination": "/projects/our-garden-dwelling", "permanent": true},
+    {"source": "/projects/rendered-garden-dwelling", "destination": "/projects/rendered-garden-rooms", "permanent": true},
+    {"source": "/projects/rear-extension-standing-seam-roof", "destination": "/projects/rear-extension-leixlip", "permanent": true},
+    {"source": "/projects/rear-extension-zinc-fascia", "destination": "/home-extensions", "permanent": true},
+    {"source": "/projects/extension-frameless-glass", "destination": "/home-extensions", "permanent": true},
+    {"source": "/projects/patio-and-garden-store", "destination": "/projects/glass-garden-room-and-garden-store", "permanent": true},
+    {"source": "/projects/bah33-royal-hibernian-way", "destination": "/projects/restaurant-fit-out-dublin-2", "permanent": true}
   ]
 }

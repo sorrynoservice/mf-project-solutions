@@ -1,0 +1,203 @@
+{
+  "slug": "clinic-fit-out-dublin-1",
+  "title": "Clinic design and fit-out, Dublin 1",
+  "location": "Dublin 1",
+  "year": "2024",
+  "sector": "commercial",
+  "categories": [
+    "commercial",
+    "design",
+    "joinery"
+  ],
+  "role": "Design and build fit-out: MF designed the reception, waiting areas and joinery",
+  "summary": "We designed the reception and waiting areas, drew the joinery and then built it: a slatted, illuminated reception desk, timber wall panelling and storage.",
+  "intro": [
+    "The practice asked us for the interior design and the fit-out together. We prepared the layout, 3D views, finishes and lighting, and detailed drawings for the reception desk and panelling.",
+    "The works followed the design closely. The photographs below show the design views beside the finished rooms."
+  ],
+  "scope": [
+    "Layout and furniture plan",
+    "3D design views, finishes and lighting",
+    "Joinery drawings for the reception desk and panelling",
+    "Fit-out of the reception and waiting areas",
+    "Slatted timber panelling and feature column"
+  ],
+  "hero": {
+    "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
+    "caption": "Slatted wall and blue cabinetry with lighting",
+    "kind": "photo"
+  },
+  "heroMobile": {
+    "image": "/assets/work/rt/M141.jpg",
+    "caption": "Reception with illuminated desk and storage wall",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
+      "caption": "Slatted wall and blue cabinetry with lighting",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M141.jpg",
+      "caption": "Reception with illuminated desk and storage wall",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M142.jpg",
+      "caption": "Illuminated reception desk, second angle",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/clinic-waiting-room-entrance-with-shelving-148.jpg",
+      "caption": "Waiting room entrance with shelving",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/clinic-slatted-feature-column-with-pendant-ligh-140.jpg",
+      "caption": "Slatted feature column with pendant lighting",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/clinic-3d-isometric-of-reception-slatted-desk-a-124.jpg",
+        "caption": "3D isometric of reception, slatted desk and full-height storage",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M141.jpg",
+        "caption": "Reception with illuminated desk and storage wall",
+        "kind": "photo"
+      },
+      "caption": "Reception: 3D design view and the finished desk",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/clinic-reception-desk-joinery-details-views-and-130.jpg",
+        "caption": "Reception desk joinery details, views and sections",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/clinic-slatted-reception-desk-front-and-oak-top-138.jpg",
+        "caption": "Slatted reception desk front and oak top",
+        "kind": "photo"
+      },
+      "caption": "Desk details and the desk as built",
+      "type": "design-built"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "existing",
+      "text": "The existing corridor and glass block wall.",
+      "images": [
+        {
+          "image": "/assets/work/clinic-existing-glass-block-wall-and-corridor-133.jpg",
+          "caption": "Existing glass block wall and corridor",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "design",
+      "text": "Layout, 3D views and the reception desk details, prepared by MF.",
+      "images": [
+        {
+          "image": "/assets/work/clinic-clinic-floor-plan-with-furniture-layout-129.jpg",
+          "caption": "Clinic floor plan with furniture layout",
+          "kind": "drawing"
+        },
+        {
+          "image": "/assets/work/clinic-3d-isometric-of-reception-slatted-desk-a-124.jpg",
+          "caption": "3D isometric of reception, slatted desk and full-height storage",
+          "kind": "design"
+        },
+        {
+          "image": "/assets/work/clinic-3d-isometric-of-waiting-room-126.jpg",
+          "caption": "3D isometric of waiting room",
+          "kind": "design"
+        },
+        {
+          "image": "/assets/work/clinic-reception-desk-joinery-details-views-and-130.jpg",
+          "caption": "Reception desk joinery details, views and sections",
+          "kind": "drawing"
+        }
+      ]
+    },
+    {
+      "stage": "construction",
+      "text": "The glass block wall enclosed and the desk carcass installed.",
+      "images": [
+        {
+          "image": "/assets/work/clinic-glass-block-wall-being-enclosed-134.jpg",
+          "caption": "Glass block wall being enclosed",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/clinic-reception-desk-carcass-with-timber-top-o-136.jpg",
+          "caption": "Reception desk carcass with timber top on site",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/clinic-slatted-reception-desk-installed-storage-137.jpg",
+          "caption": "Slatted reception desk installed, storage behind",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "finishes",
+      "text": "Slatted desk front, oak top and timber panelling.",
+      "images": [
+        {
+          "image": "/assets/work/clinic-slatted-reception-desk-front-and-oak-top-138.jpg",
+          "caption": "Slatted reception desk front and oak top",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/clinic-slatted-timber-wall-panelling-with-stora-139.jpg",
+          "caption": "Slatted timber wall panelling with storage unit",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/clinic-slatted-feature-column-with-pendant-ligh-140.jpg",
+          "caption": "Slatted feature column with pendant lighting",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "text": "The finished reception and waiting areas.",
+      "images": [
+        {
+          "image": "/assets/work/rt/M141.jpg",
+          "caption": "Reception with illuminated desk and storage wall",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M142.jpg",
+          "caption": "Illuminated reception desk, second angle",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
+          "caption": "Slatted wall and blue cabinetry with lighting",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/clinic-waiting-room-entrance-with-shelving-148.jpg",
+          "caption": "Waiting room entrance with shelving",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "flagship": true,
+  "featured": true,
+  "order": 5,
+  "published": true
+}

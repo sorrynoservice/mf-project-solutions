@@ -1,0 +1,116 @@
+{
+  "slug": "our-garden-dwelling",
+  "title": "Our own garden dwelling",
+  "location": "Built for our founder",
+  "year": "2025",
+  "sector": "residential",
+  "categories": [
+    "garden-home",
+    "joinery"
+  ],
+  "role": "Design and build",
+  "summary": "A clad garden dwelling built by MF at our founder's home, with a kitchenette, shower room, bunk room and built-in storage.",
+  "hero": {
+    "image": "/assets/work/garden-dwelling-clad-garden-dwelling-at-dusk-planter-law-50.jpg",
+    "caption": "Clad garden dwelling at dusk, planter, lawn",
+    "kind": "photo"
+  },
+  "heroMobile": {
+    "image": "/assets/work/garden-clad-garden-dwelling-from-above-with-pat-g78.jpg",
+    "caption": "Clad garden dwelling from above, with patio and lawn",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/garden-dwelling-clad-garden-dwelling-at-dusk-planter-law-50.jpg",
+      "caption": "Clad garden dwelling at dusk, planter, lawn",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-kitchenette-and-shower-room-beyond-52.jpg",
+      "caption": "Kitchenette and shower room beyond",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-bunk-room-and-dining-corner-n014.jpg",
+      "caption": "Bunk room and dining corner",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-view-through-to-shower-room-53.jpg",
+      "caption": "View through to shower room",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-kitchenette-in-the-garden-dwelling-n017.jpg",
+      "caption": "Kitchenette in the garden dwelling",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-clad-garden-dwelling-from-above-with-pat-g78.jpg",
+      "caption": "Clad garden dwelling from above, with patio and lawn",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-garden-dwelling-cladding-and-window-at-d-n018.jpg",
+      "caption": "Garden dwelling cladding and window at dusk",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dwelling-bunk-room-55.jpg",
+      "caption": "Bunk room",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/garden-dwelling-clad-garden-dwelling-at-dusk-planter-law-50.jpg",
+          "caption": "Clad garden dwelling at dusk, planter, lawn",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-clad-garden-dwelling-from-above-with-pat-g78.jpg",
+          "caption": "Clad garden dwelling from above, with patio and lawn",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-dwelling-garden-dwelling-cladding-and-window-at-d-n018.jpg",
+          "caption": "Garden dwelling cladding and window at dusk",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-dwelling-kitchenette-and-shower-room-beyond-52.jpg",
+          "caption": "Kitchenette and shower room beyond",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-dwelling-kitchenette-in-the-garden-dwelling-n017.jpg",
+          "caption": "Kitchenette in the garden dwelling",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-dwelling-view-through-to-shower-room-53.jpg",
+          "caption": "View through to shower room",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-dwelling-bunk-room-55.jpg",
+          "caption": "Bunk room",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/garden-dwelling-bunk-room-and-dining-corner-n014.jpg",
+          "caption": "Bunk room and dining corner",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "flagship": true,
+  "order": 6,
+  "published": true,
+  "featured": false
+}

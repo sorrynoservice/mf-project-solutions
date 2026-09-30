@@ -1,0 +1,61 @@
+{
+  "slug": "glazed-garden-room",
+  "title": "Glazed outdoor room with timber pergola",
+  "location": "Dublin area",
+  "year": "2024",
+  "sector": "residential",
+  "categories": [
+    "veranda",
+    "patio"
+  ],
+  "role": "Built by MF",
+  "summary": "A glazed outdoor room under a timber pergola, set on a porcelain terrace.",
+  "hero": {
+    "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+    "caption": "Glazed room, porcelain terrace and lawn",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+      "caption": "Glazed room, porcelain terrace and lawn",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M178.jpg",
+      "caption": "Inside the glazed room, lounge and timber roof",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M179.jpg",
+      "caption": "Inside, lounge and slatted wall",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
+          "caption": "Glazed room, porcelain terrace and lawn",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M178.jpg",
+          "caption": "Inside the glazed room, lounge and timber roof",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M179.jpg",
+          "caption": "Inside, lounge and slatted wall",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 25,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

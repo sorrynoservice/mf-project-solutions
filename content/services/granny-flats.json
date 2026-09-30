@@ -1,0 +1,224 @@
+{
+  "slug": "granny-flats",
+  "route": "/granny-flats",
+  "name": "Garden homes and granny flats",
+  "pageCode": "GHM",
+  "leadRoute": "major",
+  "engine": "pipeline",
+  "formService": "Garden building or garden dwelling",
+  "seo": {
+    "title": "Garden Homes and Granny Flats Dublin | MF Project Solutions",
+    "description": "Garden homes and granny flats under the 2026 Class 3A rules: 32 to 45 m² homes in the rear garden, in Dublin, Meath and Kildare. We check your site first."
+  },
+  "hero": {
+    "eyebrow": "Garden homes and granny flats",
+    "h1": "Garden homes and granny flats in Dublin, Meath and Kildare",
+    "sub": "Since 27 July 2026, a detached home of 32 to 45 m² in your rear garden may be exempt from planning if it meets every Class 3A condition. We check your site first, then design and build it.",
+    "image": {
+      "image": "/assets/work/garden-dwelling-clad-garden-dwelling-at-dusk-planter-law-50.jpg",
+      "caption": "Our own garden dwelling at dusk",
+      "kind": "photo",
+      "focus": "45% 50%"
+    },
+    "imageMobile": {
+      "image": "/assets/work/garden-clad-garden-dwelling-from-above-with-pat-g78.jpg",
+      "caption": "Clad garden dwelling from above, with patio and lawn",
+      "kind": "photo"
+    },
+    "ctaLabel": "Check if your garden qualifies",
+    "bullets": [
+      "Our own garden dwelling to show you",
+      "Class 3A conditions checked against your site",
+      "Designed and built to Building Regulations as a new dwelling"
+    ]
+  },
+  "proof": [
+    {
+      "title": "We built our own",
+      "text": "Our own garden dwelling, with a bedroom, kitchenette, shower room and bunk room, shows the finish you can expect."
+    },
+    {
+      "title": "Rules before drawings",
+      "text": "We check the Class 3A conditions against your site before any design work, so you know early whether planning permission is needed."
+    },
+    {
+      "title": "Built as a home",
+      "text": "A garden home must meet Building Regulations in full as a new dwelling: fire, energy, ventilation, drainage and access. We design and price it on that basis."
+    }
+  ],
+  "intro": {
+    "title": "Garden room or garden home?",
+    "paragraphs": [
+      "Since 27 July 2026 they are legally different things. A garden room (Class 3) is a home office, gym, studio or store of up to 30 m², and nobody can live in it. A garden home (Class 3A) is a detached house of 32 to 45 m² in the rear garden, lived in together with the main house.",
+      "A garden home is meant for family use alongside the main house. It cannot be sold or let separately, and short-term letting is not allowed. If you are looking for a rental unit, this exemption is not the route."
+    ]
+  },
+  "gallery": {
+    "title": "Inside our garden dwellings",
+    "items": [
+      {
+        "image": "/assets/work/garden-dwelling-kitchenette-and-shower-room-beyond-52.jpg",
+        "caption": "Kitchenette with the shower room beyond, our own garden dwelling",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-dwelling-bunk-room-and-dining-corner-n014.jpg",
+        "caption": "Bunk room and dining corner, our own garden dwelling",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-dwelling-view-through-to-shower-room-53.jpg",
+        "caption": "View through to the shower room, our own garden dwelling",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-dwelling-kitchenette-in-the-garden-dwelling-n017.jpg",
+        "caption": "Kitchenette, our own garden dwelling",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/granny-flat-bedroom-with-built-in-wardrobes-and-bed-194.jpg",
+        "caption": "Bedroom with built-in wardrobes, garden dwelling",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-dwelling-garden-dwelling-cladding-and-window-at-d-n018.jpg",
+        "caption": "Cladding and window at dusk, our own garden dwelling",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-dwelling-bunk-room-55.jpg",
+        "caption": "Bunk room, our own garden dwelling",
+        "kind": "photo"
+      }
+    ]
+  },
+  "video": {
+    "src": "/media/video/V007.mp4",
+    "poster": "/media/video/V007.jpg",
+    "caption": "Our own garden dwelling: exterior, bedroom, kitchenette and bunk room",
+    "loop": true,
+    "title": "Inside our own garden dwelling"
+  },
+  "included": {
+    "title": "What we deliver",
+    "items": [
+      "Feasibility check against the Class 3A conditions for your site",
+      "Layout and design drawings for a 32 to 45 m² home",
+      "Construction to Building Regulations as a new dwelling",
+      "Kitchen, shower room and fitted joinery from our Drumree workshop",
+      "Services run from the main house, as the rules require"
+    ],
+    "priceFactors": [
+      "Floor area, between 32 and 45 m²",
+      "Groundworks and access to the rear garden, priced separately",
+      "Trenching and service runs from the main house, priced separately",
+      "Kitchen, bathroom and finish specification"
+    ]
+  },
+  "price": {
+    "headline": "Building from about €2,500 per m² including VAT.",
+    "note": "Groundworks, trenching and service connections are priced separately.",
+    "confirmed": false
+  },
+  "process": [
+    {
+      "title": "Feasibility check",
+      "text": "We check your site against the Class 3A conditions. The fee is fixed and quoted after the first meeting."
+    },
+    {
+      "title": "Design",
+      "text": "We develop the layout and drawings, designed to Building Regulations for a new dwelling."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation, with groundworks and service runs from the main house shown separately."
+    },
+    {
+      "title": "Notify and build",
+      "text": "The council is notified 14 days before work starts. Our crew then builds the home."
+    },
+    {
+      "title": "Handover",
+      "text": "We walk you through the finished home and its services."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "Do I need planning permission for a garden home?",
+      "a": "Not if it meets every one of the Class 3A conditions. If any condition is not met, planning permission is needed. We check your site first, and a Section 5 declaration from the council gives certainty."
+    },
+    {
+      "q": "Can I rent out a garden home?",
+      "a": "No. It must be lived in together with the main house. It cannot be sold or let separately, and short-term letting is not allowed."
+    },
+    {
+      "q": "Does my existing shed count?",
+      "a": "Yes. Existing sheds count towards the 45 m² limit."
+    },
+    {
+      "q": "Can the garden home have its own water and electricity connections?",
+      "a": "No. Separate utility connections are not allowed, so services run through the main house. Our costing allows for this."
+    },
+    {
+      "q": "How long does the exemption last?",
+      "a": "The home must be built and finished by 31 December 2030."
+    },
+    {
+      "q": "What if my garden does not qualify?",
+      "a": "Then planning permission is needed. An attached family flat is another route; it always needs planning permission and the rules are set by the county plan. Meath, for example, requires it to be attached to the house."
+    }
+  ],
+  "projectsTag": "garden-home",
+  "crossSell": [
+    {
+      "route": "/garden-rooms",
+      "label": "Garden rooms",
+      "text": "Need an office, gym or studio rather than a home? See garden rooms."
+    },
+    {
+      "route": "/design",
+      "label": "Design services",
+      "text": "How our staged design service works, from feasibility to drawings."
+    }
+  ],
+  "cta": {
+    "title": "Check if your garden qualifies",
+    "text": "Send us your Eircode and a few photos of the garden. We will tell you whether a Class 3A garden home looks possible or whether planning permission is needed."
+  },
+  "sections": [
+    {
+      "title": "The Class 3A rules in brief",
+      "paragraphs": [
+        "All 20 conditions must be met. If any one is not, planning permission is needed. These are the main ones."
+      ],
+      "bullets": [
+        "Detached home in the rear garden, 32 to 45 m², with existing sheds counting towards the 45 m²",
+        "Up to 4 m high with a pitched, tiled roof, or 3 m otherwise",
+        "Lived in together with the main house; cannot be sold or subdivided",
+        "No short-term letting",
+        "The owner lives in the main house when work starts",
+        "At least 0.6 m from the boundaries",
+        "At least 25 m² of garden kept",
+        "No separate utility connections",
+        "No new road access",
+        "The council is notified 14 days before work starts",
+        "Built and finished by 31 December 2030"
+      ]
+    },
+    {
+      "title": "Building Regulations apply in full",
+      "paragraphs": [
+        "A garden home is a new dwelling under Building Regulations. That covers fire safety, energy, ventilation, drainage and access. We design it to meet them from the first drawing.",
+        "The extension exemption cannot be used to extend a garden home later, so it is worth getting the size right at the start."
+      ]
+    },
+    {
+      "title": "Services through the main house",
+      "paragraphs": [
+        "Because separate utility connections are not allowed, water, power and drainage run through the main house. Our costing allows for these service runs from the start."
+      ]
+    }
+  ]
+}

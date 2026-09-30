@@ -1,0 +1,645 @@
+# Pages CMS configuration (https://pagescms.org/docs/configuration/)
+# Fields mirror src/lib/types.ts exactly. If you change one, change the other.
+# Plain-English guide for the team: docs/CONTENT.md
+
+media:
+  - name: assets
+    label: Photos
+    input: public/assets
+    output: /assets
+    categories: [image]
+  - name: media
+    label: Videos and posters
+    input: public/media
+    output: /media
+    categories: [image, video]
+
+components:
+  media_item:
+    label: Image
+    type: object
+    fields:
+      - name: image
+        label: Photo
+        type: image
+        required: true
+        options:
+          media: assets
+      - name: caption
+        label: Caption
+        type: string
+        description: Short caption. Also used as alt text when Alt is empty.
+      - name: alt
+        label: Alt text
+        type: string
+        description: What the photo shows, for screen readers and Google.
+      - name: kind
+        label: Kind of image
+        type: select
+        description: Anything that is not a photograph is labelled on the page.
+        default: photo
+        options:
+          values:
+            - { value: photo, label: Photograph }
+            - { value: design, label: Design (3D render) }
+            - { value: drawing, label: Drawing }
+            - { value: ai-enhanced, label: AI enhanced }
+      - name: focus
+        label: Focal point
+        type: string
+        description: 'Where to keep in view when cropped, e.g. "50% 40%" (left %, top %). Leave empty for centre.'
+
+  video_item:
+    label: Video
+    type: object
+    fields:
+      - name: src
+        label: Video
+        type: string
+        required: true
+        description: Path to a short MP4, e.g. /media/video/kitchen-loop.mp4, or a YouTube link for walkthroughs.
+      - name: poster
+        label: Poster image
+        type: image
+        required: true
+        description: Still shown before the video plays.
+        options:
+          media: media
+      - name: caption
+        label: Caption
+        type: string
+      - name: loop
+        label: Silent loop
+        type: boolean
+        description: On for short silent loops (may autoplay on desktop). Off for walkthroughs (click to play).
+
+  pair_item:
+    label: Pair
+    type: object
+    fields:
+      - name: a
+        label: First image (design or before)
+        component: media_item
+      - name: b
+        label: Second image (built or after)
+        component: media_item
+      - name: caption
+        label: Caption
+        type: string
+        required: true
+      - name: type
+        label: Pair type
+        type: select
+        required: true
+        options:
+          values:
+            - { value: design-built, label: Design beside built }
+            - { value: before-after, label: Before and after }
+
+  section_item:
+    label: Section
+    type: object
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: paragraphs
+        label: Paragraphs
+        type: text
+        list: true
+      - name: bullets
+        label: Bullet points
+        type: string
+        list: true
+
+content:
+  # ---------------------------------------------------------------- Projects
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    format: json
+    filename: "{fields.slug}.json"
+    view:
+      fields: [title, location, sector, published, order]
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: slug
+        label: Web address
+        type: string
+        required: true
+        description: Lower case with dashes, e.g. extension-renovation-phibsborough. Becomes /projects/<slug>. Do not change once live.
+        pattern:
+          regex: "^[a-z0-9]+(-[a-z0-9]+)*$"
+          message: Lower case letters, numbers and dashes only.
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: location
+        label: Location
+        type: string
+        required: true
+        description: Area only (e.g. Phibsborough, Dublin 7). Never a client's address.
+      - name: year
+        label: Year
+        type: string
+      - name: sector
+        label: Sector
+        type: select
+        required: true
+        options:
+          values: [residential, commercial]
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+        description: Tags that place the project on service pages, e.g. extension, kitchen, bathroom, garden-room, joinery, landscaping.
+      - name: role
+        label: Our role
+        type: string
+        required: true
+        description: One of the approved role phrases, stated exactly.
+      - name: architect
+        label: Architect
+        type: string
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+        description: One or two sentences for cards and Google.
+      - name: intro
+        label: Introduction paragraphs
+        type: text
+        list: true
+      - name: scope
+        label: Scope of works
+        type: string
+        list: true
+      - name: hero
+        label: Hero image
+        component: media_item
+        required: true
+      - name: heroMobile
+        label: Hero image for phones (optional, portrait)
+        component: media_item
+      - name: gallery
+        label: Gallery
+        component: media_item
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.caption}"
+        description: Drag to reorder. The first photos show first.
+      - name: before
+        label: Before photos
+        component: media_item
+        list: true
+      - name: after
+        label: After photos
+        component: media_item
+        list: true
+      - name: pairs
+        label: Image pairs
+        component: pair_item
+        list: true
+      - name: stages
+        label: Stages (story layout)
+        type: object
+        list: true
+        fields:
+          - name: stage
+            label: Stage
+            type: select
+            required: true
+            options:
+              values: [existing, design, construction, technical, services, finishes, completed]
+          - name: title
+            label: Title
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: images
+            label: Images
+            component: media_item
+            list: true
+          - name: videos
+            label: Videos
+            component: video_item
+            list: true
+      - name: videos
+        label: Videos
+        component: video_item
+        list: true
+      - name: reviews
+        label: Review ids
+        type: string
+        list: true
+        description: File names of reviews (without .json) to show on this project.
+      - name: flagship
+        label: Flagship (full story layout, shown first)
+        type: boolean
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: order
+        label: Order
+        type: number
+        description: Lower comes first.
+      - name: designNote
+        label: Design note
+        type: text
+      - name: published
+        label: Published
+        type: boolean
+        default: false
+        description: Off keeps the project off the website.
+      - name: pending
+        label: Awaiting confirmation
+        type: string
+        description: If filled in (say what is awaited), the project shows only on the preview site, marked.
+
+  # ---------------------------------------------------------------- Services
+  - name: services
+    label: Service pages
+    type: collection
+    path: content/services
+    format: json
+    filename: "{fields.slug}.json"
+    view:
+      fields: [name, route, pageCode, hidden]
+      primary: name
+      sort: [name]
+    fields:
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+      - name: route
+        label: Web address
+        type: string
+        required: true
+        description: Starts with /, e.g. /garden-rooms. Do not change once live (Google Ads point here).
+      - name: name
+        label: Menu name
+        type: string
+        required: true
+      - name: pageCode
+        label: Page code
+        type: string
+        required: true
+        description: Short code carried into WhatsApp messages and lead records, e.g. BTH.
+      - name: leadRoute
+        label: Leads go to
+        type: select
+        required: true
+        options:
+          values: [property, small, major]
+      - name: engine
+        label: Engine
+        type: select
+        required: true
+        options:
+          values: [cash-flow, pipeline, both, seasonal, organic]
+      - name: formService
+        label: Form pre-selects
+        type: string
+        required: true
+      - name: seo
+        label: Google title and description
+        type: object
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: h1, label: Heading, type: string, required: true }
+          - { name: sub, label: Sub heading, type: text, required: true }
+          - { name: image, label: Image, component: media_item, required: true }
+          - { name: imageMobile, label: Image for phones (optional), component: media_item }
+          - { name: ctaLabel, label: Button label, type: string, required: true }
+          - name: bullets
+            label: Trust points (up to three, verifiable facts only)
+            type: string
+            list: { max: 3, collapsible: false }
+      - name: proof
+        label: Proof points
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: text, label: Text, type: text, required: true }
+      - name: intro
+        label: Introduction
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+      - name: gallery
+        label: Gallery
+        type: object
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: intro, label: Intro, type: text }
+          - name: items
+            label: Photos
+            component: media_item
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.caption}"
+      - name: pairs
+        label: Image pairs
+        component: pair_item
+        list: true
+      - name: video
+        label: Video
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: src, label: Video, type: string, description: "Path to an MP4 under /media/video or a YouTube link." }
+          - { name: poster, label: Poster image, type: image, options: { media: media } }
+          - { name: caption, label: Caption, type: string }
+          - { name: loop, label: Silent loop, type: boolean }
+      - name: included
+        label: What's included
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: items, label: Items, type: string, list: true }
+          - { name: priceFactors, label: What affects the price, type: string, list: true }
+      - name: price
+        label: Price guide
+        type: object
+        fields:
+          - { name: headline, label: Headline, type: string }
+          - { name: note, label: Note, type: text }
+          - name: confirmed
+            label: Prices confirmed
+            type: boolean
+            description: Unconfirmed prices never show on the live site; the preview shows them marked.
+          - name: table
+            label: Price table
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Item, type: string }
+              - { name: value, label: Price, type: string }
+      - name: process
+        label: Process steps
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: text, label: Text, type: text, required: true }
+      - name: reviews
+        label: Review ids (in display order)
+        type: string
+        list: true
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - { name: q, label: Question, type: string, required: true }
+          - { name: a, label: Answer, type: text, required: true }
+      - name: projectsTag
+        label: Related projects tag
+        type: string
+        description: Projects with this category are shown on the page.
+      - name: crossSell
+        label: Related services
+        type: object
+        list: true
+        fields:
+          - { name: route, label: Web address, type: string, required: true }
+          - { name: label, label: Label, type: string, required: true }
+          - { name: text, label: Text, type: text }
+      - name: cta
+        label: Closing call to action
+        type: object
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: text, label: Text, type: text, required: true }
+      - name: sections
+        label: Extra sections
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: bullets, label: Bullet points, type: string, list: true }
+          - { name: image, label: Image, component: media_item }
+      - name: form
+        label: Form
+        type: select
+        options:
+          values: [enquiry, snag-booking]
+      - name: hidden
+        label: Hidden
+        type: boolean
+        description: Builds the page but leaves it out of menus, the sitemap and Google.
+
+  # ---------------------------------------------------------------- Reviews
+  - name: reviews
+    label: Reviews
+    type: collection
+    path: content/reviews
+    format: json
+    filename: "{fields.id}.json"
+    view:
+      fields: [name, date, category, show]
+      primary: name
+      sort: [date, name]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: id
+        label: Id
+        type: string
+        required: true
+        description: Same as the file name, e.g. firstname-lastinitial-2026. Used to place the review on pages.
+      - { name: name, label: Reviewer name, type: string, required: true }
+      - { name: date, label: Date of the Google review, type: date, required: true }
+      - { name: rating, label: Stars, type: number, options: { min: 1, max: 5 } }
+      - name: text
+        label: Review text
+        type: text
+        required: true
+        description: Exactly as written on Google (or the English translation, then tick Translated).
+      - { name: translated, label: Translated, type: boolean }
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: [snagging, pre-purchase, construction]
+      - name: services
+        label: Service tags
+        type: string
+        list: true
+        description: e.g. bathroom, garden-room, landscaping, extension, renovation.
+      - name: people
+        label: Team members mentioned
+        type: string
+        list: true
+      - name: highlight
+        label: Highlight
+        type: string
+        description: Short line for cards. Must be copied word for word from the review.
+      - name: show
+        label: Show on the website
+        type: boolean
+        default: false
+      - name: pending
+        label: Awaiting confirmation
+        type: string
+
+  # ---------------------------------------------------------------- People
+  - name: people
+    label: Team
+    type: collection
+    path: content/people
+    format: json
+    filename: "{fields.id}.json"
+    view:
+      fields: [name, role, order, show]
+      primary: name
+      sort: [order, name]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - { name: id, label: Id, type: string, required: true, description: "Same as the file name, e.g. wanessa." }
+      - { name: name, label: Name, type: string, required: true }
+      - { name: role, label: Role, type: string, required: true }
+      - { name: headshot, label: Headshot, type: image, required: true, options: { media: assets } }
+      - { name: bio, label: Bio paragraphs, type: text, list: true }
+      - name: route
+        label: Contact route shown on the card
+        type: select
+        options:
+          values: [property, small, major, none]
+      - { name: order, label: Order, type: number, required: true, description: Lower comes first. }
+      - { name: show, label: Show on the website, type: boolean, default: false }
+      - { name: pending, label: Awaiting confirmation, type: string }
+
+  # ---------------------------------------------------------------- Guides
+  - name: guides
+    label: Guides
+    type: collection
+    path: content/guides
+    format: json
+    filename: "{fields.slug}.json"
+    view:
+      fields: [title, route, updated]
+      primary: title
+    fields:
+      - { name: slug, label: Slug, type: string, required: true }
+      - { name: route, label: Web address, type: string, required: true, description: "Starts with /, e.g. /guides/garden-room-planning." }
+      - { name: title, label: Title, type: string, required: true }
+      - name: seo
+        label: Google title and description
+        type: object
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+      - { name: lead, label: Lead paragraph, type: text, required: true }
+      - { name: hero, label: Hero image, component: media_item }
+      - { name: updated, label: Last updated, type: date, required: true }
+      - name: sections
+        label: Sections
+        component: section_item
+        list: true
+      - name: related
+        label: Related links
+        type: object
+        list: true
+        fields:
+          - { name: route, label: Web address, type: string, required: true }
+          - { name: label, label: Label, type: string, required: true }
+      - name: leadRoute
+        label: Leads go to
+        type: select
+        required: true
+        options:
+          values: [property, small, major]
+      - { name: pageCode, label: Page code, type: string, required: true }
+
+  # ---------------------------------------------------------------- Settings
+  - name: settings
+    label: Site settings
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - name: company
+        label: Company
+        type: object
+        fields:
+          - { name: name, label: Trading name, type: string, required: true }
+          - { name: legalName, label: Legal name, type: string, required: true }
+          - { name: companyReg, label: Company reg. number, type: string, required: true }
+          - { name: vat, label: VAT number, type: string, required: true }
+          - { name: established, label: Year established, type: number, required: true }
+          - { name: address, label: Address, type: string, required: true }
+          - { name: eircode, label: Eircode, type: string, required: true }
+          - { name: reviewUrl, label: Google review link, type: string, required: true }
+          - { name: facebook, label: Facebook, type: string, required: true }
+          - { name: instagram, label: Instagram, type: string, required: true }
+          - { name: linkedin, label: LinkedIn, type: string }
+          - { name: youtube, label: YouTube, type: string }
+      - name: routes
+        label: Lead routes (who gets which enquiries)
+        type: object
+        fields:
+          - name: property
+            label: Property services (snagging, inspections)
+            type: object
+            fields: &route_fields
+              - { name: label, label: Label, type: string, required: true }
+              - { name: person, label: Person, type: string, required: true }
+              - { name: phone, label: Phone (as shown), type: string, required: true }
+              - { name: tel, label: "Phone link (tel:+353...)", type: string, required: true }
+              - { name: whatsapp, label: "WhatsApp link (https://wa.me/353...)", type: string, required: true }
+              - { name: email, label: Email, type: string, required: true }
+          - name: small
+            label: Smaller works
+            type: object
+            fields: *route_fields
+          - name: major
+            label: Major projects
+            type: object
+            fields: *route_fields
+      - name: serviceArea
+        label: Service area
+        type: object
+        fields:
+          - { name: centre, label: Centre, type: string, required: true }
+          - { name: radiusKm, label: Radius (km), type: number, required: true }
+          - { name: summary, label: Summary, type: string, required: true }
+      - { name: web3formsKey, label: Web3Forms key, type: string }
+      - name: leadSheetUrl
+        label: Lead sheet URL
+        type: string
+        description: Google Apps Script web app URL that logs leads to the Master Control sheet. Empty turns it off.
+      - name: finance
+        label: Finance (Humm)
+        type: object
+        fields:
+          - { name: enabled, label: Show finance block, type: boolean, description: Stays off until approved. }
+          - { name: text, label: Text, type: text }
+      - name: instagramStrip
+        label: Instagram strip
+        component: media_item
+        list: true

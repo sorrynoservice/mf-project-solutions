@@ -1,0 +1,133 @@
+{
+  "slug": "decking-pergolas",
+  "route": "/decking-pergolas",
+  "name": "Decking and pergolas",
+  "pageCode": "DEK",
+  "leadRoute": "small",
+  "engine": "organic",
+  "formService": "Outdoor living",
+  "seo": {
+    "title": "Decking and Pergolas Dublin and Meath | MF Project Solutions",
+    "description": "Decks, canopies and pergolas in Dublin, Meath and Kildare, built by our own crew and planned with the patio, lawn and drainage around them. Ask for a quote."
+  },
+  "hero": {
+    "eyebrow": "Decking and pergolas",
+    "h1": "Decking, canopies and pergolas in Dublin and Meath",
+    "sub": "We build decks, canopies and pergolas, and plan them with the patio, lawn and drainage around them.",
+    "image": {
+      "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
+      "caption": "Canopy over a porcelain patio, with lawn and path",
+      "kind": "photo",
+      "focus": "50% 30%"
+    },
+    "ctaLabel": "Ask about your garden",
+    "bullets": [
+      "Built by our own crew",
+      "Planned with the patio and lawn around it"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Canopy over a patio",
+      "text": "A canopy built over a new porcelain patio, with a lawn and stepping-stone path leading to it."
+    },
+    {
+      "title": "Designed first",
+      "text": "We prepare concept designs for pergolas and seating areas so you can see the layout before we build."
+    },
+    {
+      "title": "Part of the whole garden",
+      "text": "Decks and pergolas are planned with the paving, lawn and drainage, not added as an afterthought."
+    }
+  ],
+  "gallery": {
+    "title": "Outdoor structures",
+    "intro": "We have fewer photos of decks and pergolas than of our other work. More are being added.",
+    "items": [
+      {
+        "image": "/assets/work/canopy-canopy-and-path-through-lawn-187.jpg",
+        "caption": "Canopy over a porcelain patio",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/staged/M65.jpg",
+        "caption": "Decking, artificial grass and garden store",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/staged/M324.jpg",
+        "caption": "Pergola garden with lounge and lighting, concept design",
+        "kind": "design"
+      }
+    ]
+  },
+  "included": {
+    "title": "What we build",
+    "items": [
+      "Decks",
+      "Canopies over patios",
+      "Pergolas and covered seating areas",
+      "The patio, lawn and drainage around them, if you want the whole garden done"
+    ],
+    "priceFactors": [
+      "Size of the deck or structure",
+      "Materials",
+      "Roof or open top",
+      "Ground conditions and levels"
+    ]
+  },
+  "process": [
+    {
+      "title": "Tell us about the garden",
+      "text": "Send photos and rough sizes, and tell us how you want to use the space."
+    },
+    {
+      "title": "Visit and design",
+      "text": "We check levels and access and agree a design, with a concept drawing where useful."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation for the structure and any other garden work."
+    },
+    {
+      "title": "Build",
+      "text": "Our crew builds it on site."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "What changes the price?",
+      "a": "The size of the deck or structure, the materials, whether it has a roof, and the ground conditions and levels. Your detailed written quotation sets it out."
+    },
+    {
+      "q": "I want a covered area I can use in the rain. Is a pergola right?",
+      "a": "A timber veranda, open or enclosed with sliding glass, may suit better. See our timber verandas and glass rooms page."
+    },
+    {
+      "q": "Do I need planning permission?",
+      "a": "It depends on the size, height and position. We check your site first, and a Section 5 declaration from the council gives certainty."
+    },
+    {
+      "q": "Do you work in my area?",
+      "a": "We work within 50 km of Dunshaughlin, Co. Meath. That covers all of Dublin and towns in Meath, Kildare, Louth (such as Drogheda) and north Wicklow."
+    }
+  ],
+  "projectsTag": "decking",
+  "crossSell": [
+    {
+      "route": "/porcelain-patios",
+      "label": "Porcelain patios",
+      "text": "Paving laid on a compacted sub-base with falls and drainage."
+    },
+    {
+      "route": "/timber-verandas-glass-rooms",
+      "label": "Timber verandas and glass rooms",
+      "text": "Want it covered or enclosed? See our timber verandas."
+    }
+  ],
+  "cta": {
+    "title": "Planning a deck or pergola?",
+    "text": "Send us photos of the garden and rough sizes. We will visit and prepare a detailed written quotation."
+  }
+}

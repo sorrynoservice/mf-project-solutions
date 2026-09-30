@@ -1,0 +1,84 @@
+{
+  "slug": "ber",
+  "route": "/ber",
+  "name": "BER certificates",
+  "pageCode": "BER",
+  "leadRoute": "property",
+  "engine": "cash-flow",
+  "formService": "BER certificate",
+  "hidden": true,
+  "seo": {
+    "title": "BER Certificates Dublin and Meath | MF Project Solutions",
+    "description": "BER certificates for homes in Dublin, Meath and Kildare, planned as part of the MF Project Solutions property services. Not yet available to book online."
+  },
+  "hero": {
+    "eyebrow": "BER certificates",
+    "h1": "BER certificates in Dublin and Meath",
+    "sub": "A BER service is being prepared as part of our property services. It is not available to book yet.",
+    "image": {
+      "image": "/media/video/V014.jpg",
+      "caption": "MF property services",
+      "kind": "photo"
+    },
+    "ctaLabel": "Ask about BER",
+    "bullets": [
+      "Part of our property services",
+      "Within 50 km of Dunshaughlin"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Property services",
+      "text": "Planned alongside our snag list inspections and pre-purchase property inspections."
+    },
+    {
+      "title": "Local",
+      "text": "We work within 50 km of Dunshaughlin, Co. Meath, including all of Dublin."
+    },
+    {
+      "title": "Not yet bookable",
+      "text": "This page is a draft. Details will be added before the service is offered."
+    }
+  ],
+  "gallery": {
+    "title": "Property services",
+    "items": []
+  },
+  "process": [
+    {
+      "title": "Contact us",
+      "text": "Message us to ask about BER."
+    },
+    {
+      "title": "We reply",
+      "text": "We will tell you when the service is available."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "Can I book a BER now?",
+      "a": "Not yet. The service is being prepared and will be listed here when it is available."
+    },
+    {
+      "q": "What property services can I book now?",
+      "a": "Snag list inspections for new homes and pre-purchase property inspections for second-hand homes."
+    }
+  ],
+  "crossSell": [
+    {
+      "route": "/snagging",
+      "label": "Snag list inspections",
+      "text": "Photo report you can send to the builder."
+    },
+    {
+      "route": "/pre-purchase-survey",
+      "label": "Pre-purchase property inspection",
+      "text": "A practical inspection before you sign."
+    }
+  ],
+  "cta": {
+    "title": "Interested in a BER?",
+    "text": "Send us a message and we will let you know when the service is available."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "garden-dwelling-interiors",
+  "title": "Garden dwelling interior",
+  "location": "Dublin area",
+  "year": "2023",
+  "sector": "residential",
+  "categories": [
+    "garden-home",
+    "joinery"
+  ],
+  "role": "Built by MF",
+  "summary": "A self-contained garden dwelling with a bedroom, built-in wardrobes, shower room and kitchenette.",
+  "hero": {
+    "image": "/assets/work/granny-flat-bedroom-with-built-in-wardrobes-and-bed-194.jpg",
+    "caption": "Bedroom with built-in wardrobes and bed",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/granny-flat-bedroom-with-built-in-wardrobes-and-bed-194.jpg",
+      "caption": "Bedroom with built-in wardrobes and bed",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/granny-flat-shower-room-195.jpg",
+      "caption": "Shower room",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rt/M197.jpg",
+      "caption": "Hall with glazed door",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/granny-flat-bedroom-with-built-in-wardrobes-and-bed-194.jpg",
+          "caption": "Bedroom with built-in wardrobes and bed",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/granny-flat-shower-room-195.jpg",
+          "caption": "Shower room",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/rt/M197.jpg",
+          "caption": "Hall with glazed door",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "order": 32,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

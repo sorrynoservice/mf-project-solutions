@@ -1,0 +1,225 @@
+{
+  "slug": "commercial-fit-outs",
+  "route": "/commercial-fit-outs",
+  "name": "Commercial fit-outs",
+  "pageCode": "COM",
+  "leadRoute": "major",
+  "engine": "pipeline",
+  "formService": "Commercial fit-out",
+  "seo": {
+    "title": "Commercial Fit-Outs Dublin | MF Project Solutions",
+    "description": "Restaurant and clinic fit-outs in Dublin, from BAH33 on Royal Hibernian Way to a Dublin 1 clinic we designed and built. We work with your design team."
+  },
+  "hero": {
+    "eyebrow": "Commercial fit-outs",
+    "h1": "Commercial fit-outs in Dublin",
+    "sub": "Restaurant, hospitality and clinic fit-outs, built from your design team's drawings or designed by us, with joinery from our Drumree workshop.",
+    "image": {
+      "image": "/assets/work/bah33-main-dining-room-and-buffet-h07.jpg",
+      "caption": "Main dining room, BAH33, Royal Hibernian Way",
+      "kind": "photo"
+    },
+    "imageMobile": {
+      "image": "/assets/work/bah33-covered-terrace-seating-h12.jpg",
+      "caption": "Covered terrace seating, BAH33, Royal Hibernian Way",
+      "kind": "photo"
+    },
+    "ctaLabel": "Talk to us about your unit",
+    "bullets": [
+      "BAH33, Royal Hibernian Way, Dublin 2",
+      "Clinic in Dublin 1 designed and built by us",
+      "Own joinery workshop in Drumree"
+    ]
+  },
+  "proof": [
+    {
+      "title": "BAH33, Royal Hibernian Way",
+      "text": "A new porcelain floor installed over the Christmas closure, then a bar and washrooms designed by us. We worked with the design team, Assigned Certifier and fire engineer."
+    },
+    {
+      "title": "Clinic, Dublin 1",
+      "text": "We designed the reception, waiting areas and joinery, then built them."
+    },
+    {
+      "title": "Joinery made in Drumree",
+      "text": "Reception desks and feature joinery made in our own workshop and fitted by our joiners."
+    }
+  ],
+  "gallery": {
+    "title": "Commercial work",
+    "items": [
+      {
+        "image": "/assets/work/bah33-dining-room-brick-feature-wall-h08.jpg",
+        "caption": "Dining room with illuminated brick wall, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bah33-glazed-terrace-and-shopfront-h06.jpg",
+        "caption": "Glazed terrace and shopfront, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg",
+        "caption": "Washroom with slatted timber and gold taps, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bah33-terrace-enclosure-to-the-lane-h09.jpg",
+        "caption": "Terrace enclosure looking out to the lane, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bah33-washroom-corridor-sign-h11.jpg",
+        "caption": "Washroom corridor, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/clinic-slatted-wall-and-blue-cabinetry-with-lig-143.jpg",
+        "caption": "Slatted wall and blue cabinetry, Clinic, Dublin 1",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/rt/M141.jpg",
+        "caption": "Reception with illuminated desk, Clinic, Dublin 1",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bah33-wc-marble-effect-walls-h05.jpg",
+        "caption": "WC with marble-effect walls, BAH33, Royal Hibernian Way",
+        "kind": "photo"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/bah33-washroom-with-timber-cladding-and-round-306.jpg",
+        "caption": "Our washroom render, BAH33",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg",
+        "caption": "The finished washroom, BAH33",
+        "kind": "photo"
+      },
+      "caption": "BAH33, Royal Hibernian Way: our washroom render beside the finished room",
+      "type": "design-built"
+    },
+    {
+      "a": {
+        "image": "/assets/work/clinic-3d-isometric-of-reception-slatted-desk-a-124.jpg",
+        "caption": "Our reception design, Clinic, Dublin 1",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/rt/M141.jpg",
+        "caption": "The finished reception, Clinic, Dublin 1",
+        "kind": "photo"
+      },
+      "caption": "Clinic, Dublin 1: our reception design beside the finished reception",
+      "type": "design-built"
+    }
+  ],
+  "video": {
+    "src": "/media/video/V158.mp4",
+    "poster": "/media/video/V158.jpg",
+    "caption": "BAH33, Royal Hibernian Way, Dublin 2",
+    "loop": true,
+    "title": "BAH33, Royal Hibernian Way"
+  },
+  "included": {
+    "title": "What we deliver",
+    "items": [
+      "Fit-out built from your design team's drawings",
+      "Commercial interior and fit-out design, if you need it",
+      "Flooring, bars, washrooms and reception areas",
+      "Joinery made in our Drumree workshop",
+      "Work planned around closures, as with the BAH33 floor over Christmas",
+      "Coordination with your design team, Assigned Certifier and fire engineer"
+    ],
+    "priceFactors": [
+      "Size of the unit",
+      "Whether work must happen during closures or out of hours",
+      "The design and finish specification",
+      "Joinery, bars and washrooms",
+      "Certification and fire safety requirements"
+    ]
+  },
+  "process": [
+    {
+      "title": "Drawings or brief",
+      "text": "Send your design team's drawings, or tell us about the unit and what it needs to do."
+    },
+    {
+      "title": "Site visit",
+      "text": "Alex visits the unit and discusses trading, access and timing constraints."
+    },
+    {
+      "title": "Design or pricing",
+      "text": "We price your drawings, or develop the fit-out design with you."
+    },
+    {
+      "title": "Detailed written quotation",
+      "text": "You receive a written quotation for the fit-out."
+    },
+    {
+      "title": "Build and handover",
+      "text": "We build the fit-out, working with your certifiers, and hand over the unit."
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "Can you work around our trading hours?",
+      "a": "We plan the work around your business. At BAH33 we installed a new porcelain floor over the Christmas closure."
+    },
+    {
+      "q": "Do you work with our design team?",
+      "a": "Yes. At BAH33 we worked with the design team, Assigned Certifier and fire engineer."
+    },
+    {
+      "q": "Can you design the fit-out?",
+      "a": "Yes. We designed the reception, waiting areas and joinery for a Dublin 1 clinic, and the bar and washrooms at BAH33. Design is a paid service with a fixed fee quoted after the first meeting."
+    },
+    {
+      "q": "Do you provide fire safety certificates or act as Assigned Certifier?",
+      "a": "No. Fire engineering, fire safety certificates and the Assigned Certifier role are handled by registered external professionals. We work alongside them."
+    },
+    {
+      "q": "Do you make the joinery?",
+      "a": "Yes. Commercial joinery such as reception desks is made in our Drumree workshop and fitted by our joiners."
+    }
+  ],
+  "projectsTag": "commercial",
+  "crossSell": [
+    {
+      "route": "/design",
+      "label": "Design services",
+      "text": "Commercial interior and fit-out design, from layout to built."
+    },
+    {
+      "route": "/bespoke-joinery",
+      "label": "Bespoke joinery",
+      "text": "Reception desks and feature joinery from our workshop."
+    }
+  ],
+  "cta": {
+    "title": "Fitting out a unit?",
+    "text": "Send us your drawings, or tell us about the unit. Alex will arrange a visit."
+  },
+  "sections": [
+    {
+      "title": "Two ways to start",
+      "paragraphs": [
+        "Already have drawings? We price and build from your architect's or designer's drawings and work with your design team.",
+        "Need design help? We develop layouts, interiors, 3D visualisation, planning and design drawings and the construction concept, bringing in the appropriate architect, engineer or other professional where specialist engineering, certification or regulated services are required, and can then build it."
+      ]
+    },
+    {
+      "title": "Certification and fire safety",
+      "paragraphs": [
+        "Fit-outs often need fire safety certificates, an Assigned Certifier and fire engineering. These are provided by registered external professionals, not under our name. We work alongside them, as we did at BAH33."
+      ]
+    }
+  ]
+}

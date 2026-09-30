@@ -1,0 +1,155 @@
+{
+  "slug": "pre-purchase-survey",
+  "route": "/pre-purchase-survey",
+  "name": "Pre-purchase property inspection",
+  "pageCode": "PPS",
+  "leadRoute": "property",
+  "engine": "cash-flow",
+  "formService": "Pre-purchase property inspection",
+  "form": "enquiry",
+  "seo": {
+    "title": "Pre-Purchase Property Survey Dublin | MF Project Solutions",
+    "description": "Pre-purchase property inspection of second-hand homes in Dublin, Meath and Kildare for €650 plus VAT. A practical written report before you sign."
+  },
+  "hero": {
+    "eyebrow": "Pre-purchase property inspection",
+    "h1": "Pre-purchase property inspection in Dublin and Meath",
+    "sub": "A practical inspection of a second-hand home by construction people, before you sign. You get a written report on what we found and what needs a closer look.",
+    "image": {
+      "image": "/media/video/V014.jpg",
+      "caption": "MF property inspection",
+      "kind": "photo"
+    },
+    "ctaLabel": "Book an inspection",
+    "bullets": [
+      "€650 plus VAT",
+      "For second-hand homes, before you sign",
+      "Optional repair and upgrade estimate"
+    ]
+  },
+  "proof": [
+    {
+      "title": "Construction people",
+      "text": "The inspection is carried out by people who build and renovate homes, so the report focuses on what matters in practice."
+    },
+    {
+      "title": "Honest about limits",
+      "text": "Where something needs an engineer or another specialist, the report says so instead of guessing."
+    },
+    {
+      "title": "Costs if you want them",
+      "text": "On request, we add an estimate for the repairs and upgrades you are considering."
+    }
+  ],
+  "intro": {
+    "title": "Know what you are buying",
+    "paragraphs": [
+      "A second-hand home can hide damp, tired windows or a roof that needs work. Our pre-purchase property inspection looks at the visible condition of the house and tells you, in plain English, what we found.",
+      "Wanessa leads our property inspection service and is your contact from booking to report."
+    ]
+  },
+  "gallery": {
+    "title": "Inspections and reports",
+    "intro": "Photos from our inspections and sample report pages are being added.",
+    "items": []
+  },
+  "included": {
+    "title": "What the inspection covers",
+    "items": [
+      "Visible condition of the roof, from the ground and accessible areas",
+      "Walls, windows and doors",
+      "Signs of damp",
+      "A visual check of the services",
+      "The attic, if it is accessible",
+      "A clear written report, with anything that needs a specialist flagged"
+    ]
+  },
+  "price": {
+    "headline": "€650 plus VAT",
+    "note": "For a pre-purchase property inspection of a second-hand home. An optional repair and upgrade estimate is available on request.",
+    "confirmed": true
+  },
+  "process": [
+    {
+      "title": "Book",
+      "text": "Send us the address and where you are in the sale by WhatsApp, phone or the form."
+    },
+    {
+      "title": "Inspection",
+      "text": "We inspect the visible condition of the house, including the attic if it is accessible."
+    },
+    {
+      "title": "Written report",
+      "text": "You receive a clear report of what we found, with anything that needs an engineer or specialist flagged."
+    },
+    {
+      "title": "Estimate, if you want one",
+      "text": "On request, we price the repairs and upgrades you are considering."
+    }
+  ],
+  "reviews": [
+    "leonardo-baptista-de-jesus-2025-03-30"
+  ],
+  "faqs": [
+    {
+      "q": "Does the inspection include structural calculations?",
+      "a": "No. It is a practical pre-purchase property inspection of the visible condition of the home. We do not carry out structural calculations. Where something needs an engineer, the report says so."
+    },
+    {
+      "q": "When should I book?",
+      "a": "Before you sign. The report is most useful while you can still ask questions or negotiate."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "€650 plus VAT."
+    },
+    {
+      "q": "Do you test the heating and electrics?",
+      "a": "Services are checked visually. We do not test services unless that has been agreed in advance."
+    },
+    {
+      "q": "Can you tell me what repairs will cost?",
+      "a": "Yes. On request, we add an estimate for repairs and upgrades to the report."
+    },
+    {
+      "q": "Who will I deal with?",
+      "a": "Wanessa leads the property inspection service and is your contact from booking to report."
+    }
+  ],
+  "projectsTag": "snagging",
+  "crossSell": [
+    {
+      "route": "/snagging",
+      "label": "Snag list inspections",
+      "text": "Buying a new build? Book a snag inspection with a photo report for the builder."
+    }
+  ],
+  "cta": {
+    "title": "Buying a second-hand home?",
+    "text": "Send us the address and your timeline. We will confirm a date for the inspection and the written report."
+  },
+  "sections": [
+    {
+      "title": "What we inspect",
+      "bullets": [
+        "Roof: visible condition from the ground and accessible areas",
+        "External and internal walls",
+        "Windows and doors",
+        "Signs of damp",
+        "Services, checked visually",
+        "Attic, if accessible"
+      ]
+    },
+    {
+      "title": "What we do not do",
+      "paragraphs": [
+        "Where something needs an engineer, the report says so."
+      ],
+      "bullets": [
+        "No opening up of floors, walls or finishes",
+        "No testing of services unless agreed in advance",
+        "No structural calculations"
+      ]
+    }
+  ]
+}

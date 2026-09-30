@@ -1,0 +1,13 @@
+{
+  "id": "alex-ferreira",
+  "name": "Alex Ferreira",
+  "role": "Founder and Managing Director",
+  "headshot": "/assets/alexandre-ferreira.jpg",
+  "bio": [
+    "Alex Ferreira holds a Bachelor's degree in Construction Project Management and has over 25 years' experience across construction, engineering and project delivery. He started as a draftsperson in Massachusetts, went on to run his own construction companies in the US, and later worked in quality management on large projects in Ireland and Europe.",
+    "Alex founded MF Project Solutions in 2021. He leads the larger projects and works directly with architects and commercial clients."
+  ],
+  "route": "major",
+  "order": 1,
+  "show": true
+}

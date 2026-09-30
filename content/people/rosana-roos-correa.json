@@ -1,0 +1,13 @@
+{
+  "id": "rosana-roos-correa",
+  "name": "Rosana Roos Corrêa",
+  "role": "Business and Financial Project Manager",
+  "headshot": "/assets/rosana-roos-correa.jpg",
+  "bio": [
+    "Rosana is often the first person clients speak to, especially on bathrooms, garden rooms and outdoor work. She looks after quotes, scheduling, accounts and payments.",
+    "She brings over 10 years in banking as a relationship manager."
+  ],
+  "route": "small",
+  "order": 3,
+  "show": true
+}
