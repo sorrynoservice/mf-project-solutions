@@ -34,7 +34,7 @@ function Rows({
     const cls = { 1: "", 2: "grid-cols-2", 3: "grid-cols-2 sm:grid-cols-3", 4: "grid-cols-2 lg:grid-cols-4" }[count] ?? "grid-cols-2 lg:grid-cols-4";
     out.push(
       <div key={r} className={`grid gap-3 ${cls}`}>
-        {items.slice(k, k + count).map((m, i) => tile(m, offset + k + i, "aspect-[4/3]", `(min-width: 1024px) ${Math.round(100 / count)}vw, 50vw`))}
+        {items.slice(k, k + count).map((m, i) => tile(m, offset + k + i, count === 1 ? "aspect-[16/9] lg:aspect-[21/9]" : "aspect-[4/3]", `(min-width: 1024px) ${Math.round(100 / count)}vw, 50vw`))}
       </div>,
     );
     k += count;

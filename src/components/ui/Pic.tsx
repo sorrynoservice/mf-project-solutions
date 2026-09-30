@@ -70,6 +70,11 @@ export function HeroImage({ desktop, mobile, className = "" }: { desktop: MediaI
         className="absolute inset-0 h-full w-full object-cover fx"
         style={{ backgroundColor: d.color, ["--pos" as string]: desktop.focus || "50% 50%", ["--mpos" as string]: (mobile ?? desktop).focus || "50% 50%" }}
       />
+      {[desktop, mobile].some((x) => x?.kind && x.kind !== "photo") && (
+        <span className="absolute bottom-4 right-4 z-20 rounded bg-black/65 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-white">
+          Design image
+        </span>
+      )}
     </picture>
   );
 }
