@@ -54,7 +54,7 @@
     ]
   },
   "gallery": {
-    "title": "Built from the design",
+    "title": "Our 3D designs",
     "items": [
       {
         "image": "/assets/work/design-garden-pergola-lawn-and-fire-pit-render-g08.jpg",
@@ -70,31 +70,6 @@
         "image": "/assets/work/design-attic-bedroom-media-wall-and-pendant-render-a25.jpg",
         "caption": "Attic design: bedroom with media wall and feature pendant",
         "kind": "design"
-      },
-      {
-        "image": "/assets/work/phibsborough-full-height-oak-joinery-and-fireplace-89.jpg",
-        "caption": "Oak joinery made in our workshop, Phibsborough",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/phibsborough-red-island-oak-joinery-stone-splashback-86.jpg",
-        "caption": "Oak and red kitchen made in our workshop, Phibsborough",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M29.jpg",
-        "caption": "Bathroom built to our 3D design, Rathcoole",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/bah33-double-vanity-slatted-timber-h10.jpg",
-        "caption": "Washroom built to our design, BAH33, Royal Hibernian Way",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/rt/M141.jpg",
-        "caption": "Reception built to our design, Clinic, Dublin 1",
-        "kind": "photo"
       },
       {
         "image": "/assets/work/design-garden-pergola-deck-and-lighting-render-g01.jpg",
@@ -166,7 +141,8 @@
         "caption": "Kitchen design: coffee and wine bar with slatted panel",
         "kind": "design"
       }
-    ]
+    ],
+    "intro": "Design images we have produced for clients. Finished rooms built from our designs are shown beside their design further down the page."
   },
   "pairs": [
     {
