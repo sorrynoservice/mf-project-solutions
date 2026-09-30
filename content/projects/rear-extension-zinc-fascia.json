@@ -1,0 +1,71 @@
+{
+  "slug": "rear-extension-zinc-fascia",
+  "title": "Single storey rear extension with standing seam fascia",
+  "location": "Location to be confirmed",
+  "sector": "residential",
+  "categories": [
+    "extension"
+  ],
+  "role": "Designed and built by MF",
+  "summary": "A single storey rear extension with a flat roof, rooflights, a standing seam metal fascia and French doors, finished with porcelain paving and artificial grass.",
+  "intro": [
+    "We modelled the extension in 3D first, so the client could see the roof, rooflights, fascia and doors before we started.",
+    "The finished extension opens to the garden through French doors with top-hung side windows, with porcelain paving along the extension and down the side passage."
+  ],
+  "scope": [
+    "Design and 3D model",
+    "Foundations, blockwork and flat roof with rooflights",
+    "Standing seam metal fascia",
+    "French doors and side windows",
+    "External render",
+    "Porcelain paving and artificial grass"
+  ],
+  "hero": {
+    "image": "/assets/work/extension-rear-extension-zinc-fascia-and-french-doors-x02.jpg",
+    "caption": "Finished rear extension with standing seam fascia and French doors",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/extension-rear-extension-zinc-fascia-and-french-doors-x02.jpg",
+      "caption": "Finished rear extension with standing seam fascia and French doors",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/extension-porcelain-path-along-the-new-extension-x03.jpg",
+      "caption": "Porcelain path along the new extension",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/extension-porcelain-side-passage-and-render-x04.jpg",
+      "caption": "Porcelain side passage and new render",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/extension-rear-extension-3d-model-with-rooflights-x01.jpg",
+      "caption": "Our 3D model of the extension, with rooflights and zinc fascia",
+      "kind": "design"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/extension-rear-extension-3d-model-with-rooflights-x01.jpg",
+        "caption": "Our 3D model of the extension, with rooflights and zinc fascia",
+        "kind": "design"
+      },
+      "b": {
+        "image": "/assets/work/extension-rear-extension-zinc-fascia-and-french-doors-x02.jpg",
+        "caption": "Finished rear extension with standing seam fascia and French doors",
+        "kind": "photo"
+      },
+      "caption": "The 3D model beside the finished extension",
+      "type": "design-built"
+    }
+  ],
+  "pending": "Location for this project (client's area), and confirm MF did the design as well as the build",
+  "order": 11,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}
