@@ -58,6 +58,26 @@
     "title": "Recent bathrooms",
     "items": [
       {
+        "image": "/assets/work/bathroom-marble-look-walk-in-shower-and-oak-vanity-b03.jpg",
+        "caption": "Walk-in shower, marble-look tile and oak vanity",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bathroom-beige-terrazzo-tile-brass-quadrant-shower-b01.jpg",
+        "caption": "Terrazzo-look tile, brushed brass shower and lit mirror",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bathroom-brass-shower-room-with-lit-oak-niche-b04.jpg",
+        "caption": "Compact shower room with a lit oak niche and brass fittings",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/bathroom-stone-feature-wall-black-framed-shower-b02.jpg",
+        "caption": "Stone feature wall, black framed shower and lit niche",
+        "kind": "photo"
+      },
+      {
         "image": "/assets/work/rt/N098.jpg",
         "caption": "Stone-look tile and oval mirror, Leopardstown",
         "kind": "photo"

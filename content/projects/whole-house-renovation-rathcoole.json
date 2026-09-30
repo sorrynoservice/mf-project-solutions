@@ -31,14 +31,19 @@
     "kind": "photo"
   },
   "heroMobile": {
-    "image": "/assets/work/rathcoole-bedroom-with-built-in-desk-and-lit-shelv-n065.jpg",
-    "caption": "Bedroom with built-in desk and lit shelving",
+    "image": "/assets/work/rathcoole-rear-extension-at-dusk-rooflights-and-cladding-r01.jpg",
+    "caption": "The rear extension at dusk: rooflights, cladding and folding doors",
     "kind": "photo"
   },
   "gallery": [
     {
       "image": "/assets/work/rt/M19.jpg",
       "caption": "Attic dressing room with island unit and eaves wardrobes",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/rathcoole-rear-extension-at-dusk-rooflights-and-cladding-r01.jpg",
+      "caption": "The rear extension at dusk: rooflights, cladding and folding doors",
       "kind": "photo"
     },
     {

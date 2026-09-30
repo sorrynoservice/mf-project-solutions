@@ -21,10 +21,9 @@
       "focus": "50% 45%"
     },
     "imageMobile": {
-      "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
-      "caption": "The same veranda enclosed with sliding glass",
-      "kind": "photo",
-      "focus": "40% 50%"
+      "image": "/assets/work/tullamore-timber-veranda-brick-fireplace-outdoor-kitchen-t01.jpg",
+      "caption": "Timber veranda with brick fireplace and outdoor kitchen, Tullamore",
+      "kind": "photo"
     },
     "ctaLabel": "Get a veranda quotation",
     "bullets": [
@@ -50,6 +49,11 @@
   "gallery": {
     "title": "Verandas and glass rooms we have built",
     "items": [
+      {
+        "image": "/assets/work/tullamore-timber-veranda-brick-fireplace-outdoor-kitchen-t01.jpg",
+        "caption": "Dark timber veranda with a brick fireplace, outdoor kitchen and porcelain patio, Tullamore",
+        "kind": "photo"
+      },
       {
         "image": "/assets/work/glazed-garden-room-glazed-room-porcelain-terrace-and-lawn-177.jpg",
         "caption": "The same veranda enclosed with sliding glass",

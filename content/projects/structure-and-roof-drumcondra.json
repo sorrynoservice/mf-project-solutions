@@ -1,0 +1,94 @@
+{
+  "slug": "structure-and-roof-drumcondra",
+  "title": "Structure and roof for an architect's own house, Drumcondra",
+  "location": "Drumcondra, Dublin 9",
+  "year": "2026, in progress",
+  "sector": "residential",
+  "categories": [
+    "extension",
+    "structural",
+    "renovation"
+  ],
+  "role": "Structural steel, second floor and roof structure, built by MF to the architect's drawings",
+  "architect": "About Place Architecture + Design",
+  "summary": "On site now: new steel frame, second floor and roof structure for an end-of-terrace house designed by About Place Architecture + Design.",
+  "intro": [
+    "About Place Architecture + Design designed a new rear extension and second floor for this end-of-terrace house. We are building the structural package: temporary propping, the ground floor steel frame, the ridge beam, the second floor and the roof structure.",
+    "The image below is the architect's design. Progress photos will follow as the work continues."
+  ],
+  "scope": [
+    "Temporary propping and structural openings",
+    "Ground floor steel frame and ridge beam",
+    "Second floor structure",
+    "Roof structure and dormer"
+  ],
+  "hero": {
+    "image": "/assets/work/saint-patricks-road-architects-design-image-s01.jpg",
+    "caption": "The architect's design for the house",
+    "kind": "design"
+  },
+  "heroMobile": {
+    "image": "/assets/work/saint-patricks-road-crew-installing-steel-and-brickwork-s03.jpg",
+    "caption": "Our crew installing the new steel",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/saint-patricks-road-architects-design-image-s01.jpg",
+      "caption": "Design image by About Place Architecture + Design",
+      "kind": "design"
+    },
+    {
+      "image": "/assets/work/saint-patricks-road-steel-frame-going-in-at-the-rear-s02.jpg",
+      "caption": "New steel frame going in at the rear",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/saint-patricks-road-crew-installing-steel-and-brickwork-s03.jpg",
+      "caption": "Our crew installing the steel and making good the brickwork",
+      "kind": "photo"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "design",
+      "text": "Designed by About Place Architecture + Design.",
+      "images": [
+        {
+          "image": "/assets/work/saint-patricks-road-architects-design-image-s01.jpg",
+          "caption": "Design image by About Place Architecture + Design",
+          "kind": "design"
+        }
+      ]
+    },
+    {
+      "stage": "construction",
+      "text": "Steel frame, propping and the new structure going up.",
+      "images": [
+        {
+          "image": "/assets/work/saint-patricks-road-steel-frame-going-in-at-the-rear-s02.jpg",
+          "caption": "New steel frame going in at the rear",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/saint-patricks-road-crew-installing-steel-and-brickwork-s03.jpg",
+          "caption": "Our crew installing the steel and making good the brickwork",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "src": "/media/video/V111.mp4",
+      "poster": "/media/video/V111.jpg",
+      "caption": "The new upper structure going up at the rear",
+      "loop": true
+    }
+  ],
+  "order": 9,
+  "published": true,
+  "flagship": false,
+  "featured": false,
+  "pending": "Confirm About Place is happy for their design image and the project to be shown."
+}

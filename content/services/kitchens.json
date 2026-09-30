@@ -79,10 +79,34 @@
         "image": "/assets/work/rt/M200.jpg",
         "caption": "Navy kitchen with island under rooflights",
         "kind": "photo"
+      },
+      {
+        "image": "/assets/work/millmount-galley-kitchen-to-the-garden-building-d06.jpg",
+        "caption": "Galley kitchen in dark oak, Drumcondra",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/millmount-dark-oak-kitchen-and-patterned-splashback-d05.jpg",
+        "caption": "Dark oak units with a patterned tile splashback, Drumcondra",
+        "kind": "photo"
       }
     ]
   },
   "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/millmount-kitchen-design-view-sink-and-hob-run-d07.jpg",
+        "caption": "Kitchen design view, Drumcondra",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/millmount-dark-oak-kitchen-and-patterned-splashback-d05.jpg",
+        "caption": "The kitchen as built, Drumcondra",
+        "kind": "photo"
+      },
+      "caption": "Drumcondra: the kitchen design view, then the kitchen as built",
+      "type": "design-built"
+    },
     {
       "a": {
         "image": "/assets/work/phibsborough-kitchen-with-orange-island-oak-tall-unit-332.jpg",

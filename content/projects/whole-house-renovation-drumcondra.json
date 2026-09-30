@@ -1,0 +1,196 @@
+{
+  "slug": "whole-house-renovation-drumcondra",
+  "title": "Whole-house renovation, Drumcondra",
+  "location": "Drumcondra, Dublin 9",
+  "year": "2025 to 2026",
+  "sector": "residential",
+  "categories": [
+    "renovation",
+    "extension",
+    "kitchen",
+    "joinery",
+    "structural"
+  ],
+  "role": "Main contractor",
+  "summary": "A 1926 red-brick house taken back to its structure and rebuilt: new floors and joists, roof repairs, insulation and heating, a rear extension, a new kitchen and fitted joinery.",
+  "intro": [
+    "This house needed everything. We stripped it back to the structure, replaced rotten joists and floors, repaired the roof, added a rear extension and brought in new insulation, electrics and heating.",
+    "The finished house keeps its original fireplaces, with fitted wardrobes and lit arched shelving made around them, and a galley kitchen that opens to the rear patio."
+  ],
+  "scope": [
+    "Structural repairs, new joists and floors",
+    "Roof repairs and rooflights",
+    "Rear extension",
+    "Insulation, electrics and heating",
+    "Kitchen and fitted joinery",
+    "Restored original fireplaces"
+  ],
+  "hero": {
+    "image": "/assets/work/millmount-living-room-fireplace-and-lit-arched-shelving-d01.jpg",
+    "caption": "Living room: original fireplace between lit arched shelving",
+    "kind": "photo"
+  },
+  "heroMobile": {
+    "image": "/assets/work/millmount-galley-kitchen-to-the-garden-building-d06.jpg",
+    "caption": "Galley kitchen opening to the rear patio and garden building",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/millmount-living-room-fireplace-and-lit-arched-shelving-d01.jpg",
+      "caption": "Living room: original fireplace between lit arched shelving",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/millmount-galley-kitchen-to-the-garden-building-d06.jpg",
+      "caption": "Galley kitchen opening to the rear patio and garden building",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/millmount-bedroom-panelled-wardrobes-either-side-of-fireplace-d03.jpg",
+      "caption": "Bedroom with panelled wardrobes either side of the fireplace",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/millmount-dark-oak-kitchen-and-patterned-splashback-d05.jpg",
+      "caption": "Dark oak kitchen with patterned tile splashback",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/millmount-snug-with-original-fireplace-d04.jpg",
+      "caption": "Snug with the original fireplace restored",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/millmount-new-rear-extension-and-patio-d02.jpg",
+      "caption": "New rear extension, patio and lawn",
+      "kind": "photo"
+    }
+  ],
+  "before": [
+    {
+      "image": "/assets/work/millmount-red-brick-front-before-works-d09.jpg",
+      "caption": "The red-brick front before the works",
+      "kind": "photo"
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "image": "/assets/work/millmount-kitchen-design-view-sink-and-hob-run-d07.jpg",
+        "caption": "Kitchen design view: sink and hob run",
+        "kind": "drawing"
+      },
+      "b": {
+        "image": "/assets/work/millmount-dark-oak-kitchen-and-patterned-splashback-d05.jpg",
+        "caption": "The kitchen as built",
+        "kind": "photo"
+      },
+      "caption": "Drumcondra: the kitchen design view, then the kitchen as built",
+      "type": "design-built"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "existing",
+      "text": "A 1926 terraced house that needed everything.",
+      "images": [
+        {
+          "image": "/assets/work/millmount-red-brick-front-before-works-d09.jpg",
+          "caption": "The red-brick front before the works",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "design",
+      "text": "Kitchen design views prepared before the joinery was made.",
+      "images": [
+        {
+          "image": "/assets/work/millmount-kitchen-design-view-sink-and-hob-run-d07.jpg",
+          "caption": "Kitchen design view: sink and hob run",
+          "kind": "drawing"
+        },
+        {
+          "image": "/assets/work/millmount-kitchen-design-view-tall-units-d08.jpg",
+          "caption": "Kitchen design view: tall units and ovens",
+          "kind": "drawing"
+        }
+      ]
+    },
+    {
+      "stage": "construction",
+      "text": "Stripped back to the structure: props and steel, new joists and floors, fireplaces opened up and the roof repaired.",
+      "images": [
+        {
+          "image": "/assets/work/millmount-props-and-new-steel-during-works-d10.jpg",
+          "caption": "Props and new steel during the structural works",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-original-fireplace-opened-up-d11.jpg",
+          "caption": "Original fireplace opened up",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-alcoves-formed-either-side-of-chimney-d12.jpg",
+          "caption": "Alcoves formed either side of the chimney breast",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-roof-structure-and-rooflights-during-repairs-d13.jpg",
+          "caption": "Roof structure and rooflights during the repairs",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "stage": "completed",
+      "images": [
+        {
+          "image": "/assets/work/millmount-living-room-fireplace-and-lit-arched-shelving-d01.jpg",
+          "caption": "Living room: original fireplace between lit arched shelving",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-galley-kitchen-to-the-garden-building-d06.jpg",
+          "caption": "Galley kitchen opening to the rear patio and garden building",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-bedroom-panelled-wardrobes-either-side-of-fireplace-d03.jpg",
+          "caption": "Bedroom with panelled wardrobes either side of the fireplace",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-dark-oak-kitchen-and-patterned-splashback-d05.jpg",
+          "caption": "Dark oak kitchen with patterned tile splashback",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-snug-with-original-fireplace-d04.jpg",
+          "caption": "Snug with the original fireplace restored",
+          "kind": "photo"
+        },
+        {
+          "image": "/assets/work/millmount-new-rear-extension-and-patio-d02.jpg",
+          "caption": "New rear extension, patio and lawn",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "src": "/media/video/V019.mp4",
+      "poster": "/media/video/V019.jpg",
+      "caption": "From stripped house to finished rooms, Drumcondra",
+      "loop": true
+    }
+  ],
+  "order": 8,
+  "published": true,
+  "flagship": true,
+  "featured": false,
+  "pending": "Confirm who designed the house and kitchen (MF or others) so the credit is right, and that the kitchen design views are for this house."
+}
