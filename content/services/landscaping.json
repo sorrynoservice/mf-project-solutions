@@ -51,6 +51,21 @@
     "title": "Gardens we have transformed",
     "items": [
       {
+        "image": "/assets/work/patio-porcelain-patio-lawn-and-fencing-p13.jpg",
+        "caption": "Porcelain patio, lawn and new fencing",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/garden-new-fencing-and-artificial-grass-p12.jpg",
+        "caption": "New fencing and artificial grass",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/design-garden-pergola-lawn-and-fire-pit-render-g08.jpg",
+        "caption": "Garden design: pergola, lawn and fire pit",
+        "kind": "design"
+      },
+      {
         "image": "/assets/work/tullamore-timber-veranda-brick-fireplace-outdoor-kitchen-t01.jpg",
         "caption": "Garden rebuild with veranda, fireplace, outdoor kitchen and porcelain, Tullamore",
         "kind": "photo"
@@ -89,6 +104,26 @@
         "image": "/assets/work/phibsborough-aerial-view-of-the-finished-rear-extensi-a01.jpg",
         "caption": "Aerial view of the finished garden, Phibsborough",
         "kind": "photo"
+      },
+      {
+        "image": "/assets/work/design-garden-pergola-with-wall-planters-render-g05.jpg",
+        "caption": "Garden design: pergola with wall planters",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-fire-table-from-the-deck-render-g04.jpg",
+        "caption": "Garden design: fire table seen from the deck",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-fire-pit-hammock-and-bench-render-g09.jpg",
+        "caption": "Garden design: fire pit, hammock and built-in bench",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-built-in-bench-and-lit-planters-render-g07.jpg",
+        "caption": "Garden design: built-in bench with lit planters",
+        "kind": "design"
       }
     ]
   },

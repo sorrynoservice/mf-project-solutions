@@ -116,6 +116,16 @@
         "image": "/assets/work/rt/M76.jpg",
         "caption": "Brass-framed shower with green tile, Leopardstown",
         "kind": "photo"
+      },
+      {
+        "image": "/assets/work/design-bathroom-slatted-oak-and-terrazzo-vanity-render-b11.jpg",
+        "caption": "Bathroom design: slatted oak, terrazzo tiles and a vessel basin",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-bathroom-walk-in-shower-and-slatted-wall-render-b12.jpg",
+        "caption": "Bathroom design: walk-in shower and slatted oak wall",
+        "kind": "design"
       }
     ]
   },

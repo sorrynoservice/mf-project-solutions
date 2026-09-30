@@ -50,6 +50,21 @@
     "title": "Attics we have converted",
     "items": [
       {
+        "image": "/assets/work/attic-dublin-13-bedroom-and-rooflight-bay-a31.jpg",
+        "caption": "Attic bedroom looking to the rooflight bay, Dublin 13",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-dublin-13-rooflight-bay-under-the-eaves-a32.jpg",
+        "caption": "Rooflight bay with eaves storage access, Dublin 13",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-dublin-13-main-room-and-alcove-a33.jpg",
+        "caption": "Main attic room with alcove and storage, Dublin 13",
+        "kind": "photo"
+      },
+      {
         "image": "/assets/work/attic-converted-attic-wide-bedroom-study-and-rooflights-a11.jpg",
         "caption": "The whole attic room: bedroom, study area and three rooflights",
         "kind": "photo"
@@ -88,6 +103,26 @@
         "image": "/assets/work/attic-attic-shower-room-black-framed-screen-192.jpg",
         "caption": "Attic shower room with black framed screen",
         "kind": "photo"
+      },
+      {
+        "image": "/assets/work/attic-dublin-13-en-suite-shower-room-a35.jpg",
+        "caption": "Attic en suite with shower under two rooflights, Dublin 13",
+        "kind": "photo"
+      },
+      {
+        "image": "/assets/work/design-attic-kids-room-stair-and-desk-render-a21.jpg",
+        "caption": "Design image: attic kids room with stair and desk",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-attic-bed-nook-under-rooflights-render-a24.jpg",
+        "caption": "Design image: bed nook under the rooflights",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-attic-bedroom-media-wall-and-pendant-render-a25.jpg",
+        "caption": "Attic design: bedroom with media wall and feature pendant",
+        "kind": "design"
       }
     ]
   },
@@ -230,5 +265,12 @@
         "Front dormers still need planning permission"
       ]
     }
-  ]
+  ],
+  "video": {
+    "src": "/media/video/V201.mp4",
+    "poster": "/media/video/V201.jpg",
+    "caption": "Walking through a finished attic: bedroom, study area and rooflights",
+    "loop": true,
+    "title": "A finished attic conversion"
+  }
 }

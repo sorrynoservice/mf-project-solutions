@@ -1,0 +1,67 @@
+{
+  "slug": "attic-conversion-dublin-13",
+  "title": "Attic conversion with en suite, Dublin 13",
+  "location": "Dublin 13",
+  "sector": "residential",
+  "categories": [
+    "attic",
+    "bathroom"
+  ],
+  "role": "Built by MF",
+  "summary": "An attic converted into a bedroom with a rooflight bay, a dressing space and an en suite shower room.",
+  "intro": [
+    "We converted this attic into a full bedroom floor. The main room opens into a bay under two rooflights, with access panels to the eaves storage on both sides.",
+    "A small dressing space leads through to an en suite shower room, also lit by two rooflights."
+  ],
+  "scope": [
+    "Attic conversion to a bedroom",
+    "Rooflights in the roof slope",
+    "Eaves storage with access panels",
+    "En suite shower room",
+    "Electrics, heating, finishes and carpet"
+  ],
+  "hero": {
+    "image": "/assets/work/attic-dublin-13-bedroom-and-rooflight-bay-a31.jpg",
+    "caption": "Attic bedroom looking to the rooflight bay, Dublin 13",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/attic-dublin-13-bedroom-and-rooflight-bay-a31.jpg",
+      "caption": "Attic bedroom looking to the rooflight bay, Dublin 13",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-dublin-13-rooflight-bay-under-the-eaves-a32.jpg",
+      "caption": "Rooflight bay with eaves storage access, Dublin 13",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-dublin-13-main-room-and-alcove-a33.jpg",
+      "caption": "Main attic room with alcove and storage, Dublin 13",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-dublin-13-dressing-space-to-the-en-suite-a34.jpg",
+      "caption": "Dressing space leading to the en suite, Dublin 13",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/attic-dublin-13-en-suite-shower-room-a35.jpg",
+      "caption": "Attic en suite with shower under two rooflights, Dublin 13",
+      "kind": "photo"
+    }
+  ],
+  "order": 10,
+  "published": true,
+  "flagship": false,
+  "featured": false,
+  "videos": [
+    {
+      "src": "/media/video/V203.mp4",
+      "poster": "/media/video/V203.jpg",
+      "caption": "Up the stair and through the finished attic to the en suite",
+      "loop": true
+    }
+  ]
+}

@@ -134,5 +134,19 @@
     "image": "/assets/work/attic-converted-attic-bedroom-and-study-under-rooflights-a12.jpg",
     "caption": "Bedroom and study under the rooflights",
     "kind": "photo"
-  }
+  },
+  "videos": [
+    {
+      "src": "/media/video/V201.mp4",
+      "poster": "/media/video/V201.jpg",
+      "caption": "Walkthrough of the finished attic",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V202.mp4",
+      "poster": "/media/video/V202.jpg",
+      "caption": "Up the new stair into a converted attic",
+      "loop": true
+    }
+  ]
 }

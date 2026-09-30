@@ -57,6 +57,21 @@
     "title": "Built from the design",
     "items": [
       {
+        "image": "/assets/work/design-garden-pergola-lawn-and-fire-pit-render-g08.jpg",
+        "caption": "Garden design: pergola, lawn and fire pit",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-kitchen-navy-units-and-dark-marble-render-k22.jpg",
+        "caption": "Kitchen design: navy units and dark marble",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-attic-bedroom-media-wall-and-pendant-render-a25.jpg",
+        "caption": "Attic design: bedroom with media wall and feature pendant",
+        "kind": "design"
+      },
+      {
         "image": "/assets/work/phibsborough-full-height-oak-joinery-and-fireplace-89.jpg",
         "caption": "Oak joinery made in our workshop, Phibsborough",
         "kind": "photo"
@@ -80,6 +95,76 @@
         "image": "/assets/work/rt/M141.jpg",
         "caption": "Reception built to our design, Clinic, Dublin 1",
         "kind": "photo"
+      },
+      {
+        "image": "/assets/work/design-garden-pergola-deck-and-lighting-render-g01.jpg",
+        "caption": "Garden design: pergola, deck and lighting",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-loungers-pergola-and-fire-table-render-g02.jpg",
+        "caption": "Garden design: loungers, pergola and fire table",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-sunken-seating-and-fire-table-render-g03.jpg",
+        "caption": "Garden design: sunken seating around a fire table",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-outdoor-kitchen-under-slatted-pergola-render-g06.jpg",
+        "caption": "Garden design: outdoor kitchen under a slatted pergola",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-living-room-media-wall-and-brick-render-i01.jpg",
+        "caption": "Living room design: media wall and brick",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-living-room-slatted-panels-render-i03.jpg",
+        "caption": "Living room design: slatted wall panels",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-living-room-green-wall-and-slats-render-i04.jpg",
+        "caption": "Living room design: green wall and slats",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-attic-kids-room-rooflights-render-a22.jpg",
+        "caption": "Attic design: kids room under rooflights",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-attic-landing-and-slatted-screen-render-a23.jpg",
+        "caption": "Attic design: landing and slatted screen",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-bathroom-slatted-oak-and-terrazzo-vanity-render-b11.jpg",
+        "caption": "Bathroom design: slatted oak, terrazzo tiles and a vessel basin",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-bathroom-walk-in-shower-and-slatted-wall-render-b12.jpg",
+        "caption": "Bathroom design: walk-in shower and slatted oak wall",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-fire-pit-hammock-and-bench-render-g09.jpg",
+        "caption": "Garden design: fire pit, hammock and built-in bench",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-garden-built-in-bench-and-lit-planters-render-g07.jpg",
+        "caption": "Garden design: built-in bench with lit planters",
+        "kind": "design"
+      },
+      {
+        "image": "/assets/work/design-kitchen-coffee-and-wine-bar-render-k21.jpg",
+        "caption": "Kitchen design: coffee and wine bar with slatted panel",
+        "kind": "design"
       }
     ]
   },
