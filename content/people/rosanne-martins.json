@@ -9,6 +9,5 @@
   ],
   "route": "none",
   "order": 4,
-  "show": true,
-  "pending": "Role awaiting owner confirmation"
+  "show": true
 }

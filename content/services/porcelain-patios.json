@@ -193,8 +193,7 @@
       }
     ],
     "note": "Examples assume normal ground and access. Excavation, removing an existing surface, access, levels, drainage, steps, edging, the tile you choose and unusual groundwork can change the final figure, and your written quotation sets it out. VAT is charged at 13.5%.",
-    "confirmed": false,
-    "pending": "Confirm that €180 per m² is the price before VAT (VAT at 13.5% added on top)."
+    "confirmed": true
   },
   "process": [
     {

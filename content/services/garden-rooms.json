@@ -106,24 +106,23 @@
     ]
   },
   "price": {
-    "headline": "Garden rooms from about €1,300 per m² plus VAT (about €1,500 per m² including VAT).",
+    "headline": "Standard garden rooms from about €1,300 per m² plus VAT.",
     "table": [
       {
-        "label": "Standard garden room: insulated, painted, laminate floor, no plumbing",
+        "label": "Standard garden room: insulated, with electrics, doors and glazing, no plumbing",
         "value": "from about €1,300/m² + VAT"
       },
       {
-        "label": "Fully fitted garden room with shower room or kitchenette",
-        "value": "about €2,200/m² + VAT"
+        "label": "Garden room with a shower room, kitchenette or plumbing",
+        "value": "priced per project"
       },
       {
-        "label": "Garden home (a separate dwelling to new-home standards)",
+        "label": "Garden home (a separate dwelling to residential standards)",
         "value": "priced per project"
       }
     ],
-    "note": "Prices are for the building. Groundworks, trenching and service connections (electrical supply, water and drainage) are priced separately on your written quotation.",
-    "confirmed": false,
-    "pending": "Confirm what the €1,300/m² + VAT standard room includes (insulation, electrics, doors and glazing) before publishing."
+    "note": "The standard rate covers a garden room with insulation, electrics, doors and glazing. Rooms with bathrooms, kitchens, plumbing and drainage, and garden homes, are a different specification and are priced separately. Groundworks, trenching and service connections are set out on your written quotation.",
+    "confirmed": true
   },
   "process": [
     {

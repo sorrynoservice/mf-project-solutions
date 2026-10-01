@@ -2,9 +2,10 @@
   "id": "lilian-ferreira-2025-07-14",
   "name": "Lilian Ferreira",
   "date": "2025-07-14",
-  "text": "Muito atenciosos desde o primeiro contato. Excelente trabalho!!",
+  "text": "Very attentive from the first contact. Excellent work!!",
   "category": "construction",
   "services": [],
-  "show": false,
-  "pending": "Needs an English translation checked by the owner"
+  "show": true,
+  "original": "Muito atenciosos desde o primeiro contato. Excelente trabalho!!",
+  "translated": true
 }

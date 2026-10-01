@@ -1,0 +1,52 @@
+{
+  "slug": "garden-dunshaughlin",
+  "title": "Porcelain patio and garden, Dunshaughlin",
+  "location": "Dunshaughlin, Co. Meath",
+  "year": "2026, in progress",
+  "sector": "residential",
+  "categories": [
+    "patio",
+    "landscaping"
+  ],
+  "role": "Built by MF",
+  "summary": "On site now: a large format grey porcelain patio across the back of the house, timber pergola frames over a stepping stone path and a raised timber planter.",
+  "intro": [
+    "We laid a large format grey porcelain patio across the full width of the garden, then set a stepping stone path down the garden under a run of timber pergola frames, with a raised timber planter beside it.",
+    "The photos and video show the work in progress, before the planting and finishing of the garden."
+  ],
+  "scope": [
+    "Large format porcelain patio",
+    "Stepping stone path",
+    "Timber pergola frames",
+    "Raised timber planter"
+  ],
+  "hero": {
+    "image": "/assets/work/garden-dunshaughlin-porcelain-patio-and-pergola-frames-y01.jpg",
+    "caption": "Large format porcelain patio, timber pergola frames and stepping stone path",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/garden-dunshaughlin-porcelain-patio-and-pergola-frames-y01.jpg",
+      "caption": "Large format porcelain patio, timber pergola frames and stepping stone path",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/garden-dunshaughlin-patio-planter-and-stepping-stones-y02.jpg",
+      "caption": "Raised timber planter, pergola frames and the new patio",
+      "kind": "photo"
+    }
+  ],
+  "videos": [
+    {
+      "src": "/media/video/V213.mp4",
+      "poster": "/media/video/V213.jpg",
+      "caption": "Walking the new patio and garden, Dunshaughlin",
+      "loop": true
+    }
+  ],
+  "order": 12,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}

@@ -146,9 +146,9 @@
     ]
   },
   "price": {
-    "headline": "Typical projects €13,000 to €15,000 plus VAT; larger enclosed rooms cost more.",
-    "note": "Your detailed written quotation reflects the size, glazing and fit-out you choose.",
-    "confirmed": false
+    "headline": "Bespoke timber verandas from about €5,000 plus VAT.",
+    "note": "The final price depends on size, finish and specification. Glass rooms and fully enclosed rooms are a different specification and cost considerably more, so we price them per project.",
+    "confirmed": true
   },
   "process": [
     {

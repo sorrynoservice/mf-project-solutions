@@ -1,0 +1,46 @@
+{
+  "slug": "glass-room-duleek",
+  "title": "Glass room with panelled side walls, Duleek",
+  "location": "Duleek, Co. Meath",
+  "sector": "residential",
+  "categories": [
+    "veranda"
+  ],
+  "role": "Built by MF",
+  "summary": "A glass room with sliding glass panels at the back of the house, closed at the sides with painted timber framed panel walls and a clear roof section.",
+  "intro": [
+    "The glass room opens onto the garden through sliding glass panels. At the sides, painted timber framed panel walls give privacy from the neighbours and the side passage, with a clear roof section above to keep the light."
+  ],
+  "hero": {
+    "image": "/assets/work/glass-room-duleek-sliding-glass-room-on-travertine-patio-z01.jpg",
+    "caption": "Glass room with sliding glass panels on the patio",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/glass-room-duleek-sliding-glass-room-on-travertine-patio-z01.jpg",
+      "caption": "Glass room with sliding glass panels on the patio",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/glass-room-duleek-panelled-side-wall-inside-z02.jpg",
+      "caption": "Panelled side wall inside the glass room",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/glass-room-duleek-panelled-wall-and-clear-roof-z03.jpg",
+      "caption": "Panelled wall with a clear roof section above",
+      "kind": "photo"
+    },
+    {
+      "image": "/assets/work/glass-room-duleek-panelled-wall-from-the-side-passage-z04.jpg",
+      "caption": "The panelled side wall from the side passage",
+      "kind": "photo"
+    }
+  ],
+  "pending": "Confirm what MF did on this job: did we supply and install the aluminium glass room, or build the panelled side walls, clear roof section and patio around a system supplied by others? Also confirm the year.",
+  "order": 13,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}
