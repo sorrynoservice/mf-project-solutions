@@ -1,14 +1,14 @@
 {
   "id": "caio-ferreira",
-  "name": "Caio Ferreira",
-  "role": "Inspection support (part time)",
+  "name": "Caio",
+  "role": "Part-time Snagging Inspector",
   "headshot": "",
   "bio": [
-    "Caio supports the snagging and property inspection service part time.",
-    "He works alongside Wanessa on inspections."
+    "Caio works with our property inspection team, carrying out snagging inspections on new-build homes alongside Wanessa and the MF team.",
+    "He recently graduated from college and is continuing his studies while working part-time with MF Project Solutions."
   ],
   "route": "none",
   "order": 5,
-  "show": false,
-  "pending": "Caio will appear on the About page; waiting for his headshot"
+  "show": true,
+  "pending": "Waiting for Caio's approved headshot"
 }
