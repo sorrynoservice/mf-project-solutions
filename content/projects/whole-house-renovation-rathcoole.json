@@ -335,5 +335,19 @@
   "flagship": true,
   "featured": true,
   "order": 4,
-  "published": true
+  "published": true,
+  "videos": [
+    {
+      "src": "/media/video/V219.mp4",
+      "poster": "/media/video/V219.jpg",
+      "caption": "Alex on the two children's bedrooms: two personalities, two sets of bespoke furniture",
+      "loop": false
+    },
+    {
+      "src": "/media/video/V221.mp4",
+      "poster": "/media/video/V221.jpg",
+      "caption": "The walk-in wardrobe: sliding doors, closet island, lit shelving and stairs with light sensors",
+      "loop": true
+    }
+  ]
 }
