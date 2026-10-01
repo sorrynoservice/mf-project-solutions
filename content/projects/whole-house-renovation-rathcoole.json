@@ -338,12 +338,6 @@
   "published": true,
   "videos": [
     {
-      "src": "/media/video/V222.mp4",
-      "poster": "/media/video/V222.jpg",
-      "caption": "Our client, the owner of BAH33, on the work we did at his home in Rathcoole",
-      "loop": false
-    },
-    {
       "src": "/media/video/V219.mp4",
       "poster": "/media/video/V219.jpg",
       "caption": "Alex on the two children's bedrooms: two personalities, two sets of bespoke furniture",
