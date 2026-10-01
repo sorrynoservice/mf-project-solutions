@@ -4,12 +4,10 @@
   "location": "Dublin and Meath",
   "sector": "residential",
   "categories": [
-    "garden-room",
-    "landscaping",
-    "patio"
+    "garden-room"
   ],
   "role": "Built by MF",
-  "summary": "A selection of insulated garden rooms from our earlier work, shown together until each is confirmed and documented as its own project.",
+  "summary": "A selection of insulated garden rooms from our earlier projects.",
   "hero": {
     "image": "/assets/work/rt/G74.jpg",
     "caption": "Clad garden room with store, stepping stones and patio",

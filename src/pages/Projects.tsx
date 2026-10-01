@@ -60,15 +60,18 @@ export function Projects() {
             </div>
           </div>
           {flag.length > 0 && (
+            <>
+            <h2 className="sr-only">Featured projects</h2>
             <div className="mb-12 grid gap-6 md:grid-cols-2">
               {flag.map((p) => (
                 <ProjectCard key={p.slug} p={p} />
               ))}
             </div>
+            </>
           )}
           {rest.length > 0 && (
             <>
-              {flag.length > 0 && <h2 className="mb-6 text-2xl text-ink">More projects</h2>}
+              {flag.length > 0 ? <h2 className="mb-6 text-2xl text-ink">More projects</h2> : <h2 className="sr-only">Projects</h2>}
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {rest.map((p) => (
                   <ProjectCard key={p.slug} p={p} compact />

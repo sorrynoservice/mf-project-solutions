@@ -58,10 +58,12 @@ export default function About() {
         <div className="wrap">
           <SectionHead eyebrow="The people who run MF" title="Who you will deal with" />
           <div className="grid gap-8 md:grid-cols-2">
-            {team.map((p) => {
+            {team.map((p, i) => {
               const route = p.route && p.route !== "none" ? settings.routes[p.route] : undefined;
+              // An odd last card sits centred at the same width, instead of alone on the left.
+              const lastOdd = team.length % 2 === 1 && i === team.length - 1 && team.length > 1;
               return (
-                <article key={p.id} className="flex flex-col gap-5 rounded-lg border border-border bg-white p-6 sm:flex-row">
+                <article key={p.id} className={`flex flex-col gap-5 rounded-lg border border-border bg-white p-6 sm:flex-row ${lastOdd ? "md:col-span-2 md:mx-auto md:w-[calc(50%-1rem)]" : ""}`}>
                   <Img src={p.headshot} alt={p.name} layout="(min-width: 640px) 160px, 100vw" className="h-40 w-40 shrink-0 rounded-md object-cover" />
                   <div>
                     <Pending note={p.pending} className="mb-3" />

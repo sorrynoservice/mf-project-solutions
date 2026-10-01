@@ -98,7 +98,7 @@
       "src": "/media/video/V002.mp4",
       "poster": "/media/video/V002.jpg",
       "caption": "The outdoor room with its sliding glass",
-      "loop": false
+      "loop": true
     }
   ]
 }

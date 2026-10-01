@@ -94,7 +94,7 @@
       },
       {
         "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
-        "caption": "En-suite with stone-look tile, Leopardstown",
+        "caption": "En suite with stone-look tile, Leopardstown",
         "kind": "photo"
       },
       {
@@ -161,7 +161,7 @@
     {
       "a": {
         "image": "/assets/work/rathcoole-attic-en-suite-with-rooflight-and-blue-t-315.jpg",
-        "caption": "3D design of the attic en-suite, Rathcoole",
+        "caption": "3D design of the attic en suite, Rathcoole",
         "kind": "design"
       },
       "b": {
@@ -169,7 +169,7 @@
         "caption": "The shower as built, Rathcoole",
         "kind": "photo"
       },
-      "caption": "Rathcoole attic en-suite: 3D design beside the shower as built",
+      "caption": "Rathcoole attic en suite: 3D design beside the shower as built",
       "type": "design-built"
     }
   ],
@@ -246,8 +246,8 @@
       "a": "The size of the room, whether the layout and drainage move, the tiling extent, and the tiles, sanitaryware and brassware you choose. Your detailed written quotation lists each item."
     },
     {
-      "q": "Do you build attic en-suites?",
-      "a": "Yes. We have built en-suites under rooflights in attic conversions, including a Rathcoole attic en-suite designed in 3D first."
+      "q": "Do you build attic en suites?",
+      "a": "Yes. We have built en suites under rooflights in attic conversions, including a Rathcoole attic en suite designed in 3D first."
     },
     {
       "q": "Do you work in my area?",
@@ -259,7 +259,7 @@
     {
       "route": "/attic-conversions",
       "label": "Attic conversions",
-      "text": "Adding an en-suite in the attic? See how we plan habitable attic rooms."
+      "text": "Adding an en suite in the attic? See how we plan habitable attic rooms."
     },
     {
       "route": "/house-renovations",

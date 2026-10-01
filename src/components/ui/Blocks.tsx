@@ -130,7 +130,7 @@ export function ReviewGrid({ items, tone = "light" }: { items: Review[]; tone?: 
   );
 }
 
-export function Faq({ items }: { items: { q: string; a: string }[] }) {
+export function Faq({ items }: { items: { q: string; a: string; link?: { to: string; label: string } }[] }) {
   return (
     <div className="divide-y divide-border border-y border-border">
       {items.map((f) => (
@@ -140,6 +140,11 @@ export function Faq({ items }: { items: { q: string; a: string }[] }) {
             <ChevronDown className="mt-1 h-5 w-5 shrink-0 transition-transform group-open:rotate-180" aria-hidden="true" />
           </summary>
           <p className="mt-3 max-w-3xl leading-relaxed text-muted-foreground">{f.a}</p>
+          {f.link && (
+            <Link to={f.link.to} className="mt-3 inline-flex items-center gap-1.5 font-semibold text-ink underline decoration-tan underline-offset-4 hover:decoration-ink">
+              {f.link.label} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          )}
         </details>
       ))}
     </div>

@@ -2,13 +2,12 @@
   "id": "caio-ferreira",
   "name": "Caio",
   "role": "Part-time Snagging Inspector",
-  "headshot": "",
+  "headshot": "/assets/caio-mf-project-solutions.jpg",
   "bio": [
     "Caio works with our property inspection team, carrying out snagging inspections on new-build homes alongside Wanessa and the MF team.",
     "He recently graduated from college and is continuing his studies while working part-time with MF Project Solutions."
   ],
   "route": "none",
   "order": 5,
-  "show": true,
-  "pending": "Waiting for Caio's approved headshot"
+  "show": true
 }

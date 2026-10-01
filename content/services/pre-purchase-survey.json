@@ -129,6 +129,11 @@
   "projectsTag": "snagging",
   "crossSell": [
     {
+      "route": "/guides/pre-purchase-inspection",
+      "label": "Guide: pre-purchase property inspection",
+      "text": "What is checked, what is not, and how to use the report."
+    },
+    {
       "route": "/snagging",
       "label": "Snag list inspections",
       "text": "Buying a new build? Book a snag inspection with a photo report for the builder."

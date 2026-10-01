@@ -72,6 +72,7 @@ export function HowWeWork() {
       />
       <section className="py-20">
         <div className="wrap">
+          <h2 className="sr-only">The steps of a project</h2>
           <Steps items={steps.slice(0, 3)} />
           <div className="mt-10"><Steps items={steps.slice(3)} /></div>
         </div>
@@ -89,7 +90,7 @@ export function HowWeWork() {
 
 /* FAQs --------------------------------------------------------------------- */
 
-const generalFaqs: { title: string; route: LeadRoute; items: { q: string; a: string }[] }[] = [
+const generalFaqs: { title: string; route: LeadRoute; items: { q: string; a: string; link?: { to: string; label: string } }[] }[] = [
   {
     title: "Getting started",
     route: "major",
@@ -104,8 +105,8 @@ const generalFaqs: { title: string; route: LeadRoute; items: { q: string; a: str
     title: "Planning and regulations",
     route: "major",
     items: [
-      { q: "Do I need planning permission for a garden room?", a: "Many garden rooms are exempt if they meet the conditions, including size and height limits and keeping enough rear garden. Our garden rooms page and guide explain the current rules." },
-      { q: "Can I build a garden home without planning permission?", a: "Since 27 July 2026 a detached garden home of 32 to 45 m² can be exempt if every condition is met, including notifying the council before you start. Our garden homes guide sets out the conditions." },
+      { q: "Do I need planning permission for a garden room?", a: "Many garden rooms are exempt if they meet the conditions, including size and height limits and keeping enough rear garden. Our garden rooms page and guide explain the current rules.", link: { to: "/guides/garden-room-or-garden-home", label: "Read the guide: garden room or garden home" } },
+      { q: "Can I build a garden home without planning permission?", a: "Since 27 July 2026 a detached garden home of 32 to 45 m² can be exempt if every condition is met, including notifying the council before you start. Our garden homes guide sets out the conditions.", link: { to: "/guides/garden-home-rules-2026", label: "Read the guide: garden home rules 2026" } },
       { q: "Do Building Regulations still apply if I do not need planning?", a: "Yes. Exempt work still has to comply with the Building Regulations, including structure, fire safety, insulation and drainage." },
     ],
   },
@@ -113,7 +114,7 @@ const generalFaqs: { title: string; route: LeadRoute; items: { q: string; a: str
     title: "Snagging and inspections",
     route: "property",
     items: [
-      { q: "What is a snag inspection?", a: "A room by room inspection of a new home that records defects and unfinished work in a photo report you can send to the builder." },
+      { q: "What is a snag inspection?", a: "A room by room inspection of a new home that records defects and unfinished work in a photo report you can send to the builder.", link: { to: "/guides/snag-list-new-build", label: "Read the guide: snag list for a new build" } },
       { q: "When should I book it?", a: "Before you close, once the builder says the house is finished, so the builder can fix the items before you move in. Contact Wanessa as soon as you have a date." },
       { q: "How much does it cost?", a: "Our snagging prices are fixed by house size and include VAT and travel within 50 km of Dunshaughlin. See the snagging page for the current prices." },
     ],

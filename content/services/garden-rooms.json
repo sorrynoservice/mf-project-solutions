@@ -162,6 +162,11 @@
   "projectsTag": "garden-room",
   "crossSell": [
     {
+      "route": "/guides/garden-room-or-garden-home",
+      "label": "Guide: garden room or garden home",
+      "text": "Which set of rules applies, and when a garden room becomes a garden home."
+    },
+    {
       "route": "/granny-flats",
       "label": "Garden homes",
       "text": "Want someone to live in it? A garden home follows the Class 3A rules."

@@ -43,7 +43,20 @@ export default function PropertyServices() {
               <div className="eyebrow mb-3 text-tan-deep">{s!.hero.eyebrow}</div>
               <h2 className="text-2xl text-ink md:text-3xl">{s!.name}</h2>
               <p className="mt-3 flex-1 text-[16px] leading-relaxed text-muted-foreground">{s!.hero.sub}</p>
-              {s!.price?.confirmed && <p className="mt-4 font-semibold text-ink">{s!.price.headline}</p>}
+              {s!.price?.confirmed && !s!.price.table?.length && <p className="mt-4 font-semibold text-ink">{s!.price.headline}</p>}
+              {s!.price?.confirmed && !!s!.price.table?.length && (
+                <div className="mt-4">
+                  <p className="font-semibold text-ink">{s!.price.headline}</p>
+                  <dl className="mt-2 grid grid-cols-[1fr_auto] gap-x-6 gap-y-1 text-[15px] text-muted-foreground">
+                    {s!.price.table.filter((row) => /bedroom/i.test(row.label)).map((row) => (
+                      <div key={row.label} className="contents">
+                        <dt>{row.label}</dt>
+                        <dd className="text-right font-semibold tabular-nums text-ink">{row.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              )}
               <span className="mt-6 inline-flex items-center gap-1.5 font-semibold text-ink transition-all group-hover:gap-2.5">
                 {s!.hero.ctaLabel} <ArrowRight className="h-4 w-4" />
               </span>

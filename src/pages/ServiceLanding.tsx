@@ -279,7 +279,7 @@ export default function ServiceLanding({ route }: { route: string }) {
       {/* Cross-sell */}
       {s.crossSell && s.crossSell.length > 0 && (
         <section className="border-t border-border py-14">
-          <div className="wrap grid gap-5 md:grid-cols-2">
+          <div className={`wrap grid gap-5 md:grid-cols-2 ${s.crossSell.length === 3 ? "lg:grid-cols-3" : ""}`}>
             {s.crossSell.map((c) => (
               <Link key={c.route} to={c.route} className="group flex items-center justify-between gap-6 rounded-lg border border-border p-6 hover:border-tan hover:bg-paper">
                 <div>

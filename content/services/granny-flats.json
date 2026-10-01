@@ -173,6 +173,16 @@
   "projectsTag": "garden-home",
   "crossSell": [
     {
+      "route": "/guides/garden-home-rules-2026",
+      "label": "Guide: garden home rules 2026",
+      "text": "The Class 3A conditions for a garden home without planning permission."
+    },
+    {
+      "route": "/guides/garden-room-or-garden-home",
+      "label": "Guide: garden room or garden home",
+      "text": "Which set of rules applies to the building you have in mind."
+    },
+    {
       "route": "/garden-rooms",
       "label": "Garden rooms",
       "text": "Need an office, gym or studio rather than a home? See garden rooms."

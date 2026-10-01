@@ -10,10 +10,10 @@
     "joinery"
   ],
   "role": "Design and build",
-  "summary": "MF designed the bathroom and en-suite in 3D, then built them: stone look tile, brass fittings and a panelled hall and stair.",
+  "summary": "MF designed the bathroom and en suite in 3D, then built them: stone look tile, brass fittings and a panelled hall and stair.",
   "hero": {
     "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
-    "caption": "En-suite: stone-look tile, lit oval mirror",
+    "caption": "En suite: stone-look tile, lit oval mirror",
     "kind": "photo"
   },
   "gallery": [
@@ -24,7 +24,7 @@
     },
     {
       "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
-      "caption": "En-suite: stone-look tile, lit oval mirror",
+      "caption": "En suite: stone-look tile, lit oval mirror",
       "kind": "photo"
     },
     {
@@ -87,7 +87,7 @@
     {
       "a": {
         "image": "/assets/work/leopardstown-mf-isometric-of-the-en-suite-with-brass-312.jpg",
-        "caption": "MF isometric of the en-suite with brass fittings",
+        "caption": "MF isometric of the en suite with brass fittings",
         "kind": "design"
       },
       "b": {
@@ -95,14 +95,14 @@
         "caption": "Shower with brass frame, green tile, terrazzo",
         "kind": "photo"
       },
-      "caption": "En-suite: MF design and the finished shower",
+      "caption": "En suite: MF design and the finished shower",
       "type": "design-built"
     }
   ],
   "stages": [
     {
       "stage": "design",
-      "text": "MF 3D views of the bathroom and en-suite.",
+      "text": "MF 3D views of the bathroom and en suite.",
       "images": [
         {
           "image": "/assets/work/leopardstown-mf-isometric-of-the-bathroom-navy-tile-a-311.jpg",
@@ -111,18 +111,18 @@
         },
         {
           "image": "/assets/work/leopardstown-mf-isometric-of-the-en-suite-with-brass-312.jpg",
-          "caption": "MF isometric of the en-suite with brass fittings",
+          "caption": "MF isometric of the en suite with brass fittings",
           "kind": "design"
         }
       ]
     },
     {
       "stage": "completed",
-      "text": "The finished en-suite, shower and hall.",
+      "text": "The finished en suite, shower and hall.",
       "images": [
         {
           "image": "/assets/work/leopardstown-stone-look-tile-lit-oval-mirror-101.jpg",
-          "caption": "En-suite: stone-look tile, lit oval mirror",
+          "caption": "En suite: stone-look tile, lit oval mirror",
           "kind": "photo"
         },
         {

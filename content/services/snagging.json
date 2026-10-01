@@ -172,6 +172,11 @@
   "projectsTag": "snagging",
   "crossSell": [
     {
+      "route": "/guides/snag-list-new-build",
+      "label": "Guide: snag list for a new build",
+      "text": "How a snag list works and what to expect from the builder."
+    },
+    {
       "route": "/pre-purchase-survey",
       "label": "Pre-purchase property inspection",
       "text": "Buying a second-hand home instead? Get a practical inspection before you sign."

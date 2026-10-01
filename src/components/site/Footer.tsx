@@ -58,9 +58,11 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
             {col("Residential", residentialMain)}
             {col("Other work", residentialOther)}
-            {col("Commercial", commercialLinks)}
+            <div className="space-y-10">
+              {col("Commercial", commercialLinks)}
+              {col("Property services", propertyLinks)}
+            </div>
             {col("Company", [
-              ...propertyLinks.slice(1),
               { name: "Design", to: "/design" },
               { name: "Projects", to: "/projects" },
               { name: "About us", to: "/about" },
