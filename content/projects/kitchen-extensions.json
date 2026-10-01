@@ -12,15 +12,15 @@
   "role": "Built by MF",
   "summary": "Open plan kitchens under new rooflights, with islands, fluted details and feature walls.",
   "hero": {
-    "image": "/assets/work/kitchen-kitchen-island-fluted-column-rooflights-198.jpg",
-    "caption": "Kitchen island, fluted column, rooflights",
+    "image": "/assets/work/rt/M200.jpg",
+    "caption": "Navy kitchen with island under rooflights",
     "kind": "photo"
   },
   "gallery": [
     {
       "image": "/assets/work/kitchen-kitchen-island-fluted-column-rooflights-198.jpg",
-      "caption": "Kitchen island, fluted column, rooflights",
-      "kind": "photo"
+      "caption": "Design render: kitchen island, fluted column, rooflights",
+      "kind": "design"
     },
     {
       "image": "/assets/work/rt/M200.jpg",
@@ -29,8 +29,8 @@
     },
     {
       "image": "/assets/work/kitchen-island-seating-and-planted-rooflight-199.jpg",
-      "caption": "Island seating and planted rooflight",
-      "kind": "photo"
+      "caption": "Design render: island seating and planted rooflight",
+      "kind": "design"
     },
     {
       "image": "/assets/work/kitchen-slatted-feature-wall-and-green-kitchen-201.jpg",
@@ -44,13 +44,13 @@
       "images": [
         {
           "image": "/assets/work/kitchen-kitchen-island-fluted-column-rooflights-198.jpg",
-          "caption": "Kitchen island, fluted column, rooflights",
-          "kind": "photo"
+          "caption": "Design render: kitchen island, fluted column, rooflights",
+          "kind": "design"
         },
         {
           "image": "/assets/work/kitchen-island-seating-and-planted-rooflight-199.jpg",
-          "caption": "Island seating and planted rooflight",
-          "kind": "photo"
+          "caption": "Design render: island seating and planted rooflight",
+          "kind": "design"
         },
         {
           "image": "/assets/work/rt/M200.jpg",
@@ -67,7 +67,6 @@
   ],
   "order": 22,
   "published": true,
-  "pending": "Owner to confirm from the contact sheet whether M198 and M199 are photos of the finished build or renders.",
   "flagship": false,
   "featured": false
 }

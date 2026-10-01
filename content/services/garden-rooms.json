@@ -15,16 +15,14 @@
     "h1": "Garden rooms in Dublin, Meath and Kildare",
     "sub": "Insulated garden rooms for a home office, gym, studio or storage, built on site by our own crew. We check the Class 3 limits for your garden before you commit.",
     "image": {
-      "image": "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg",
-      "caption": "Timber-clad garden room with bifold doors and a sauna",
-      "kind": "photo",
-      "focus": "65% 60%"
+      "image": "/assets/work/rt/G74.jpg",
+      "caption": "Clad garden room with store, stepping stones and patio",
+      "kind": "photo"
     },
     "imageMobile": {
-      "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
-      "caption": "Garden office at dusk with a lit path",
-      "kind": "photo",
-      "focus": "50% 40%"
+      "image": "/assets/work/garden-rendered-garden-room-with-french-doors-g82.jpg",
+      "caption": "Rendered garden room with French doors",
+      "kind": "photo"
     },
     "ctaLabel": "Get a garden room quotation",
     "bullets": [
@@ -50,21 +48,6 @@
   "gallery": {
     "title": "Garden rooms we have built",
     "items": [
-      {
-        "image": "/assets/work/garden-timber-clad-garden-room-with-bifold-door-g73.jpg",
-        "caption": "Timber-clad garden room with bifold doors and a sauna",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/garden-garden-office-at-dusk-with-path-and-gard-g72.jpg",
-        "caption": "Garden office at dusk with path lighting",
-        "kind": "photo"
-      },
-      {
-        "image": "/assets/work/garden-composite-clad-garden-room-at-sunset-g75.jpg",
-        "caption": "Composite-clad garden room at sunset",
-        "kind": "photo"
-      },
       {
         "image": "/assets/work/garden-rendered-garden-room-with-french-doors-g82.jpg",
         "caption": "Render-finished garden room with French doors",

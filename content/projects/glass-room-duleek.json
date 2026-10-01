@@ -6,10 +6,11 @@
   "categories": [
     "veranda"
   ],
-  "role": "Built by MF",
-  "summary": "A glass room with sliding glass panels at the back of the house, closed at the sides with painted timber framed panel walls and a clear roof section.",
+  "role": "Supplied and built by MF",
+  "summary": "A glass room with sliding glass panels at the back of the house, closed at the sides with painted timber framed panel walls and a clear roof section, on a new natural stone effect patio.",
   "intro": [
-    "The glass room opens onto the garden through sliding glass panels. At the sides, painted timber framed panel walls give privacy from the neighbours and the side passage, with a clear roof section above to keep the light."
+    "We supplied and installed the aluminium glass room, with sliding glass panels that open the room to the garden.",
+    "At the sides we built painted timber framed panel walls for privacy from the neighbours and the side passage, with a clear roof section above to keep the light, and laid the new patio around it."
   ],
   "hero": {
     "image": "/assets/work/glass-room-duleek-sliding-glass-room-on-travertine-patio-z01.jpg",
@@ -38,9 +39,15 @@
       "kind": "photo"
     }
   ],
-  "pending": "Confirm what MF did on this job: did we supply and install the aluminium glass room, or build the panelled side walls, clear roof section and patio around a system supplied by others? Also confirm the year.",
   "order": 13,
   "published": true,
   "flagship": false,
-  "featured": false
+  "featured": false,
+  "year": "2025",
+  "scope": [
+    "Aluminium glass room with sliding glass panels, supplied and installed",
+    "Timber framed panel side walls, painted",
+    "Clear roof section",
+    "New patio and side passage paving"
+  ]
 }
