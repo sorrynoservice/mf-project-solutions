@@ -186,5 +186,13 @@
   "order": 20,
   "published": true,
   "flagship": false,
-  "featured": false
+  "featured": false,
+  "videos": [
+    {
+      "src": "/media/video/V223.mp4",
+      "poster": "/media/video/V223.jpg",
+      "caption": "The panelled hall and stair, and the bathroom with stone look tile, lit oval mirror and brass fittings",
+      "loop": true
+    }
+  ]
 }
