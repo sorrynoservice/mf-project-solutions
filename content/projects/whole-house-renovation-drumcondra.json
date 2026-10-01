@@ -147,11 +147,6 @@
       "text": "Stripped back to the structure: props and steel, new joists and floors, fireplaces opened up and the roof repaired.",
       "images": [
         {
-          "image": "/assets/work/millmount-props-and-new-steel-during-works-d10.jpg",
-          "caption": "Props and new steel during the structural works",
-          "kind": "photo"
-        },
-        {
           "image": "/assets/work/millmount-original-fireplace-opened-up-d11.jpg",
           "caption": "Original fireplace opened up",
           "kind": "photo"
@@ -159,11 +154,6 @@
         {
           "image": "/assets/work/millmount-alcoves-formed-either-side-of-chimney-d12.jpg",
           "caption": "Alcoves formed either side of the chimney breast",
-          "kind": "photo"
-        },
-        {
-          "image": "/assets/work/millmount-roof-structure-and-rooflights-during-repairs-d13.jpg",
-          "caption": "Roof structure and rooflights during the repairs",
           "kind": "photo"
         }
       ]
@@ -205,12 +195,6 @@
     }
   ],
   "videos": [
-    {
-      "src": "/media/video/V019.mp4",
-      "poster": "/media/video/V019.jpg",
-      "caption": "From stripped house to finished rooms, Drumcondra",
-      "loop": true
-    },
     {
       "src": "/media/video/V204.mp4",
       "poster": "/media/video/V204.jpg",
