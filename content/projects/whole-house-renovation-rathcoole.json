@@ -360,6 +360,18 @@
       "poster": "/media/video/V220.jpg",
       "caption": "The hidden laundry room behind the kitchen cabinets",
       "loop": false
+    },
+    {
+      "src": "/media/video/V225.mp4",
+      "poster": "/media/video/V225.jpg",
+      "caption": "The en suite, kids' bathroom and guest WC",
+      "loop": true
+    },
+    {
+      "src": "/media/video/V226.mp4",
+      "poster": "/media/video/V226.jpg",
+      "caption": "Custom made vanity with lit perfume shelves and hidden drawers",
+      "loop": true
     }
   ]
 }
