@@ -375,5 +375,12 @@
         "value": "€3,950"
       }
     ]
+  },
+  "video": {
+    "src": "/media/video/V218.mp4",
+    "poster": "/media/video/V218.jpg",
+    "caption": "Alex on how design works at MF: how the space will be used, then layout, lighting and materials, then the build",
+    "loop": false,
+    "title": "How we design"
   }
 }

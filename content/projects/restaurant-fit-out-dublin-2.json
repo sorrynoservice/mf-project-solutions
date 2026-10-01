@@ -318,6 +318,18 @@
   "published": true,
   "videos": [
     {
+      "src": "/media/video/V215.mp4",
+      "poster": "/media/video/V215.jpg",
+      "caption": "Alex at BAH33: the terrace, dining room, back of house and walk-in fridge",
+      "loop": false
+    },
+    {
+      "src": "/media/video/V217.mp4",
+      "poster": "/media/video/V217.jpg",
+      "caption": "BAH33 after the fit-out: terrace, dining room and details",
+      "loop": true
+    },
+    {
       "src": "/media/video/V158.mp4",
       "poster": "/media/video/V158.jpg",
       "caption": "BAH33, Royal Hibernian Way",

@@ -131,10 +131,10 @@
     }
   ],
   "video": {
-    "src": "/media/video/V158.mp4",
-    "poster": "/media/video/V158.jpg",
-    "caption": "BAH33, Royal Hibernian Way, Dublin 2",
-    "loop": true,
+    "src": "/media/video/V215.mp4",
+    "poster": "/media/video/V215.jpg",
+    "caption": "Alex walks through the BAH33 fit-out, Royal Hibernian Way, Dublin 2",
+    "loop": false,
     "title": "BAH33, Royal Hibernian Way"
   },
   "included": {

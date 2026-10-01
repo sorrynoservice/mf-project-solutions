@@ -1,0 +1,39 @@
+{
+  "slug": "garden-home-kitchen-bedroom-shower",
+  "title": "Garden home with kitchen, bedroom and shower room",
+  "location": "Location to be confirmed",
+  "sector": "residential",
+  "categories": [
+    "garden-home"
+  ],
+  "role": "Designed and built by MF",
+  "summary": "A rendered garden home with a kitchen, bedroom and shower room, designed and built by MF from first sketch to handover.",
+  "intro": [
+    "A self-contained garden home with a fitted kitchen, a bedroom and a shower room, finished in render with French doors onto a seating area."
+  ],
+  "hero": {
+    "image": "/assets/work/garden-home-rendered-garden-home-and-seating-area-h01.jpg",
+    "caption": "Rendered garden home with French doors and a seating area",
+    "kind": "photo"
+  },
+  "gallery": [
+    {
+      "image": "/assets/work/garden-home-rendered-garden-home-and-seating-area-h01.jpg",
+      "caption": "Rendered garden home with French doors and a seating area",
+      "kind": "photo"
+    }
+  ],
+  "videos": [
+    {
+      "src": "/media/video/V216.mp4",
+      "poster": "/media/video/V216.jpg",
+      "caption": "Walking through the garden home: kitchen, bedroom and shower room",
+      "loop": false
+    }
+  ],
+  "pending": "Where is this garden home, which year, and did MF design it as well as build it? Is it the same building as the rendered garden room in the earlier garden rooms project (photo 6 on the sheet)?",
+  "order": 14,
+  "published": true,
+  "flagship": false,
+  "featured": false
+}
